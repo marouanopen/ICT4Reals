@@ -64,18 +64,25 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
                 cmd.Connection = con;
                 cmd.CommandText = query;
                 cmd.CommandType = System.Data.CommandType.Text;
+                bool read = false;
 
                 OracleDataReader data = cmd.ExecuteReader();
 
 
                 while (data.Read())
                 {
+                    read = true;
                     Dictionary<string, object> d = new Dictionary<string, object>();
                     for (int c = 0; c < data.FieldCount; c++)
                         d.Add(data.GetName(c).ToLower(), data.GetValue(c));
 
 
                     ret.Add(d);
+                }
+
+                if(!read)
+                {
+                    throw new Exception("An open connection is already active");
                 }
 
                 Disconnect();

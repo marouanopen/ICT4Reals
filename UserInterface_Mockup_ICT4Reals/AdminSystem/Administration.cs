@@ -42,10 +42,11 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
         }
         public bool LogIn(string username, string password)
         {
-            foreach(string p in addatabase.Getuserpassword(username))
+            foreach(Dictionary<string, object> D in addatabase.Getuserpassword(username))
             {
-                if(p == password)
+                if((string)D["wachtwoord"] == password)
                 {
+                    LoggedInUser = new User(Convert.ToInt32(D["gebruikerid"]), (string)D["naam"], (string)D["email"], Convert.ToInt32(D["functieid"]));
                     return true;
                 }
             }
