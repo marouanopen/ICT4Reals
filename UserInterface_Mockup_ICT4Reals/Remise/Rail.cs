@@ -21,6 +21,11 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
             this.Taken = taken;
         }
 
+        /// <summary>
+        /// See if the rail is blocked
+        /// </summary>
+        /// <param name="railNumber">Give the railnumber of which you want to look for</param>
+        /// <returns>false if rail is free and return true if rail is blocked</returns>
         public bool IsRailBlocked(int railNumber)
         {
             bool isRailBlocked = false;
@@ -35,6 +40,12 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
             return isRailBlocked;
         }
 
+        /// <summary>
+        /// Block the rail
+        /// </summary>
+        /// <param name="railNumber">The railnumber you want to block</param>
+        /// <param name="block">give 1 to block or 0 to unblock</param>
+        /// <returns>true if succeed, false if failed</returns>
         public bool BlockRail(int railNumber, int block)
         {
             bool blockRail = false;
