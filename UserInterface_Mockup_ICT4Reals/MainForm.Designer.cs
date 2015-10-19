@@ -1,6 +1,6 @@
 ﻿namespace UserInterface_Mockup_ICT4Reals
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         /// Required designer variable.
