@@ -116,6 +116,7 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             con.Dispose();
         }
 
+<<<<<<< HEAD
         public List<string> QueryName() //name of ur query
         {
             List<string> ret = new List<string>(); //result of query will end up in here
@@ -129,3 +130,8 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
         }
     }
 }
+=======
+       
+    }
+}
+>>>>>>> origin/master
