@@ -8,6 +8,7 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
 {
     class Example_database
     {
+        /*
         public List<int> QueryName() //name of ur query
         {
             List<int> ret; //result of query will end up in here
@@ -43,5 +44,6 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
                 return false;   // if query fails, return a false.
             }
         }
+        */
     }
 }
