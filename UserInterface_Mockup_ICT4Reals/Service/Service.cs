@@ -22,5 +22,7 @@ namespace UserInterface_Mockup_ICT4Reals.Service
             this.Date = date;
             this.Tram = tram;
         }
+
+     
     }
 }
