@@ -7,12 +7,13 @@ using UserInterface_Mockup_ICT4Reals.DataBase;
 using UserInterface_Mockup_ICT4Reals.Service;
 using UserInterface_Mockup_ICT4Reals.Remise;
 
-namespace UserInterface_Mockup_ICT4Reals.Administration
+namespace UserInterface_Mockup_ICT4Reals.AdminSystem
 {
     public class Administration
     {
         public List<Cleaningservice> GetSList { get; set; }
         public List<Repairservice> GetRList { get; set; }
+        public User LoggedInUser { get; set; }
         public Administration()
         {
 
@@ -36,6 +37,10 @@ namespace UserInterface_Mockup_ICT4Reals.Administration
         public bool TramToDepartment(Tram tram)
         {
             throw new NotImplementedException();
+        }
+        public bool LogIn(string username, string password)
+        {
+            return true;
         }
     }
 }

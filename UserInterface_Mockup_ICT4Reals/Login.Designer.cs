@@ -29,11 +29,11 @@
         private void InitializeComponent()
         {
             this.GBlogin = new System.Windows.Forms.GroupBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.lblusername = new System.Windows.Forms.Label();
-            this.lblpassword = new System.Windows.Forms.Label();
             this.btlogin = new System.Windows.Forms.Button();
+            this.lblpassword = new System.Windows.Forms.Label();
+            this.lblusername = new System.Windows.Forms.Label();
+            this.tbpassword = new System.Windows.Forms.TextBox();
+            this.tbusername = new System.Windows.Forms.TextBox();
             this.GBlogin.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -42,8 +42,8 @@
             this.GBlogin.Controls.Add(this.btlogin);
             this.GBlogin.Controls.Add(this.lblpassword);
             this.GBlogin.Controls.Add(this.lblusername);
-            this.GBlogin.Controls.Add(this.textBox2);
-            this.GBlogin.Controls.Add(this.textBox1);
+            this.GBlogin.Controls.Add(this.tbpassword);
+            this.GBlogin.Controls.Add(this.tbusername);
             this.GBlogin.Location = new System.Drawing.Point(12, 12);
             this.GBlogin.Name = "GBlogin";
             this.GBlogin.Size = new System.Drawing.Size(200, 100);
@@ -51,28 +51,15 @@
             this.GBlogin.TabStop = false;
             this.GBlogin.Text = "Login";
             // 
-            // textBox1
+            // btlogin
             // 
-            this.textBox1.Location = new System.Drawing.Point(80, 20);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(114, 20);
-            this.textBox1.TabIndex = 0;
-            // 
-            // textBox2
-            // 
-            this.textBox2.Location = new System.Drawing.Point(80, 47);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(114, 20);
-            this.textBox2.TabIndex = 1;
-            // 
-            // lblusername
-            // 
-            this.lblusername.AutoSize = true;
-            this.lblusername.Location = new System.Drawing.Point(7, 20);
-            this.lblusername.Name = "lblusername";
-            this.lblusername.Size = new System.Drawing.Size(58, 13);
-            this.lblusername.TabIndex = 2;
-            this.lblusername.Text = "Username:";
+            this.btlogin.Location = new System.Drawing.Point(119, 73);
+            this.btlogin.Name = "btlogin";
+            this.btlogin.Size = new System.Drawing.Size(75, 23);
+            this.btlogin.TabIndex = 4;
+            this.btlogin.Text = "Login";
+            this.btlogin.UseVisualStyleBackColor = true;
+            this.btlogin.Click += new System.EventHandler(this.btlogin_Click);
             // 
             // lblpassword
             // 
@@ -83,14 +70,28 @@
             this.lblpassword.TabIndex = 3;
             this.lblpassword.Text = "password:";
             // 
-            // btlogin
+            // lblusername
             // 
-            this.btlogin.Location = new System.Drawing.Point(119, 73);
-            this.btlogin.Name = "btlogin";
-            this.btlogin.Size = new System.Drawing.Size(75, 23);
-            this.btlogin.TabIndex = 4;
-            this.btlogin.Text = "Login";
-            this.btlogin.UseVisualStyleBackColor = true;
+            this.lblusername.AutoSize = true;
+            this.lblusername.Location = new System.Drawing.Point(7, 20);
+            this.lblusername.Name = "lblusername";
+            this.lblusername.Size = new System.Drawing.Size(58, 13);
+            this.lblusername.TabIndex = 2;
+            this.lblusername.Text = "Username:";
+            // 
+            // tbpassword
+            // 
+            this.tbpassword.Location = new System.Drawing.Point(80, 47);
+            this.tbpassword.Name = "tbpassword";
+            this.tbpassword.Size = new System.Drawing.Size(114, 20);
+            this.tbpassword.TabIndex = 1;
+            // 
+            // tbusername
+            // 
+            this.tbusername.Location = new System.Drawing.Point(80, 20);
+            this.tbusername.Name = "tbusername";
+            this.tbusername.Size = new System.Drawing.Size(114, 20);
+            this.tbusername.TabIndex = 0;
             // 
             // Login
             // 
@@ -112,7 +113,7 @@
         private System.Windows.Forms.Button btlogin;
         private System.Windows.Forms.Label lblpassword;
         private System.Windows.Forms.Label lblusername;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox tbpassword;
+        private System.Windows.Forms.TextBox tbusername;
     }
 }
