@@ -36,6 +36,15 @@ namespace UserInterface_Mockup_ICT4Reals
             if(administration.LogIn(username, password))
             {
                 MessageBox.Show("You have succesfully logged in");
+                MainForm temp = new MainForm();
+                temp.CreateControl();
+                temp.Show();
+                this.Hide();
+
+            }
+            else
+            {
+                MessageBox.Show("Something went wrong when trying to login, please try again");
             }
             
         }

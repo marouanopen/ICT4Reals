@@ -8,10 +8,12 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
 {
     public enum RoleType
     {
-        Admin,
-        Cleaner,
-        Technician,
-        Tramparkoverseer,
-        Driver
+        
+        Admin = 1,
+        Driver = 2,
+        Tramparkoverseer = 3,
+        Technician = 4,
+        Cleaner = 5
+        
     }
 }
