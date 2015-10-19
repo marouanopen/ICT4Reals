@@ -16,7 +16,7 @@ namespace UserInterface_Mockup_ICT4Reals
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Login());
+            Application.Run(new MainForm());
         }
     }
 }
