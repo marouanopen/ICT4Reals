@@ -48,9 +48,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Administration\Administration.cs" />
-    <Compile Include="Administration\RoleType.cs" />
-    <Compile Include="Administration\User.cs" />
+    <Compile Include="AdminSystem\Administration.cs" />
+    <Compile Include="AdminSystem\RoleType.cs" />
+    <Compile Include="AdminSystem\User.cs" />
     <Compile Include="DataBase\Administration_database\ADdatabase.cs" />
     <Compile Include="DataBase\Example_database.cs" />
     <Compile Include="DataBase\Service_database\CLdatabase.cs" />
