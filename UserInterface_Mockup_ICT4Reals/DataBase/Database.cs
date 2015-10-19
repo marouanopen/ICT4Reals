@@ -64,18 +64,25 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
                 cmd.Connection = con;
                 cmd.CommandText = query;
                 cmd.CommandType = System.Data.CommandType.Text;
+                bool read = false;
 
                 OracleDataReader data = cmd.ExecuteReader();
 
 
                 while (data.Read())
                 {
+                    read = true;
                     Dictionary<string, object> d = new Dictionary<string, object>();
                     for (int c = 0; c < data.FieldCount; c++)
                         d.Add(data.GetName(c).ToLower(), data.GetValue(c));
 
 
                     ret.Add(d);
+                }
+
+                if(!read)
+                {
+                    throw new Exception("An open connection is already active");
                 }
 
                 Disconnect();
@@ -109,6 +116,18 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             con.Dispose();
         }
 
-       
+        public List<string> QueryName() //name of ur query
+        {
+            List<string> ret = new List<string>(); //result of query will end up in here
+            List<Dictionary<string, object>> QueryX = getQuery("SELECT naam FROM gebruiker WHERE GebruikerID = 1"); //replace your query with te example query, replace 'QueryX' with a clear name.
+            foreach (Dictionary<string, object> results in QueryX) //look for all posseble results in the query result.
+            {
+                ret.Add((Convert.ToString(results["naam"]))); //add each result to the created list, if the list if for a class, u need to add 'new class_name' infront of the convert
+            }
+
+            return ret;     //this will return the list as result from the query.
+        }
     }
+
 }
+
