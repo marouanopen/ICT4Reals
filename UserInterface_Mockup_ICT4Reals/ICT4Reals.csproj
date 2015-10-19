@@ -51,8 +51,18 @@
     <Compile Include="Administration\Administration.cs" />
     <Compile Include="Administration\RoleType.cs" />
     <Compile Include="Administration\User.cs" />
+    <Compile Include="DataBase\Administration_database\ADdatabase.cs" />
+    <Compile Include="DataBase\Example_database.cs" />
+    <Compile Include="DataBase\Service_database\CLdatabase.cs" />
     <Compile Include="DataBase\Connection.cs" />
     <Compile Include="DataBase\Database.cs" />
+    <Compile Include="DataBase\Remise_database\PAdatabase.cs" />
+    <Compile Include="DataBase\Remise_database\RAdatabase.cs" />
+    <Compile Include="DataBase\Service_database\REdatabase.cs" />
+    <Compile Include="DataBase\Administration_database\ROdatabase.cs" />
+    <Compile Include="DataBase\Service_database\SEdatabase.cs" />
+    <Compile Include="DataBase\Remise_database\TRdatabase.cs" />
+    <Compile Include="DataBase\Administration_database\USdatabase.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
