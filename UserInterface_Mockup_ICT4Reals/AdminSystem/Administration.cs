@@ -10,10 +10,12 @@ using UserInterface_Mockup_ICT4Reals.Remise;
 namespace UserInterface_Mockup_ICT4Reals.AdminSystem
 {
     public class Administration
-    {
+    {        
+        private ADdatabase addatabase = new ADdatabase();
         public List<Cleaningservice> GetSList { get; set; }
         public List<Repairservice> GetRList { get; set; }
         public User LoggedInUser { get; set; }
+
         public Administration()
         {
 
@@ -40,7 +42,14 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
         }
         public bool LogIn(string username, string password)
         {
-            return true;
+            foreach(string p in addatabase.Getuserpassword(username))
+            {
+                if(p == password)
+                {
+                    return true;
+                }
+            }
+            return false;
         }
     }
 }

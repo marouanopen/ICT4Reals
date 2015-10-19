@@ -36,6 +36,10 @@ namespace UserInterface_Mockup_ICT4Reals
             {
                 MessageBox.Show("You have succesfully logged in");
             }
+            else
+            {
+                MessageBox.Show("Something went wrong when trying to login, please try again");
+            }
             
         }
     }
