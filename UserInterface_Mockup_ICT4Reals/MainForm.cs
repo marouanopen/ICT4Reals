@@ -24,20 +24,40 @@ namespace UserInterface_Mockup_ICT4Reals
             }
             if (administration.LoggedInUser.RoleId == 2)
             {
-
+                TCLayout.TabPages.Remove(tpBeheer);
+                TCLayout.TabPages.Remove(tpReparatie);
+                TCLayout.TabPages.Remove(tpSchoonmaak);
             }
             if (administration.LoggedInUser.RoleId == 3)
             {
-
+                TCLayout.TabPages.Remove(tpInUitrij);
+                TCLayout.TabPages.Remove(tpReparatie);
+                TCLayout.TabPages.Remove(tpSchoonmaak);
             }
             if (administration.LoggedInUser.RoleId == 4)
             {
-
+                TCLayout.TabPages.Remove(tpInUitrij);
+                TCLayout.TabPages.Remove(tpBeheer);
+                TCLayout.TabPages.Remove(tpSchoonmaak);
             }
             if (administration.LoggedInUser.RoleId == 5)
             {
-
+                TCLayout.TabPages.Remove(tpInUitrij);
+                TCLayout.TabPages.Remove(tpBeheer);
+                TCLayout.TabPages.Remove(tpReparatie);
             }
         }
+
+        private void TCLayout_Selected(object sender, TabControlEventArgs e)
+        {
+            if (TCLayout.SelectedTab == TCLayout.TabPages["tpUitloggen"])
+            {
+                Login temp = new Login();
+                temp.CreateControl();
+                temp.Show();
+                this.Close();
+            }
+        }
+
     }
 }

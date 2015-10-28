@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using UserInterface_Mockup_ICT4Reals.DataBase;
 using UserInterface_Mockup_ICT4Reals.Service;
 using UserInterface_Mockup_ICT4Reals.Remise;
+using System.Windows.Forms;
 
 namespace UserInterface_Mockup_ICT4Reals.AdminSystem
 {
@@ -51,6 +52,11 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
                 }
             }
             return false;
+        }
+
+        public void EnableTab(TabPage page, bool boolean)
+        {
+            foreach (Control ctl in page.Controls) ctl.Enabled = boolean;
         }
     }
 }

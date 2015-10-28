@@ -50,7 +50,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdminSystem\Administration.cs" />
-    <Compile Include="AdminSystem\LogIn.cs" />
     <Compile Include="AdminSystem\RoleType.cs" />
     <Compile Include="AdminSystem\User.cs" />
     <Compile Include="DataBase\Administration_database\ADdatabase.cs" />

@@ -266,6 +266,7 @@
             this.label185 = new System.Windows.Forms.Label();
             this.tpSchoonmaak = new System.Windows.Forms.TabPage();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.label124 = new System.Windows.Forms.Label();
             this.label113 = new System.Windows.Forms.Label();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
@@ -276,6 +277,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.tpReparatie = new System.Windows.Forms.TabPage();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label134 = new System.Windows.Forms.Label();
             this.label159 = new System.Windows.Forms.Label();
@@ -285,8 +287,7 @@
             this.label178 = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.tpUitloggen = new System.Windows.Forms.TabPage();
             this.TCLayout.SuspendLayout();
             this.tpBeheer.SuspendLayout();
             this.gbTramInrijdende.SuspendLayout();
@@ -310,11 +311,13 @@
             this.TCLayout.Controls.Add(this.tpInUitrij);
             this.TCLayout.Controls.Add(this.tpSchoonmaak);
             this.TCLayout.Controls.Add(this.tpReparatie);
+            this.TCLayout.Controls.Add(this.tpUitloggen);
             this.TCLayout.Location = new System.Drawing.Point(12, 12);
             this.TCLayout.Name = "TCLayout";
             this.TCLayout.SelectedIndex = 0;
             this.TCLayout.Size = new System.Drawing.Size(1022, 795);
             this.TCLayout.TabIndex = 0;
+            this.TCLayout.Selected += new System.Windows.Forms.TabControlEventHandler(this.TCLayout_Selected);
             // 
             // tpBeheer
             // 
@@ -3114,6 +3117,15 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Status";
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(73, 90);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(121, 23);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "Updaten";
+            this.button5.UseVisualStyleBackColor = true;
+            // 
             // label124
             // 
             this.label124.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
@@ -3214,6 +3226,15 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Status";
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(73, 193);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(121, 23);
+            this.button6.TabIndex = 7;
+            this.button6.Text = "Updaten";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(9, 90);
@@ -3294,31 +3315,22 @@
             this.listBox2.Size = new System.Drawing.Size(188, 732);
             this.listBox2.TabIndex = 0;
             // 
-            // button5
+            // tpUitloggen
             // 
-            this.button5.Location = new System.Drawing.Point(73, 90);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(121, 23);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Updaten";
-            this.button5.UseVisualStyleBackColor = true;
+            this.tpUitloggen.Location = new System.Drawing.Point(4, 22);
+            this.tpUitloggen.Name = "tpUitloggen";
+            this.tpUitloggen.Size = new System.Drawing.Size(1014, 769);
+            this.tpUitloggen.TabIndex = 4;
+            this.tpUitloggen.Text = "Uitloggen";
+            this.tpUitloggen.UseVisualStyleBackColor = true;
             // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(73, 193);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(121, 23);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Updaten";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1037, 811);
+            this.ClientSize = new System.Drawing.Size(1020, 741);
             this.Controls.Add(this.TCLayout);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Form1";
             this.TCLayout.ResumeLayout(false);
             this.tpBeheer.ResumeLayout(false);
@@ -3608,6 +3620,7 @@
         private System.Windows.Forms.Label label185;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.TabPage tpUitloggen;
     }
 }
 

@@ -23,6 +23,7 @@ namespace UserInterface_Mockup_ICT4Reals
         {
             InitializeComponent();
             administration = new Administration();
+            this.CenterToScreen();
             
         }
 
@@ -38,6 +39,7 @@ namespace UserInterface_Mockup_ICT4Reals
                 MessageBox.Show("You have succesfully logged in");
                 MainForm temp = new MainForm(administration);
                 temp.CreateControl();
+                temp.Text = "Remise Beheer";
                 temp.Show();
                 this.Hide();
 
@@ -46,7 +48,7 @@ namespace UserInterface_Mockup_ICT4Reals
             {
                 MessageBox.Show("Something went wrong when trying to login, please try again");
             }
-            
+
         }
     }
 }
