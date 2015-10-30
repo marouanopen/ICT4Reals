@@ -16,6 +16,7 @@ namespace UserInterface_Mockup_ICT4Reals
         private Administration administration;
         public MainForm(Administration administration)
         {
+            //ophalen van alle info uit de database
             this.administration = administration;
             InitializeComponent();
             if(administration.LoggedInUser.RoleId == 1)
@@ -55,6 +56,7 @@ namespace UserInterface_Mockup_ICT4Reals
                 Login temp = new Login();
                 temp.CreateControl();
                 temp.Show();
+                //wegschrijven naar database van alle nuttige informatie
                 this.Close();
             }
         }

@@ -11,7 +11,7 @@ using System.Windows.Forms;
 namespace UserInterface_Mockup_ICT4Reals.AdminSystem
 {
     public class Administration
-    {        
+    {   
         private ADdatabase addatabase = new ADdatabase();
         public List<Cleaningservice> GetSList { get; set; }
         public List<Repairservice> GetRList { get; set; }
@@ -19,7 +19,7 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
 
         public Administration()
         {
-
+            
         }
         public bool AddTram(Tram tram)
         {
