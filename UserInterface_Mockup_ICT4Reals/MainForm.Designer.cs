@@ -259,6 +259,8 @@
             this.tpInUitrij = new System.Windows.Forms.TabPage();
             this.lblNr = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.Cbxrepair = new System.Windows.Forms.CheckBox();
+            this.label188 = new System.Windows.Forms.Label();
             this.label186 = new System.Windows.Forms.Label();
             this.tbTramIn = new System.Windows.Forms.TextBox();
             this.CbxClean = new System.Windows.Forms.CheckBox();
@@ -288,8 +290,6 @@
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.tpUitloggen = new System.Windows.Forms.TabPage();
-            this.label188 = new System.Windows.Forms.Label();
-            this.Cbxrepair = new System.Windows.Forms.CheckBox();
             this.TCLayout.SuspendLayout();
             this.tpBeheer.SuspendLayout();
             this.gbTramInrijdende.SuspendLayout();
@@ -3051,6 +3051,24 @@
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Inrijdende Trams";
             // 
+            // Cbxrepair
+            // 
+            this.Cbxrepair.AutoSize = true;
+            this.Cbxrepair.Location = new System.Drawing.Point(179, 65);
+            this.Cbxrepair.Name = "Cbxrepair";
+            this.Cbxrepair.Size = new System.Drawing.Size(15, 14);
+            this.Cbxrepair.TabIndex = 8;
+            this.Cbxrepair.UseVisualStyleBackColor = true;
+            // 
+            // label188
+            // 
+            this.label188.AutoSize = true;
+            this.label188.Location = new System.Drawing.Point(6, 64);
+            this.label188.Name = "label188";
+            this.label188.Size = new System.Drawing.Size(82, 13);
+            this.label188.TabIndex = 7;
+            this.label188.Text = "Reparatie nodig";
+            // 
             // label186
             // 
             this.label186.AutoSize = true;
@@ -3084,6 +3102,7 @@
             this.btnIncomingTram.TabIndex = 3;
             this.btnIncomingTram.Text = "Aanmelden";
             this.btnIncomingTram.UseVisualStyleBackColor = true;
+            this.btnIncomingTram.Click += new System.EventHandler(this.btnIncomingTram_Click);
             // 
             // label185
             // 
@@ -3327,24 +3346,6 @@
             this.tpUitloggen.TabIndex = 4;
             this.tpUitloggen.Text = "Uitloggen";
             this.tpUitloggen.UseVisualStyleBackColor = true;
-            // 
-            // label188
-            // 
-            this.label188.AutoSize = true;
-            this.label188.Location = new System.Drawing.Point(6, 64);
-            this.label188.Name = "label188";
-            this.label188.Size = new System.Drawing.Size(82, 13);
-            this.label188.TabIndex = 7;
-            this.label188.Text = "Reparatie nodig";
-            // 
-            // Cbxrepair
-            // 
-            this.Cbxrepair.AutoSize = true;
-            this.Cbxrepair.Location = new System.Drawing.Point(179, 65);
-            this.Cbxrepair.Name = "Cbxrepair";
-            this.Cbxrepair.Size = new System.Drawing.Size(15, 14);
-            this.Cbxrepair.TabIndex = 8;
-            this.Cbxrepair.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 

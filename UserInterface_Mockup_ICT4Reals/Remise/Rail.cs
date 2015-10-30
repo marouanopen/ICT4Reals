@@ -12,13 +12,15 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
     {
         RAdatabase railDatabase = new RAdatabase();
         public int Id { get; set; }
-        public string Status { get; set; }
+        public bool Status { get; set; }
         public bool Taken { get; set; }
-        public Rail(int id, string status, bool taken)
+        public int RemiseID { get; set; }
+        public Rail(int id, bool status, bool taken, int remiseid)
         {
             this.Id = id;
             this.Status = status;
             this.Taken = taken;
+            this.RemiseID = RemiseID;
         }
 
         /// <summary>

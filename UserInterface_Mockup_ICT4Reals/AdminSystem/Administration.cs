@@ -15,11 +15,56 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
         private ADdatabase addatabase = new ADdatabase();
         public List<Cleaningservice> GetSList { get; set; }
         public List<Repairservice> GetRList { get; set; }
-        public User LoggedInUser { get; set; }
+        public static List<Rail> GetRailList { get; set; }
+        public static List<Tram> GetTramList { get; set; }
+        public static User LoggedInUser { get; set; }
 
         public Administration()
         {
-            
+            foreach(Dictionary<string, object> R in addatabase.GetAllRails())
+            {
+                bool status = false;
+                if((int)R["blokkeer"] == 0)
+                {
+                    status = false;
+                }
+                else
+                {
+                    status = true;
+                }
+                Rail r = new Rail((int)R["spoorid"], status , false, (int)R["remiseid"]);
+                GetRailList.Add(r);
+            }
+            foreach (Dictionary<string, object> T in addatabase.GetAllTrams())
+            {
+                Rail rail = null;
+                int status = 0;
+                if ((string)T["status"] == "Ok")
+                {
+                    status = 1;
+                }
+                if ((string)T["status"] == "Vies")
+                {
+                    status = 2;
+                }
+                if ((string)T["status"] == "Defect")
+                {
+                    status = 3;
+                }
+                if ((string)T["status"] == "ViesEnDefect")
+                {
+                    status = 4;
+                }
+                foreach(Rail R in GetRailList)
+                {
+                    if(R.Id == (int)T["spoorid"])
+                    {
+                        rail = R;
+                    }
+                }
+                Tram t = new Tram(Convert.ToInt32(T["tramid"]), (string)T["type"], rail, LoggedInUser, status);
+                GetTramList.Add(t);
+            }
         }
         public bool AddTram(Tram tram)
         {

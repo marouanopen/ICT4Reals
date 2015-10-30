@@ -19,6 +19,18 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
 
             return user;     //this will return the list as result from the query.
         }
+        public List<Dictionary<string, object>> GetAllTrams()
+        { 
+            List<Dictionary<string, object>> trams= getQuery("SELECT * FROM Tram"); //replace your query with te example query, replace 'QueryX' with a clear name.
+            return trams;
+        }
+        public List<Dictionary<string, object>> GetAllRails()
+        {
+            List<Dictionary<string, object>> rails = getQuery("SELECT * FROM Spoor"); //replace your query with te example query, replace 'QueryX' with a clear name.
+            return rails;
+        }
+
+
     }
 }
 
