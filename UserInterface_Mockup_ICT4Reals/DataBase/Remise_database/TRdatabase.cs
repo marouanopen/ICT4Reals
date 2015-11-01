@@ -29,6 +29,38 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
                 return false;   // if query fails, return a false.
             }
         }
+
+        public bool AddTram(int tramId, int lengte, int spoorId, int typeId)
+        {
+            try
+            {
+                string query; // the query will end up in here
+                query = "INSERT INTO Tram(tramID, lengte, spoorID, typeID)";  //replace with INSERT if needed
+                query += " VALUES('" + tramId + ", " + lengte + ", " + spoorId + ", " + typeId + "')"; //replace 'user.X' with the data u need.
+                doQuery(query); //query will be activated
+                return true;
+            }
+            catch
+            {
+                return false;   // if query fails, return a false.
+            }
+        }
+
+        public bool DeleteTram(int tramId)
+        {
+            try
+            {
+                string query; // the query will end up in here
+                query = "DELETE FROM Tram";  //replace with INSERT if needed
+                query += "WHERE TramID = " + tramId; //replace 'user.X' with the data u need.
+                doQuery(query); //query will be activated
+                return true;
+            }
+            catch
+            {
+                return false;   // if query fails, return a false.
+            }
+        }
     }
 }
  

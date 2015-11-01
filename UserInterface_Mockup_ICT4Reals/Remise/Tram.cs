@@ -46,5 +46,49 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
             }
             return tramMoved;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="tramId">ID of the new tram</param>
+        /// <param name="lengte">Length of the new tram</param>
+        /// <param name="spoorId">ID of the rail the tram is on</param>
+        /// <param name="typeId">ID of the type of the tram</param>
+        /// <returns>true if succeed and false if something went wrong</returns>
+        public bool AddTram(int tramId, int lengte, int spoorId, int typeId)
+        {
+            bool tramAdded = false;
+            if (tramDatabase.AddTram(tramId, lengte, spoorId, typeId))
+            {
+                MessageBox.Show("Succeed!");
+                tramAdded = true;
+            }
+            else
+            {
+                MessageBox.Show("Error!");
+            }
+            return tramAdded;
+        }
+
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="tramId">Give the ID of the tram you want to delete</param>
+        /// <returns>true if tram is deleted and false if something went wrong</returns>
+        public bool DeleteTram(int tramId)
+        {
+            bool tramDeleted = false;
+            if (tramDatabase.DeleteTram(tramId))
+            {
+                MessageBox.Show("Succeed!");
+                tramDeleted = true;
+            }
+            else
+            {
+                MessageBox.Show("Error!");
+            }
+            return tramDeleted;
+        }
     }
 }
