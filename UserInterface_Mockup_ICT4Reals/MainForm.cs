@@ -21,6 +21,7 @@ namespace UserInterface_Mockup_ICT4Reals
             //ophalen van alle info uit de database
             
             this.administration = administration;
+            this.parkingsystem = new Parkingsystem();
             InitializeComponent();
             if(Administration.LoggedInUser.RoleId == 1)
             {
@@ -106,7 +107,8 @@ namespace UserInterface_Mockup_ICT4Reals
                 }
                 else
                 {
-                    MessageBox.Show("A Tram with that number doesnt exist! Input a valid tramnumber!");
+                    MessageBox.Show("A Tram with that number doesn't exist! Input a valid tramnumber!");
+                    
                 }
 
                 if(rail != null)

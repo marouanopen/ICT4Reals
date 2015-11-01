@@ -21,6 +21,8 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
 
         public Administration()
         {
+            GetRailList = new List<Rail>();
+            GetTramList = new List<Tram>();
             foreach(Dictionary<string, object> R in addatabase.GetAllRails())
             {
                 bool status = false;
@@ -33,14 +35,14 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
                     status = true;
                 }
                 Rail r = new Rail(Convert.ToInt32(R["spoorid"]), status , false, Convert.ToInt32(R["remiseid"]));
-                //GetRailList.Add(r);
+                GetRailList.Add(r);
             }
             foreach (Dictionary<string, object> T in addatabase.GetAllTrams())
             {
                 Rail rail = null;
                 int status = 0;
-                //koppeltabel onthouden!!!
-                /*if ((string)T["status"] == "Ok")
+                
+                if ((string)T["status"] == "Ok")
                 {
                     status = 1;
                 }
@@ -55,10 +57,10 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
                 if ((string)T["status"] == "ViesEnDefect")
                 {
                     status = 4;
-                }*/
+                }
                 foreach(Rail R in Administration.GetRailList)
                 {
-                    if(R.Id == (int)T["spoorid"])
+                    if(R.Id == Convert.ToInt32(T["spoorid"]))
                     {
                         rail = R;
                     }
