@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,31 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
             this.RemiseID = RemiseID;
         }
 
+=======
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+using UserInterface_Mockup_ICT4Reals.DataBase;
+
+namespace UserInterface_Mockup_ICT4Reals.Remise
+{
+    public class Rail
+    {
+        RAdatabase railDatabase = new RAdatabase();
+        public int Id { get; set; }
+        public string Status { get; set; }
+        public bool Taken { get; set; }
+        public Rail(int id, string status, bool taken)
+        {
+            this.Id = id;
+            this.Status = status;
+            this.Taken = taken;
+        }
+
+>>>>>>> origin/master
         /// <summary>
         /// See if the rail is blocked
         /// </summary>
@@ -59,7 +85,6 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
             else
             {
                 MessageBox.Show("Error!");
-                blockRail = false;
             }
             return blockRail;
         }
