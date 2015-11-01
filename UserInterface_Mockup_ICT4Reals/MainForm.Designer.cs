@@ -259,6 +259,8 @@
             this.tpInUitrij = new System.Windows.Forms.TabPage();
             this.lblNr = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.Cbxrepair = new System.Windows.Forms.CheckBox();
+            this.label188 = new System.Windows.Forms.Label();
             this.label186 = new System.Windows.Forms.Label();
             this.tbTramIn = new System.Windows.Forms.TextBox();
             this.CbxClean = new System.Windows.Forms.CheckBox();
@@ -288,8 +290,6 @@
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.tpUitloggen = new System.Windows.Forms.TabPage();
-            this.label188 = new System.Windows.Forms.Label();
-            this.Cbxrepair = new System.Windows.Forms.CheckBox();
             this.TCLayout.SuspendLayout();
             this.tpBeheer.SuspendLayout();
             this.gbTramInrijdende.SuspendLayout();
@@ -427,6 +427,48 @@
             // cbSpoorStatusSpoor
             // 
             this.cbSpoorStatusSpoor.FormattingEnabled = true;
+            this.cbSpoorStatusSpoor.Items.AddRange(new object[] {
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "61",
+            "62",
+            "63",
+            "64",
+            "74",
+            "75",
+            "76",
+            "77"});
             this.cbSpoorStatusSpoor.Location = new System.Drawing.Point(85, 14);
             this.cbSpoorStatusSpoor.Name = "cbSpoorStatusSpoor";
             this.cbSpoorStatusSpoor.Size = new System.Drawing.Size(109, 21);
@@ -435,6 +477,9 @@
             // cbSpoorStatusStatus
             // 
             this.cbSpoorStatusStatus.FormattingEnabled = true;
+            this.cbSpoorStatusStatus.Items.AddRange(new object[] {
+            "Block",
+            "Unblock"});
             this.cbSpoorStatusStatus.Location = new System.Drawing.Point(85, 41);
             this.cbSpoorStatusStatus.Name = "cbSpoorStatusStatus";
             this.cbSpoorStatusStatus.Size = new System.Drawing.Size(109, 21);
@@ -3051,6 +3096,24 @@
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Inrijdende Trams";
             // 
+            // Cbxrepair
+            // 
+            this.Cbxrepair.AutoSize = true;
+            this.Cbxrepair.Location = new System.Drawing.Point(179, 65);
+            this.Cbxrepair.Name = "Cbxrepair";
+            this.Cbxrepair.Size = new System.Drawing.Size(15, 14);
+            this.Cbxrepair.TabIndex = 8;
+            this.Cbxrepair.UseVisualStyleBackColor = true;
+            // 
+            // label188
+            // 
+            this.label188.AutoSize = true;
+            this.label188.Location = new System.Drawing.Point(6, 64);
+            this.label188.Name = "label188";
+            this.label188.Size = new System.Drawing.Size(82, 13);
+            this.label188.TabIndex = 7;
+            this.label188.Text = "Reparatie nodig";
+            // 
             // label186
             // 
             this.label186.AutoSize = true;
@@ -3327,24 +3390,6 @@
             this.tpUitloggen.TabIndex = 4;
             this.tpUitloggen.Text = "Uitloggen";
             this.tpUitloggen.UseVisualStyleBackColor = true;
-            // 
-            // label188
-            // 
-            this.label188.AutoSize = true;
-            this.label188.Location = new System.Drawing.Point(6, 64);
-            this.label188.Name = "label188";
-            this.label188.Size = new System.Drawing.Size(82, 13);
-            this.label188.TabIndex = 7;
-            this.label188.Text = "Reparatie nodig";
-            // 
-            // Cbxrepair
-            // 
-            this.Cbxrepair.AutoSize = true;
-            this.Cbxrepair.Location = new System.Drawing.Point(179, 65);
-            this.Cbxrepair.Name = "Cbxrepair";
-            this.Cbxrepair.Size = new System.Drawing.Size(15, 14);
-            this.Cbxrepair.TabIndex = 8;
-            this.Cbxrepair.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
