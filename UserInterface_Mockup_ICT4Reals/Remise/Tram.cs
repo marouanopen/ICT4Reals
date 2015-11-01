@@ -11,12 +11,9 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
 {
     public class Tram
     {
-<<<<<<< HEAD
         Status Status;
         public int _Status { get { return (int)Status; } set { ;} }
-=======
         TRdatabase tramDatabase = new TRdatabase();
->>>>>>> origin/master
         public int Id { get; set; }
         public string Type { get; set; }
         public Rail Rail { get; set; }
