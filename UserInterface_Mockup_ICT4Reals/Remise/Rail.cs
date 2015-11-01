@@ -57,7 +57,6 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
             else
             {
                 MessageBox.Show("Error!");
-                blockRail = false;
             }
             return blockRail;
         }
