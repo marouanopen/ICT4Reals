@@ -54,6 +54,7 @@
     <Compile Include="AdminSystem\User.cs" />
     <Compile Include="DataBase\Administration_database\ADdatabase.cs" />
     <Compile Include="DataBase\Example_database.cs" />
+    <Compile Include="DataBase\Remise_database\SIdatabase.cs" />
     <Compile Include="DataBase\Service_database\CLdatabase.cs" />
     <Compile Include="DataBase\Connection.cs" />
     <Compile Include="DataBase\Database.cs" />
@@ -80,6 +81,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Remise\Parkingsystem.cs" />
     <Compile Include="Remise\Rail.cs" />
+    <Compile Include="Remise\Simulation.cs" />
     <Compile Include="Remise\Status.cs" />
     <Compile Include="Remise\Tram.cs" />
     <Compile Include="Service\Cleaningservice.cs" />
