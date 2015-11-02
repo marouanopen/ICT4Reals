@@ -70,7 +70,7 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         /// <param name="spoorId">ID of the rail the tram is on</param>
         /// <param name="typeId">ID of the type of the tram</param>
         /// <returns>true if succeed and false if something went wrong</returns>
-        public bool AddTram(int tramId, int lengte, int spoorId, int typeId)
+        public bool AddTram(int tramId, int spoorId, int typeId)
         {
             bool tramAdded = false;
             if (tramDatabase.AddTram(tramId, spoorId, typeId))

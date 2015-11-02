@@ -29,7 +29,7 @@ namespace UserInterface_Mockup_ICT4Reals
             }
             if (Administration.LoggedInUser.RoleId == 2)
             {
-                TCLayout.TabPages.Remove(tpBeheer);
+                tpBeheer.Enabled = false;
                 TCLayout.TabPages.Remove(tpReparatie);
                 TCLayout.TabPages.Remove(tpSchoonmaak);
             }
@@ -68,6 +68,7 @@ namespace UserInterface_Mockup_ICT4Reals
         private void btnIncomingTram_Click(object sender, EventArgs e)
         {
             Rail rail = null;
+            Tram tram = null;
             int status = 0;
             if(CbxClean.Checked && Cbxrepair.Checked == false)
             {
@@ -99,11 +100,18 @@ namespace UserInterface_Mockup_ICT4Reals
                     if(t.Id == tramnr)
                     {
                         exist = true;
+                        tram = t;
                     }
                 }
                 if (exist == true)
                 {
                     rail = parkingsystem.InsertTramNr(Convert.ToInt32(tbTramIn.Text), status);
+                    tram.OnRail = true;
+                    tram._Status = status;
+                    //beurt toeboegen met begindatum
+                    //foreach label l  in mainform, if l.name == t.spoorid
+                    //l.text = t.tramid
+                    remiseRefresh();
                 }
                 else
                 {
@@ -114,6 +122,7 @@ namespace UserInterface_Mockup_ICT4Reals
                 if(rail != null)
                 {
                     lblNr.Text = Convert.ToString(rail.Id);
+                    
                 }
                 else
                 {
@@ -215,5 +224,20 @@ namespace UserInterface_Mockup_ICT4Reals
             
         }
         #endregion
+
+        private void btnSpoorStatusAanpassen_Click(object sender, EventArgs e)
+        {
+            int status = 0;
+            if (cbSpoorStatusStatus.SelectedValue == "Blokkeer")
+            {
+                status = 1;
+            }
+            if (cbSpoorStatusStatus.SelectedValue == "Deblokkeer")
+            {
+                status = 0;
+            }
+            Rail rail = new Rail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), false, false, 1);
+            rail.BlockRail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), status);
+        }
     }
 }
