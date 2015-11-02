@@ -43,7 +43,7 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             return ret;     //this will return the list as result from the query
         }
 
-        public bool AddTram(int tramId, int lengte, int spoorId, int typeId)
+        public bool AddTram(int tramId, int spoorId, int typeId)
         {
             try
             {
