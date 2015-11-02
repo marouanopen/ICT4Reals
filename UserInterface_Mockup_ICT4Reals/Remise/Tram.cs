@@ -19,6 +19,7 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         public string Type { get; set; }
         public Rail Rail { get; set; }
         public User Driver { get; set; }
+        public bool OnRail { get; set; }
         /// <summary>
         /// 
         /// </summary>
@@ -27,13 +28,14 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         /// <param name="rail">rail where the tram is on</param>
         /// <param name="driver">the driver of the tram</param>
         /// <param name="status">1= OK 2= Dirty 3= Defect 4= DirtyAndDefect</param>
-        public Tram(int id, string type, Rail rail, User driver, int status)
+        public Tram(int id, string type, Rail rail, User driver, int status, bool onRail)
         {
             this.Id = id;
             this.Type = type;
             this.Rail = rail;
             this.Driver = driver;
             Status = (Status)status;
+            OnRail = onRail;
         }
 
         /// <summary>
