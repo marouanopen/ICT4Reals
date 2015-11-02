@@ -15,7 +15,6 @@ namespace UserInterface_Mockup_ICT4Reals.Service
         public Repairservice(int id, string name, DateTime date, User user, Tram tram) : base(id, name, date, _User, tram)
         {
         
-            
         }
 
         public bool update(int tramID, int StatusID)
@@ -30,12 +29,34 @@ namespace UserInterface_Mockup_ICT4Reals.Service
             }
             
         }
-        public List<Repairservice> getAllStatus()
+        public List<string> getAllStatus()
         {
+            List<string> AllStatus = new List<string>();
+            List<Dictionary<string, object>> results = database.GetAllStatus();
+            foreach(Dictionary<string, object> tramLink in results)
+            {
 
+                string text = Convert.ToString(tramLink["TramTramID"]) + Convert.ToString(tramLink["StatusStatusID"]);
+                AllStatus.Add(text);
+            }
 
             return null;
         }
+
+        public bool addlog(int tramID)
+        {
+            DateTime date = DateTime.Now;
+            if (database.updateLog(tramID, date))
+            {
+                return true;
+            }
+            else
+            {
+                return false;
+            }
+
+        }
+
         
     }
 }
