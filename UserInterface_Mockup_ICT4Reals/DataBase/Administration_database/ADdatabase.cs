@@ -21,7 +21,7 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
         }
         public List<Dictionary<string, object>> GetAllTrams()
         { 
-            List<Dictionary<string, object>> trams= getQuery("select t.Tramid, t.lengte,t.spoorid, ty.type, s.Status  from tram t, Tram_Status ts, status s, type ty where t.tramid = ts.tramtramid and ts.StatusStatusID = s.statusid and ty.typeid = t.typeid"); //replace your query with te example query, replace 'QueryX' with a clear name.
+            List<Dictionary<string, object>> trams= getQuery("select t.Tramid,t.spoorid, ty.type, s.Status, t.AanwezigOpSpoor  from tram t, Tram_Status ts, status s, type ty where t.tramid = ts.tramtramid and ts.StatusStatusID = s.statusid and ty.typeid = t.typeid"); //replace your query with te example query, replace 'QueryX' with a clear name.
             return trams;
         }
         public List<Dictionary<string, object>> GetAllRails()
