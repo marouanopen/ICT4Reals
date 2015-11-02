@@ -161,90 +161,101 @@ namespace UserInterface_Mockup_ICT4Reals
             {
                 rail = t.Rail;
 
-                /* string id = rail.Id + "";
-                id.Replace("0", "V");
-
-                Control c = Controls.Find("", true).FirstOrDefault();
+                string id = Convert.ToString(rail.Id);
+                Control c = groupBox1.Controls.Find(id, true).FirstOrDefault();
                 c.Text = Convert.ToString(t.Id);
                 c.BackColor = Color.DimGray;
-                */
+                /*
                 switch (rail.Id)
                 {
-
-                        
-
                     case 1201:
-                        spoor12v1.Text = Convert.ToString(t.Id);
-                        spoor12v1.BackColor = Color.DimGray;
+                        spoor1201.Text = Convert.ToString(t.Id);
+                        spoor1201.BackColor = Color.DimGray;
                         break;
                     case 1301:
-                        spoor13v1.Text = Convert.ToString(t.Id);
-                        spoor13v1.BackColor = Color.DimGray;
+                        spoor1301.Text = Convert.ToString(t.Id);
+                        spoor1301.BackColor = Color.DimGray;
                         break;
                     case 1401:
-                        spoor14v1.Text = Convert.ToString(t.Id);
-                        spoor14v1.BackColor = Color.DimGray;
+                        spoor1401.Text = Convert.ToString(t.Id);
+                        spoor1401.BackColor = Color.DimGray;
                         break;
                     case 1501:
-                        spoor15v1.Text = Convert.ToString(t.Id);
-                        spoor15v1.BackColor = Color.DimGray;
+                        spoor1501.Text = Convert.ToString(t.Id);
+                        spoor1501.BackColor = Color.DimGray;
                         break;
                     case 1601:
-                        spoor16v1.Text = Convert.ToString(t.Id);
-                        spoor16v1.BackColor = Color.DimGray;
+                        spoor1601.Text = Convert.ToString(t.Id);
+                        spoor1601.BackColor = Color.DimGray;
                         break;
                     case 1701:
-                        spoor17v1.Text = Convert.ToString(t.Id);
-                        spoor17v1.BackColor = Color.DimGray;
+                        spoor1701.Text = Convert.ToString(t.Id);
+                        spoor1701.BackColor = Color.DimGray;
                         break;
                     case 1801:
-                        spoor18v1.Text = Convert.ToString(t.Id);
-                        spoor18v1.BackColor = Color.DimGray;
+                        spoor1801.Text = Convert.ToString(t.Id);
+                        spoor1801.BackColor = Color.DimGray;
                         break;
                     case 1901:
-                        spoor19v1.Text = Convert.ToString(t.Id);
-                        spoor19v1.BackColor = Color.DimGray;
+                        spoor1901.Text = Convert.ToString(t.Id);
+                        spoor1901.BackColor = Color.DimGray;
                         break;
                     case 2001:
-                        spoor20v1.Text = Convert.ToString(t.Id);
-                        spoor20v1.BackColor = Color.DimGray;
+                        spoor2001.Text = Convert.ToString(t.Id);
+                        spoor2001.BackColor = Color.DimGray;
                         break;
                     case 2101:
-                        spoor21v1.Text = Convert.ToString(t.Id);
-                        spoor21v1.BackColor = Color.DimGray;
+                        spoor2101.Text = Convert.ToString(t.Id);
+                        spoor2101.BackColor = Color.DimGray;
                         break;
                     case 3001:
-                        spoor30v1.Text = Convert.ToString(t.Id);
-                        spoor30v1.BackColor = Color.DimGray;
+                        spoor3001.Text = Convert.ToString(t.Id);
+                        spoor3001.BackColor = Color.DimGray;
                         break;
                     case 3002:
-                        spoor30v2.Text = Convert.ToString(t.Id);
-                        spoor30v2.BackColor = Color.DimGray;
+                        spoor3002.Text = Convert.ToString(t.Id);
+                        spoor3002.BackColor = Color.DimGray;
                         break;
                     case 3003:
-                        spoor30v3.Text = Convert.ToString(t.Id);
-                        spoor30v3.BackColor = Color.DimGray;
+                        spoor3003.Text = Convert.ToString(t.Id);
+                        spoor3003.BackColor = Color.DimGray;
                         break;
                     case 3101:
-                        spoor31v1.Text = Convert.ToString(t.Id);
-                        spoor31v1.BackColor = Color.DimGray;
+                        spoor3101.Text = Convert.ToString(t.Id);
+                        spoor3101.BackColor = Color.DimGray;
                         break;
                     case 3102:
-                        spoor31v2.Text = Convert.ToString(t.Id);
-                        spoor31v2.BackColor = Color.DimGray;
+                        spoor3102.Text = Convert.ToString(t.Id);
+                        spoor3102.BackColor = Color.DimGray;
                         break;
                     case 3103:
-                        spoor31v3.Text = Convert.ToString(t.Id);
-                        spoor31v3.BackColor = Color.DimGray;
+                        spoor3103.Text = Convert.ToString(t.Id);
+                        spoor3103.BackColor = Color.DimGray;
                         break;
                     case 3201:
-                        spoor12v1.Text = Convert.ToString(t.Id);
-                        spoor12v1.BackColor = Color.DimGray;
+                        spoor1201.Text = Convert.ToString(t.Id);
+                        spoor1201.BackColor = Color.DimGray;
                         break;
                     
-                }
+                }*/
             }
+            
         }
         #endregion
+
+        private void btnSpoorStatusAanpassen_Click(object sender, EventArgs e)
+        {
+            int status = 0;
+            if (cbSpoorStatusStatus.SelectedValue == "Blokkeer")
+            {
+                status = 1;
+            }
+            if (cbSpoorStatusStatus.SelectedValue == "Deblokkeer")
+            {
+                status = 0;
+            }
+            Rail rail = new Rail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), false, false, 1);
+            rail.BlockRail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), status);
+        }
     }
 }

@@ -59,179 +59,179 @@
             this.cbDetailsLocatie = new System.Windows.Forms.ComboBox();
             this.tbDetailsNaam = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.spoor77v5 = new System.Windows.Forms.Label();
-            this.spoor77v4 = new System.Windows.Forms.Label();
-            this.spoor77v3 = new System.Windows.Forms.Label();
-            this.spoor77v2 = new System.Windows.Forms.Label();
-            this.spoor77v1 = new System.Windows.Forms.Label();
+            this.spoor7705 = new System.Windows.Forms.Label();
+            this.spoor7704 = new System.Windows.Forms.Label();
+            this.spoor7703 = new System.Windows.Forms.Label();
+            this.spoor7702 = new System.Windows.Forms.Label();
+            this.spoor7701 = new System.Windows.Forms.Label();
             this.label158 = new System.Windows.Forms.Label();
-            this.spoor76v5 = new System.Windows.Forms.Label();
-            this.spoor58v5 = new System.Windows.Forms.Label();
-            this.spoor57v5 = new System.Windows.Forms.Label();
-            this.spoor56v5 = new System.Windows.Forms.Label();
-            this.spoor55v5 = new System.Windows.Forms.Label();
-            this.spoor54v5 = new System.Windows.Forms.Label();
-            this.spoor53v5 = new System.Windows.Forms.Label();
-            this.spoor57v6 = new System.Windows.Forms.Label();
-            this.spoor56v6 = new System.Windows.Forms.Label();
-            this.spoor55v6 = new System.Windows.Forms.Label();
-            this.spoor54v6 = new System.Windows.Forms.Label();
-            this.spoor53v6 = new System.Windows.Forms.Label();
-            this.spoor57v7 = new System.Windows.Forms.Label();
-            this.spoor56v7 = new System.Windows.Forms.Label();
-            this.spoor55v7 = new System.Windows.Forms.Label();
-            this.spoor54v7 = new System.Windows.Forms.Label();
-            this.spoor76v4 = new System.Windows.Forms.Label();
-            this.spoor75v4 = new System.Windows.Forms.Label();
-            this.spoor63v4 = new System.Windows.Forms.Label();
-            this.spoor64v4 = new System.Windows.Forms.Label();
-            this.spoor58v4 = new System.Windows.Forms.Label();
-            this.spoor57v4 = new System.Windows.Forms.Label();
-            this.spoor56v4 = new System.Windows.Forms.Label();
-            this.spoor55v4 = new System.Windows.Forms.Label();
-            this.spoor54v4 = new System.Windows.Forms.Label();
-            this.spoor53v4 = new System.Windows.Forms.Label();
-            this.spoor76v3 = new System.Windows.Forms.Label();
-            this.spoor75v3 = new System.Windows.Forms.Label();
-            this.spoor74v3 = new System.Windows.Forms.Label();
-            this.spoor63v3 = new System.Windows.Forms.Label();
-            this.spoor64v3 = new System.Windows.Forms.Label();
-            this.spoor58v3 = new System.Windows.Forms.Label();
-            this.spoor57v3 = new System.Windows.Forms.Label();
-            this.spoor56v3 = new System.Windows.Forms.Label();
-            this.spoor55v3 = new System.Windows.Forms.Label();
-            this.spoor54v3 = new System.Windows.Forms.Label();
-            this.spoor53v3 = new System.Windows.Forms.Label();
-            this.spoor76v2 = new System.Windows.Forms.Label();
-            this.spoor76v1 = new System.Windows.Forms.Label();
-            this.spoor75v2 = new System.Windows.Forms.Label();
-            this.spoor75v1 = new System.Windows.Forms.Label();
-            this.spoor74v2 = new System.Windows.Forms.Label();
-            this.spoor74v1 = new System.Windows.Forms.Label();
-            this.spoor61v2 = new System.Windows.Forms.Label();
-            this.spoor61v1 = new System.Windows.Forms.Label();
-            this.spoor62v2 = new System.Windows.Forms.Label();
-            this.spoor62v1 = new System.Windows.Forms.Label();
-            this.spoor63v2 = new System.Windows.Forms.Label();
-            this.spoor63v1 = new System.Windows.Forms.Label();
-            this.spoor64v2 = new System.Windows.Forms.Label();
-            this.spoor64v1 = new System.Windows.Forms.Label();
+            this.spoor7605 = new System.Windows.Forms.Label();
+            this.spoor5805 = new System.Windows.Forms.Label();
+            this.spoor5705 = new System.Windows.Forms.Label();
+            this.spoor5605 = new System.Windows.Forms.Label();
+            this.spoor5505 = new System.Windows.Forms.Label();
+            this.spoor5405 = new System.Windows.Forms.Label();
+            this.spoor5305 = new System.Windows.Forms.Label();
+            this.spoor5706 = new System.Windows.Forms.Label();
+            this.spoor5606 = new System.Windows.Forms.Label();
+            this.spoor5506 = new System.Windows.Forms.Label();
+            this.spoor5406 = new System.Windows.Forms.Label();
+            this.spoor5306 = new System.Windows.Forms.Label();
+            this.spoor5707 = new System.Windows.Forms.Label();
+            this.spoor5607 = new System.Windows.Forms.Label();
+            this.spoor5507 = new System.Windows.Forms.Label();
+            this.spoor5407 = new System.Windows.Forms.Label();
+            this.spoor7604 = new System.Windows.Forms.Label();
+            this.spoor7504 = new System.Windows.Forms.Label();
+            this.spoor6304 = new System.Windows.Forms.Label();
+            this.spoor6404 = new System.Windows.Forms.Label();
+            this.spoor5804 = new System.Windows.Forms.Label();
+            this.spoor5704 = new System.Windows.Forms.Label();
+            this.spoor5604 = new System.Windows.Forms.Label();
+            this.spoor5504 = new System.Windows.Forms.Label();
+            this.spoor5404 = new System.Windows.Forms.Label();
+            this.spoor5304 = new System.Windows.Forms.Label();
+            this.spoor7603 = new System.Windows.Forms.Label();
+            this.spoor7503 = new System.Windows.Forms.Label();
+            this.spoor7403 = new System.Windows.Forms.Label();
+            this.spoor6303 = new System.Windows.Forms.Label();
+            this.spoor6403 = new System.Windows.Forms.Label();
+            this.spoor5803 = new System.Windows.Forms.Label();
+            this.spoor5703 = new System.Windows.Forms.Label();
+            this.spoor5603 = new System.Windows.Forms.Label();
+            this.spoor5503 = new System.Windows.Forms.Label();
+            this.spoor5403 = new System.Windows.Forms.Label();
+            this.spoor5303 = new System.Windows.Forms.Label();
+            this.spoor7602 = new System.Windows.Forms.Label();
+            this.spoor7601 = new System.Windows.Forms.Label();
+            this.spoor7502 = new System.Windows.Forms.Label();
+            this.spoor7501 = new System.Windows.Forms.Label();
+            this.spoor7402 = new System.Windows.Forms.Label();
+            this.spoor7401 = new System.Windows.Forms.Label();
+            this.spoor6102 = new System.Windows.Forms.Label();
+            this.spoor6101 = new System.Windows.Forms.Label();
+            this.spoor6202 = new System.Windows.Forms.Label();
+            this.spoor6201 = new System.Windows.Forms.Label();
+            this.spoor6302 = new System.Windows.Forms.Label();
+            this.spoor6301 = new System.Windows.Forms.Label();
+            this.spoor6402 = new System.Windows.Forms.Label();
+            this.spoor6401 = new System.Windows.Forms.Label();
             this.label250 = new System.Windows.Forms.Label();
-            this.spoor58v2 = new System.Windows.Forms.Label();
+            this.spoor5802 = new System.Windows.Forms.Label();
             this.label240 = new System.Windows.Forms.Label();
-            this.spoor58v1 = new System.Windows.Forms.Label();
+            this.spoor5801 = new System.Windows.Forms.Label();
             this.label230 = new System.Windows.Forms.Label();
-            this.spoor57v2 = new System.Windows.Forms.Label();
+            this.spoor5702 = new System.Windows.Forms.Label();
             this.label220 = new System.Windows.Forms.Label();
-            this.spoor57v1 = new System.Windows.Forms.Label();
+            this.spoor5701 = new System.Windows.Forms.Label();
             this.label210 = new System.Windows.Forms.Label();
-            this.spoor56v2 = new System.Windows.Forms.Label();
+            this.spoor5602 = new System.Windows.Forms.Label();
             this.label200 = new System.Windows.Forms.Label();
-            this.spoor56v1 = new System.Windows.Forms.Label();
+            this.spoor5601 = new System.Windows.Forms.Label();
             this.label190 = new System.Windows.Forms.Label();
-            this.spoor55v2 = new System.Windows.Forms.Label();
+            this.spoor5502 = new System.Windows.Forms.Label();
             this.label180 = new System.Windows.Forms.Label();
-            this.spoor55v1 = new System.Windows.Forms.Label();
+            this.spoor5501 = new System.Windows.Forms.Label();
             this.label170 = new System.Windows.Forms.Label();
-            this.spoor54v2 = new System.Windows.Forms.Label();
+            this.spoor5402 = new System.Windows.Forms.Label();
             this.label160 = new System.Windows.Forms.Label();
-            this.spoor54v1 = new System.Windows.Forms.Label();
+            this.spoor5401 = new System.Windows.Forms.Label();
             this.label150 = new System.Windows.Forms.Label();
-            this.spoor53v2 = new System.Windows.Forms.Label();
+            this.spoor5302 = new System.Windows.Forms.Label();
             this.label140 = new System.Windows.Forms.Label();
-            this.spoor53v1 = new System.Windows.Forms.Label();
+            this.spoor5301 = new System.Windows.Forms.Label();
             this.label139 = new System.Windows.Forms.Label();
-            this.spoor52v5 = new System.Windows.Forms.Label();
-            this.spoor52v6 = new System.Windows.Forms.Label();
-            this.spoor52v4 = new System.Windows.Forms.Label();
-            this.spoor52v3 = new System.Windows.Forms.Label();
-            this.spoor52v2 = new System.Windows.Forms.Label();
-            this.spoor52v1 = new System.Windows.Forms.Label();
+            this.spoor5205 = new System.Windows.Forms.Label();
+            this.spoor5206 = new System.Windows.Forms.Label();
+            this.spoor5204 = new System.Windows.Forms.Label();
+            this.spoor5203 = new System.Windows.Forms.Label();
+            this.spoor5202 = new System.Windows.Forms.Label();
+            this.spoor5201 = new System.Windows.Forms.Label();
             this.label129 = new System.Windows.Forms.Label();
-            this.spoor57v8 = new System.Windows.Forms.Label();
-            this.spoor51v5 = new System.Windows.Forms.Label();
-            this.spoor51v4 = new System.Windows.Forms.Label();
-            this.spoor51v3 = new System.Windows.Forms.Label();
-            this.spoor51v2 = new System.Windows.Forms.Label();
-            this.spoor51v1 = new System.Windows.Forms.Label();
+            this.spoor5708 = new System.Windows.Forms.Label();
+            this.spoor5105 = new System.Windows.Forms.Label();
+            this.spoor5104 = new System.Windows.Forms.Label();
+            this.spoor5103 = new System.Windows.Forms.Label();
+            this.spoor5102 = new System.Windows.Forms.Label();
+            this.spoor5101 = new System.Windows.Forms.Label();
             this.label119 = new System.Windows.Forms.Label();
-            this.spoor45v9 = new System.Windows.Forms.Label();
-            this.spoor45v8 = new System.Windows.Forms.Label();
-            this.spoor45v5 = new System.Windows.Forms.Label();
-            this.spoor45v6 = new System.Windows.Forms.Label();
-            this.spoor45v7 = new System.Windows.Forms.Label();
-            this.spoor45v4 = new System.Windows.Forms.Label();
-            this.spoor45v3 = new System.Windows.Forms.Label();
-            this.spoor45v2 = new System.Windows.Forms.Label();
-            this.spoor45v1 = new System.Windows.Forms.Label();
+            this.spoor4509 = new System.Windows.Forms.Label();
+            this.spoor4508 = new System.Windows.Forms.Label();
+            this.spoor4505 = new System.Windows.Forms.Label();
+            this.spoor4506 = new System.Windows.Forms.Label();
+            this.spoor4507 = new System.Windows.Forms.Label();
+            this.spoor4504 = new System.Windows.Forms.Label();
+            this.spoor4503 = new System.Windows.Forms.Label();
+            this.spoor4502 = new System.Windows.Forms.Label();
+            this.spoor4501 = new System.Windows.Forms.Label();
             this.label107 = new System.Windows.Forms.Label();
-            this.spoor40v5 = new System.Windows.Forms.Label();
-            this.spoor40v6 = new System.Windows.Forms.Label();
-            this.spoor40v7 = new System.Windows.Forms.Label();
-            this.spoor44v4 = new System.Windows.Forms.Label();
-            this.spoor43v4 = new System.Windows.Forms.Label();
-            this.spoor42v4 = new System.Windows.Forms.Label();
-            this.spoor41v4 = new System.Windows.Forms.Label();
-            this.spoor40v4 = new System.Windows.Forms.Label();
-            this.spoor38v4 = new System.Windows.Forms.Label();
-            this.spoor37v4 = new System.Windows.Forms.Label();
-            this.spoor36v4 = new System.Windows.Forms.Label();
-            this.spoor35v4 = new System.Windows.Forms.Label();
-            this.spoor34v4 = new System.Windows.Forms.Label();
-            this.spoor33v4 = new System.Windows.Forms.Label();
-            this.spoor32v4 = new System.Windows.Forms.Label();
-            this.spoor44v3 = new System.Windows.Forms.Label();
-            this.spoor43v3 = new System.Windows.Forms.Label();
-            this.spoor42v3 = new System.Windows.Forms.Label();
-            this.spoor41v3 = new System.Windows.Forms.Label();
-            this.spoor40v3 = new System.Windows.Forms.Label();
-            this.spoor38v3 = new System.Windows.Forms.Label();
-            this.spoor37v3 = new System.Windows.Forms.Label();
-            this.spoor36v3 = new System.Windows.Forms.Label();
-            this.spoor35v3 = new System.Windows.Forms.Label();
-            this.spoor34v3 = new System.Windows.Forms.Label();
-            this.spoor33v3 = new System.Windows.Forms.Label();
-            this.spoor32v3 = new System.Windows.Forms.Label();
-            this.spoor31v3 = new System.Windows.Forms.Label();
-            this.spoor30v3 = new System.Windows.Forms.Label();
-            this.spoor44v2 = new System.Windows.Forms.Label();
-            this.spoor43v2 = new System.Windows.Forms.Label();
-            this.spoor42v2 = new System.Windows.Forms.Label();
-            this.spoor41v2 = new System.Windows.Forms.Label();
-            this.spoor40v2 = new System.Windows.Forms.Label();
-            this.spoor38v2 = new System.Windows.Forms.Label();
-            this.spoor37v2 = new System.Windows.Forms.Label();
-            this.spoor36v2 = new System.Windows.Forms.Label();
-            this.spoor35v2 = new System.Windows.Forms.Label();
-            this.spoor34v2 = new System.Windows.Forms.Label();
-            this.spoor33v2 = new System.Windows.Forms.Label();
-            this.spoor32v2 = new System.Windows.Forms.Label();
-            this.spoor31v2 = new System.Windows.Forms.Label();
-            this.spoor30v2 = new System.Windows.Forms.Label();
-            this.spoor44v1 = new System.Windows.Forms.Label();
-            this.spoor43v1 = new System.Windows.Forms.Label();
-            this.spoor42v1 = new System.Windows.Forms.Label();
-            this.spoor41v1 = new System.Windows.Forms.Label();
-            this.spoor40v1 = new System.Windows.Forms.Label();
-            this.spoor38v1 = new System.Windows.Forms.Label();
-            this.spoor37v1 = new System.Windows.Forms.Label();
-            this.spoor36v1 = new System.Windows.Forms.Label();
-            this.spoor35v1 = new System.Windows.Forms.Label();
-            this.spoor34v1 = new System.Windows.Forms.Label();
-            this.spoor33v1 = new System.Windows.Forms.Label();
-            this.spoor32v1 = new System.Windows.Forms.Label();
-            this.spoor31v1 = new System.Windows.Forms.Label();
-            this.spoor30v1 = new System.Windows.Forms.Label();
-            this.spoor21v1 = new System.Windows.Forms.Label();
-            this.spoor20v1 = new System.Windows.Forms.Label();
-            this.spoor19v1 = new System.Windows.Forms.Label();
-            this.spoor18v1 = new System.Windows.Forms.Label();
-            this.spoor17v1 = new System.Windows.Forms.Label();
-            this.spoor16v1 = new System.Windows.Forms.Label();
-            this.spoor15v1 = new System.Windows.Forms.Label();
-            this.spoor14v1 = new System.Windows.Forms.Label();
-            this.spoor13v1 = new System.Windows.Forms.Label();
-            this.spoor12v1 = new System.Windows.Forms.Label();
+            this.spoor4005 = new System.Windows.Forms.Label();
+            this.spoor4006 = new System.Windows.Forms.Label();
+            this.spoor4007 = new System.Windows.Forms.Label();
+            this.spoor4404 = new System.Windows.Forms.Label();
+            this.spoor4304 = new System.Windows.Forms.Label();
+            this.spoor4204 = new System.Windows.Forms.Label();
+            this.spoor4104 = new System.Windows.Forms.Label();
+            this.spoor4004 = new System.Windows.Forms.Label();
+            this.spoor3804 = new System.Windows.Forms.Label();
+            this.spoor3704 = new System.Windows.Forms.Label();
+            this.spoor3604 = new System.Windows.Forms.Label();
+            this.spoor3504 = new System.Windows.Forms.Label();
+            this.spoor3404 = new System.Windows.Forms.Label();
+            this.spoor3304 = new System.Windows.Forms.Label();
+            this.spoor3204 = new System.Windows.Forms.Label();
+            this.spoor4403 = new System.Windows.Forms.Label();
+            this.spoor4303 = new System.Windows.Forms.Label();
+            this.spoor4203 = new System.Windows.Forms.Label();
+            this.spoor4103 = new System.Windows.Forms.Label();
+            this.spoor4003 = new System.Windows.Forms.Label();
+            this.spoor3803 = new System.Windows.Forms.Label();
+            this.spoor3703 = new System.Windows.Forms.Label();
+            this.spoor3603 = new System.Windows.Forms.Label();
+            this.spoor3503 = new System.Windows.Forms.Label();
+            this.spoor3403 = new System.Windows.Forms.Label();
+            this.spoor3303 = new System.Windows.Forms.Label();
+            this.spoor3203 = new System.Windows.Forms.Label();
+            this.spoor3103 = new System.Windows.Forms.Label();
+            this.spoor3003 = new System.Windows.Forms.Label();
+            this.spoor4402 = new System.Windows.Forms.Label();
+            this.spoor4302 = new System.Windows.Forms.Label();
+            this.spoor4202 = new System.Windows.Forms.Label();
+            this.spoor4102 = new System.Windows.Forms.Label();
+            this.spoor4002 = new System.Windows.Forms.Label();
+            this.spoor3802 = new System.Windows.Forms.Label();
+            this.spoor3702 = new System.Windows.Forms.Label();
+            this.spoor3602 = new System.Windows.Forms.Label();
+            this.spoor3502 = new System.Windows.Forms.Label();
+            this.spoor3402 = new System.Windows.Forms.Label();
+            this.spoor3302 = new System.Windows.Forms.Label();
+            this.spoor3202 = new System.Windows.Forms.Label();
+            this.spoor3102 = new System.Windows.Forms.Label();
+            this.spoor3002 = new System.Windows.Forms.Label();
+            this.spoor4401 = new System.Windows.Forms.Label();
+            this.spoor4301 = new System.Windows.Forms.Label();
+            this.spoor4201 = new System.Windows.Forms.Label();
+            this.spoor4101 = new System.Windows.Forms.Label();
+            this.spoor4001 = new System.Windows.Forms.Label();
+            this.spoor3801 = new System.Windows.Forms.Label();
+            this.spoor3701 = new System.Windows.Forms.Label();
+            this.spoor3601 = new System.Windows.Forms.Label();
+            this.spoor3501 = new System.Windows.Forms.Label();
+            this.spoor3401 = new System.Windows.Forms.Label();
+            this.spoor3301 = new System.Windows.Forms.Label();
+            this.spoor3201 = new System.Windows.Forms.Label();
+            this.spoor3101 = new System.Windows.Forms.Label();
+            this.spoor3001 = new System.Windows.Forms.Label();
+            this.spoor2101 = new System.Windows.Forms.Label();
+            this.spoor2001 = new System.Windows.Forms.Label();
+            this.spoor1901 = new System.Windows.Forms.Label();
+            this.spoor1801 = new System.Windows.Forms.Label();
+            this.spoor1701 = new System.Windows.Forms.Label();
+            this.spoor1601 = new System.Windows.Forms.Label();
+            this.spoor1501 = new System.Windows.Forms.Label();
+            this.spoor1401 = new System.Windows.Forms.Label();
+            this.spoor1301 = new System.Windows.Forms.Label();
+            this.spoor1201 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
             this.label17 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
@@ -370,6 +370,162 @@
             // cbTramInrijdendeLocatie
             // 
             this.cbTramInrijdendeLocatie.FormattingEnabled = true;
+            this.cbTramInrijdendeLocatie.Items.AddRange(new object[] {
+            "1201",
+            "1301",
+            "1401",
+            "1501",
+            "1601",
+            "1701",
+            "1801",
+            "1901",
+            "2001",
+            "2101",
+            "3001",
+            "3002",
+            "3003",
+            "3101",
+            "3102",
+            "3103",
+            "3201",
+            "3202",
+            "3203",
+            "3301",
+            "3302",
+            "3303",
+            "3304",
+            "3401",
+            "3402",
+            "3403",
+            "3404",
+            "3501",
+            "3502",
+            "3503",
+            "3504",
+            "3601",
+            "3602",
+            "3603",
+            "3604",
+            "3701",
+            "3702",
+            "3703",
+            "3704",
+            "3801",
+            "3802",
+            "3803",
+            "3804",
+            "4001",
+            "4002",
+            "4003",
+            "4004",
+            "4005",
+            "4006",
+            "4007",
+            "4101",
+            "4102",
+            "4103",
+            "4104",
+            "4201",
+            "4202",
+            "4203",
+            "4204",
+            "4301",
+            "4302",
+            "4303",
+            "4304",
+            "4401",
+            "4402",
+            "4403",
+            "4404",
+            "4501",
+            "4502",
+            "4503",
+            "4504",
+            "4505",
+            "4506",
+            "4507",
+            "4508",
+            "4509",
+            "5101",
+            "5102",
+            "5103",
+            "5104",
+            "5105",
+            "5201",
+            "5202",
+            "5203",
+            "5204",
+            "5205",
+            "5206",
+            "5301",
+            "5302",
+            "5303",
+            "5304",
+            "5305",
+            "5306",
+            "5401",
+            "5402",
+            "5403",
+            "5404",
+            "5405",
+            "5406",
+            "5407",
+            "5501",
+            "5502",
+            "5503",
+            "5504",
+            "5505",
+            "5506",
+            "5507",
+            "5601",
+            "5602",
+            "5603",
+            "5604",
+            "5605",
+            "5606",
+            "5607",
+            "5701",
+            "5702",
+            "5703",
+            "5704",
+            "5705",
+            "5706",
+            "5707",
+            "5708",
+            "5801",
+            "5802",
+            "5803",
+            "5804",
+            "5805",
+            "6101",
+            "6102",
+            "6201",
+            "6202",
+            "6301",
+            "6302",
+            "6303",
+            "6304",
+            "6401",
+            "6402",
+            "6403",
+            "6404",
+            "7401",
+            "7402",
+            "7403",
+            "7501",
+            "7502",
+            "7503",
+            "7504",
+            "7601",
+            "7602",
+            "7603",
+            "7604",
+            "7605",
+            "7701",
+            "7702",
+            "7703",
+            "7704",
+            "7705"});
             this.cbTramInrijdendeLocatie.Location = new System.Drawing.Point(73, 185);
             this.cbTramInrijdendeLocatie.Name = "cbTramInrijdendeLocatie";
             this.cbTramInrijdendeLocatie.Size = new System.Drawing.Size(121, 21);
@@ -405,6 +561,7 @@
             this.btnSpoorStatusAanpassen.TabIndex = 13;
             this.btnSpoorStatusAanpassen.Text = "Aanpassen";
             this.btnSpoorStatusAanpassen.UseVisualStyleBackColor = true;
+            this.btnSpoorStatusAanpassen.Click += new System.EventHandler(this.btnSpoorStatusAanpassen_Click);
             // 
             // label36
             // 
@@ -427,6 +584,162 @@
             // cbSpoorStatusSpoor
             // 
             this.cbSpoorStatusSpoor.FormattingEnabled = true;
+            this.cbSpoorStatusSpoor.Items.AddRange(new object[] {
+            "1201",
+            "1301",
+            "1401",
+            "1501",
+            "1601",
+            "1701",
+            "1801",
+            "1901",
+            "2001",
+            "2101",
+            "3001",
+            "3002",
+            "3003",
+            "3101",
+            "3102",
+            "3103",
+            "3201",
+            "3202",
+            "3203",
+            "3301",
+            "3302",
+            "3303",
+            "3304",
+            "3401",
+            "3402",
+            "3403",
+            "3404",
+            "3501",
+            "3502",
+            "3503",
+            "3504",
+            "3601",
+            "3602",
+            "3603",
+            "3604",
+            "3701",
+            "3702",
+            "3703",
+            "3704",
+            "3801",
+            "3802",
+            "3803",
+            "3804",
+            "4001",
+            "4002",
+            "4003",
+            "4004",
+            "4005",
+            "4006",
+            "4007",
+            "4101",
+            "4102",
+            "4103",
+            "4104",
+            "4201",
+            "4202",
+            "4203",
+            "4204",
+            "4301",
+            "4302",
+            "4303",
+            "4304",
+            "4401",
+            "4402",
+            "4403",
+            "4404",
+            "4501",
+            "4502",
+            "4503",
+            "4504",
+            "4505",
+            "4506",
+            "4507",
+            "4508",
+            "4509",
+            "5101",
+            "5102",
+            "5103",
+            "5104",
+            "5105",
+            "5201",
+            "5202",
+            "5203",
+            "5204",
+            "5205",
+            "5206",
+            "5301",
+            "5302",
+            "5303",
+            "5304",
+            "5305",
+            "5306",
+            "5401",
+            "5402",
+            "5403",
+            "5404",
+            "5405",
+            "5406",
+            "5407",
+            "5501",
+            "5502",
+            "5503",
+            "5504",
+            "5505",
+            "5506",
+            "5507",
+            "5601",
+            "5602",
+            "5603",
+            "5604",
+            "5605",
+            "5606",
+            "5607",
+            "5701",
+            "5702",
+            "5703",
+            "5704",
+            "5705",
+            "5706",
+            "5707",
+            "5708",
+            "5801",
+            "5802",
+            "5803",
+            "5804",
+            "5805",
+            "6101",
+            "6102",
+            "6201",
+            "6202",
+            "6301",
+            "6302",
+            "6303",
+            "6304",
+            "6401",
+            "6402",
+            "6403",
+            "6404",
+            "7401",
+            "7402",
+            "7403",
+            "7501",
+            "7502",
+            "7503",
+            "7504",
+            "7601",
+            "7602",
+            "7603",
+            "7604",
+            "7605",
+            "7701",
+            "7702",
+            "7703",
+            "7704",
+            "7705"});
             this.cbSpoorStatusSpoor.Location = new System.Drawing.Point(85, 14);
             this.cbSpoorStatusSpoor.Name = "cbSpoorStatusSpoor";
             this.cbSpoorStatusSpoor.Size = new System.Drawing.Size(109, 21);
@@ -435,6 +748,9 @@
             // cbSpoorStatusStatus
             // 
             this.cbSpoorStatusStatus.FormattingEnabled = true;
+            this.cbSpoorStatusStatus.Items.AddRange(new object[] {
+            "Blokkeer",
+            "Deblokkeer"});
             this.cbSpoorStatusStatus.Location = new System.Drawing.Point(85, 41);
             this.cbSpoorStatusStatus.Name = "cbSpoorStatusStatus";
             this.cbSpoorStatusStatus.Size = new System.Drawing.Size(109, 21);
@@ -477,6 +793,11 @@
             // cbToevoegenStatus
             // 
             this.cbToevoegenStatus.FormattingEnabled = true;
+            this.cbToevoegenStatus.Items.AddRange(new object[] {
+            "Ok",
+            "Vies",
+            "Defect",
+            "Vies en defect"});
             this.cbToevoegenStatus.Location = new System.Drawing.Point(85, 72);
             this.cbToevoegenStatus.Name = "cbToevoegenStatus";
             this.cbToevoegenStatus.Size = new System.Drawing.Size(109, 21);
@@ -503,6 +824,162 @@
             // cbToevoegenLocatie
             // 
             this.cbToevoegenLocatie.FormattingEnabled = true;
+            this.cbToevoegenLocatie.Items.AddRange(new object[] {
+            "1201",
+            "1301",
+            "1401",
+            "1501",
+            "1601",
+            "1701",
+            "1801",
+            "1901",
+            "2001",
+            "2101",
+            "3001",
+            "3002",
+            "3003",
+            "3101",
+            "3102",
+            "3103",
+            "3201",
+            "3202",
+            "3203",
+            "3301",
+            "3302",
+            "3303",
+            "3304",
+            "3401",
+            "3402",
+            "3403",
+            "3404",
+            "3501",
+            "3502",
+            "3503",
+            "3504",
+            "3601",
+            "3602",
+            "3603",
+            "3604",
+            "3701",
+            "3702",
+            "3703",
+            "3704",
+            "3801",
+            "3802",
+            "3803",
+            "3804",
+            "4001",
+            "4002",
+            "4003",
+            "4004",
+            "4005",
+            "4006",
+            "4007",
+            "4101",
+            "4102",
+            "4103",
+            "4104",
+            "4201",
+            "4202",
+            "4203",
+            "4204",
+            "4301",
+            "4302",
+            "4303",
+            "4304",
+            "4401",
+            "4402",
+            "4403",
+            "4404",
+            "4501",
+            "4502",
+            "4503",
+            "4504",
+            "4505",
+            "4506",
+            "4507",
+            "4508",
+            "4509",
+            "5101",
+            "5102",
+            "5103",
+            "5104",
+            "5105",
+            "5201",
+            "5202",
+            "5203",
+            "5204",
+            "5205",
+            "5206",
+            "5301",
+            "5302",
+            "5303",
+            "5304",
+            "5305",
+            "5306",
+            "5401",
+            "5402",
+            "5403",
+            "5404",
+            "5405",
+            "5406",
+            "5407",
+            "5501",
+            "5502",
+            "5503",
+            "5504",
+            "5505",
+            "5506",
+            "5507",
+            "5601",
+            "5602",
+            "5603",
+            "5604",
+            "5605",
+            "5606",
+            "5607",
+            "5701",
+            "5702",
+            "5703",
+            "5704",
+            "5705",
+            "5706",
+            "5707",
+            "5708",
+            "5801",
+            "5802",
+            "5803",
+            "5804",
+            "5805",
+            "6101",
+            "6102",
+            "6201",
+            "6202",
+            "6301",
+            "6302",
+            "6303",
+            "6304",
+            "6401",
+            "6402",
+            "6403",
+            "6404",
+            "7401",
+            "7402",
+            "7403",
+            "7501",
+            "7502",
+            "7503",
+            "7504",
+            "7601",
+            "7602",
+            "7603",
+            "7604",
+            "7605",
+            "7701",
+            "7702",
+            "7703",
+            "7704",
+            "7705"});
             this.cbToevoegenLocatie.Location = new System.Drawing.Point(85, 45);
             this.cbToevoegenLocatie.Name = "cbToevoegenLocatie";
             this.cbToevoegenLocatie.Size = new System.Drawing.Size(109, 21);
@@ -562,6 +1039,11 @@
             // cbDetailsStatus
             // 
             this.cbDetailsStatus.FormattingEnabled = true;
+            this.cbDetailsStatus.Items.AddRange(new object[] {
+            "Ok",
+            "Dirty",
+            "Defect",
+            "Dirty and defect"});
             this.cbDetailsStatus.Location = new System.Drawing.Point(85, 72);
             this.cbDetailsStatus.Name = "cbDetailsStatus";
             this.cbDetailsStatus.Size = new System.Drawing.Size(109, 21);
@@ -588,6 +1070,162 @@
             // cbDetailsLocatie
             // 
             this.cbDetailsLocatie.FormattingEnabled = true;
+            this.cbDetailsLocatie.Items.AddRange(new object[] {
+            "1201",
+            "1301",
+            "1401",
+            "1501",
+            "1601",
+            "1701",
+            "1801",
+            "1901",
+            "2001",
+            "2101",
+            "3001",
+            "3002",
+            "3003",
+            "3101",
+            "3102",
+            "3103",
+            "3201",
+            "3202",
+            "3203",
+            "3301",
+            "3302",
+            "3303",
+            "3304",
+            "3401",
+            "3402",
+            "3403",
+            "3404",
+            "3501",
+            "3502",
+            "3503",
+            "3504",
+            "3601",
+            "3602",
+            "3603",
+            "3604",
+            "3701",
+            "3702",
+            "3703",
+            "3704",
+            "3801",
+            "3802",
+            "3803",
+            "3804",
+            "4001",
+            "4002",
+            "4003",
+            "4004",
+            "4005",
+            "4006",
+            "4007",
+            "4101",
+            "4102",
+            "4103",
+            "4104",
+            "4201",
+            "4202",
+            "4203",
+            "4204",
+            "4301",
+            "4302",
+            "4303",
+            "4304",
+            "4401",
+            "4402",
+            "4403",
+            "4404",
+            "4501",
+            "4502",
+            "4503",
+            "4504",
+            "4505",
+            "4506",
+            "4507",
+            "4508",
+            "4509",
+            "5101",
+            "5102",
+            "5103",
+            "5104",
+            "5105",
+            "5201",
+            "5202",
+            "5203",
+            "5204",
+            "5205",
+            "5206",
+            "5301",
+            "5302",
+            "5303",
+            "5304",
+            "5305",
+            "5306",
+            "5401",
+            "5402",
+            "5403",
+            "5404",
+            "5405",
+            "5406",
+            "5407",
+            "5501",
+            "5502",
+            "5503",
+            "5504",
+            "5505",
+            "5506",
+            "5507",
+            "5601",
+            "5602",
+            "5603",
+            "5604",
+            "5605",
+            "5606",
+            "5607",
+            "5701",
+            "5702",
+            "5703",
+            "5704",
+            "5705",
+            "5706",
+            "5707",
+            "5708",
+            "5801",
+            "5802",
+            "5803",
+            "5804",
+            "5805",
+            "6101",
+            "6102",
+            "6201",
+            "6202",
+            "6301",
+            "6302",
+            "6303",
+            "6304",
+            "6401",
+            "6402",
+            "6403",
+            "6404",
+            "7401",
+            "7402",
+            "7403",
+            "7501",
+            "7502",
+            "7503",
+            "7504",
+            "7601",
+            "7602",
+            "7603",
+            "7604",
+            "7605",
+            "7701",
+            "7702",
+            "7703",
+            "7704",
+            "7705"});
             this.cbDetailsLocatie.Location = new System.Drawing.Point(85, 45);
             this.cbDetailsLocatie.Name = "cbDetailsLocatie";
             this.cbDetailsLocatie.Size = new System.Drawing.Size(109, 21);
@@ -602,179 +1240,179 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.spoor77v5);
-            this.groupBox1.Controls.Add(this.spoor77v4);
-            this.groupBox1.Controls.Add(this.spoor77v3);
-            this.groupBox1.Controls.Add(this.spoor77v2);
-            this.groupBox1.Controls.Add(this.spoor77v1);
+            this.groupBox1.Controls.Add(this.spoor7705);
+            this.groupBox1.Controls.Add(this.spoor7704);
+            this.groupBox1.Controls.Add(this.spoor7703);
+            this.groupBox1.Controls.Add(this.spoor7702);
+            this.groupBox1.Controls.Add(this.spoor7701);
             this.groupBox1.Controls.Add(this.label158);
-            this.groupBox1.Controls.Add(this.spoor76v5);
-            this.groupBox1.Controls.Add(this.spoor58v5);
-            this.groupBox1.Controls.Add(this.spoor57v5);
-            this.groupBox1.Controls.Add(this.spoor56v5);
-            this.groupBox1.Controls.Add(this.spoor55v5);
-            this.groupBox1.Controls.Add(this.spoor54v5);
-            this.groupBox1.Controls.Add(this.spoor53v5);
-            this.groupBox1.Controls.Add(this.spoor57v6);
-            this.groupBox1.Controls.Add(this.spoor56v6);
-            this.groupBox1.Controls.Add(this.spoor55v6);
-            this.groupBox1.Controls.Add(this.spoor54v6);
-            this.groupBox1.Controls.Add(this.spoor53v6);
-            this.groupBox1.Controls.Add(this.spoor57v7);
-            this.groupBox1.Controls.Add(this.spoor56v7);
-            this.groupBox1.Controls.Add(this.spoor55v7);
-            this.groupBox1.Controls.Add(this.spoor54v7);
-            this.groupBox1.Controls.Add(this.spoor76v4);
-            this.groupBox1.Controls.Add(this.spoor75v4);
-            this.groupBox1.Controls.Add(this.spoor63v4);
-            this.groupBox1.Controls.Add(this.spoor64v4);
-            this.groupBox1.Controls.Add(this.spoor58v4);
-            this.groupBox1.Controls.Add(this.spoor57v4);
-            this.groupBox1.Controls.Add(this.spoor56v4);
-            this.groupBox1.Controls.Add(this.spoor55v4);
-            this.groupBox1.Controls.Add(this.spoor54v4);
-            this.groupBox1.Controls.Add(this.spoor53v4);
-            this.groupBox1.Controls.Add(this.spoor76v3);
-            this.groupBox1.Controls.Add(this.spoor75v3);
-            this.groupBox1.Controls.Add(this.spoor74v3);
-            this.groupBox1.Controls.Add(this.spoor63v3);
-            this.groupBox1.Controls.Add(this.spoor64v3);
-            this.groupBox1.Controls.Add(this.spoor58v3);
-            this.groupBox1.Controls.Add(this.spoor57v3);
-            this.groupBox1.Controls.Add(this.spoor56v3);
-            this.groupBox1.Controls.Add(this.spoor55v3);
-            this.groupBox1.Controls.Add(this.spoor54v3);
-            this.groupBox1.Controls.Add(this.spoor53v3);
-            this.groupBox1.Controls.Add(this.spoor76v2);
-            this.groupBox1.Controls.Add(this.spoor76v1);
-            this.groupBox1.Controls.Add(this.spoor75v2);
-            this.groupBox1.Controls.Add(this.spoor75v1);
-            this.groupBox1.Controls.Add(this.spoor74v2);
-            this.groupBox1.Controls.Add(this.spoor74v1);
-            this.groupBox1.Controls.Add(this.spoor61v2);
-            this.groupBox1.Controls.Add(this.spoor61v1);
-            this.groupBox1.Controls.Add(this.spoor62v2);
-            this.groupBox1.Controls.Add(this.spoor62v1);
-            this.groupBox1.Controls.Add(this.spoor63v2);
-            this.groupBox1.Controls.Add(this.spoor63v1);
-            this.groupBox1.Controls.Add(this.spoor64v2);
-            this.groupBox1.Controls.Add(this.spoor64v1);
+            this.groupBox1.Controls.Add(this.spoor7605);
+            this.groupBox1.Controls.Add(this.spoor5805);
+            this.groupBox1.Controls.Add(this.spoor5705);
+            this.groupBox1.Controls.Add(this.spoor5605);
+            this.groupBox1.Controls.Add(this.spoor5505);
+            this.groupBox1.Controls.Add(this.spoor5405);
+            this.groupBox1.Controls.Add(this.spoor5305);
+            this.groupBox1.Controls.Add(this.spoor5706);
+            this.groupBox1.Controls.Add(this.spoor5606);
+            this.groupBox1.Controls.Add(this.spoor5506);
+            this.groupBox1.Controls.Add(this.spoor5406);
+            this.groupBox1.Controls.Add(this.spoor5306);
+            this.groupBox1.Controls.Add(this.spoor5707);
+            this.groupBox1.Controls.Add(this.spoor5607);
+            this.groupBox1.Controls.Add(this.spoor5507);
+            this.groupBox1.Controls.Add(this.spoor5407);
+            this.groupBox1.Controls.Add(this.spoor7604);
+            this.groupBox1.Controls.Add(this.spoor7504);
+            this.groupBox1.Controls.Add(this.spoor6304);
+            this.groupBox1.Controls.Add(this.spoor6404);
+            this.groupBox1.Controls.Add(this.spoor5804);
+            this.groupBox1.Controls.Add(this.spoor5704);
+            this.groupBox1.Controls.Add(this.spoor5604);
+            this.groupBox1.Controls.Add(this.spoor5504);
+            this.groupBox1.Controls.Add(this.spoor5404);
+            this.groupBox1.Controls.Add(this.spoor5304);
+            this.groupBox1.Controls.Add(this.spoor7603);
+            this.groupBox1.Controls.Add(this.spoor7503);
+            this.groupBox1.Controls.Add(this.spoor7403);
+            this.groupBox1.Controls.Add(this.spoor6303);
+            this.groupBox1.Controls.Add(this.spoor6403);
+            this.groupBox1.Controls.Add(this.spoor5803);
+            this.groupBox1.Controls.Add(this.spoor5703);
+            this.groupBox1.Controls.Add(this.spoor5603);
+            this.groupBox1.Controls.Add(this.spoor5503);
+            this.groupBox1.Controls.Add(this.spoor5403);
+            this.groupBox1.Controls.Add(this.spoor5303);
+            this.groupBox1.Controls.Add(this.spoor7602);
+            this.groupBox1.Controls.Add(this.spoor7601);
+            this.groupBox1.Controls.Add(this.spoor7502);
+            this.groupBox1.Controls.Add(this.spoor7501);
+            this.groupBox1.Controls.Add(this.spoor7402);
+            this.groupBox1.Controls.Add(this.spoor7401);
+            this.groupBox1.Controls.Add(this.spoor6102);
+            this.groupBox1.Controls.Add(this.spoor6101);
+            this.groupBox1.Controls.Add(this.spoor6202);
+            this.groupBox1.Controls.Add(this.spoor6201);
+            this.groupBox1.Controls.Add(this.spoor6302);
+            this.groupBox1.Controls.Add(this.spoor6301);
+            this.groupBox1.Controls.Add(this.spoor6402);
+            this.groupBox1.Controls.Add(this.spoor6401);
             this.groupBox1.Controls.Add(this.label250);
-            this.groupBox1.Controls.Add(this.spoor58v2);
+            this.groupBox1.Controls.Add(this.spoor5802);
             this.groupBox1.Controls.Add(this.label240);
-            this.groupBox1.Controls.Add(this.spoor58v1);
+            this.groupBox1.Controls.Add(this.spoor5801);
             this.groupBox1.Controls.Add(this.label230);
-            this.groupBox1.Controls.Add(this.spoor57v2);
+            this.groupBox1.Controls.Add(this.spoor5702);
             this.groupBox1.Controls.Add(this.label220);
-            this.groupBox1.Controls.Add(this.spoor57v1);
+            this.groupBox1.Controls.Add(this.spoor5701);
             this.groupBox1.Controls.Add(this.label210);
-            this.groupBox1.Controls.Add(this.spoor56v2);
+            this.groupBox1.Controls.Add(this.spoor5602);
             this.groupBox1.Controls.Add(this.label200);
-            this.groupBox1.Controls.Add(this.spoor56v1);
+            this.groupBox1.Controls.Add(this.spoor5601);
             this.groupBox1.Controls.Add(this.label190);
-            this.groupBox1.Controls.Add(this.spoor55v2);
+            this.groupBox1.Controls.Add(this.spoor5502);
             this.groupBox1.Controls.Add(this.label180);
-            this.groupBox1.Controls.Add(this.spoor55v1);
+            this.groupBox1.Controls.Add(this.spoor5501);
             this.groupBox1.Controls.Add(this.label170);
-            this.groupBox1.Controls.Add(this.spoor54v2);
+            this.groupBox1.Controls.Add(this.spoor5402);
             this.groupBox1.Controls.Add(this.label160);
-            this.groupBox1.Controls.Add(this.spoor54v1);
+            this.groupBox1.Controls.Add(this.spoor5401);
             this.groupBox1.Controls.Add(this.label150);
-            this.groupBox1.Controls.Add(this.spoor53v2);
+            this.groupBox1.Controls.Add(this.spoor5302);
             this.groupBox1.Controls.Add(this.label140);
-            this.groupBox1.Controls.Add(this.spoor53v1);
+            this.groupBox1.Controls.Add(this.spoor5301);
             this.groupBox1.Controls.Add(this.label139);
-            this.groupBox1.Controls.Add(this.spoor52v5);
-            this.groupBox1.Controls.Add(this.spoor52v6);
-            this.groupBox1.Controls.Add(this.spoor52v4);
-            this.groupBox1.Controls.Add(this.spoor52v3);
-            this.groupBox1.Controls.Add(this.spoor52v2);
-            this.groupBox1.Controls.Add(this.spoor52v1);
+            this.groupBox1.Controls.Add(this.spoor5205);
+            this.groupBox1.Controls.Add(this.spoor5206);
+            this.groupBox1.Controls.Add(this.spoor5204);
+            this.groupBox1.Controls.Add(this.spoor5203);
+            this.groupBox1.Controls.Add(this.spoor5202);
+            this.groupBox1.Controls.Add(this.spoor5201);
             this.groupBox1.Controls.Add(this.label129);
-            this.groupBox1.Controls.Add(this.spoor57v8);
-            this.groupBox1.Controls.Add(this.spoor51v5);
-            this.groupBox1.Controls.Add(this.spoor51v4);
-            this.groupBox1.Controls.Add(this.spoor51v3);
-            this.groupBox1.Controls.Add(this.spoor51v2);
-            this.groupBox1.Controls.Add(this.spoor51v1);
+            this.groupBox1.Controls.Add(this.spoor5708);
+            this.groupBox1.Controls.Add(this.spoor5105);
+            this.groupBox1.Controls.Add(this.spoor5104);
+            this.groupBox1.Controls.Add(this.spoor5103);
+            this.groupBox1.Controls.Add(this.spoor5102);
+            this.groupBox1.Controls.Add(this.spoor5101);
             this.groupBox1.Controls.Add(this.label119);
-            this.groupBox1.Controls.Add(this.spoor45v9);
-            this.groupBox1.Controls.Add(this.spoor45v8);
-            this.groupBox1.Controls.Add(this.spoor45v5);
-            this.groupBox1.Controls.Add(this.spoor45v6);
-            this.groupBox1.Controls.Add(this.spoor45v7);
-            this.groupBox1.Controls.Add(this.spoor45v4);
-            this.groupBox1.Controls.Add(this.spoor45v3);
-            this.groupBox1.Controls.Add(this.spoor45v2);
-            this.groupBox1.Controls.Add(this.spoor45v1);
+            this.groupBox1.Controls.Add(this.spoor4509);
+            this.groupBox1.Controls.Add(this.spoor4508);
+            this.groupBox1.Controls.Add(this.spoor4505);
+            this.groupBox1.Controls.Add(this.spoor4506);
+            this.groupBox1.Controls.Add(this.spoor4507);
+            this.groupBox1.Controls.Add(this.spoor4504);
+            this.groupBox1.Controls.Add(this.spoor4503);
+            this.groupBox1.Controls.Add(this.spoor4502);
+            this.groupBox1.Controls.Add(this.spoor4501);
             this.groupBox1.Controls.Add(this.label107);
-            this.groupBox1.Controls.Add(this.spoor40v5);
-            this.groupBox1.Controls.Add(this.spoor40v6);
-            this.groupBox1.Controls.Add(this.spoor40v7);
-            this.groupBox1.Controls.Add(this.spoor44v4);
-            this.groupBox1.Controls.Add(this.spoor43v4);
-            this.groupBox1.Controls.Add(this.spoor42v4);
-            this.groupBox1.Controls.Add(this.spoor41v4);
-            this.groupBox1.Controls.Add(this.spoor40v4);
-            this.groupBox1.Controls.Add(this.spoor38v4);
-            this.groupBox1.Controls.Add(this.spoor37v4);
-            this.groupBox1.Controls.Add(this.spoor36v4);
-            this.groupBox1.Controls.Add(this.spoor35v4);
-            this.groupBox1.Controls.Add(this.spoor34v4);
-            this.groupBox1.Controls.Add(this.spoor33v4);
-            this.groupBox1.Controls.Add(this.spoor32v4);
-            this.groupBox1.Controls.Add(this.spoor44v3);
-            this.groupBox1.Controls.Add(this.spoor43v3);
-            this.groupBox1.Controls.Add(this.spoor42v3);
-            this.groupBox1.Controls.Add(this.spoor41v3);
-            this.groupBox1.Controls.Add(this.spoor40v3);
-            this.groupBox1.Controls.Add(this.spoor38v3);
-            this.groupBox1.Controls.Add(this.spoor37v3);
-            this.groupBox1.Controls.Add(this.spoor36v3);
-            this.groupBox1.Controls.Add(this.spoor35v3);
-            this.groupBox1.Controls.Add(this.spoor34v3);
-            this.groupBox1.Controls.Add(this.spoor33v3);
-            this.groupBox1.Controls.Add(this.spoor32v3);
-            this.groupBox1.Controls.Add(this.spoor31v3);
-            this.groupBox1.Controls.Add(this.spoor30v3);
-            this.groupBox1.Controls.Add(this.spoor44v2);
-            this.groupBox1.Controls.Add(this.spoor43v2);
-            this.groupBox1.Controls.Add(this.spoor42v2);
-            this.groupBox1.Controls.Add(this.spoor41v2);
-            this.groupBox1.Controls.Add(this.spoor40v2);
-            this.groupBox1.Controls.Add(this.spoor38v2);
-            this.groupBox1.Controls.Add(this.spoor37v2);
-            this.groupBox1.Controls.Add(this.spoor36v2);
-            this.groupBox1.Controls.Add(this.spoor35v2);
-            this.groupBox1.Controls.Add(this.spoor34v2);
-            this.groupBox1.Controls.Add(this.spoor33v2);
-            this.groupBox1.Controls.Add(this.spoor32v2);
-            this.groupBox1.Controls.Add(this.spoor31v2);
-            this.groupBox1.Controls.Add(this.spoor30v2);
-            this.groupBox1.Controls.Add(this.spoor44v1);
-            this.groupBox1.Controls.Add(this.spoor43v1);
-            this.groupBox1.Controls.Add(this.spoor42v1);
-            this.groupBox1.Controls.Add(this.spoor41v1);
-            this.groupBox1.Controls.Add(this.spoor40v1);
-            this.groupBox1.Controls.Add(this.spoor38v1);
-            this.groupBox1.Controls.Add(this.spoor37v1);
-            this.groupBox1.Controls.Add(this.spoor36v1);
-            this.groupBox1.Controls.Add(this.spoor35v1);
-            this.groupBox1.Controls.Add(this.spoor34v1);
-            this.groupBox1.Controls.Add(this.spoor33v1);
-            this.groupBox1.Controls.Add(this.spoor32v1);
-            this.groupBox1.Controls.Add(this.spoor31v1);
-            this.groupBox1.Controls.Add(this.spoor30v1);
-            this.groupBox1.Controls.Add(this.spoor21v1);
-            this.groupBox1.Controls.Add(this.spoor20v1);
-            this.groupBox1.Controls.Add(this.spoor19v1);
-            this.groupBox1.Controls.Add(this.spoor18v1);
-            this.groupBox1.Controls.Add(this.spoor17v1);
-            this.groupBox1.Controls.Add(this.spoor16v1);
-            this.groupBox1.Controls.Add(this.spoor15v1);
-            this.groupBox1.Controls.Add(this.spoor14v1);
-            this.groupBox1.Controls.Add(this.spoor13v1);
-            this.groupBox1.Controls.Add(this.spoor12v1);
+            this.groupBox1.Controls.Add(this.spoor4005);
+            this.groupBox1.Controls.Add(this.spoor4006);
+            this.groupBox1.Controls.Add(this.spoor4007);
+            this.groupBox1.Controls.Add(this.spoor4404);
+            this.groupBox1.Controls.Add(this.spoor4304);
+            this.groupBox1.Controls.Add(this.spoor4204);
+            this.groupBox1.Controls.Add(this.spoor4104);
+            this.groupBox1.Controls.Add(this.spoor4004);
+            this.groupBox1.Controls.Add(this.spoor3804);
+            this.groupBox1.Controls.Add(this.spoor3704);
+            this.groupBox1.Controls.Add(this.spoor3604);
+            this.groupBox1.Controls.Add(this.spoor3504);
+            this.groupBox1.Controls.Add(this.spoor3404);
+            this.groupBox1.Controls.Add(this.spoor3304);
+            this.groupBox1.Controls.Add(this.spoor3204);
+            this.groupBox1.Controls.Add(this.spoor4403);
+            this.groupBox1.Controls.Add(this.spoor4303);
+            this.groupBox1.Controls.Add(this.spoor4203);
+            this.groupBox1.Controls.Add(this.spoor4103);
+            this.groupBox1.Controls.Add(this.spoor4003);
+            this.groupBox1.Controls.Add(this.spoor3803);
+            this.groupBox1.Controls.Add(this.spoor3703);
+            this.groupBox1.Controls.Add(this.spoor3603);
+            this.groupBox1.Controls.Add(this.spoor3503);
+            this.groupBox1.Controls.Add(this.spoor3403);
+            this.groupBox1.Controls.Add(this.spoor3303);
+            this.groupBox1.Controls.Add(this.spoor3203);
+            this.groupBox1.Controls.Add(this.spoor3103);
+            this.groupBox1.Controls.Add(this.spoor3003);
+            this.groupBox1.Controls.Add(this.spoor4402);
+            this.groupBox1.Controls.Add(this.spoor4302);
+            this.groupBox1.Controls.Add(this.spoor4202);
+            this.groupBox1.Controls.Add(this.spoor4102);
+            this.groupBox1.Controls.Add(this.spoor4002);
+            this.groupBox1.Controls.Add(this.spoor3802);
+            this.groupBox1.Controls.Add(this.spoor3702);
+            this.groupBox1.Controls.Add(this.spoor3602);
+            this.groupBox1.Controls.Add(this.spoor3502);
+            this.groupBox1.Controls.Add(this.spoor3402);
+            this.groupBox1.Controls.Add(this.spoor3302);
+            this.groupBox1.Controls.Add(this.spoor3202);
+            this.groupBox1.Controls.Add(this.spoor3102);
+            this.groupBox1.Controls.Add(this.spoor3002);
+            this.groupBox1.Controls.Add(this.spoor4401);
+            this.groupBox1.Controls.Add(this.spoor4301);
+            this.groupBox1.Controls.Add(this.spoor4201);
+            this.groupBox1.Controls.Add(this.spoor4101);
+            this.groupBox1.Controls.Add(this.spoor4001);
+            this.groupBox1.Controls.Add(this.spoor3801);
+            this.groupBox1.Controls.Add(this.spoor3701);
+            this.groupBox1.Controls.Add(this.spoor3601);
+            this.groupBox1.Controls.Add(this.spoor3501);
+            this.groupBox1.Controls.Add(this.spoor3401);
+            this.groupBox1.Controls.Add(this.spoor3301);
+            this.groupBox1.Controls.Add(this.spoor3201);
+            this.groupBox1.Controls.Add(this.spoor3101);
+            this.groupBox1.Controls.Add(this.spoor3001);
+            this.groupBox1.Controls.Add(this.spoor2101);
+            this.groupBox1.Controls.Add(this.spoor2001);
+            this.groupBox1.Controls.Add(this.spoor1901);
+            this.groupBox1.Controls.Add(this.spoor1801);
+            this.groupBox1.Controls.Add(this.spoor1701);
+            this.groupBox1.Controls.Add(this.spoor1601);
+            this.groupBox1.Controls.Add(this.spoor1501);
+            this.groupBox1.Controls.Add(this.spoor1401);
+            this.groupBox1.Controls.Add(this.spoor1301);
+            this.groupBox1.Controls.Add(this.spoor1201);
             this.groupBox1.Controls.Add(this.label26);
             this.groupBox1.Controls.Add(this.label17);
             this.groupBox1.Controls.Add(this.label18);
@@ -806,60 +1444,60 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Remise Overzicht";
             // 
-            // spoor77v5
+            // spoor7705
             // 
-            this.spoor77v5.BackColor = System.Drawing.Color.White;
-            this.spoor77v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor77v5.Location = new System.Drawing.Point(744, 621);
-            this.spoor77v5.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor77v5.Name = "spoor77v5";
-            this.spoor77v5.Size = new System.Drawing.Size(45, 30);
-            this.spoor77v5.TabIndex = 176;
-            this.spoor77v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor7705.BackColor = System.Drawing.Color.White;
+            this.spoor7705.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7705.Location = new System.Drawing.Point(744, 621);
+            this.spoor7705.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7705.Name = "spoor7705";
+            this.spoor7705.Size = new System.Drawing.Size(45, 30);
+            this.spoor7705.TabIndex = 176;
+            this.spoor7705.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor77v4
+            // spoor7704
             // 
-            this.spoor77v4.BackColor = System.Drawing.Color.White;
-            this.spoor77v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor77v4.Location = new System.Drawing.Point(744, 587);
-            this.spoor77v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor77v4.Name = "spoor77v4";
-            this.spoor77v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor77v4.TabIndex = 173;
-            this.spoor77v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor7704.BackColor = System.Drawing.Color.White;
+            this.spoor7704.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7704.Location = new System.Drawing.Point(744, 587);
+            this.spoor7704.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7704.Name = "spoor7704";
+            this.spoor7704.Size = new System.Drawing.Size(45, 30);
+            this.spoor7704.TabIndex = 173;
+            this.spoor7704.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor77v3
+            // spoor7703
             // 
-            this.spoor77v3.BackColor = System.Drawing.Color.White;
-            this.spoor77v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor77v3.Location = new System.Drawing.Point(744, 553);
-            this.spoor77v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor77v3.Name = "spoor77v3";
-            this.spoor77v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor77v3.TabIndex = 172;
-            this.spoor77v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor7703.BackColor = System.Drawing.Color.White;
+            this.spoor7703.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7703.Location = new System.Drawing.Point(744, 553);
+            this.spoor7703.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7703.Name = "spoor7703";
+            this.spoor7703.Size = new System.Drawing.Size(45, 30);
+            this.spoor7703.TabIndex = 172;
+            this.spoor7703.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor77v2
+            // spoor7702
             // 
-            this.spoor77v2.BackColor = System.Drawing.Color.White;
-            this.spoor77v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor77v2.Location = new System.Drawing.Point(744, 519);
-            this.spoor77v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor77v2.Name = "spoor77v2";
-            this.spoor77v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor77v2.TabIndex = 171;
-            this.spoor77v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor7702.BackColor = System.Drawing.Color.White;
+            this.spoor7702.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7702.Location = new System.Drawing.Point(744, 519);
+            this.spoor7702.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7702.Name = "spoor7702";
+            this.spoor7702.Size = new System.Drawing.Size(45, 30);
+            this.spoor7702.TabIndex = 171;
+            this.spoor7702.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor77v1
+            // spoor7701
             // 
-            this.spoor77v1.BackColor = System.Drawing.Color.White;
-            this.spoor77v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor77v1.Location = new System.Drawing.Point(744, 483);
-            this.spoor77v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor77v1.Name = "spoor77v1";
-            this.spoor77v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor77v1.TabIndex = 170;
-            this.spoor77v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor7701.BackColor = System.Drawing.Color.White;
+            this.spoor7701.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7701.Location = new System.Drawing.Point(744, 483);
+            this.spoor7701.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7701.Name = "spoor7701";
+            this.spoor7701.Size = new System.Drawing.Size(45, 30);
+            this.spoor7701.TabIndex = 170;
+            this.spoor7701.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label158
             // 
@@ -873,566 +1511,566 @@
             this.label158.Text = "77";
             this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor76v5
-            // 
-            this.spoor76v5.BackColor = System.Drawing.Color.White;
-            this.spoor76v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor76v5.Location = new System.Drawing.Point(695, 621);
-            this.spoor76v5.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor76v5.Name = "spoor76v5";
-            this.spoor76v5.Size = new System.Drawing.Size(45, 30);
-            this.spoor76v5.TabIndex = 168;
-            this.spoor76v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor58v5
-            // 
-            this.spoor58v5.BackColor = System.Drawing.Color.White;
-            this.spoor58v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor58v5.Location = new System.Drawing.Point(351, 621);
-            this.spoor58v5.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor58v5.Name = "spoor58v5";
-            this.spoor58v5.Size = new System.Drawing.Size(45, 30);
-            this.spoor58v5.TabIndex = 168;
-            this.spoor58v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor57v5
-            // 
-            this.spoor57v5.BackColor = System.Drawing.Color.White;
-            this.spoor57v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor57v5.Location = new System.Drawing.Point(302, 621);
-            this.spoor57v5.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor57v5.Name = "spoor57v5";
-            this.spoor57v5.Size = new System.Drawing.Size(45, 30);
-            this.spoor57v5.TabIndex = 168;
-            this.spoor57v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor56v5
-            // 
-            this.spoor56v5.BackColor = System.Drawing.Color.White;
-            this.spoor56v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor56v5.Location = new System.Drawing.Point(253, 621);
-            this.spoor56v5.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor56v5.Name = "spoor56v5";
-            this.spoor56v5.Size = new System.Drawing.Size(45, 30);
-            this.spoor56v5.TabIndex = 168;
-            this.spoor56v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor55v5
-            // 
-            this.spoor55v5.BackColor = System.Drawing.Color.White;
-            this.spoor55v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor55v5.Location = new System.Drawing.Point(204, 621);
-            this.spoor55v5.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor55v5.Name = "spoor55v5";
-            this.spoor55v5.Size = new System.Drawing.Size(45, 30);
-            this.spoor55v5.TabIndex = 168;
-            this.spoor55v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor54v5
-            // 
-            this.spoor54v5.BackColor = System.Drawing.Color.White;
-            this.spoor54v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor54v5.Location = new System.Drawing.Point(155, 621);
-            this.spoor54v5.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor54v5.Name = "spoor54v5";
-            this.spoor54v5.Size = new System.Drawing.Size(45, 30);
-            this.spoor54v5.TabIndex = 168;
-            this.spoor54v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor53v5
-            // 
-            this.spoor53v5.BackColor = System.Drawing.Color.White;
-            this.spoor53v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor53v5.Location = new System.Drawing.Point(106, 621);
-            this.spoor53v5.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor53v5.Name = "spoor53v5";
-            this.spoor53v5.Size = new System.Drawing.Size(45, 30);
-            this.spoor53v5.TabIndex = 168;
-            this.spoor53v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor57v6
-            // 
-            this.spoor57v6.BackColor = System.Drawing.Color.White;
-            this.spoor57v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor57v6.Location = new System.Drawing.Point(302, 655);
-            this.spoor57v6.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor57v6.Name = "spoor57v6";
-            this.spoor57v6.Size = new System.Drawing.Size(45, 30);
-            this.spoor57v6.TabIndex = 167;
-            this.spoor57v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor56v6
-            // 
-            this.spoor56v6.BackColor = System.Drawing.Color.White;
-            this.spoor56v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor56v6.Location = new System.Drawing.Point(253, 655);
-            this.spoor56v6.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor56v6.Name = "spoor56v6";
-            this.spoor56v6.Size = new System.Drawing.Size(45, 30);
-            this.spoor56v6.TabIndex = 167;
-            this.spoor56v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor55v6
-            // 
-            this.spoor55v6.BackColor = System.Drawing.Color.White;
-            this.spoor55v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor55v6.Location = new System.Drawing.Point(204, 655);
-            this.spoor55v6.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor55v6.Name = "spoor55v6";
-            this.spoor55v6.Size = new System.Drawing.Size(45, 30);
-            this.spoor55v6.TabIndex = 167;
-            this.spoor55v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor54v6
-            // 
-            this.spoor54v6.BackColor = System.Drawing.Color.White;
-            this.spoor54v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor54v6.Location = new System.Drawing.Point(155, 655);
-            this.spoor54v6.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor54v6.Name = "spoor54v6";
-            this.spoor54v6.Size = new System.Drawing.Size(45, 30);
-            this.spoor54v6.TabIndex = 167;
-            this.spoor54v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor53v6
-            // 
-            this.spoor53v6.BackColor = System.Drawing.Color.White;
-            this.spoor53v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor53v6.Location = new System.Drawing.Point(106, 655);
-            this.spoor53v6.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor53v6.Name = "spoor53v6";
-            this.spoor53v6.Size = new System.Drawing.Size(45, 30);
-            this.spoor53v6.TabIndex = 167;
-            this.spoor53v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor57v7
-            // 
-            this.spoor57v7.BackColor = System.Drawing.Color.White;
-            this.spoor57v7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor57v7.Location = new System.Drawing.Point(302, 689);
-            this.spoor57v7.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor57v7.Name = "spoor57v7";
-            this.spoor57v7.Size = new System.Drawing.Size(45, 30);
-            this.spoor57v7.TabIndex = 166;
-            this.spoor57v7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor56v7
-            // 
-            this.spoor56v7.BackColor = System.Drawing.Color.White;
-            this.spoor56v7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor56v7.Location = new System.Drawing.Point(253, 689);
-            this.spoor56v7.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor56v7.Name = "spoor56v7";
-            this.spoor56v7.Size = new System.Drawing.Size(45, 30);
-            this.spoor56v7.TabIndex = 166;
-            this.spoor56v7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor55v7
-            // 
-            this.spoor55v7.BackColor = System.Drawing.Color.White;
-            this.spoor55v7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor55v7.Location = new System.Drawing.Point(204, 689);
-            this.spoor55v7.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor55v7.Name = "spoor55v7";
-            this.spoor55v7.Size = new System.Drawing.Size(45, 30);
-            this.spoor55v7.TabIndex = 166;
-            this.spoor55v7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor54v7
-            // 
-            this.spoor54v7.BackColor = System.Drawing.Color.White;
-            this.spoor54v7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor54v7.Location = new System.Drawing.Point(155, 689);
-            this.spoor54v7.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor54v7.Name = "spoor54v7";
-            this.spoor54v7.Size = new System.Drawing.Size(45, 30);
-            this.spoor54v7.TabIndex = 166;
-            this.spoor54v7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor76v4
-            // 
-            this.spoor76v4.BackColor = System.Drawing.Color.White;
-            this.spoor76v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor76v4.Location = new System.Drawing.Point(695, 587);
-            this.spoor76v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor76v4.Name = "spoor76v4";
-            this.spoor76v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor76v4.TabIndex = 165;
-            this.spoor76v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor75v4
-            // 
-            this.spoor75v4.BackColor = System.Drawing.Color.White;
-            this.spoor75v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor75v4.Location = new System.Drawing.Point(646, 587);
-            this.spoor75v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor75v4.Name = "spoor75v4";
-            this.spoor75v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor75v4.TabIndex = 165;
-            this.spoor75v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor63v4
-            // 
-            this.spoor63v4.BackColor = System.Drawing.Color.White;
-            this.spoor63v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor63v4.Location = new System.Drawing.Point(449, 587);
-            this.spoor63v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor63v4.Name = "spoor63v4";
-            this.spoor63v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor63v4.TabIndex = 165;
-            this.spoor63v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor64v4
-            // 
-            this.spoor64v4.BackColor = System.Drawing.Color.White;
-            this.spoor64v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor64v4.Location = new System.Drawing.Point(400, 587);
-            this.spoor64v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor64v4.Name = "spoor64v4";
-            this.spoor64v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor64v4.TabIndex = 165;
-            this.spoor64v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor58v4
-            // 
-            this.spoor58v4.BackColor = System.Drawing.Color.White;
-            this.spoor58v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor58v4.Location = new System.Drawing.Point(351, 587);
-            this.spoor58v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor58v4.Name = "spoor58v4";
-            this.spoor58v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor58v4.TabIndex = 165;
-            this.spoor58v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor57v4
-            // 
-            this.spoor57v4.BackColor = System.Drawing.Color.White;
-            this.spoor57v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor57v4.Location = new System.Drawing.Point(302, 587);
-            this.spoor57v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor57v4.Name = "spoor57v4";
-            this.spoor57v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor57v4.TabIndex = 165;
-            this.spoor57v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor56v4
-            // 
-            this.spoor56v4.BackColor = System.Drawing.Color.White;
-            this.spoor56v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor56v4.Location = new System.Drawing.Point(253, 587);
-            this.spoor56v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor56v4.Name = "spoor56v4";
-            this.spoor56v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor56v4.TabIndex = 165;
-            this.spoor56v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor55v4
-            // 
-            this.spoor55v4.BackColor = System.Drawing.Color.White;
-            this.spoor55v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor55v4.Location = new System.Drawing.Point(204, 587);
-            this.spoor55v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor55v4.Name = "spoor55v4";
-            this.spoor55v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor55v4.TabIndex = 165;
-            this.spoor55v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor54v4
-            // 
-            this.spoor54v4.BackColor = System.Drawing.Color.White;
-            this.spoor54v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor54v4.Location = new System.Drawing.Point(155, 587);
-            this.spoor54v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor54v4.Name = "spoor54v4";
-            this.spoor54v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor54v4.TabIndex = 165;
-            this.spoor54v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor53v4
-            // 
-            this.spoor53v4.BackColor = System.Drawing.Color.White;
-            this.spoor53v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor53v4.Location = new System.Drawing.Point(106, 587);
-            this.spoor53v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor53v4.Name = "spoor53v4";
-            this.spoor53v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor53v4.TabIndex = 165;
-            this.spoor53v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor76v3
-            // 
-            this.spoor76v3.BackColor = System.Drawing.Color.White;
-            this.spoor76v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor76v3.Location = new System.Drawing.Point(695, 553);
-            this.spoor76v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor76v3.Name = "spoor76v3";
-            this.spoor76v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor76v3.TabIndex = 164;
-            this.spoor76v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor75v3
-            // 
-            this.spoor75v3.BackColor = System.Drawing.Color.White;
-            this.spoor75v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor75v3.Location = new System.Drawing.Point(646, 553);
-            this.spoor75v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor75v3.Name = "spoor75v3";
-            this.spoor75v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor75v3.TabIndex = 164;
-            this.spoor75v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor74v3
-            // 
-            this.spoor74v3.BackColor = System.Drawing.Color.White;
-            this.spoor74v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor74v3.Location = new System.Drawing.Point(597, 553);
-            this.spoor74v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor74v3.Name = "spoor74v3";
-            this.spoor74v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor74v3.TabIndex = 164;
-            this.spoor74v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor63v3
-            // 
-            this.spoor63v3.BackColor = System.Drawing.Color.White;
-            this.spoor63v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor63v3.Location = new System.Drawing.Point(449, 553);
-            this.spoor63v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor63v3.Name = "spoor63v3";
-            this.spoor63v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor63v3.TabIndex = 164;
-            this.spoor63v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor64v3
-            // 
-            this.spoor64v3.BackColor = System.Drawing.Color.White;
-            this.spoor64v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor64v3.Location = new System.Drawing.Point(400, 553);
-            this.spoor64v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor64v3.Name = "spoor64v3";
-            this.spoor64v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor64v3.TabIndex = 164;
-            this.spoor64v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor58v3
-            // 
-            this.spoor58v3.BackColor = System.Drawing.Color.White;
-            this.spoor58v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor58v3.Location = new System.Drawing.Point(351, 553);
-            this.spoor58v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor58v3.Name = "spoor58v3";
-            this.spoor58v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor58v3.TabIndex = 164;
-            this.spoor58v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor57v3
-            // 
-            this.spoor57v3.BackColor = System.Drawing.Color.White;
-            this.spoor57v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor57v3.Location = new System.Drawing.Point(302, 553);
-            this.spoor57v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor57v3.Name = "spoor57v3";
-            this.spoor57v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor57v3.TabIndex = 164;
-            this.spoor57v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor56v3
-            // 
-            this.spoor56v3.BackColor = System.Drawing.Color.White;
-            this.spoor56v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor56v3.Location = new System.Drawing.Point(253, 553);
-            this.spoor56v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor56v3.Name = "spoor56v3";
-            this.spoor56v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor56v3.TabIndex = 164;
-            this.spoor56v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor55v3
-            // 
-            this.spoor55v3.BackColor = System.Drawing.Color.White;
-            this.spoor55v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor55v3.Location = new System.Drawing.Point(204, 553);
-            this.spoor55v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor55v3.Name = "spoor55v3";
-            this.spoor55v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor55v3.TabIndex = 164;
-            this.spoor55v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor54v3
-            // 
-            this.spoor54v3.BackColor = System.Drawing.Color.White;
-            this.spoor54v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor54v3.Location = new System.Drawing.Point(155, 553);
-            this.spoor54v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor54v3.Name = "spoor54v3";
-            this.spoor54v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor54v3.TabIndex = 164;
-            this.spoor54v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor53v3
-            // 
-            this.spoor53v3.BackColor = System.Drawing.Color.White;
-            this.spoor53v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor53v3.Location = new System.Drawing.Point(106, 553);
-            this.spoor53v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor53v3.Name = "spoor53v3";
-            this.spoor53v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor53v3.TabIndex = 164;
-            this.spoor53v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor76v2
-            // 
-            this.spoor76v2.BackColor = System.Drawing.Color.White;
-            this.spoor76v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor76v2.Location = new System.Drawing.Point(695, 519);
-            this.spoor76v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor76v2.Name = "spoor76v2";
-            this.spoor76v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor76v2.TabIndex = 163;
-            this.spoor76v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor76v1
-            // 
-            this.spoor76v1.BackColor = System.Drawing.Color.White;
-            this.spoor76v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor76v1.Location = new System.Drawing.Point(695, 483);
-            this.spoor76v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor76v1.Name = "spoor76v1";
-            this.spoor76v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor76v1.TabIndex = 162;
-            this.spoor76v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor75v2
-            // 
-            this.spoor75v2.BackColor = System.Drawing.Color.White;
-            this.spoor75v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor75v2.Location = new System.Drawing.Point(646, 519);
-            this.spoor75v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor75v2.Name = "spoor75v2";
-            this.spoor75v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor75v2.TabIndex = 163;
-            this.spoor75v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor75v1
-            // 
-            this.spoor75v1.BackColor = System.Drawing.Color.White;
-            this.spoor75v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor75v1.Location = new System.Drawing.Point(646, 483);
-            this.spoor75v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor75v1.Name = "spoor75v1";
-            this.spoor75v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor75v1.TabIndex = 162;
-            this.spoor75v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor74v2
-            // 
-            this.spoor74v2.BackColor = System.Drawing.Color.White;
-            this.spoor74v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor74v2.Location = new System.Drawing.Point(597, 519);
-            this.spoor74v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor74v2.Name = "spoor74v2";
-            this.spoor74v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor74v2.TabIndex = 163;
-            this.spoor74v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor74v1
-            // 
-            this.spoor74v1.BackColor = System.Drawing.Color.White;
-            this.spoor74v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor74v1.Location = new System.Drawing.Point(597, 483);
-            this.spoor74v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor74v1.Name = "spoor74v1";
-            this.spoor74v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor74v1.TabIndex = 162;
-            this.spoor74v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor61v2
-            // 
-            this.spoor61v2.BackColor = System.Drawing.Color.White;
-            this.spoor61v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor61v2.Location = new System.Drawing.Point(548, 519);
-            this.spoor61v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor61v2.Name = "spoor61v2";
-            this.spoor61v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor61v2.TabIndex = 163;
-            this.spoor61v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor61v1
-            // 
-            this.spoor61v1.BackColor = System.Drawing.Color.White;
-            this.spoor61v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor61v1.Location = new System.Drawing.Point(548, 483);
-            this.spoor61v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor61v1.Name = "spoor61v1";
-            this.spoor61v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor61v1.TabIndex = 162;
-            this.spoor61v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor62v2
-            // 
-            this.spoor62v2.BackColor = System.Drawing.Color.White;
-            this.spoor62v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor62v2.Location = new System.Drawing.Point(499, 519);
-            this.spoor62v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor62v2.Name = "spoor62v2";
-            this.spoor62v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor62v2.TabIndex = 163;
-            this.spoor62v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor62v1
-            // 
-            this.spoor62v1.BackColor = System.Drawing.Color.White;
-            this.spoor62v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor62v1.Location = new System.Drawing.Point(499, 483);
-            this.spoor62v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor62v1.Name = "spoor62v1";
-            this.spoor62v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor62v1.TabIndex = 162;
-            this.spoor62v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor63v2
-            // 
-            this.spoor63v2.BackColor = System.Drawing.Color.White;
-            this.spoor63v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor63v2.Location = new System.Drawing.Point(449, 519);
-            this.spoor63v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor63v2.Name = "spoor63v2";
-            this.spoor63v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor63v2.TabIndex = 163;
-            this.spoor63v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor63v1
-            // 
-            this.spoor63v1.BackColor = System.Drawing.Color.White;
-            this.spoor63v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor63v1.Location = new System.Drawing.Point(449, 483);
-            this.spoor63v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor63v1.Name = "spoor63v1";
-            this.spoor63v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor63v1.TabIndex = 162;
-            this.spoor63v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor64v2
-            // 
-            this.spoor64v2.BackColor = System.Drawing.Color.White;
-            this.spoor64v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor64v2.Location = new System.Drawing.Point(400, 519);
-            this.spoor64v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor64v2.Name = "spoor64v2";
-            this.spoor64v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor64v2.TabIndex = 163;
-            this.spoor64v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor64v1
-            // 
-            this.spoor64v1.BackColor = System.Drawing.Color.White;
-            this.spoor64v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor64v1.Location = new System.Drawing.Point(400, 483);
-            this.spoor64v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor64v1.Name = "spoor64v1";
-            this.spoor64v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor64v1.TabIndex = 162;
-            this.spoor64v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // spoor7605
+            // 
+            this.spoor7605.BackColor = System.Drawing.Color.White;
+            this.spoor7605.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7605.Location = new System.Drawing.Point(695, 621);
+            this.spoor7605.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7605.Name = "spoor7605";
+            this.spoor7605.Size = new System.Drawing.Size(45, 30);
+            this.spoor7605.TabIndex = 168;
+            this.spoor7605.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5805
+            // 
+            this.spoor5805.BackColor = System.Drawing.Color.White;
+            this.spoor5805.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5805.Location = new System.Drawing.Point(351, 621);
+            this.spoor5805.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5805.Name = "spoor5805";
+            this.spoor5805.Size = new System.Drawing.Size(45, 30);
+            this.spoor5805.TabIndex = 168;
+            this.spoor5805.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5705
+            // 
+            this.spoor5705.BackColor = System.Drawing.Color.White;
+            this.spoor5705.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5705.Location = new System.Drawing.Point(302, 621);
+            this.spoor5705.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5705.Name = "spoor5705";
+            this.spoor5705.Size = new System.Drawing.Size(45, 30);
+            this.spoor5705.TabIndex = 168;
+            this.spoor5705.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5605
+            // 
+            this.spoor5605.BackColor = System.Drawing.Color.White;
+            this.spoor5605.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5605.Location = new System.Drawing.Point(253, 621);
+            this.spoor5605.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5605.Name = "spoor5605";
+            this.spoor5605.Size = new System.Drawing.Size(45, 30);
+            this.spoor5605.TabIndex = 168;
+            this.spoor5605.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5505
+            // 
+            this.spoor5505.BackColor = System.Drawing.Color.White;
+            this.spoor5505.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5505.Location = new System.Drawing.Point(204, 621);
+            this.spoor5505.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5505.Name = "spoor5505";
+            this.spoor5505.Size = new System.Drawing.Size(45, 30);
+            this.spoor5505.TabIndex = 168;
+            this.spoor5505.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5405
+            // 
+            this.spoor5405.BackColor = System.Drawing.Color.White;
+            this.spoor5405.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5405.Location = new System.Drawing.Point(155, 621);
+            this.spoor5405.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5405.Name = "spoor5405";
+            this.spoor5405.Size = new System.Drawing.Size(45, 30);
+            this.spoor5405.TabIndex = 168;
+            this.spoor5405.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5305
+            // 
+            this.spoor5305.BackColor = System.Drawing.Color.White;
+            this.spoor5305.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5305.Location = new System.Drawing.Point(106, 621);
+            this.spoor5305.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5305.Name = "spoor5305";
+            this.spoor5305.Size = new System.Drawing.Size(45, 30);
+            this.spoor5305.TabIndex = 168;
+            this.spoor5305.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5706
+            // 
+            this.spoor5706.BackColor = System.Drawing.Color.White;
+            this.spoor5706.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5706.Location = new System.Drawing.Point(302, 655);
+            this.spoor5706.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5706.Name = "spoor5706";
+            this.spoor5706.Size = new System.Drawing.Size(45, 30);
+            this.spoor5706.TabIndex = 167;
+            this.spoor5706.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5606
+            // 
+            this.spoor5606.BackColor = System.Drawing.Color.White;
+            this.spoor5606.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5606.Location = new System.Drawing.Point(253, 655);
+            this.spoor5606.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5606.Name = "spoor5606";
+            this.spoor5606.Size = new System.Drawing.Size(45, 30);
+            this.spoor5606.TabIndex = 167;
+            this.spoor5606.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5506
+            // 
+            this.spoor5506.BackColor = System.Drawing.Color.White;
+            this.spoor5506.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5506.Location = new System.Drawing.Point(204, 655);
+            this.spoor5506.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5506.Name = "spoor5506";
+            this.spoor5506.Size = new System.Drawing.Size(45, 30);
+            this.spoor5506.TabIndex = 167;
+            this.spoor5506.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5406
+            // 
+            this.spoor5406.BackColor = System.Drawing.Color.White;
+            this.spoor5406.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5406.Location = new System.Drawing.Point(155, 655);
+            this.spoor5406.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5406.Name = "spoor5406";
+            this.spoor5406.Size = new System.Drawing.Size(45, 30);
+            this.spoor5406.TabIndex = 167;
+            this.spoor5406.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5306
+            // 
+            this.spoor5306.BackColor = System.Drawing.Color.White;
+            this.spoor5306.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5306.Location = new System.Drawing.Point(106, 655);
+            this.spoor5306.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5306.Name = "spoor5306";
+            this.spoor5306.Size = new System.Drawing.Size(45, 30);
+            this.spoor5306.TabIndex = 167;
+            this.spoor5306.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5707
+            // 
+            this.spoor5707.BackColor = System.Drawing.Color.White;
+            this.spoor5707.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5707.Location = new System.Drawing.Point(302, 689);
+            this.spoor5707.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5707.Name = "spoor5707";
+            this.spoor5707.Size = new System.Drawing.Size(45, 30);
+            this.spoor5707.TabIndex = 166;
+            this.spoor5707.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5607
+            // 
+            this.spoor5607.BackColor = System.Drawing.Color.White;
+            this.spoor5607.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5607.Location = new System.Drawing.Point(253, 689);
+            this.spoor5607.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5607.Name = "spoor5607";
+            this.spoor5607.Size = new System.Drawing.Size(45, 30);
+            this.spoor5607.TabIndex = 166;
+            this.spoor5607.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5507
+            // 
+            this.spoor5507.BackColor = System.Drawing.Color.White;
+            this.spoor5507.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5507.Location = new System.Drawing.Point(204, 689);
+            this.spoor5507.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5507.Name = "spoor5507";
+            this.spoor5507.Size = new System.Drawing.Size(45, 30);
+            this.spoor5507.TabIndex = 166;
+            this.spoor5507.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5407
+            // 
+            this.spoor5407.BackColor = System.Drawing.Color.White;
+            this.spoor5407.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5407.Location = new System.Drawing.Point(155, 689);
+            this.spoor5407.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5407.Name = "spoor5407";
+            this.spoor5407.Size = new System.Drawing.Size(45, 30);
+            this.spoor5407.TabIndex = 166;
+            this.spoor5407.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor7604
+            // 
+            this.spoor7604.BackColor = System.Drawing.Color.White;
+            this.spoor7604.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7604.Location = new System.Drawing.Point(695, 587);
+            this.spoor7604.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7604.Name = "spoor7604";
+            this.spoor7604.Size = new System.Drawing.Size(45, 30);
+            this.spoor7604.TabIndex = 165;
+            this.spoor7604.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor7504
+            // 
+            this.spoor7504.BackColor = System.Drawing.Color.White;
+            this.spoor7504.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7504.Location = new System.Drawing.Point(646, 587);
+            this.spoor7504.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7504.Name = "spoor7504";
+            this.spoor7504.Size = new System.Drawing.Size(45, 30);
+            this.spoor7504.TabIndex = 165;
+            this.spoor7504.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor6304
+            // 
+            this.spoor6304.BackColor = System.Drawing.Color.White;
+            this.spoor6304.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor6304.Location = new System.Drawing.Point(449, 587);
+            this.spoor6304.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor6304.Name = "spoor6304";
+            this.spoor6304.Size = new System.Drawing.Size(45, 30);
+            this.spoor6304.TabIndex = 165;
+            this.spoor6304.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor6404
+            // 
+            this.spoor6404.BackColor = System.Drawing.Color.White;
+            this.spoor6404.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor6404.Location = new System.Drawing.Point(400, 587);
+            this.spoor6404.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor6404.Name = "spoor6404";
+            this.spoor6404.Size = new System.Drawing.Size(45, 30);
+            this.spoor6404.TabIndex = 165;
+            this.spoor6404.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5804
+            // 
+            this.spoor5804.BackColor = System.Drawing.Color.White;
+            this.spoor5804.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5804.Location = new System.Drawing.Point(351, 587);
+            this.spoor5804.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5804.Name = "spoor5804";
+            this.spoor5804.Size = new System.Drawing.Size(45, 30);
+            this.spoor5804.TabIndex = 165;
+            this.spoor5804.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5704
+            // 
+            this.spoor5704.BackColor = System.Drawing.Color.White;
+            this.spoor5704.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5704.Location = new System.Drawing.Point(302, 587);
+            this.spoor5704.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5704.Name = "spoor5704";
+            this.spoor5704.Size = new System.Drawing.Size(45, 30);
+            this.spoor5704.TabIndex = 165;
+            this.spoor5704.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5604
+            // 
+            this.spoor5604.BackColor = System.Drawing.Color.White;
+            this.spoor5604.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5604.Location = new System.Drawing.Point(253, 587);
+            this.spoor5604.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5604.Name = "spoor5604";
+            this.spoor5604.Size = new System.Drawing.Size(45, 30);
+            this.spoor5604.TabIndex = 165;
+            this.spoor5604.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5504
+            // 
+            this.spoor5504.BackColor = System.Drawing.Color.White;
+            this.spoor5504.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5504.Location = new System.Drawing.Point(204, 587);
+            this.spoor5504.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5504.Name = "spoor5504";
+            this.spoor5504.Size = new System.Drawing.Size(45, 30);
+            this.spoor5504.TabIndex = 165;
+            this.spoor5504.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5404
+            // 
+            this.spoor5404.BackColor = System.Drawing.Color.White;
+            this.spoor5404.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5404.Location = new System.Drawing.Point(155, 587);
+            this.spoor5404.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5404.Name = "spoor5404";
+            this.spoor5404.Size = new System.Drawing.Size(45, 30);
+            this.spoor5404.TabIndex = 165;
+            this.spoor5404.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5304
+            // 
+            this.spoor5304.BackColor = System.Drawing.Color.White;
+            this.spoor5304.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5304.Location = new System.Drawing.Point(106, 587);
+            this.spoor5304.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5304.Name = "spoor5304";
+            this.spoor5304.Size = new System.Drawing.Size(45, 30);
+            this.spoor5304.TabIndex = 165;
+            this.spoor5304.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor7603
+            // 
+            this.spoor7603.BackColor = System.Drawing.Color.White;
+            this.spoor7603.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7603.Location = new System.Drawing.Point(695, 553);
+            this.spoor7603.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7603.Name = "spoor7603";
+            this.spoor7603.Size = new System.Drawing.Size(45, 30);
+            this.spoor7603.TabIndex = 164;
+            this.spoor7603.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor7503
+            // 
+            this.spoor7503.BackColor = System.Drawing.Color.White;
+            this.spoor7503.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7503.Location = new System.Drawing.Point(646, 553);
+            this.spoor7503.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7503.Name = "spoor7503";
+            this.spoor7503.Size = new System.Drawing.Size(45, 30);
+            this.spoor7503.TabIndex = 164;
+            this.spoor7503.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor7403
+            // 
+            this.spoor7403.BackColor = System.Drawing.Color.White;
+            this.spoor7403.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7403.Location = new System.Drawing.Point(597, 553);
+            this.spoor7403.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7403.Name = "spoor7403";
+            this.spoor7403.Size = new System.Drawing.Size(45, 30);
+            this.spoor7403.TabIndex = 164;
+            this.spoor7403.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor6303
+            // 
+            this.spoor6303.BackColor = System.Drawing.Color.White;
+            this.spoor6303.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor6303.Location = new System.Drawing.Point(449, 553);
+            this.spoor6303.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor6303.Name = "spoor6303";
+            this.spoor6303.Size = new System.Drawing.Size(45, 30);
+            this.spoor6303.TabIndex = 164;
+            this.spoor6303.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor6403
+            // 
+            this.spoor6403.BackColor = System.Drawing.Color.White;
+            this.spoor6403.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor6403.Location = new System.Drawing.Point(400, 553);
+            this.spoor6403.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor6403.Name = "spoor6403";
+            this.spoor6403.Size = new System.Drawing.Size(45, 30);
+            this.spoor6403.TabIndex = 164;
+            this.spoor6403.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5803
+            // 
+            this.spoor5803.BackColor = System.Drawing.Color.White;
+            this.spoor5803.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5803.Location = new System.Drawing.Point(351, 553);
+            this.spoor5803.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5803.Name = "spoor5803";
+            this.spoor5803.Size = new System.Drawing.Size(45, 30);
+            this.spoor5803.TabIndex = 164;
+            this.spoor5803.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5703
+            // 
+            this.spoor5703.BackColor = System.Drawing.Color.White;
+            this.spoor5703.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5703.Location = new System.Drawing.Point(302, 553);
+            this.spoor5703.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5703.Name = "spoor5703";
+            this.spoor5703.Size = new System.Drawing.Size(45, 30);
+            this.spoor5703.TabIndex = 164;
+            this.spoor5703.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5603
+            // 
+            this.spoor5603.BackColor = System.Drawing.Color.White;
+            this.spoor5603.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5603.Location = new System.Drawing.Point(253, 553);
+            this.spoor5603.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5603.Name = "spoor5603";
+            this.spoor5603.Size = new System.Drawing.Size(45, 30);
+            this.spoor5603.TabIndex = 164;
+            this.spoor5603.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5503
+            // 
+            this.spoor5503.BackColor = System.Drawing.Color.White;
+            this.spoor5503.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5503.Location = new System.Drawing.Point(204, 553);
+            this.spoor5503.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5503.Name = "spoor5503";
+            this.spoor5503.Size = new System.Drawing.Size(45, 30);
+            this.spoor5503.TabIndex = 164;
+            this.spoor5503.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5403
+            // 
+            this.spoor5403.BackColor = System.Drawing.Color.White;
+            this.spoor5403.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5403.Location = new System.Drawing.Point(155, 553);
+            this.spoor5403.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5403.Name = "spoor5403";
+            this.spoor5403.Size = new System.Drawing.Size(45, 30);
+            this.spoor5403.TabIndex = 164;
+            this.spoor5403.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor5303
+            // 
+            this.spoor5303.BackColor = System.Drawing.Color.White;
+            this.spoor5303.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5303.Location = new System.Drawing.Point(106, 553);
+            this.spoor5303.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5303.Name = "spoor5303";
+            this.spoor5303.Size = new System.Drawing.Size(45, 30);
+            this.spoor5303.TabIndex = 164;
+            this.spoor5303.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor7602
+            // 
+            this.spoor7602.BackColor = System.Drawing.Color.White;
+            this.spoor7602.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7602.Location = new System.Drawing.Point(695, 519);
+            this.spoor7602.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7602.Name = "spoor7602";
+            this.spoor7602.Size = new System.Drawing.Size(45, 30);
+            this.spoor7602.TabIndex = 163;
+            this.spoor7602.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor7601
+            // 
+            this.spoor7601.BackColor = System.Drawing.Color.White;
+            this.spoor7601.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7601.Location = new System.Drawing.Point(695, 483);
+            this.spoor7601.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7601.Name = "spoor7601";
+            this.spoor7601.Size = new System.Drawing.Size(45, 30);
+            this.spoor7601.TabIndex = 162;
+            this.spoor7601.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor7502
+            // 
+            this.spoor7502.BackColor = System.Drawing.Color.White;
+            this.spoor7502.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7502.Location = new System.Drawing.Point(646, 519);
+            this.spoor7502.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7502.Name = "spoor7502";
+            this.spoor7502.Size = new System.Drawing.Size(45, 30);
+            this.spoor7502.TabIndex = 163;
+            this.spoor7502.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor7501
+            // 
+            this.spoor7501.BackColor = System.Drawing.Color.White;
+            this.spoor7501.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7501.Location = new System.Drawing.Point(646, 483);
+            this.spoor7501.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7501.Name = "spoor7501";
+            this.spoor7501.Size = new System.Drawing.Size(45, 30);
+            this.spoor7501.TabIndex = 162;
+            this.spoor7501.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor7402
+            // 
+            this.spoor7402.BackColor = System.Drawing.Color.White;
+            this.spoor7402.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7402.Location = new System.Drawing.Point(597, 519);
+            this.spoor7402.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7402.Name = "spoor7402";
+            this.spoor7402.Size = new System.Drawing.Size(45, 30);
+            this.spoor7402.TabIndex = 163;
+            this.spoor7402.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor7401
+            // 
+            this.spoor7401.BackColor = System.Drawing.Color.White;
+            this.spoor7401.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor7401.Location = new System.Drawing.Point(597, 483);
+            this.spoor7401.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor7401.Name = "spoor7401";
+            this.spoor7401.Size = new System.Drawing.Size(45, 30);
+            this.spoor7401.TabIndex = 162;
+            this.spoor7401.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor6102
+            // 
+            this.spoor6102.BackColor = System.Drawing.Color.White;
+            this.spoor6102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor6102.Location = new System.Drawing.Point(548, 519);
+            this.spoor6102.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor6102.Name = "spoor6102";
+            this.spoor6102.Size = new System.Drawing.Size(45, 30);
+            this.spoor6102.TabIndex = 163;
+            this.spoor6102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor6101
+            // 
+            this.spoor6101.BackColor = System.Drawing.Color.White;
+            this.spoor6101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor6101.Location = new System.Drawing.Point(548, 483);
+            this.spoor6101.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor6101.Name = "spoor6101";
+            this.spoor6101.Size = new System.Drawing.Size(45, 30);
+            this.spoor6101.TabIndex = 162;
+            this.spoor6101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor6202
+            // 
+            this.spoor6202.BackColor = System.Drawing.Color.White;
+            this.spoor6202.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor6202.Location = new System.Drawing.Point(499, 519);
+            this.spoor6202.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor6202.Name = "spoor6202";
+            this.spoor6202.Size = new System.Drawing.Size(45, 30);
+            this.spoor6202.TabIndex = 163;
+            this.spoor6202.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor6201
+            // 
+            this.spoor6201.BackColor = System.Drawing.Color.White;
+            this.spoor6201.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor6201.Location = new System.Drawing.Point(499, 483);
+            this.spoor6201.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor6201.Name = "spoor6201";
+            this.spoor6201.Size = new System.Drawing.Size(45, 30);
+            this.spoor6201.TabIndex = 162;
+            this.spoor6201.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor6302
+            // 
+            this.spoor6302.BackColor = System.Drawing.Color.White;
+            this.spoor6302.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor6302.Location = new System.Drawing.Point(449, 519);
+            this.spoor6302.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor6302.Name = "spoor6302";
+            this.spoor6302.Size = new System.Drawing.Size(45, 30);
+            this.spoor6302.TabIndex = 163;
+            this.spoor6302.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor6301
+            // 
+            this.spoor6301.BackColor = System.Drawing.Color.White;
+            this.spoor6301.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor6301.Location = new System.Drawing.Point(449, 483);
+            this.spoor6301.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor6301.Name = "spoor6301";
+            this.spoor6301.Size = new System.Drawing.Size(45, 30);
+            this.spoor6301.TabIndex = 162;
+            this.spoor6301.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor6402
+            // 
+            this.spoor6402.BackColor = System.Drawing.Color.White;
+            this.spoor6402.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor6402.Location = new System.Drawing.Point(400, 519);
+            this.spoor6402.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor6402.Name = "spoor6402";
+            this.spoor6402.Size = new System.Drawing.Size(45, 30);
+            this.spoor6402.TabIndex = 163;
+            this.spoor6402.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor6401
+            // 
+            this.spoor6401.BackColor = System.Drawing.Color.White;
+            this.spoor6401.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor6401.Location = new System.Drawing.Point(400, 483);
+            this.spoor6401.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor6401.Name = "spoor6401";
+            this.spoor6401.Size = new System.Drawing.Size(45, 30);
+            this.spoor6401.TabIndex = 162;
+            this.spoor6401.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label250
             // 
@@ -1446,16 +2084,16 @@
             this.label250.Text = "76";
             this.label250.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor58v2
+            // spoor5802
             // 
-            this.spoor58v2.BackColor = System.Drawing.Color.White;
-            this.spoor58v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor58v2.Location = new System.Drawing.Point(351, 519);
-            this.spoor58v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor58v2.Name = "spoor58v2";
-            this.spoor58v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor58v2.TabIndex = 163;
-            this.spoor58v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5802.BackColor = System.Drawing.Color.White;
+            this.spoor5802.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5802.Location = new System.Drawing.Point(351, 519);
+            this.spoor5802.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5802.Name = "spoor5802";
+            this.spoor5802.Size = new System.Drawing.Size(45, 30);
+            this.spoor5802.TabIndex = 163;
+            this.spoor5802.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label240
             // 
@@ -1469,16 +2107,16 @@
             this.label240.Text = "75";
             this.label240.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor58v1
+            // spoor5801
             // 
-            this.spoor58v1.BackColor = System.Drawing.Color.White;
-            this.spoor58v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor58v1.Location = new System.Drawing.Point(351, 483);
-            this.spoor58v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor58v1.Name = "spoor58v1";
-            this.spoor58v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor58v1.TabIndex = 162;
-            this.spoor58v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5801.BackColor = System.Drawing.Color.White;
+            this.spoor5801.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5801.Location = new System.Drawing.Point(351, 483);
+            this.spoor5801.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5801.Name = "spoor5801";
+            this.spoor5801.Size = new System.Drawing.Size(45, 30);
+            this.spoor5801.TabIndex = 162;
+            this.spoor5801.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label230
             // 
@@ -1492,16 +2130,16 @@
             this.label230.Text = "74";
             this.label230.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor57v2
+            // spoor5702
             // 
-            this.spoor57v2.BackColor = System.Drawing.Color.White;
-            this.spoor57v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor57v2.Location = new System.Drawing.Point(302, 519);
-            this.spoor57v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor57v2.Name = "spoor57v2";
-            this.spoor57v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor57v2.TabIndex = 163;
-            this.spoor57v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5702.BackColor = System.Drawing.Color.White;
+            this.spoor5702.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5702.Location = new System.Drawing.Point(302, 519);
+            this.spoor5702.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5702.Name = "spoor5702";
+            this.spoor5702.Size = new System.Drawing.Size(45, 30);
+            this.spoor5702.TabIndex = 163;
+            this.spoor5702.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label220
             // 
@@ -1515,16 +2153,16 @@
             this.label220.Text = "61";
             this.label220.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor57v1
+            // spoor5701
             // 
-            this.spoor57v1.BackColor = System.Drawing.Color.White;
-            this.spoor57v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor57v1.Location = new System.Drawing.Point(302, 483);
-            this.spoor57v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor57v1.Name = "spoor57v1";
-            this.spoor57v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor57v1.TabIndex = 162;
-            this.spoor57v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5701.BackColor = System.Drawing.Color.White;
+            this.spoor5701.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5701.Location = new System.Drawing.Point(302, 483);
+            this.spoor5701.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5701.Name = "spoor5701";
+            this.spoor5701.Size = new System.Drawing.Size(45, 30);
+            this.spoor5701.TabIndex = 162;
+            this.spoor5701.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label210
             // 
@@ -1538,16 +2176,16 @@
             this.label210.Text = "62";
             this.label210.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor56v2
+            // spoor5602
             // 
-            this.spoor56v2.BackColor = System.Drawing.Color.White;
-            this.spoor56v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor56v2.Location = new System.Drawing.Point(253, 519);
-            this.spoor56v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor56v2.Name = "spoor56v2";
-            this.spoor56v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor56v2.TabIndex = 163;
-            this.spoor56v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5602.BackColor = System.Drawing.Color.White;
+            this.spoor5602.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5602.Location = new System.Drawing.Point(253, 519);
+            this.spoor5602.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5602.Name = "spoor5602";
+            this.spoor5602.Size = new System.Drawing.Size(45, 30);
+            this.spoor5602.TabIndex = 163;
+            this.spoor5602.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label200
             // 
@@ -1561,16 +2199,16 @@
             this.label200.Text = "63";
             this.label200.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor56v1
+            // spoor5601
             // 
-            this.spoor56v1.BackColor = System.Drawing.Color.White;
-            this.spoor56v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor56v1.Location = new System.Drawing.Point(253, 483);
-            this.spoor56v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor56v1.Name = "spoor56v1";
-            this.spoor56v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor56v1.TabIndex = 162;
-            this.spoor56v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5601.BackColor = System.Drawing.Color.White;
+            this.spoor5601.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5601.Location = new System.Drawing.Point(253, 483);
+            this.spoor5601.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5601.Name = "spoor5601";
+            this.spoor5601.Size = new System.Drawing.Size(45, 30);
+            this.spoor5601.TabIndex = 162;
+            this.spoor5601.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label190
             // 
@@ -1584,16 +2222,16 @@
             this.label190.Text = "64";
             this.label190.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor55v2
+            // spoor5502
             // 
-            this.spoor55v2.BackColor = System.Drawing.Color.White;
-            this.spoor55v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor55v2.Location = new System.Drawing.Point(204, 519);
-            this.spoor55v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor55v2.Name = "spoor55v2";
-            this.spoor55v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor55v2.TabIndex = 163;
-            this.spoor55v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5502.BackColor = System.Drawing.Color.White;
+            this.spoor5502.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5502.Location = new System.Drawing.Point(204, 519);
+            this.spoor5502.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5502.Name = "spoor5502";
+            this.spoor5502.Size = new System.Drawing.Size(45, 30);
+            this.spoor5502.TabIndex = 163;
+            this.spoor5502.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label180
             // 
@@ -1607,16 +2245,16 @@
             this.label180.Text = "58";
             this.label180.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor55v1
+            // spoor5501
             // 
-            this.spoor55v1.BackColor = System.Drawing.Color.White;
-            this.spoor55v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor55v1.Location = new System.Drawing.Point(204, 483);
-            this.spoor55v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor55v1.Name = "spoor55v1";
-            this.spoor55v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor55v1.TabIndex = 162;
-            this.spoor55v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5501.BackColor = System.Drawing.Color.White;
+            this.spoor5501.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5501.Location = new System.Drawing.Point(204, 483);
+            this.spoor5501.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5501.Name = "spoor5501";
+            this.spoor5501.Size = new System.Drawing.Size(45, 30);
+            this.spoor5501.TabIndex = 162;
+            this.spoor5501.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label170
             // 
@@ -1630,16 +2268,16 @@
             this.label170.Text = "57";
             this.label170.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor54v2
+            // spoor5402
             // 
-            this.spoor54v2.BackColor = System.Drawing.Color.White;
-            this.spoor54v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor54v2.Location = new System.Drawing.Point(155, 519);
-            this.spoor54v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor54v2.Name = "spoor54v2";
-            this.spoor54v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor54v2.TabIndex = 163;
-            this.spoor54v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5402.BackColor = System.Drawing.Color.White;
+            this.spoor5402.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5402.Location = new System.Drawing.Point(155, 519);
+            this.spoor5402.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5402.Name = "spoor5402";
+            this.spoor5402.Size = new System.Drawing.Size(45, 30);
+            this.spoor5402.TabIndex = 163;
+            this.spoor5402.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label160
             // 
@@ -1653,16 +2291,16 @@
             this.label160.Text = "56";
             this.label160.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor54v1
+            // spoor5401
             // 
-            this.spoor54v1.BackColor = System.Drawing.Color.White;
-            this.spoor54v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor54v1.Location = new System.Drawing.Point(155, 483);
-            this.spoor54v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor54v1.Name = "spoor54v1";
-            this.spoor54v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor54v1.TabIndex = 162;
-            this.spoor54v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5401.BackColor = System.Drawing.Color.White;
+            this.spoor5401.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5401.Location = new System.Drawing.Point(155, 483);
+            this.spoor5401.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5401.Name = "spoor5401";
+            this.spoor5401.Size = new System.Drawing.Size(45, 30);
+            this.spoor5401.TabIndex = 162;
+            this.spoor5401.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label150
             // 
@@ -1676,16 +2314,16 @@
             this.label150.Text = "55";
             this.label150.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor53v2
+            // spoor5302
             // 
-            this.spoor53v2.BackColor = System.Drawing.Color.White;
-            this.spoor53v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor53v2.Location = new System.Drawing.Point(106, 519);
-            this.spoor53v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor53v2.Name = "spoor53v2";
-            this.spoor53v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor53v2.TabIndex = 163;
-            this.spoor53v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5302.BackColor = System.Drawing.Color.White;
+            this.spoor5302.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5302.Location = new System.Drawing.Point(106, 519);
+            this.spoor5302.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5302.Name = "spoor5302";
+            this.spoor5302.Size = new System.Drawing.Size(45, 30);
+            this.spoor5302.TabIndex = 163;
+            this.spoor5302.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label140
             // 
@@ -1699,16 +2337,16 @@
             this.label140.Text = "54";
             this.label140.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor53v1
+            // spoor5301
             // 
-            this.spoor53v1.BackColor = System.Drawing.Color.White;
-            this.spoor53v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor53v1.Location = new System.Drawing.Point(106, 483);
-            this.spoor53v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor53v1.Name = "spoor53v1";
-            this.spoor53v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor53v1.TabIndex = 162;
-            this.spoor53v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5301.BackColor = System.Drawing.Color.White;
+            this.spoor5301.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5301.Location = new System.Drawing.Point(106, 483);
+            this.spoor5301.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5301.Name = "spoor5301";
+            this.spoor5301.Size = new System.Drawing.Size(45, 30);
+            this.spoor5301.TabIndex = 162;
+            this.spoor5301.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label139
             // 
@@ -1722,71 +2360,71 @@
             this.label139.Text = "53";
             this.label139.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor52v5
+            // spoor5205
             // 
-            this.spoor52v5.BackColor = System.Drawing.Color.White;
-            this.spoor52v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor52v5.Location = new System.Drawing.Point(56, 621);
-            this.spoor52v5.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor52v5.Name = "spoor52v5";
-            this.spoor52v5.Size = new System.Drawing.Size(45, 30);
-            this.spoor52v5.TabIndex = 158;
-            this.spoor52v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5205.BackColor = System.Drawing.Color.White;
+            this.spoor5205.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5205.Location = new System.Drawing.Point(56, 621);
+            this.spoor5205.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5205.Name = "spoor5205";
+            this.spoor5205.Size = new System.Drawing.Size(45, 30);
+            this.spoor5205.TabIndex = 158;
+            this.spoor5205.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor52v6
+            // spoor5206
             // 
-            this.spoor52v6.BackColor = System.Drawing.Color.White;
-            this.spoor52v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor52v6.Location = new System.Drawing.Point(56, 655);
-            this.spoor52v6.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor52v6.Name = "spoor52v6";
-            this.spoor52v6.Size = new System.Drawing.Size(45, 30);
-            this.spoor52v6.TabIndex = 157;
-            this.spoor52v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5206.BackColor = System.Drawing.Color.White;
+            this.spoor5206.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5206.Location = new System.Drawing.Point(56, 655);
+            this.spoor5206.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5206.Name = "spoor5206";
+            this.spoor5206.Size = new System.Drawing.Size(45, 30);
+            this.spoor5206.TabIndex = 157;
+            this.spoor5206.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor52v4
+            // spoor5204
             // 
-            this.spoor52v4.BackColor = System.Drawing.Color.White;
-            this.spoor52v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor52v4.Location = new System.Drawing.Point(56, 587);
-            this.spoor52v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor52v4.Name = "spoor52v4";
-            this.spoor52v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor52v4.TabIndex = 155;
-            this.spoor52v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5204.BackColor = System.Drawing.Color.White;
+            this.spoor5204.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5204.Location = new System.Drawing.Point(56, 587);
+            this.spoor5204.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5204.Name = "spoor5204";
+            this.spoor5204.Size = new System.Drawing.Size(45, 30);
+            this.spoor5204.TabIndex = 155;
+            this.spoor5204.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor52v3
+            // spoor5203
             // 
-            this.spoor52v3.BackColor = System.Drawing.Color.White;
-            this.spoor52v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor52v3.Location = new System.Drawing.Point(56, 553);
-            this.spoor52v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor52v3.Name = "spoor52v3";
-            this.spoor52v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor52v3.TabIndex = 154;
-            this.spoor52v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5203.BackColor = System.Drawing.Color.White;
+            this.spoor5203.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5203.Location = new System.Drawing.Point(56, 553);
+            this.spoor5203.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5203.Name = "spoor5203";
+            this.spoor5203.Size = new System.Drawing.Size(45, 30);
+            this.spoor5203.TabIndex = 154;
+            this.spoor5203.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor52v2
+            // spoor5202
             // 
-            this.spoor52v2.BackColor = System.Drawing.Color.White;
-            this.spoor52v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor52v2.Location = new System.Drawing.Point(56, 519);
-            this.spoor52v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor52v2.Name = "spoor52v2";
-            this.spoor52v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor52v2.TabIndex = 153;
-            this.spoor52v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5202.BackColor = System.Drawing.Color.White;
+            this.spoor5202.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5202.Location = new System.Drawing.Point(56, 519);
+            this.spoor5202.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5202.Name = "spoor5202";
+            this.spoor5202.Size = new System.Drawing.Size(45, 30);
+            this.spoor5202.TabIndex = 153;
+            this.spoor5202.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor52v1
+            // spoor5201
             // 
-            this.spoor52v1.BackColor = System.Drawing.Color.White;
-            this.spoor52v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor52v1.Location = new System.Drawing.Point(56, 483);
-            this.spoor52v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor52v1.Name = "spoor52v1";
-            this.spoor52v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor52v1.TabIndex = 152;
-            this.spoor52v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5201.BackColor = System.Drawing.Color.White;
+            this.spoor5201.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5201.Location = new System.Drawing.Point(56, 483);
+            this.spoor5201.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5201.Name = "spoor5201";
+            this.spoor5201.Size = new System.Drawing.Size(45, 30);
+            this.spoor5201.TabIndex = 152;
+            this.spoor5201.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label129
             // 
@@ -1800,71 +2438,71 @@
             this.label129.Text = "52";
             this.label129.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor57v8
+            // spoor5708
             // 
-            this.spoor57v8.BackColor = System.Drawing.Color.White;
-            this.spoor57v8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor57v8.Location = new System.Drawing.Point(302, 723);
-            this.spoor57v8.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor57v8.Name = "spoor57v8";
-            this.spoor57v8.Size = new System.Drawing.Size(45, 30);
-            this.spoor57v8.TabIndex = 149;
-            this.spoor57v8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5708.BackColor = System.Drawing.Color.White;
+            this.spoor5708.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5708.Location = new System.Drawing.Point(302, 723);
+            this.spoor5708.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5708.Name = "spoor5708";
+            this.spoor5708.Size = new System.Drawing.Size(45, 30);
+            this.spoor5708.TabIndex = 149;
+            this.spoor5708.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor51v5
+            // spoor5105
             // 
-            this.spoor51v5.BackColor = System.Drawing.Color.White;
-            this.spoor51v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor51v5.Location = new System.Drawing.Point(7, 621);
-            this.spoor51v5.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor51v5.Name = "spoor51v5";
-            this.spoor51v5.Size = new System.Drawing.Size(45, 30);
-            this.spoor51v5.TabIndex = 148;
-            this.spoor51v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5105.BackColor = System.Drawing.Color.White;
+            this.spoor5105.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5105.Location = new System.Drawing.Point(7, 621);
+            this.spoor5105.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5105.Name = "spoor5105";
+            this.spoor5105.Size = new System.Drawing.Size(45, 30);
+            this.spoor5105.TabIndex = 148;
+            this.spoor5105.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor51v4
+            // spoor5104
             // 
-            this.spoor51v4.BackColor = System.Drawing.Color.White;
-            this.spoor51v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor51v4.Location = new System.Drawing.Point(7, 587);
-            this.spoor51v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor51v4.Name = "spoor51v4";
-            this.spoor51v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor51v4.TabIndex = 145;
-            this.spoor51v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5104.BackColor = System.Drawing.Color.White;
+            this.spoor5104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5104.Location = new System.Drawing.Point(7, 587);
+            this.spoor5104.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5104.Name = "spoor5104";
+            this.spoor5104.Size = new System.Drawing.Size(45, 30);
+            this.spoor5104.TabIndex = 145;
+            this.spoor5104.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor51v3
+            // spoor5103
             // 
-            this.spoor51v3.BackColor = System.Drawing.Color.White;
-            this.spoor51v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor51v3.Location = new System.Drawing.Point(7, 553);
-            this.spoor51v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor51v3.Name = "spoor51v3";
-            this.spoor51v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor51v3.TabIndex = 144;
-            this.spoor51v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5103.BackColor = System.Drawing.Color.White;
+            this.spoor5103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5103.Location = new System.Drawing.Point(7, 553);
+            this.spoor5103.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5103.Name = "spoor5103";
+            this.spoor5103.Size = new System.Drawing.Size(45, 30);
+            this.spoor5103.TabIndex = 144;
+            this.spoor5103.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor51v2
+            // spoor5102
             // 
-            this.spoor51v2.BackColor = System.Drawing.Color.White;
-            this.spoor51v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor51v2.Location = new System.Drawing.Point(7, 519);
-            this.spoor51v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor51v2.Name = "spoor51v2";
-            this.spoor51v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor51v2.TabIndex = 143;
-            this.spoor51v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5102.BackColor = System.Drawing.Color.White;
+            this.spoor5102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5102.Location = new System.Drawing.Point(7, 519);
+            this.spoor5102.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5102.Name = "spoor5102";
+            this.spoor5102.Size = new System.Drawing.Size(45, 30);
+            this.spoor5102.TabIndex = 143;
+            this.spoor5102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor51v1
+            // spoor5101
             // 
-            this.spoor51v1.BackColor = System.Drawing.Color.White;
-            this.spoor51v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor51v1.Location = new System.Drawing.Point(7, 483);
-            this.spoor51v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor51v1.Name = "spoor51v1";
-            this.spoor51v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor51v1.TabIndex = 142;
-            this.spoor51v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor5101.BackColor = System.Drawing.Color.White;
+            this.spoor5101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor5101.Location = new System.Drawing.Point(7, 483);
+            this.spoor5101.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor5101.Name = "spoor5101";
+            this.spoor5101.Size = new System.Drawing.Size(45, 30);
+            this.spoor5101.TabIndex = 142;
+            this.spoor5101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label119
             // 
@@ -1878,104 +2516,104 @@
             this.label119.Text = "51";
             this.label119.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor45v9
+            // spoor4509
             // 
-            this.spoor45v9.BackColor = System.Drawing.Color.White;
-            this.spoor45v9.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor45v9.Location = new System.Drawing.Point(744, 405);
-            this.spoor45v9.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor45v9.Name = "spoor45v9";
-            this.spoor45v9.Size = new System.Drawing.Size(45, 30);
-            this.spoor45v9.TabIndex = 140;
-            this.spoor45v9.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor4509.BackColor = System.Drawing.Color.White;
+            this.spoor4509.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4509.Location = new System.Drawing.Point(744, 405);
+            this.spoor4509.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4509.Name = "spoor4509";
+            this.spoor4509.Size = new System.Drawing.Size(45, 30);
+            this.spoor4509.TabIndex = 140;
+            this.spoor4509.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor45v8
+            // spoor4508
             // 
-            this.spoor45v8.BackColor = System.Drawing.Color.White;
-            this.spoor45v8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor45v8.Location = new System.Drawing.Point(744, 371);
-            this.spoor45v8.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor45v8.Name = "spoor45v8";
-            this.spoor45v8.Size = new System.Drawing.Size(45, 30);
-            this.spoor45v8.TabIndex = 139;
-            this.spoor45v8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor4508.BackColor = System.Drawing.Color.White;
+            this.spoor4508.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4508.Location = new System.Drawing.Point(744, 371);
+            this.spoor4508.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4508.Name = "spoor4508";
+            this.spoor4508.Size = new System.Drawing.Size(45, 30);
+            this.spoor4508.TabIndex = 139;
+            this.spoor4508.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor45v5
+            // spoor4505
             // 
-            this.spoor45v5.BackColor = System.Drawing.Color.White;
-            this.spoor45v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor45v5.Location = new System.Drawing.Point(744, 269);
-            this.spoor45v5.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor45v5.Name = "spoor45v5";
-            this.spoor45v5.Size = new System.Drawing.Size(45, 30);
-            this.spoor45v5.TabIndex = 138;
-            this.spoor45v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor4505.BackColor = System.Drawing.Color.White;
+            this.spoor4505.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4505.Location = new System.Drawing.Point(744, 269);
+            this.spoor4505.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4505.Name = "spoor4505";
+            this.spoor4505.Size = new System.Drawing.Size(45, 30);
+            this.spoor4505.TabIndex = 138;
+            this.spoor4505.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor45v6
+            // spoor4506
             // 
-            this.spoor45v6.BackColor = System.Drawing.Color.White;
-            this.spoor45v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor45v6.Location = new System.Drawing.Point(744, 303);
-            this.spoor45v6.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor45v6.Name = "spoor45v6";
-            this.spoor45v6.Size = new System.Drawing.Size(45, 30);
-            this.spoor45v6.TabIndex = 137;
-            this.spoor45v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor4506.BackColor = System.Drawing.Color.White;
+            this.spoor4506.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4506.Location = new System.Drawing.Point(744, 303);
+            this.spoor4506.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4506.Name = "spoor4506";
+            this.spoor4506.Size = new System.Drawing.Size(45, 30);
+            this.spoor4506.TabIndex = 137;
+            this.spoor4506.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor45v7
+            // spoor4507
             // 
-            this.spoor45v7.BackColor = System.Drawing.Color.White;
-            this.spoor45v7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor45v7.Location = new System.Drawing.Point(744, 337);
-            this.spoor45v7.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor45v7.Name = "spoor45v7";
-            this.spoor45v7.Size = new System.Drawing.Size(45, 30);
-            this.spoor45v7.TabIndex = 136;
-            this.spoor45v7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor4507.BackColor = System.Drawing.Color.White;
+            this.spoor4507.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4507.Location = new System.Drawing.Point(744, 337);
+            this.spoor4507.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4507.Name = "spoor4507";
+            this.spoor4507.Size = new System.Drawing.Size(45, 30);
+            this.spoor4507.TabIndex = 136;
+            this.spoor4507.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor45v4
+            // spoor4504
             // 
-            this.spoor45v4.BackColor = System.Drawing.Color.White;
-            this.spoor45v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor45v4.Location = new System.Drawing.Point(744, 235);
-            this.spoor45v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor45v4.Name = "spoor45v4";
-            this.spoor45v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor45v4.TabIndex = 135;
-            this.spoor45v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor4504.BackColor = System.Drawing.Color.White;
+            this.spoor4504.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4504.Location = new System.Drawing.Point(744, 235);
+            this.spoor4504.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4504.Name = "spoor4504";
+            this.spoor4504.Size = new System.Drawing.Size(45, 30);
+            this.spoor4504.TabIndex = 135;
+            this.spoor4504.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor45v3
+            // spoor4503
             // 
-            this.spoor45v3.BackColor = System.Drawing.Color.White;
-            this.spoor45v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor45v3.Location = new System.Drawing.Point(744, 201);
-            this.spoor45v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor45v3.Name = "spoor45v3";
-            this.spoor45v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor45v3.TabIndex = 134;
-            this.spoor45v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor4503.BackColor = System.Drawing.Color.White;
+            this.spoor4503.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4503.Location = new System.Drawing.Point(744, 201);
+            this.spoor4503.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4503.Name = "spoor4503";
+            this.spoor4503.Size = new System.Drawing.Size(45, 30);
+            this.spoor4503.TabIndex = 134;
+            this.spoor4503.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor45v2
+            // spoor4502
             // 
-            this.spoor45v2.BackColor = System.Drawing.Color.White;
-            this.spoor45v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor45v2.Location = new System.Drawing.Point(744, 167);
-            this.spoor45v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor45v2.Name = "spoor45v2";
-            this.spoor45v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor45v2.TabIndex = 133;
-            this.spoor45v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor4502.BackColor = System.Drawing.Color.White;
+            this.spoor4502.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4502.Location = new System.Drawing.Point(744, 167);
+            this.spoor4502.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4502.Name = "spoor4502";
+            this.spoor4502.Size = new System.Drawing.Size(45, 30);
+            this.spoor4502.TabIndex = 133;
+            this.spoor4502.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor45v1
+            // spoor4501
             // 
-            this.spoor45v1.BackColor = System.Drawing.Color.White;
-            this.spoor45v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor45v1.Location = new System.Drawing.Point(744, 131);
-            this.spoor45v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor45v1.Name = "spoor45v1";
-            this.spoor45v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor45v1.TabIndex = 132;
-            this.spoor45v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor4501.BackColor = System.Drawing.Color.White;
+            this.spoor4501.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4501.Location = new System.Drawing.Point(744, 131);
+            this.spoor4501.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4501.Name = "spoor4501";
+            this.spoor4501.Size = new System.Drawing.Size(45, 30);
+            this.spoor4501.TabIndex = 132;
+            this.spoor4501.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label107
             // 
@@ -1989,742 +2627,742 @@
             this.label107.Text = "45";
             this.label107.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // spoor40v5
-            // 
-            this.spoor40v5.BackColor = System.Drawing.Color.White;
-            this.spoor40v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor40v5.Location = new System.Drawing.Point(499, 269);
-            this.spoor40v5.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor40v5.Name = "spoor40v5";
-            this.spoor40v5.Size = new System.Drawing.Size(45, 30);
-            this.spoor40v5.TabIndex = 130;
-            this.spoor40v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor40v6
-            // 
-            this.spoor40v6.BackColor = System.Drawing.Color.White;
-            this.spoor40v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor40v6.Location = new System.Drawing.Point(499, 303);
-            this.spoor40v6.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor40v6.Name = "spoor40v6";
-            this.spoor40v6.Size = new System.Drawing.Size(45, 30);
-            this.spoor40v6.TabIndex = 129;
-            this.spoor40v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor40v7
-            // 
-            this.spoor40v7.BackColor = System.Drawing.Color.White;
-            this.spoor40v7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor40v7.Location = new System.Drawing.Point(499, 337);
-            this.spoor40v7.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor40v7.Name = "spoor40v7";
-            this.spoor40v7.Size = new System.Drawing.Size(45, 30);
-            this.spoor40v7.TabIndex = 128;
-            this.spoor40v7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor44v4
-            // 
-            this.spoor44v4.BackColor = System.Drawing.Color.White;
-            this.spoor44v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor44v4.Location = new System.Drawing.Point(695, 235);
-            this.spoor44v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor44v4.Name = "spoor44v4";
-            this.spoor44v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor44v4.TabIndex = 120;
-            this.spoor44v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor43v4
-            // 
-            this.spoor43v4.BackColor = System.Drawing.Color.White;
-            this.spoor43v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor43v4.Location = new System.Drawing.Point(646, 235);
-            this.spoor43v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor43v4.Name = "spoor43v4";
-            this.spoor43v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor43v4.TabIndex = 119;
-            this.spoor43v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor42v4
-            // 
-            this.spoor42v4.BackColor = System.Drawing.Color.White;
-            this.spoor42v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor42v4.Location = new System.Drawing.Point(597, 235);
-            this.spoor42v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor42v4.Name = "spoor42v4";
-            this.spoor42v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor42v4.TabIndex = 118;
-            this.spoor42v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor41v4
-            // 
-            this.spoor41v4.BackColor = System.Drawing.Color.White;
-            this.spoor41v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor41v4.Location = new System.Drawing.Point(548, 235);
-            this.spoor41v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor41v4.Name = "spoor41v4";
-            this.spoor41v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor41v4.TabIndex = 117;
-            this.spoor41v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor40v4
-            // 
-            this.spoor40v4.BackColor = System.Drawing.Color.White;
-            this.spoor40v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor40v4.Location = new System.Drawing.Point(499, 235);
-            this.spoor40v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor40v4.Name = "spoor40v4";
-            this.spoor40v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor40v4.TabIndex = 116;
-            this.spoor40v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor38v4
-            // 
-            this.spoor38v4.BackColor = System.Drawing.Color.White;
-            this.spoor38v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor38v4.Location = new System.Drawing.Point(399, 235);
-            this.spoor38v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor38v4.Name = "spoor38v4";
-            this.spoor38v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor38v4.TabIndex = 115;
-            this.spoor38v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor37v4
-            // 
-            this.spoor37v4.BackColor = System.Drawing.Color.White;
-            this.spoor37v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor37v4.Location = new System.Drawing.Point(350, 235);
-            this.spoor37v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor37v4.Name = "spoor37v4";
-            this.spoor37v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor37v4.TabIndex = 114;
-            this.spoor37v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor36v4
-            // 
-            this.spoor36v4.BackColor = System.Drawing.Color.White;
-            this.spoor36v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor36v4.Location = new System.Drawing.Point(301, 235);
-            this.spoor36v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor36v4.Name = "spoor36v4";
-            this.spoor36v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor36v4.TabIndex = 113;
-            this.spoor36v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor35v4
-            // 
-            this.spoor35v4.BackColor = System.Drawing.Color.White;
-            this.spoor35v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor35v4.Location = new System.Drawing.Point(252, 235);
-            this.spoor35v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor35v4.Name = "spoor35v4";
-            this.spoor35v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor35v4.TabIndex = 112;
-            this.spoor35v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor34v4
-            // 
-            this.spoor34v4.BackColor = System.Drawing.Color.White;
-            this.spoor34v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor34v4.Location = new System.Drawing.Point(203, 235);
-            this.spoor34v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor34v4.Name = "spoor34v4";
-            this.spoor34v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor34v4.TabIndex = 111;
-            this.spoor34v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor33v4
-            // 
-            this.spoor33v4.BackColor = System.Drawing.Color.White;
-            this.spoor33v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor33v4.Location = new System.Drawing.Point(154, 235);
-            this.spoor33v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor33v4.Name = "spoor33v4";
-            this.spoor33v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor33v4.TabIndex = 110;
-            this.spoor33v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor32v4
-            // 
-            this.spoor32v4.BackColor = System.Drawing.Color.White;
-            this.spoor32v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor32v4.Location = new System.Drawing.Point(105, 235);
-            this.spoor32v4.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor32v4.Name = "spoor32v4";
-            this.spoor32v4.Size = new System.Drawing.Size(45, 30);
-            this.spoor32v4.TabIndex = 109;
-            this.spoor32v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor44v3
-            // 
-            this.spoor44v3.BackColor = System.Drawing.Color.White;
-            this.spoor44v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor44v3.Location = new System.Drawing.Point(695, 201);
-            this.spoor44v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor44v3.Name = "spoor44v3";
-            this.spoor44v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor44v3.TabIndex = 106;
-            this.spoor44v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor43v3
-            // 
-            this.spoor43v3.BackColor = System.Drawing.Color.White;
-            this.spoor43v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor43v3.Location = new System.Drawing.Point(646, 201);
-            this.spoor43v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor43v3.Name = "spoor43v3";
-            this.spoor43v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor43v3.TabIndex = 105;
-            this.spoor43v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor42v3
-            // 
-            this.spoor42v3.BackColor = System.Drawing.Color.White;
-            this.spoor42v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor42v3.Location = new System.Drawing.Point(597, 201);
-            this.spoor42v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor42v3.Name = "spoor42v3";
-            this.spoor42v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor42v3.TabIndex = 104;
-            this.spoor42v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor41v3
-            // 
-            this.spoor41v3.BackColor = System.Drawing.Color.White;
-            this.spoor41v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor41v3.Location = new System.Drawing.Point(548, 201);
-            this.spoor41v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor41v3.Name = "spoor41v3";
-            this.spoor41v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor41v3.TabIndex = 103;
-            this.spoor41v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor40v3
-            // 
-            this.spoor40v3.BackColor = System.Drawing.Color.White;
-            this.spoor40v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor40v3.Location = new System.Drawing.Point(499, 201);
-            this.spoor40v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor40v3.Name = "spoor40v3";
-            this.spoor40v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor40v3.TabIndex = 102;
-            this.spoor40v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor38v3
-            // 
-            this.spoor38v3.BackColor = System.Drawing.Color.White;
-            this.spoor38v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor38v3.Location = new System.Drawing.Point(399, 201);
-            this.spoor38v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor38v3.Name = "spoor38v3";
-            this.spoor38v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor38v3.TabIndex = 101;
-            this.spoor38v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor37v3
-            // 
-            this.spoor37v3.BackColor = System.Drawing.Color.White;
-            this.spoor37v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor37v3.Location = new System.Drawing.Point(350, 201);
-            this.spoor37v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor37v3.Name = "spoor37v3";
-            this.spoor37v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor37v3.TabIndex = 100;
-            this.spoor37v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor36v3
-            // 
-            this.spoor36v3.BackColor = System.Drawing.Color.White;
-            this.spoor36v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor36v3.Location = new System.Drawing.Point(301, 201);
-            this.spoor36v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor36v3.Name = "spoor36v3";
-            this.spoor36v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor36v3.TabIndex = 99;
-            this.spoor36v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor35v3
-            // 
-            this.spoor35v3.BackColor = System.Drawing.Color.White;
-            this.spoor35v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor35v3.Location = new System.Drawing.Point(252, 201);
-            this.spoor35v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor35v3.Name = "spoor35v3";
-            this.spoor35v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor35v3.TabIndex = 98;
-            this.spoor35v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor34v3
-            // 
-            this.spoor34v3.BackColor = System.Drawing.Color.White;
-            this.spoor34v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor34v3.Location = new System.Drawing.Point(203, 201);
-            this.spoor34v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor34v3.Name = "spoor34v3";
-            this.spoor34v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor34v3.TabIndex = 97;
-            this.spoor34v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor33v3
-            // 
-            this.spoor33v3.BackColor = System.Drawing.Color.White;
-            this.spoor33v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor33v3.Location = new System.Drawing.Point(154, 201);
-            this.spoor33v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor33v3.Name = "spoor33v3";
-            this.spoor33v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor33v3.TabIndex = 96;
-            this.spoor33v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor32v3
-            // 
-            this.spoor32v3.BackColor = System.Drawing.Color.White;
-            this.spoor32v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor32v3.Location = new System.Drawing.Point(105, 201);
-            this.spoor32v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor32v3.Name = "spoor32v3";
-            this.spoor32v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor32v3.TabIndex = 95;
-            this.spoor32v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor31v3
-            // 
-            this.spoor31v3.BackColor = System.Drawing.Color.White;
-            this.spoor31v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor31v3.Location = new System.Drawing.Point(56, 201);
-            this.spoor31v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor31v3.Name = "spoor31v3";
-            this.spoor31v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor31v3.TabIndex = 94;
-            this.spoor31v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor30v3
-            // 
-            this.spoor30v3.BackColor = System.Drawing.Color.White;
-            this.spoor30v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor30v3.Location = new System.Drawing.Point(7, 201);
-            this.spoor30v3.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor30v3.Name = "spoor30v3";
-            this.spoor30v3.Size = new System.Drawing.Size(45, 30);
-            this.spoor30v3.TabIndex = 93;
-            this.spoor30v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor44v2
-            // 
-            this.spoor44v2.BackColor = System.Drawing.Color.White;
-            this.spoor44v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor44v2.Location = new System.Drawing.Point(695, 167);
-            this.spoor44v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor44v2.Name = "spoor44v2";
-            this.spoor44v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor44v2.TabIndex = 92;
-            this.spoor44v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor43v2
-            // 
-            this.spoor43v2.BackColor = System.Drawing.Color.White;
-            this.spoor43v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor43v2.Location = new System.Drawing.Point(646, 167);
-            this.spoor43v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor43v2.Name = "spoor43v2";
-            this.spoor43v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor43v2.TabIndex = 91;
-            this.spoor43v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor42v2
-            // 
-            this.spoor42v2.BackColor = System.Drawing.Color.White;
-            this.spoor42v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor42v2.Location = new System.Drawing.Point(597, 167);
-            this.spoor42v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor42v2.Name = "spoor42v2";
-            this.spoor42v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor42v2.TabIndex = 90;
-            this.spoor42v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor41v2
-            // 
-            this.spoor41v2.BackColor = System.Drawing.Color.White;
-            this.spoor41v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor41v2.Location = new System.Drawing.Point(548, 167);
-            this.spoor41v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor41v2.Name = "spoor41v2";
-            this.spoor41v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor41v2.TabIndex = 89;
-            this.spoor41v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor40v2
-            // 
-            this.spoor40v2.BackColor = System.Drawing.Color.White;
-            this.spoor40v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor40v2.Location = new System.Drawing.Point(499, 167);
-            this.spoor40v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor40v2.Name = "spoor40v2";
-            this.spoor40v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor40v2.TabIndex = 88;
-            this.spoor40v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor38v2
-            // 
-            this.spoor38v2.BackColor = System.Drawing.Color.White;
-            this.spoor38v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor38v2.Location = new System.Drawing.Point(399, 167);
-            this.spoor38v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor38v2.Name = "spoor38v2";
-            this.spoor38v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor38v2.TabIndex = 87;
-            this.spoor38v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor37v2
-            // 
-            this.spoor37v2.BackColor = System.Drawing.Color.White;
-            this.spoor37v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor37v2.Location = new System.Drawing.Point(350, 167);
-            this.spoor37v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor37v2.Name = "spoor37v2";
-            this.spoor37v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor37v2.TabIndex = 86;
-            this.spoor37v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor36v2
-            // 
-            this.spoor36v2.BackColor = System.Drawing.Color.White;
-            this.spoor36v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor36v2.Location = new System.Drawing.Point(301, 167);
-            this.spoor36v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor36v2.Name = "spoor36v2";
-            this.spoor36v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor36v2.TabIndex = 85;
-            this.spoor36v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor35v2
-            // 
-            this.spoor35v2.BackColor = System.Drawing.Color.White;
-            this.spoor35v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor35v2.Location = new System.Drawing.Point(252, 167);
-            this.spoor35v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor35v2.Name = "spoor35v2";
-            this.spoor35v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor35v2.TabIndex = 84;
-            this.spoor35v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor34v2
-            // 
-            this.spoor34v2.BackColor = System.Drawing.Color.White;
-            this.spoor34v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor34v2.Location = new System.Drawing.Point(203, 167);
-            this.spoor34v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor34v2.Name = "spoor34v2";
-            this.spoor34v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor34v2.TabIndex = 83;
-            this.spoor34v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor33v2
-            // 
-            this.spoor33v2.BackColor = System.Drawing.Color.White;
-            this.spoor33v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor33v2.Location = new System.Drawing.Point(154, 167);
-            this.spoor33v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor33v2.Name = "spoor33v2";
-            this.spoor33v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor33v2.TabIndex = 82;
-            this.spoor33v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor32v2
-            // 
-            this.spoor32v2.BackColor = System.Drawing.Color.White;
-            this.spoor32v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor32v2.Location = new System.Drawing.Point(105, 167);
-            this.spoor32v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor32v2.Name = "spoor32v2";
-            this.spoor32v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor32v2.TabIndex = 81;
-            this.spoor32v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor31v2
-            // 
-            this.spoor31v2.BackColor = System.Drawing.Color.White;
-            this.spoor31v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor31v2.Location = new System.Drawing.Point(56, 167);
-            this.spoor31v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor31v2.Name = "spoor31v2";
-            this.spoor31v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor31v2.TabIndex = 80;
-            this.spoor31v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor30v2
-            // 
-            this.spoor30v2.BackColor = System.Drawing.Color.White;
-            this.spoor30v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor30v2.Location = new System.Drawing.Point(7, 167);
-            this.spoor30v2.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor30v2.Name = "spoor30v2";
-            this.spoor30v2.Size = new System.Drawing.Size(45, 30);
-            this.spoor30v2.TabIndex = 79;
-            this.spoor30v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor44v1
-            // 
-            this.spoor44v1.BackColor = System.Drawing.Color.White;
-            this.spoor44v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor44v1.Location = new System.Drawing.Point(695, 131);
-            this.spoor44v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor44v1.Name = "spoor44v1";
-            this.spoor44v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor44v1.TabIndex = 78;
-            this.spoor44v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor43v1
-            // 
-            this.spoor43v1.BackColor = System.Drawing.Color.White;
-            this.spoor43v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor43v1.Location = new System.Drawing.Point(646, 131);
-            this.spoor43v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor43v1.Name = "spoor43v1";
-            this.spoor43v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor43v1.TabIndex = 77;
-            this.spoor43v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor42v1
-            // 
-            this.spoor42v1.BackColor = System.Drawing.Color.White;
-            this.spoor42v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor42v1.Location = new System.Drawing.Point(597, 131);
-            this.spoor42v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor42v1.Name = "spoor42v1";
-            this.spoor42v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor42v1.TabIndex = 76;
-            this.spoor42v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor41v1
-            // 
-            this.spoor41v1.BackColor = System.Drawing.Color.White;
-            this.spoor41v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor41v1.Location = new System.Drawing.Point(548, 131);
-            this.spoor41v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor41v1.Name = "spoor41v1";
-            this.spoor41v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor41v1.TabIndex = 75;
-            this.spoor41v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor40v1
-            // 
-            this.spoor40v1.BackColor = System.Drawing.Color.White;
-            this.spoor40v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor40v1.Location = new System.Drawing.Point(499, 131);
-            this.spoor40v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor40v1.Name = "spoor40v1";
-            this.spoor40v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor40v1.TabIndex = 74;
-            this.spoor40v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor38v1
-            // 
-            this.spoor38v1.BackColor = System.Drawing.Color.White;
-            this.spoor38v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor38v1.Location = new System.Drawing.Point(399, 131);
-            this.spoor38v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor38v1.Name = "spoor38v1";
-            this.spoor38v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor38v1.TabIndex = 73;
-            this.spoor38v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor37v1
-            // 
-            this.spoor37v1.BackColor = System.Drawing.Color.White;
-            this.spoor37v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor37v1.Location = new System.Drawing.Point(350, 131);
-            this.spoor37v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor37v1.Name = "spoor37v1";
-            this.spoor37v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor37v1.TabIndex = 72;
-            this.spoor37v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor36v1
-            // 
-            this.spoor36v1.BackColor = System.Drawing.Color.White;
-            this.spoor36v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor36v1.Location = new System.Drawing.Point(301, 131);
-            this.spoor36v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor36v1.Name = "spoor36v1";
-            this.spoor36v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor36v1.TabIndex = 71;
-            this.spoor36v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor35v1
-            // 
-            this.spoor35v1.BackColor = System.Drawing.Color.White;
-            this.spoor35v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor35v1.Location = new System.Drawing.Point(252, 131);
-            this.spoor35v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor35v1.Name = "spoor35v1";
-            this.spoor35v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor35v1.TabIndex = 70;
-            this.spoor35v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor34v1
-            // 
-            this.spoor34v1.BackColor = System.Drawing.Color.White;
-            this.spoor34v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor34v1.Location = new System.Drawing.Point(203, 131);
-            this.spoor34v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor34v1.Name = "spoor34v1";
-            this.spoor34v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor34v1.TabIndex = 69;
-            this.spoor34v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor33v1
-            // 
-            this.spoor33v1.BackColor = System.Drawing.Color.White;
-            this.spoor33v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor33v1.Location = new System.Drawing.Point(154, 131);
-            this.spoor33v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor33v1.Name = "spoor33v1";
-            this.spoor33v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor33v1.TabIndex = 68;
-            this.spoor33v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor32v1
-            // 
-            this.spoor32v1.BackColor = System.Drawing.Color.White;
-            this.spoor32v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor32v1.Location = new System.Drawing.Point(105, 131);
-            this.spoor32v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor32v1.Name = "spoor32v1";
-            this.spoor32v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor32v1.TabIndex = 67;
-            this.spoor32v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor31v1
-            // 
-            this.spoor31v1.BackColor = System.Drawing.Color.White;
-            this.spoor31v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor31v1.Location = new System.Drawing.Point(56, 131);
-            this.spoor31v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor31v1.Name = "spoor31v1";
-            this.spoor31v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor31v1.TabIndex = 66;
-            this.spoor31v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor30v1
-            // 
-            this.spoor30v1.BackColor = System.Drawing.Color.White;
-            this.spoor30v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor30v1.Location = new System.Drawing.Point(7, 131);
-            this.spoor30v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor30v1.Name = "spoor30v1";
-            this.spoor30v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor30v1.TabIndex = 65;
-            this.spoor30v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor21v1
-            // 
-            this.spoor21v1.BackColor = System.Drawing.Color.White;
-            this.spoor21v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor21v1.Location = new System.Drawing.Point(449, 52);
-            this.spoor21v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor21v1.Name = "spoor21v1";
-            this.spoor21v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor21v1.TabIndex = 64;
-            this.spoor21v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor20v1
-            // 
-            this.spoor20v1.BackColor = System.Drawing.Color.White;
-            this.spoor20v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor20v1.Location = new System.Drawing.Point(400, 52);
-            this.spoor20v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor20v1.Name = "spoor20v1";
-            this.spoor20v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor20v1.TabIndex = 63;
-            this.spoor20v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor19v1
-            // 
-            this.spoor19v1.BackColor = System.Drawing.Color.White;
-            this.spoor19v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor19v1.Location = new System.Drawing.Point(351, 52);
-            this.spoor19v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor19v1.Name = "spoor19v1";
-            this.spoor19v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor19v1.TabIndex = 62;
-            this.spoor19v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor18v1
-            // 
-            this.spoor18v1.BackColor = System.Drawing.Color.White;
-            this.spoor18v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor18v1.Location = new System.Drawing.Point(302, 52);
-            this.spoor18v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor18v1.Name = "spoor18v1";
-            this.spoor18v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor18v1.TabIndex = 61;
-            this.spoor18v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor17v1
-            // 
-            this.spoor17v1.BackColor = System.Drawing.Color.White;
-            this.spoor17v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor17v1.Location = new System.Drawing.Point(253, 52);
-            this.spoor17v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor17v1.Name = "spoor17v1";
-            this.spoor17v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor17v1.TabIndex = 60;
-            this.spoor17v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor16v1
-            // 
-            this.spoor16v1.BackColor = System.Drawing.Color.White;
-            this.spoor16v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor16v1.Location = new System.Drawing.Point(204, 52);
-            this.spoor16v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor16v1.Name = "spoor16v1";
-            this.spoor16v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor16v1.TabIndex = 59;
-            this.spoor16v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor15v1
-            // 
-            this.spoor15v1.BackColor = System.Drawing.Color.White;
-            this.spoor15v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor15v1.Location = new System.Drawing.Point(155, 52);
-            this.spoor15v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor15v1.Name = "spoor15v1";
-            this.spoor15v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor15v1.TabIndex = 58;
-            this.spoor15v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor14v1
-            // 
-            this.spoor14v1.BackColor = System.Drawing.Color.White;
-            this.spoor14v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor14v1.Location = new System.Drawing.Point(106, 52);
-            this.spoor14v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor14v1.Name = "spoor14v1";
-            this.spoor14v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor14v1.TabIndex = 57;
-            this.spoor14v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor13v1
-            // 
-            this.spoor13v1.BackColor = System.Drawing.Color.White;
-            this.spoor13v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor13v1.Location = new System.Drawing.Point(57, 52);
-            this.spoor13v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor13v1.Name = "spoor13v1";
-            this.spoor13v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor13v1.TabIndex = 56;
-            this.spoor13v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // spoor12v1
-            // 
-            this.spoor12v1.BackColor = System.Drawing.Color.White;
-            this.spoor12v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.spoor12v1.Location = new System.Drawing.Point(8, 52);
-            this.spoor12v1.Margin = new System.Windows.Forms.Padding(2);
-            this.spoor12v1.Name = "spoor12v1";
-            this.spoor12v1.Size = new System.Drawing.Size(45, 30);
-            this.spoor12v1.TabIndex = 55;
-            this.spoor12v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // spoor4005
+            // 
+            this.spoor4005.BackColor = System.Drawing.Color.White;
+            this.spoor4005.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4005.Location = new System.Drawing.Point(499, 269);
+            this.spoor4005.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4005.Name = "spoor4005";
+            this.spoor4005.Size = new System.Drawing.Size(45, 30);
+            this.spoor4005.TabIndex = 130;
+            this.spoor4005.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4006
+            // 
+            this.spoor4006.BackColor = System.Drawing.Color.White;
+            this.spoor4006.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4006.Location = new System.Drawing.Point(499, 303);
+            this.spoor4006.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4006.Name = "spoor4006";
+            this.spoor4006.Size = new System.Drawing.Size(45, 30);
+            this.spoor4006.TabIndex = 129;
+            this.spoor4006.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4007
+            // 
+            this.spoor4007.BackColor = System.Drawing.Color.White;
+            this.spoor4007.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4007.Location = new System.Drawing.Point(499, 337);
+            this.spoor4007.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4007.Name = "spoor4007";
+            this.spoor4007.Size = new System.Drawing.Size(45, 30);
+            this.spoor4007.TabIndex = 128;
+            this.spoor4007.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4404
+            // 
+            this.spoor4404.BackColor = System.Drawing.Color.White;
+            this.spoor4404.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4404.Location = new System.Drawing.Point(695, 235);
+            this.spoor4404.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4404.Name = "spoor4404";
+            this.spoor4404.Size = new System.Drawing.Size(45, 30);
+            this.spoor4404.TabIndex = 120;
+            this.spoor4404.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4304
+            // 
+            this.spoor4304.BackColor = System.Drawing.Color.White;
+            this.spoor4304.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4304.Location = new System.Drawing.Point(646, 235);
+            this.spoor4304.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4304.Name = "spoor4304";
+            this.spoor4304.Size = new System.Drawing.Size(45, 30);
+            this.spoor4304.TabIndex = 119;
+            this.spoor4304.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4204
+            // 
+            this.spoor4204.BackColor = System.Drawing.Color.White;
+            this.spoor4204.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4204.Location = new System.Drawing.Point(597, 235);
+            this.spoor4204.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4204.Name = "spoor4204";
+            this.spoor4204.Size = new System.Drawing.Size(45, 30);
+            this.spoor4204.TabIndex = 118;
+            this.spoor4204.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4104
+            // 
+            this.spoor4104.BackColor = System.Drawing.Color.White;
+            this.spoor4104.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4104.Location = new System.Drawing.Point(548, 235);
+            this.spoor4104.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4104.Name = "spoor4104";
+            this.spoor4104.Size = new System.Drawing.Size(45, 30);
+            this.spoor4104.TabIndex = 117;
+            this.spoor4104.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4004
+            // 
+            this.spoor4004.BackColor = System.Drawing.Color.White;
+            this.spoor4004.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4004.Location = new System.Drawing.Point(499, 235);
+            this.spoor4004.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4004.Name = "spoor4004";
+            this.spoor4004.Size = new System.Drawing.Size(45, 30);
+            this.spoor4004.TabIndex = 116;
+            this.spoor4004.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3804
+            // 
+            this.spoor3804.BackColor = System.Drawing.Color.White;
+            this.spoor3804.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3804.Location = new System.Drawing.Point(399, 235);
+            this.spoor3804.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3804.Name = "spoor3804";
+            this.spoor3804.Size = new System.Drawing.Size(45, 30);
+            this.spoor3804.TabIndex = 115;
+            this.spoor3804.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3704
+            // 
+            this.spoor3704.BackColor = System.Drawing.Color.White;
+            this.spoor3704.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3704.Location = new System.Drawing.Point(350, 235);
+            this.spoor3704.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3704.Name = "spoor3704";
+            this.spoor3704.Size = new System.Drawing.Size(45, 30);
+            this.spoor3704.TabIndex = 114;
+            this.spoor3704.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3604
+            // 
+            this.spoor3604.BackColor = System.Drawing.Color.White;
+            this.spoor3604.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3604.Location = new System.Drawing.Point(301, 235);
+            this.spoor3604.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3604.Name = "spoor3604";
+            this.spoor3604.Size = new System.Drawing.Size(45, 30);
+            this.spoor3604.TabIndex = 113;
+            this.spoor3604.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3504
+            // 
+            this.spoor3504.BackColor = System.Drawing.Color.White;
+            this.spoor3504.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3504.Location = new System.Drawing.Point(252, 235);
+            this.spoor3504.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3504.Name = "spoor3504";
+            this.spoor3504.Size = new System.Drawing.Size(45, 30);
+            this.spoor3504.TabIndex = 112;
+            this.spoor3504.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3404
+            // 
+            this.spoor3404.BackColor = System.Drawing.Color.White;
+            this.spoor3404.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3404.Location = new System.Drawing.Point(203, 235);
+            this.spoor3404.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3404.Name = "spoor3404";
+            this.spoor3404.Size = new System.Drawing.Size(45, 30);
+            this.spoor3404.TabIndex = 111;
+            this.spoor3404.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3304
+            // 
+            this.spoor3304.BackColor = System.Drawing.Color.White;
+            this.spoor3304.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3304.Location = new System.Drawing.Point(154, 235);
+            this.spoor3304.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3304.Name = "spoor3304";
+            this.spoor3304.Size = new System.Drawing.Size(45, 30);
+            this.spoor3304.TabIndex = 110;
+            this.spoor3304.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3204
+            // 
+            this.spoor3204.BackColor = System.Drawing.Color.White;
+            this.spoor3204.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3204.Location = new System.Drawing.Point(105, 235);
+            this.spoor3204.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3204.Name = "spoor3204";
+            this.spoor3204.Size = new System.Drawing.Size(45, 30);
+            this.spoor3204.TabIndex = 109;
+            this.spoor3204.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4403
+            // 
+            this.spoor4403.BackColor = System.Drawing.Color.White;
+            this.spoor4403.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4403.Location = new System.Drawing.Point(695, 201);
+            this.spoor4403.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4403.Name = "spoor4403";
+            this.spoor4403.Size = new System.Drawing.Size(45, 30);
+            this.spoor4403.TabIndex = 106;
+            this.spoor4403.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4303
+            // 
+            this.spoor4303.BackColor = System.Drawing.Color.White;
+            this.spoor4303.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4303.Location = new System.Drawing.Point(646, 201);
+            this.spoor4303.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4303.Name = "spoor4303";
+            this.spoor4303.Size = new System.Drawing.Size(45, 30);
+            this.spoor4303.TabIndex = 105;
+            this.spoor4303.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4203
+            // 
+            this.spoor4203.BackColor = System.Drawing.Color.White;
+            this.spoor4203.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4203.Location = new System.Drawing.Point(597, 201);
+            this.spoor4203.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4203.Name = "spoor4203";
+            this.spoor4203.Size = new System.Drawing.Size(45, 30);
+            this.spoor4203.TabIndex = 104;
+            this.spoor4203.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4103
+            // 
+            this.spoor4103.BackColor = System.Drawing.Color.White;
+            this.spoor4103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4103.Location = new System.Drawing.Point(548, 201);
+            this.spoor4103.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4103.Name = "spoor4103";
+            this.spoor4103.Size = new System.Drawing.Size(45, 30);
+            this.spoor4103.TabIndex = 103;
+            this.spoor4103.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4003
+            // 
+            this.spoor4003.BackColor = System.Drawing.Color.White;
+            this.spoor4003.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4003.Location = new System.Drawing.Point(499, 201);
+            this.spoor4003.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4003.Name = "spoor4003";
+            this.spoor4003.Size = new System.Drawing.Size(45, 30);
+            this.spoor4003.TabIndex = 102;
+            this.spoor4003.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3803
+            // 
+            this.spoor3803.BackColor = System.Drawing.Color.White;
+            this.spoor3803.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3803.Location = new System.Drawing.Point(399, 201);
+            this.spoor3803.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3803.Name = "spoor3803";
+            this.spoor3803.Size = new System.Drawing.Size(45, 30);
+            this.spoor3803.TabIndex = 101;
+            this.spoor3803.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3703
+            // 
+            this.spoor3703.BackColor = System.Drawing.Color.White;
+            this.spoor3703.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3703.Location = new System.Drawing.Point(350, 201);
+            this.spoor3703.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3703.Name = "spoor3703";
+            this.spoor3703.Size = new System.Drawing.Size(45, 30);
+            this.spoor3703.TabIndex = 100;
+            this.spoor3703.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3603
+            // 
+            this.spoor3603.BackColor = System.Drawing.Color.White;
+            this.spoor3603.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3603.Location = new System.Drawing.Point(301, 201);
+            this.spoor3603.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3603.Name = "spoor3603";
+            this.spoor3603.Size = new System.Drawing.Size(45, 30);
+            this.spoor3603.TabIndex = 99;
+            this.spoor3603.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3503
+            // 
+            this.spoor3503.BackColor = System.Drawing.Color.White;
+            this.spoor3503.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3503.Location = new System.Drawing.Point(252, 201);
+            this.spoor3503.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3503.Name = "spoor3503";
+            this.spoor3503.Size = new System.Drawing.Size(45, 30);
+            this.spoor3503.TabIndex = 98;
+            this.spoor3503.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3403
+            // 
+            this.spoor3403.BackColor = System.Drawing.Color.White;
+            this.spoor3403.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3403.Location = new System.Drawing.Point(203, 201);
+            this.spoor3403.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3403.Name = "spoor3403";
+            this.spoor3403.Size = new System.Drawing.Size(45, 30);
+            this.spoor3403.TabIndex = 97;
+            this.spoor3403.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3303
+            // 
+            this.spoor3303.BackColor = System.Drawing.Color.White;
+            this.spoor3303.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3303.Location = new System.Drawing.Point(154, 201);
+            this.spoor3303.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3303.Name = "spoor3303";
+            this.spoor3303.Size = new System.Drawing.Size(45, 30);
+            this.spoor3303.TabIndex = 96;
+            this.spoor3303.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3203
+            // 
+            this.spoor3203.BackColor = System.Drawing.Color.White;
+            this.spoor3203.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3203.Location = new System.Drawing.Point(105, 201);
+            this.spoor3203.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3203.Name = "spoor3203";
+            this.spoor3203.Size = new System.Drawing.Size(45, 30);
+            this.spoor3203.TabIndex = 95;
+            this.spoor3203.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3103
+            // 
+            this.spoor3103.BackColor = System.Drawing.Color.White;
+            this.spoor3103.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3103.Location = new System.Drawing.Point(56, 201);
+            this.spoor3103.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3103.Name = "spoor3103";
+            this.spoor3103.Size = new System.Drawing.Size(45, 30);
+            this.spoor3103.TabIndex = 94;
+            this.spoor3103.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3003
+            // 
+            this.spoor3003.BackColor = System.Drawing.Color.White;
+            this.spoor3003.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3003.Location = new System.Drawing.Point(7, 201);
+            this.spoor3003.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3003.Name = "spoor3003";
+            this.spoor3003.Size = new System.Drawing.Size(45, 30);
+            this.spoor3003.TabIndex = 93;
+            this.spoor3003.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4402
+            // 
+            this.spoor4402.BackColor = System.Drawing.Color.White;
+            this.spoor4402.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4402.Location = new System.Drawing.Point(695, 167);
+            this.spoor4402.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4402.Name = "spoor4402";
+            this.spoor4402.Size = new System.Drawing.Size(45, 30);
+            this.spoor4402.TabIndex = 92;
+            this.spoor4402.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4302
+            // 
+            this.spoor4302.BackColor = System.Drawing.Color.White;
+            this.spoor4302.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4302.Location = new System.Drawing.Point(646, 167);
+            this.spoor4302.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4302.Name = "spoor4302";
+            this.spoor4302.Size = new System.Drawing.Size(45, 30);
+            this.spoor4302.TabIndex = 91;
+            this.spoor4302.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4202
+            // 
+            this.spoor4202.BackColor = System.Drawing.Color.White;
+            this.spoor4202.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4202.Location = new System.Drawing.Point(597, 167);
+            this.spoor4202.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4202.Name = "spoor4202";
+            this.spoor4202.Size = new System.Drawing.Size(45, 30);
+            this.spoor4202.TabIndex = 90;
+            this.spoor4202.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4102
+            // 
+            this.spoor4102.BackColor = System.Drawing.Color.White;
+            this.spoor4102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4102.Location = new System.Drawing.Point(548, 167);
+            this.spoor4102.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4102.Name = "spoor4102";
+            this.spoor4102.Size = new System.Drawing.Size(45, 30);
+            this.spoor4102.TabIndex = 89;
+            this.spoor4102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4002
+            // 
+            this.spoor4002.BackColor = System.Drawing.Color.White;
+            this.spoor4002.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4002.Location = new System.Drawing.Point(499, 167);
+            this.spoor4002.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4002.Name = "spoor4002";
+            this.spoor4002.Size = new System.Drawing.Size(45, 30);
+            this.spoor4002.TabIndex = 88;
+            this.spoor4002.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3802
+            // 
+            this.spoor3802.BackColor = System.Drawing.Color.White;
+            this.spoor3802.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3802.Location = new System.Drawing.Point(399, 167);
+            this.spoor3802.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3802.Name = "spoor3802";
+            this.spoor3802.Size = new System.Drawing.Size(45, 30);
+            this.spoor3802.TabIndex = 87;
+            this.spoor3802.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3702
+            // 
+            this.spoor3702.BackColor = System.Drawing.Color.White;
+            this.spoor3702.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3702.Location = new System.Drawing.Point(350, 167);
+            this.spoor3702.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3702.Name = "spoor3702";
+            this.spoor3702.Size = new System.Drawing.Size(45, 30);
+            this.spoor3702.TabIndex = 86;
+            this.spoor3702.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3602
+            // 
+            this.spoor3602.BackColor = System.Drawing.Color.White;
+            this.spoor3602.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3602.Location = new System.Drawing.Point(301, 167);
+            this.spoor3602.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3602.Name = "spoor3602";
+            this.spoor3602.Size = new System.Drawing.Size(45, 30);
+            this.spoor3602.TabIndex = 85;
+            this.spoor3602.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3502
+            // 
+            this.spoor3502.BackColor = System.Drawing.Color.White;
+            this.spoor3502.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3502.Location = new System.Drawing.Point(252, 167);
+            this.spoor3502.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3502.Name = "spoor3502";
+            this.spoor3502.Size = new System.Drawing.Size(45, 30);
+            this.spoor3502.TabIndex = 84;
+            this.spoor3502.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3402
+            // 
+            this.spoor3402.BackColor = System.Drawing.Color.White;
+            this.spoor3402.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3402.Location = new System.Drawing.Point(203, 167);
+            this.spoor3402.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3402.Name = "spoor3402";
+            this.spoor3402.Size = new System.Drawing.Size(45, 30);
+            this.spoor3402.TabIndex = 83;
+            this.spoor3402.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3302
+            // 
+            this.spoor3302.BackColor = System.Drawing.Color.White;
+            this.spoor3302.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3302.Location = new System.Drawing.Point(154, 167);
+            this.spoor3302.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3302.Name = "spoor3302";
+            this.spoor3302.Size = new System.Drawing.Size(45, 30);
+            this.spoor3302.TabIndex = 82;
+            this.spoor3302.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3202
+            // 
+            this.spoor3202.BackColor = System.Drawing.Color.White;
+            this.spoor3202.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3202.Location = new System.Drawing.Point(105, 167);
+            this.spoor3202.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3202.Name = "spoor3202";
+            this.spoor3202.Size = new System.Drawing.Size(45, 30);
+            this.spoor3202.TabIndex = 81;
+            this.spoor3202.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3102
+            // 
+            this.spoor3102.BackColor = System.Drawing.Color.White;
+            this.spoor3102.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3102.Location = new System.Drawing.Point(56, 167);
+            this.spoor3102.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3102.Name = "spoor3102";
+            this.spoor3102.Size = new System.Drawing.Size(45, 30);
+            this.spoor3102.TabIndex = 80;
+            this.spoor3102.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3002
+            // 
+            this.spoor3002.BackColor = System.Drawing.Color.White;
+            this.spoor3002.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3002.Location = new System.Drawing.Point(7, 167);
+            this.spoor3002.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3002.Name = "spoor3002";
+            this.spoor3002.Size = new System.Drawing.Size(45, 30);
+            this.spoor3002.TabIndex = 79;
+            this.spoor3002.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4401
+            // 
+            this.spoor4401.BackColor = System.Drawing.Color.White;
+            this.spoor4401.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4401.Location = new System.Drawing.Point(695, 131);
+            this.spoor4401.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4401.Name = "spoor4401";
+            this.spoor4401.Size = new System.Drawing.Size(45, 30);
+            this.spoor4401.TabIndex = 78;
+            this.spoor4401.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4301
+            // 
+            this.spoor4301.BackColor = System.Drawing.Color.White;
+            this.spoor4301.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4301.Location = new System.Drawing.Point(646, 131);
+            this.spoor4301.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4301.Name = "spoor4301";
+            this.spoor4301.Size = new System.Drawing.Size(45, 30);
+            this.spoor4301.TabIndex = 77;
+            this.spoor4301.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4201
+            // 
+            this.spoor4201.BackColor = System.Drawing.Color.White;
+            this.spoor4201.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4201.Location = new System.Drawing.Point(597, 131);
+            this.spoor4201.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4201.Name = "spoor4201";
+            this.spoor4201.Size = new System.Drawing.Size(45, 30);
+            this.spoor4201.TabIndex = 76;
+            this.spoor4201.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4101
+            // 
+            this.spoor4101.BackColor = System.Drawing.Color.White;
+            this.spoor4101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4101.Location = new System.Drawing.Point(548, 131);
+            this.spoor4101.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4101.Name = "spoor4101";
+            this.spoor4101.Size = new System.Drawing.Size(45, 30);
+            this.spoor4101.TabIndex = 75;
+            this.spoor4101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor4001
+            // 
+            this.spoor4001.BackColor = System.Drawing.Color.White;
+            this.spoor4001.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor4001.Location = new System.Drawing.Point(499, 131);
+            this.spoor4001.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor4001.Name = "spoor4001";
+            this.spoor4001.Size = new System.Drawing.Size(45, 30);
+            this.spoor4001.TabIndex = 74;
+            this.spoor4001.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3801
+            // 
+            this.spoor3801.BackColor = System.Drawing.Color.White;
+            this.spoor3801.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3801.Location = new System.Drawing.Point(399, 131);
+            this.spoor3801.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3801.Name = "spoor3801";
+            this.spoor3801.Size = new System.Drawing.Size(45, 30);
+            this.spoor3801.TabIndex = 73;
+            this.spoor3801.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3701
+            // 
+            this.spoor3701.BackColor = System.Drawing.Color.White;
+            this.spoor3701.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3701.Location = new System.Drawing.Point(350, 131);
+            this.spoor3701.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3701.Name = "spoor3701";
+            this.spoor3701.Size = new System.Drawing.Size(45, 30);
+            this.spoor3701.TabIndex = 72;
+            this.spoor3701.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3601
+            // 
+            this.spoor3601.BackColor = System.Drawing.Color.White;
+            this.spoor3601.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3601.Location = new System.Drawing.Point(301, 131);
+            this.spoor3601.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3601.Name = "spoor3601";
+            this.spoor3601.Size = new System.Drawing.Size(45, 30);
+            this.spoor3601.TabIndex = 71;
+            this.spoor3601.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3501
+            // 
+            this.spoor3501.BackColor = System.Drawing.Color.White;
+            this.spoor3501.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3501.Location = new System.Drawing.Point(252, 131);
+            this.spoor3501.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3501.Name = "spoor3501";
+            this.spoor3501.Size = new System.Drawing.Size(45, 30);
+            this.spoor3501.TabIndex = 70;
+            this.spoor3501.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3401
+            // 
+            this.spoor3401.BackColor = System.Drawing.Color.White;
+            this.spoor3401.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3401.Location = new System.Drawing.Point(203, 131);
+            this.spoor3401.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3401.Name = "spoor3401";
+            this.spoor3401.Size = new System.Drawing.Size(45, 30);
+            this.spoor3401.TabIndex = 69;
+            this.spoor3401.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3301
+            // 
+            this.spoor3301.BackColor = System.Drawing.Color.White;
+            this.spoor3301.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3301.Location = new System.Drawing.Point(154, 131);
+            this.spoor3301.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3301.Name = "spoor3301";
+            this.spoor3301.Size = new System.Drawing.Size(45, 30);
+            this.spoor3301.TabIndex = 68;
+            this.spoor3301.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3201
+            // 
+            this.spoor3201.BackColor = System.Drawing.Color.White;
+            this.spoor3201.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3201.Location = new System.Drawing.Point(105, 131);
+            this.spoor3201.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3201.Name = "spoor3201";
+            this.spoor3201.Size = new System.Drawing.Size(45, 30);
+            this.spoor3201.TabIndex = 67;
+            this.spoor3201.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3101
+            // 
+            this.spoor3101.BackColor = System.Drawing.Color.White;
+            this.spoor3101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3101.Location = new System.Drawing.Point(56, 131);
+            this.spoor3101.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3101.Name = "spoor3101";
+            this.spoor3101.Size = new System.Drawing.Size(45, 30);
+            this.spoor3101.TabIndex = 66;
+            this.spoor3101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor3001
+            // 
+            this.spoor3001.BackColor = System.Drawing.Color.White;
+            this.spoor3001.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor3001.Location = new System.Drawing.Point(7, 131);
+            this.spoor3001.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor3001.Name = "spoor3001";
+            this.spoor3001.Size = new System.Drawing.Size(45, 30);
+            this.spoor3001.TabIndex = 65;
+            this.spoor3001.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor2101
+            // 
+            this.spoor2101.BackColor = System.Drawing.Color.White;
+            this.spoor2101.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor2101.Location = new System.Drawing.Point(449, 52);
+            this.spoor2101.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor2101.Name = "spoor2101";
+            this.spoor2101.Size = new System.Drawing.Size(45, 30);
+            this.spoor2101.TabIndex = 64;
+            this.spoor2101.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor2001
+            // 
+            this.spoor2001.BackColor = System.Drawing.Color.White;
+            this.spoor2001.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor2001.Location = new System.Drawing.Point(400, 52);
+            this.spoor2001.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor2001.Name = "spoor2001";
+            this.spoor2001.Size = new System.Drawing.Size(45, 30);
+            this.spoor2001.TabIndex = 63;
+            this.spoor2001.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor1901
+            // 
+            this.spoor1901.BackColor = System.Drawing.Color.White;
+            this.spoor1901.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor1901.Location = new System.Drawing.Point(351, 52);
+            this.spoor1901.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor1901.Name = "spoor1901";
+            this.spoor1901.Size = new System.Drawing.Size(45, 30);
+            this.spoor1901.TabIndex = 62;
+            this.spoor1901.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor1801
+            // 
+            this.spoor1801.BackColor = System.Drawing.Color.White;
+            this.spoor1801.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor1801.Location = new System.Drawing.Point(302, 52);
+            this.spoor1801.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor1801.Name = "spoor1801";
+            this.spoor1801.Size = new System.Drawing.Size(45, 30);
+            this.spoor1801.TabIndex = 61;
+            this.spoor1801.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor1701
+            // 
+            this.spoor1701.BackColor = System.Drawing.Color.White;
+            this.spoor1701.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor1701.Location = new System.Drawing.Point(253, 52);
+            this.spoor1701.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor1701.Name = "spoor1701";
+            this.spoor1701.Size = new System.Drawing.Size(45, 30);
+            this.spoor1701.TabIndex = 60;
+            this.spoor1701.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor1601
+            // 
+            this.spoor1601.BackColor = System.Drawing.Color.White;
+            this.spoor1601.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor1601.Location = new System.Drawing.Point(204, 52);
+            this.spoor1601.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor1601.Name = "spoor1601";
+            this.spoor1601.Size = new System.Drawing.Size(45, 30);
+            this.spoor1601.TabIndex = 59;
+            this.spoor1601.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor1501
+            // 
+            this.spoor1501.BackColor = System.Drawing.Color.White;
+            this.spoor1501.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor1501.Location = new System.Drawing.Point(155, 52);
+            this.spoor1501.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor1501.Name = "spoor1501";
+            this.spoor1501.Size = new System.Drawing.Size(45, 30);
+            this.spoor1501.TabIndex = 58;
+            this.spoor1501.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor1401
+            // 
+            this.spoor1401.BackColor = System.Drawing.Color.White;
+            this.spoor1401.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor1401.Location = new System.Drawing.Point(106, 52);
+            this.spoor1401.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor1401.Name = "spoor1401";
+            this.spoor1401.Size = new System.Drawing.Size(45, 30);
+            this.spoor1401.TabIndex = 57;
+            this.spoor1401.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor1301
+            // 
+            this.spoor1301.BackColor = System.Drawing.Color.White;
+            this.spoor1301.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor1301.Location = new System.Drawing.Point(57, 52);
+            this.spoor1301.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor1301.Name = "spoor1301";
+            this.spoor1301.Size = new System.Drawing.Size(45, 30);
+            this.spoor1301.TabIndex = 56;
+            this.spoor1301.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor1201
+            // 
+            this.spoor1201.BackColor = System.Drawing.Color.White;
+            this.spoor1201.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor1201.Location = new System.Drawing.Point(8, 52);
+            this.spoor1201.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor1201.Name = "spoor1201";
+            this.spoor1201.Size = new System.Drawing.Size(45, 30);
+            this.spoor1201.TabIndex = 55;
+            this.spoor1201.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label26
             // 
@@ -3418,179 +4056,179 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TabPage tpReparatie;
-        private System.Windows.Forms.Label spoor77v5;
-        private System.Windows.Forms.Label spoor77v4;
-        private System.Windows.Forms.Label spoor77v3;
-        private System.Windows.Forms.Label spoor77v2;
-        private System.Windows.Forms.Label spoor77v1;
+        private System.Windows.Forms.Label spoor7705;
+        private System.Windows.Forms.Label spoor7704;
+        private System.Windows.Forms.Label spoor7703;
+        private System.Windows.Forms.Label spoor7702;
+        private System.Windows.Forms.Label spoor7701;
         private System.Windows.Forms.Label label158;
-        private System.Windows.Forms.Label spoor76v5;
-        private System.Windows.Forms.Label spoor58v5;
-        private System.Windows.Forms.Label spoor57v5;
-        private System.Windows.Forms.Label spoor56v5;
-        private System.Windows.Forms.Label spoor55v5;
-        private System.Windows.Forms.Label spoor54v5;
-        private System.Windows.Forms.Label spoor53v5;
-        private System.Windows.Forms.Label spoor57v6;
-        private System.Windows.Forms.Label spoor56v6;
-        private System.Windows.Forms.Label spoor55v6;
-        private System.Windows.Forms.Label spoor54v6;
-        private System.Windows.Forms.Label spoor53v6;
-        private System.Windows.Forms.Label spoor57v7;
-        private System.Windows.Forms.Label spoor56v7;
-        private System.Windows.Forms.Label spoor55v7;
-        private System.Windows.Forms.Label spoor54v7;
-        private System.Windows.Forms.Label spoor76v4;
-        private System.Windows.Forms.Label spoor75v4;
-        private System.Windows.Forms.Label spoor63v4;
-        private System.Windows.Forms.Label spoor64v4;
-        private System.Windows.Forms.Label spoor58v4;
-        private System.Windows.Forms.Label spoor57v4;
-        private System.Windows.Forms.Label spoor56v4;
-        private System.Windows.Forms.Label spoor55v4;
-        private System.Windows.Forms.Label spoor54v4;
-        private System.Windows.Forms.Label spoor53v4;
-        private System.Windows.Forms.Label spoor76v3;
-        private System.Windows.Forms.Label spoor75v3;
-        private System.Windows.Forms.Label spoor74v3;
-        private System.Windows.Forms.Label spoor63v3;
-        private System.Windows.Forms.Label spoor64v3;
-        private System.Windows.Forms.Label spoor58v3;
-        private System.Windows.Forms.Label spoor57v3;
-        private System.Windows.Forms.Label spoor56v3;
-        private System.Windows.Forms.Label spoor55v3;
-        private System.Windows.Forms.Label spoor54v3;
-        private System.Windows.Forms.Label spoor53v3;
-        private System.Windows.Forms.Label spoor76v2;
-        private System.Windows.Forms.Label spoor76v1;
-        private System.Windows.Forms.Label spoor75v2;
-        private System.Windows.Forms.Label spoor75v1;
-        private System.Windows.Forms.Label spoor74v2;
-        private System.Windows.Forms.Label spoor74v1;
-        private System.Windows.Forms.Label spoor61v2;
-        private System.Windows.Forms.Label spoor61v1;
-        private System.Windows.Forms.Label spoor62v2;
-        private System.Windows.Forms.Label spoor62v1;
-        private System.Windows.Forms.Label spoor63v2;
-        private System.Windows.Forms.Label spoor63v1;
-        private System.Windows.Forms.Label spoor64v2;
-        private System.Windows.Forms.Label spoor64v1;
+        private System.Windows.Forms.Label spoor7605;
+        private System.Windows.Forms.Label spoor5805;
+        private System.Windows.Forms.Label spoor5705;
+        private System.Windows.Forms.Label spoor5605;
+        private System.Windows.Forms.Label spoor5505;
+        private System.Windows.Forms.Label spoor5405;
+        private System.Windows.Forms.Label spoor5305;
+        private System.Windows.Forms.Label spoor5706;
+        private System.Windows.Forms.Label spoor5606;
+        private System.Windows.Forms.Label spoor5506;
+        private System.Windows.Forms.Label spoor5406;
+        private System.Windows.Forms.Label spoor5306;
+        private System.Windows.Forms.Label spoor5707;
+        private System.Windows.Forms.Label spoor5607;
+        private System.Windows.Forms.Label spoor5507;
+        private System.Windows.Forms.Label spoor5407;
+        private System.Windows.Forms.Label spoor7604;
+        private System.Windows.Forms.Label spoor7504;
+        private System.Windows.Forms.Label spoor6304;
+        private System.Windows.Forms.Label spoor6404;
+        private System.Windows.Forms.Label spoor5804;
+        private System.Windows.Forms.Label spoor5704;
+        private System.Windows.Forms.Label spoor5604;
+        private System.Windows.Forms.Label spoor5504;
+        private System.Windows.Forms.Label spoor5404;
+        private System.Windows.Forms.Label spoor5304;
+        private System.Windows.Forms.Label spoor7603;
+        private System.Windows.Forms.Label spoor7503;
+        private System.Windows.Forms.Label spoor7403;
+        private System.Windows.Forms.Label spoor6303;
+        private System.Windows.Forms.Label spoor6403;
+        private System.Windows.Forms.Label spoor5803;
+        private System.Windows.Forms.Label spoor5703;
+        private System.Windows.Forms.Label spoor5603;
+        private System.Windows.Forms.Label spoor5503;
+        private System.Windows.Forms.Label spoor5403;
+        private System.Windows.Forms.Label spoor5303;
+        private System.Windows.Forms.Label spoor7602;
+        private System.Windows.Forms.Label spoor7601;
+        private System.Windows.Forms.Label spoor7502;
+        private System.Windows.Forms.Label spoor7501;
+        private System.Windows.Forms.Label spoor7402;
+        private System.Windows.Forms.Label spoor7401;
+        private System.Windows.Forms.Label spoor6102;
+        private System.Windows.Forms.Label spoor6101;
+        private System.Windows.Forms.Label spoor6202;
+        private System.Windows.Forms.Label spoor6201;
+        private System.Windows.Forms.Label spoor6302;
+        private System.Windows.Forms.Label spoor6301;
+        private System.Windows.Forms.Label spoor6402;
+        private System.Windows.Forms.Label spoor6401;
         private System.Windows.Forms.Label label250;
-        private System.Windows.Forms.Label spoor58v2;
+        private System.Windows.Forms.Label spoor5802;
         private System.Windows.Forms.Label label240;
-        private System.Windows.Forms.Label spoor58v1;
+        private System.Windows.Forms.Label spoor5801;
         private System.Windows.Forms.Label label230;
-        private System.Windows.Forms.Label spoor57v2;
+        private System.Windows.Forms.Label spoor5702;
         private System.Windows.Forms.Label label220;
-        private System.Windows.Forms.Label spoor57v1;
+        private System.Windows.Forms.Label spoor5701;
         private System.Windows.Forms.Label label210;
-        private System.Windows.Forms.Label spoor56v2;
+        private System.Windows.Forms.Label spoor5602;
         private System.Windows.Forms.Label label200;
-        private System.Windows.Forms.Label spoor56v1;
+        private System.Windows.Forms.Label spoor5601;
         private System.Windows.Forms.Label label190;
-        private System.Windows.Forms.Label spoor55v2;
+        private System.Windows.Forms.Label spoor5502;
         private System.Windows.Forms.Label label180;
-        private System.Windows.Forms.Label spoor55v1;
+        private System.Windows.Forms.Label spoor5501;
         private System.Windows.Forms.Label label170;
-        private System.Windows.Forms.Label spoor54v2;
+        private System.Windows.Forms.Label spoor5402;
         private System.Windows.Forms.Label label160;
-        private System.Windows.Forms.Label spoor54v1;
+        private System.Windows.Forms.Label spoor5401;
         private System.Windows.Forms.Label label150;
-        private System.Windows.Forms.Label spoor53v2;
+        private System.Windows.Forms.Label spoor5302;
         private System.Windows.Forms.Label label140;
-        private System.Windows.Forms.Label spoor53v1;
+        private System.Windows.Forms.Label spoor5301;
         private System.Windows.Forms.Label label139;
-        private System.Windows.Forms.Label spoor52v5;
-        private System.Windows.Forms.Label spoor52v6;
-        private System.Windows.Forms.Label spoor52v4;
-        private System.Windows.Forms.Label spoor52v3;
-        private System.Windows.Forms.Label spoor52v2;
-        private System.Windows.Forms.Label spoor52v1;
+        private System.Windows.Forms.Label spoor5205;
+        private System.Windows.Forms.Label spoor5206;
+        private System.Windows.Forms.Label spoor5204;
+        private System.Windows.Forms.Label spoor5203;
+        private System.Windows.Forms.Label spoor5202;
+        private System.Windows.Forms.Label spoor5201;
         private System.Windows.Forms.Label label129;
-        private System.Windows.Forms.Label spoor57v8;
-        private System.Windows.Forms.Label spoor51v5;
-        private System.Windows.Forms.Label spoor51v4;
-        private System.Windows.Forms.Label spoor51v3;
-        private System.Windows.Forms.Label spoor51v2;
-        private System.Windows.Forms.Label spoor51v1;
+        private System.Windows.Forms.Label spoor5708;
+        private System.Windows.Forms.Label spoor5105;
+        private System.Windows.Forms.Label spoor5104;
+        private System.Windows.Forms.Label spoor5103;
+        private System.Windows.Forms.Label spoor5102;
+        private System.Windows.Forms.Label spoor5101;
         private System.Windows.Forms.Label label119;
-        private System.Windows.Forms.Label spoor45v9;
-        private System.Windows.Forms.Label spoor45v8;
-        private System.Windows.Forms.Label spoor45v5;
-        private System.Windows.Forms.Label spoor45v6;
-        private System.Windows.Forms.Label spoor45v7;
-        private System.Windows.Forms.Label spoor45v4;
-        private System.Windows.Forms.Label spoor45v3;
-        private System.Windows.Forms.Label spoor45v2;
-        private System.Windows.Forms.Label spoor45v1;
+        private System.Windows.Forms.Label spoor4509;
+        private System.Windows.Forms.Label spoor4508;
+        private System.Windows.Forms.Label spoor4505;
+        private System.Windows.Forms.Label spoor4506;
+        private System.Windows.Forms.Label spoor4507;
+        private System.Windows.Forms.Label spoor4504;
+        private System.Windows.Forms.Label spoor4503;
+        private System.Windows.Forms.Label spoor4502;
+        private System.Windows.Forms.Label spoor4501;
         private System.Windows.Forms.Label label107;
-        private System.Windows.Forms.Label spoor40v5;
-        private System.Windows.Forms.Label spoor40v6;
-        private System.Windows.Forms.Label spoor40v7;
-        private System.Windows.Forms.Label spoor44v4;
-        private System.Windows.Forms.Label spoor43v4;
-        private System.Windows.Forms.Label spoor42v4;
-        private System.Windows.Forms.Label spoor41v4;
-        private System.Windows.Forms.Label spoor40v4;
-        private System.Windows.Forms.Label spoor38v4;
-        private System.Windows.Forms.Label spoor37v4;
-        private System.Windows.Forms.Label spoor36v4;
-        private System.Windows.Forms.Label spoor35v4;
-        private System.Windows.Forms.Label spoor34v4;
-        private System.Windows.Forms.Label spoor33v4;
-        private System.Windows.Forms.Label spoor32v4;
-        private System.Windows.Forms.Label spoor44v3;
-        private System.Windows.Forms.Label spoor43v3;
-        private System.Windows.Forms.Label spoor42v3;
-        private System.Windows.Forms.Label spoor41v3;
-        private System.Windows.Forms.Label spoor40v3;
-        private System.Windows.Forms.Label spoor38v3;
-        private System.Windows.Forms.Label spoor37v3;
-        private System.Windows.Forms.Label spoor36v3;
-        private System.Windows.Forms.Label spoor35v3;
-        private System.Windows.Forms.Label spoor34v3;
-        private System.Windows.Forms.Label spoor33v3;
-        private System.Windows.Forms.Label spoor32v3;
-        private System.Windows.Forms.Label spoor31v3;
-        private System.Windows.Forms.Label spoor30v3;
-        private System.Windows.Forms.Label spoor44v2;
-        private System.Windows.Forms.Label spoor43v2;
-        private System.Windows.Forms.Label spoor42v2;
-        private System.Windows.Forms.Label spoor41v2;
-        private System.Windows.Forms.Label spoor40v2;
-        private System.Windows.Forms.Label spoor38v2;
-        private System.Windows.Forms.Label spoor37v2;
-        private System.Windows.Forms.Label spoor36v2;
-        private System.Windows.Forms.Label spoor35v2;
-        private System.Windows.Forms.Label spoor34v2;
-        private System.Windows.Forms.Label spoor33v2;
-        private System.Windows.Forms.Label spoor32v2;
-        private System.Windows.Forms.Label spoor31v2;
-        private System.Windows.Forms.Label spoor30v2;
-        private System.Windows.Forms.Label spoor44v1;
-        private System.Windows.Forms.Label spoor43v1;
-        private System.Windows.Forms.Label spoor42v1;
-        private System.Windows.Forms.Label spoor41v1;
-        private System.Windows.Forms.Label spoor40v1;
-        private System.Windows.Forms.Label spoor38v1;
-        private System.Windows.Forms.Label spoor37v1;
-        private System.Windows.Forms.Label spoor36v1;
-        private System.Windows.Forms.Label spoor35v1;
-        private System.Windows.Forms.Label spoor34v1;
-        private System.Windows.Forms.Label spoor33v1;
-        private System.Windows.Forms.Label spoor32v1;
-        private System.Windows.Forms.Label spoor31v1;
-        private System.Windows.Forms.Label spoor30v1;
-        private System.Windows.Forms.Label spoor21v1;
-        private System.Windows.Forms.Label spoor20v1;
-        private System.Windows.Forms.Label spoor19v1;
-        private System.Windows.Forms.Label spoor18v1;
-        private System.Windows.Forms.Label spoor17v1;
-        private System.Windows.Forms.Label spoor16v1;
-        private System.Windows.Forms.Label spoor15v1;
-        private System.Windows.Forms.Label spoor14v1;
-        private System.Windows.Forms.Label spoor13v1;
-        private System.Windows.Forms.Label spoor12v1;
+        private System.Windows.Forms.Label spoor4005;
+        private System.Windows.Forms.Label spoor4006;
+        private System.Windows.Forms.Label spoor4007;
+        private System.Windows.Forms.Label spoor4404;
+        private System.Windows.Forms.Label spoor4304;
+        private System.Windows.Forms.Label spoor4204;
+        private System.Windows.Forms.Label spoor4104;
+        private System.Windows.Forms.Label spoor4004;
+        private System.Windows.Forms.Label spoor3804;
+        private System.Windows.Forms.Label spoor3704;
+        private System.Windows.Forms.Label spoor3604;
+        private System.Windows.Forms.Label spoor3504;
+        private System.Windows.Forms.Label spoor3404;
+        private System.Windows.Forms.Label spoor3304;
+        private System.Windows.Forms.Label spoor3204;
+        private System.Windows.Forms.Label spoor4403;
+        private System.Windows.Forms.Label spoor4303;
+        private System.Windows.Forms.Label spoor4203;
+        private System.Windows.Forms.Label spoor4103;
+        private System.Windows.Forms.Label spoor4003;
+        private System.Windows.Forms.Label spoor3803;
+        private System.Windows.Forms.Label spoor3703;
+        private System.Windows.Forms.Label spoor3603;
+        private System.Windows.Forms.Label spoor3503;
+        private System.Windows.Forms.Label spoor3403;
+        private System.Windows.Forms.Label spoor3303;
+        private System.Windows.Forms.Label spoor3203;
+        private System.Windows.Forms.Label spoor3103;
+        private System.Windows.Forms.Label spoor3003;
+        private System.Windows.Forms.Label spoor4402;
+        private System.Windows.Forms.Label spoor4302;
+        private System.Windows.Forms.Label spoor4202;
+        private System.Windows.Forms.Label spoor4102;
+        private System.Windows.Forms.Label spoor4002;
+        private System.Windows.Forms.Label spoor3802;
+        private System.Windows.Forms.Label spoor3702;
+        private System.Windows.Forms.Label spoor3602;
+        private System.Windows.Forms.Label spoor3502;
+        private System.Windows.Forms.Label spoor3402;
+        private System.Windows.Forms.Label spoor3302;
+        private System.Windows.Forms.Label spoor3202;
+        private System.Windows.Forms.Label spoor3102;
+        private System.Windows.Forms.Label spoor3002;
+        private System.Windows.Forms.Label spoor4401;
+        private System.Windows.Forms.Label spoor4301;
+        private System.Windows.Forms.Label spoor4201;
+        private System.Windows.Forms.Label spoor4101;
+        private System.Windows.Forms.Label spoor4001;
+        private System.Windows.Forms.Label spoor3801;
+        private System.Windows.Forms.Label spoor3701;
+        private System.Windows.Forms.Label spoor3601;
+        private System.Windows.Forms.Label spoor3501;
+        private System.Windows.Forms.Label spoor3401;
+        private System.Windows.Forms.Label spoor3301;
+        private System.Windows.Forms.Label spoor3201;
+        private System.Windows.Forms.Label spoor3101;
+        private System.Windows.Forms.Label spoor3001;
+        private System.Windows.Forms.Label spoor2101;
+        private System.Windows.Forms.Label spoor2001;
+        private System.Windows.Forms.Label spoor1901;
+        private System.Windows.Forms.Label spoor1801;
+        private System.Windows.Forms.Label spoor1701;
+        private System.Windows.Forms.Label spoor1601;
+        private System.Windows.Forms.Label spoor1501;
+        private System.Windows.Forms.Label spoor1401;
+        private System.Windows.Forms.Label spoor1301;
+        private System.Windows.Forms.Label spoor1201;
         private System.Windows.Forms.Label label26;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label label18;
