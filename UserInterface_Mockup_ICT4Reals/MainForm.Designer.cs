@@ -370,6 +370,48 @@
             // cbTramInrijdendeLocatie
             // 
             this.cbTramInrijdendeLocatie.FormattingEnabled = true;
+            this.cbTramInrijdendeLocatie.Items.AddRange(new object[] {
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "61",
+            "62",
+            "63",
+            "64",
+            "74",
+            "75",
+            "76",
+            "77"});
             this.cbTramInrijdendeLocatie.Location = new System.Drawing.Point(73, 185);
             this.cbTramInrijdendeLocatie.Name = "cbTramInrijdendeLocatie";
             this.cbTramInrijdendeLocatie.Size = new System.Drawing.Size(121, 21);
@@ -427,6 +469,48 @@
             // cbSpoorStatusSpoor
             // 
             this.cbSpoorStatusSpoor.FormattingEnabled = true;
+            this.cbSpoorStatusSpoor.Items.AddRange(new object[] {
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "61",
+            "62",
+            "63",
+            "64",
+            "74",
+            "75",
+            "76",
+            "77"});
             this.cbSpoorStatusSpoor.Location = new System.Drawing.Point(85, 14);
             this.cbSpoorStatusSpoor.Name = "cbSpoorStatusSpoor";
             this.cbSpoorStatusSpoor.Size = new System.Drawing.Size(109, 21);
@@ -435,6 +519,9 @@
             // cbSpoorStatusStatus
             // 
             this.cbSpoorStatusStatus.FormattingEnabled = true;
+            this.cbSpoorStatusStatus.Items.AddRange(new object[] {
+            "Block",
+            "Unblock"});
             this.cbSpoorStatusStatus.Location = new System.Drawing.Point(85, 41);
             this.cbSpoorStatusStatus.Name = "cbSpoorStatusStatus";
             this.cbSpoorStatusStatus.Size = new System.Drawing.Size(109, 21);
@@ -477,6 +564,11 @@
             // cbToevoegenStatus
             // 
             this.cbToevoegenStatus.FormattingEnabled = true;
+            this.cbToevoegenStatus.Items.AddRange(new object[] {
+            "Ok",
+            "Dirty",
+            "Defect",
+            "Dirty and defect"});
             this.cbToevoegenStatus.Location = new System.Drawing.Point(85, 72);
             this.cbToevoegenStatus.Name = "cbToevoegenStatus";
             this.cbToevoegenStatus.Size = new System.Drawing.Size(109, 21);
@@ -503,6 +595,48 @@
             // cbToevoegenLocatie
             // 
             this.cbToevoegenLocatie.FormattingEnabled = true;
+            this.cbToevoegenLocatie.Items.AddRange(new object[] {
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "61",
+            "62",
+            "63",
+            "64",
+            "74",
+            "75",
+            "76",
+            "77"});
             this.cbToevoegenLocatie.Location = new System.Drawing.Point(85, 45);
             this.cbToevoegenLocatie.Name = "cbToevoegenLocatie";
             this.cbToevoegenLocatie.Size = new System.Drawing.Size(109, 21);
@@ -562,6 +696,11 @@
             // cbDetailsStatus
             // 
             this.cbDetailsStatus.FormattingEnabled = true;
+            this.cbDetailsStatus.Items.AddRange(new object[] {
+            "Ok",
+            "Dirty",
+            "Defect",
+            "Dirty and defect"});
             this.cbDetailsStatus.Location = new System.Drawing.Point(85, 72);
             this.cbDetailsStatus.Name = "cbDetailsStatus";
             this.cbDetailsStatus.Size = new System.Drawing.Size(109, 21);
@@ -588,6 +727,48 @@
             // cbDetailsLocatie
             // 
             this.cbDetailsLocatie.FormattingEnabled = true;
+            this.cbDetailsLocatie.Items.AddRange(new object[] {
+            "12",
+            "13",
+            "14",
+            "15",
+            "16",
+            "17",
+            "18",
+            "19",
+            "20",
+            "21",
+            "30",
+            "31",
+            "32",
+            "33",
+            "34",
+            "35",
+            "36",
+            "37",
+            "38",
+            "40",
+            "41",
+            "42",
+            "43",
+            "44",
+            "45",
+            "51",
+            "52",
+            "53",
+            "54",
+            "55",
+            "56",
+            "57",
+            "58",
+            "61",
+            "62",
+            "63",
+            "64",
+            "74",
+            "75",
+            "76",
+            "77"});
             this.cbDetailsLocatie.Location = new System.Drawing.Point(85, 45);
             this.cbDetailsLocatie.Name = "cbDetailsLocatie";
             this.cbDetailsLocatie.Size = new System.Drawing.Size(109, 21);
