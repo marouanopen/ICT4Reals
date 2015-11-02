@@ -29,7 +29,7 @@ namespace UserInterface_Mockup_ICT4Reals
             }
             if (Administration.LoggedInUser.RoleId == 2)
             {
-                TCLayout.TabPages.Remove(tpBeheer);
+                tpBeheer.Enabled = false;
                 TCLayout.TabPages.Remove(tpReparatie);
                 TCLayout.TabPages.Remove(tpSchoonmaak);
             }
@@ -108,6 +108,7 @@ namespace UserInterface_Mockup_ICT4Reals
                     rail = parkingsystem.InsertTramNr(Convert.ToInt32(tbTramIn.Text), status);
                     tram.OnRail = true;
                     tram._Status = status;
+                    //beurt toeboegen met begindatum
                     //foreach label l  in mainform, if l.name == t.spoorid
                     //l.text = t.tramid
                     //refresh();
