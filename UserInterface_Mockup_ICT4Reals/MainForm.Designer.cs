@@ -257,15 +257,18 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tpInUitrij = new System.Windows.Forms.TabPage();
-            this.labal = new System.Windows.Forms.Label();
+            this.lblNr = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
+            this.Cbxrepair = new System.Windows.Forms.CheckBox();
+            this.label188 = new System.Windows.Forms.Label();
             this.label186 = new System.Windows.Forms.Label();
-            this.tb = new System.Windows.Forms.TextBox();
-            this.checkBox1 = new System.Windows.Forms.CheckBox();
-            this.button4 = new System.Windows.Forms.Button();
+            this.tbTramIn = new System.Windows.Forms.TextBox();
+            this.CbxClean = new System.Windows.Forms.CheckBox();
+            this.btnIncomingTram = new System.Windows.Forms.Button();
             this.label185 = new System.Windows.Forms.Label();
             this.tpSchoonmaak = new System.Windows.Forms.TabPage();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
             this.label124 = new System.Windows.Forms.Label();
             this.label113 = new System.Windows.Forms.Label();
             this.comboBox7 = new System.Windows.Forms.ComboBox();
@@ -276,6 +279,7 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.tpReparatie = new System.Windows.Forms.TabPage();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.button6 = new System.Windows.Forms.Button();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label134 = new System.Windows.Forms.Label();
             this.label159 = new System.Windows.Forms.Label();
@@ -285,8 +289,7 @@
             this.label178 = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.tpUitloggen = new System.Windows.Forms.TabPage();
             this.TCLayout.SuspendLayout();
             this.tpBeheer.SuspendLayout();
             this.gbTramInrijdende.SuspendLayout();
@@ -310,11 +313,13 @@
             this.TCLayout.Controls.Add(this.tpInUitrij);
             this.TCLayout.Controls.Add(this.tpSchoonmaak);
             this.TCLayout.Controls.Add(this.tpReparatie);
+            this.TCLayout.Controls.Add(this.tpUitloggen);
             this.TCLayout.Location = new System.Drawing.Point(12, 12);
             this.TCLayout.Name = "TCLayout";
             this.TCLayout.SelectedIndex = 0;
             this.TCLayout.Size = new System.Drawing.Size(1022, 795);
             this.TCLayout.TabIndex = 0;
+            this.TCLayout.Selected += new System.Windows.Forms.TabControlEventHandler(this.TCLayout_Selected);
             // 
             // tpBeheer
             // 
@@ -3011,7 +3016,7 @@
             // 
             // tpInUitrij
             // 
-            this.tpInUitrij.Controls.Add(this.labal);
+            this.tpInUitrij.Controls.Add(this.lblNr);
             this.tpInUitrij.Controls.Add(this.groupBox10);
             this.tpInUitrij.Location = new System.Drawing.Point(4, 22);
             this.tpInUitrij.Name = "tpInUitrij";
@@ -3020,29 +3025,49 @@
             this.tpInUitrij.Text = "In/Uitrij";
             this.tpInUitrij.UseVisualStyleBackColor = true;
             // 
-            // labal
+            // lblNr
             // 
-            this.labal.AutoSize = true;
-            this.labal.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labal.Location = new System.Drawing.Point(209, 3);
-            this.labal.Name = "labal";
-            this.labal.Size = new System.Drawing.Size(146, 108);
-            this.labal.TabIndex = 3;
-            this.labal.Text = "Nr";
+            this.lblNr.AutoSize = true;
+            this.lblNr.Font = new System.Drawing.Font("Microsoft Sans Serif", 72F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblNr.Location = new System.Drawing.Point(209, 3);
+            this.lblNr.Name = "lblNr";
+            this.lblNr.Size = new System.Drawing.Size(146, 108);
+            this.lblNr.TabIndex = 3;
+            this.lblNr.Text = "Nr";
             // 
             // groupBox10
             // 
+            this.groupBox10.Controls.Add(this.Cbxrepair);
+            this.groupBox10.Controls.Add(this.label188);
             this.groupBox10.Controls.Add(this.label186);
-            this.groupBox10.Controls.Add(this.tb);
-            this.groupBox10.Controls.Add(this.checkBox1);
-            this.groupBox10.Controls.Add(this.button4);
+            this.groupBox10.Controls.Add(this.tbTramIn);
+            this.groupBox10.Controls.Add(this.CbxClean);
+            this.groupBox10.Controls.Add(this.btnIncomingTram);
             this.groupBox10.Controls.Add(this.label185);
             this.groupBox10.Location = new System.Drawing.Point(3, 3);
             this.groupBox10.Name = "groupBox10";
-            this.groupBox10.Size = new System.Drawing.Size(200, 95);
+            this.groupBox10.Size = new System.Drawing.Size(200, 126);
             this.groupBox10.TabIndex = 2;
             this.groupBox10.TabStop = false;
             this.groupBox10.Text = "Inrijdende Trams";
+            // 
+            // Cbxrepair
+            // 
+            this.Cbxrepair.AutoSize = true;
+            this.Cbxrepair.Location = new System.Drawing.Point(179, 65);
+            this.Cbxrepair.Name = "Cbxrepair";
+            this.Cbxrepair.Size = new System.Drawing.Size(15, 14);
+            this.Cbxrepair.TabIndex = 8;
+            this.Cbxrepair.UseVisualStyleBackColor = true;
+            // 
+            // label188
+            // 
+            this.label188.AutoSize = true;
+            this.label188.Location = new System.Drawing.Point(6, 64);
+            this.label188.Name = "label188";
+            this.label188.Size = new System.Drawing.Size(82, 13);
+            this.label188.TabIndex = 7;
+            this.label188.Text = "Reparatie nodig";
             // 
             // label186
             // 
@@ -3053,30 +3078,31 @@
             this.label186.TabIndex = 6;
             this.label186.Text = "Schoonmaak nodig";
             // 
-            // tb
+            // tbTramIn
             // 
-            this.tb.Location = new System.Drawing.Point(73, 19);
-            this.tb.Name = "tb";
-            this.tb.Size = new System.Drawing.Size(121, 20);
-            this.tb.TabIndex = 5;
+            this.tbTramIn.Location = new System.Drawing.Point(73, 19);
+            this.tbTramIn.Name = "tbTramIn";
+            this.tbTramIn.Size = new System.Drawing.Size(121, 20);
+            this.tbTramIn.TabIndex = 5;
             // 
-            // checkBox1
+            // CbxClean
             // 
-            this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(179, 48);
-            this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(15, 14);
-            this.checkBox1.TabIndex = 4;
-            this.checkBox1.UseVisualStyleBackColor = true;
+            this.CbxClean.AutoSize = true;
+            this.CbxClean.Location = new System.Drawing.Point(179, 48);
+            this.CbxClean.Name = "CbxClean";
+            this.CbxClean.Size = new System.Drawing.Size(15, 14);
+            this.CbxClean.TabIndex = 4;
+            this.CbxClean.UseVisualStyleBackColor = true;
             // 
-            // button4
+            // btnIncomingTram
             // 
-            this.button4.Location = new System.Drawing.Point(73, 67);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(121, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Aanmelden";
-            this.button4.UseVisualStyleBackColor = true;
+            this.btnIncomingTram.Location = new System.Drawing.Point(73, 97);
+            this.btnIncomingTram.Name = "btnIncomingTram";
+            this.btnIncomingTram.Size = new System.Drawing.Size(121, 23);
+            this.btnIncomingTram.TabIndex = 3;
+            this.btnIncomingTram.Text = "Aanmelden";
+            this.btnIncomingTram.UseVisualStyleBackColor = true;
+            this.btnIncomingTram.Click += new System.EventHandler(this.btnIncomingTram_Click);
             // 
             // label185
             // 
@@ -3113,6 +3139,15 @@
             this.groupBox6.TabIndex = 2;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Status";
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(73, 90);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(121, 23);
+            this.button5.TabIndex = 6;
+            this.button5.Text = "Updaten";
+            this.button5.UseVisualStyleBackColor = true;
             // 
             // label124
             // 
@@ -3214,6 +3249,15 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Status";
             // 
+            // button6
+            // 
+            this.button6.Location = new System.Drawing.Point(73, 193);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(121, 23);
+            this.button6.TabIndex = 7;
+            this.button6.Text = "Updaten";
+            this.button6.UseVisualStyleBackColor = true;
+            // 
             // textBox3
             // 
             this.textBox3.Location = new System.Drawing.Point(9, 90);
@@ -3294,31 +3338,22 @@
             this.listBox2.Size = new System.Drawing.Size(188, 732);
             this.listBox2.TabIndex = 0;
             // 
-            // button5
+            // tpUitloggen
             // 
-            this.button5.Location = new System.Drawing.Point(73, 90);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(121, 23);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Updaten";
-            this.button5.UseVisualStyleBackColor = true;
+            this.tpUitloggen.Location = new System.Drawing.Point(4, 22);
+            this.tpUitloggen.Name = "tpUitloggen";
+            this.tpUitloggen.Size = new System.Drawing.Size(1014, 769);
+            this.tpUitloggen.TabIndex = 4;
+            this.tpUitloggen.Text = "Uitloggen";
+            this.tpUitloggen.UseVisualStyleBackColor = true;
             // 
-            // button6
-            // 
-            this.button6.Location = new System.Drawing.Point(73, 193);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(121, 23);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Updaten";
-            this.button6.UseVisualStyleBackColor = true;
-            // 
-            // Form1
+            // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1037, 811);
+            this.ClientSize = new System.Drawing.Size(1020, 741);
             this.Controls.Add(this.TCLayout);
-            this.Name = "Form1";
+            this.Name = "MainForm";
             this.Text = "Form1";
             this.TCLayout.ResumeLayout(false);
             this.tpBeheer.ResumeLayout(false);
@@ -3344,7 +3379,6 @@
             this.groupBox7.PerformLayout();
             this.groupBox8.ResumeLayout(false);
             this.ResumeLayout(false);
-
         }
 
         #endregion
@@ -3599,15 +3633,18 @@
         private System.Windows.Forms.Label label179;
         private System.Windows.Forms.ComboBox cbTramInrijdendeLocatie;
         private System.Windows.Forms.ListBox lbTramInrijdendeList;
-        private System.Windows.Forms.Label labal;
+        private System.Windows.Forms.Label lblNr;
         private System.Windows.Forms.GroupBox groupBox10;
         private System.Windows.Forms.Label label186;
-        private System.Windows.Forms.TextBox tb;
-        private System.Windows.Forms.CheckBox checkBox1;
-        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox tbTramIn;
+        private System.Windows.Forms.CheckBox CbxClean;
+        private System.Windows.Forms.Button btnIncomingTram;
         private System.Windows.Forms.Label label185;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.TabPage tpUitloggen;
+        private System.Windows.Forms.CheckBox Cbxrepair;
+        private System.Windows.Forms.Label label188;
     }
 }
 

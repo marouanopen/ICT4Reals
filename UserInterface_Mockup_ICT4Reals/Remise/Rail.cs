@@ -12,15 +12,16 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
     {
         RAdatabase railDatabase = new RAdatabase();
         public int Id { get; set; }
-        public string Status { get; set; }
+        public bool Status { get; set; }
         public bool Taken { get; set; }
-        public Rail(int id, string status, bool taken)
+        public int RemiseID { get; set; }
+        public Rail(int id, bool status, bool taken, int remiseid)
         {
             this.Id = id;
             this.Status = status;
             this.Taken = taken;
+            this.RemiseID = RemiseID;
         }
-
         /// <summary>
         /// See if the rail is blocked
         /// </summary>
@@ -28,16 +29,16 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         /// <returns>false if rail is free and return true if rail is blocked</returns>
         public bool IsRailBlocked(int railNumber)
         {
-            bool isRailBlocked = false;
+            bool Railblocked = false;
             if (Convert.ToInt32(railDatabase.IsRailBlocked(railNumber)) == 0)
             {
-                isRailBlocked = false;
+                Railblocked = false;
             }
             else if (Convert.ToInt32(railDatabase.IsRailBlocked(railNumber)) == 1)
             {
-                isRailBlocked = true;
+                Railblocked = true;
             }
-            return isRailBlocked;
+            return Railblocked;
         }
 
         /// <summary>
@@ -57,7 +58,6 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
             else
             {
                 MessageBox.Show("Error!");
-                blockRail = false;
             }
             return blockRail;
         }

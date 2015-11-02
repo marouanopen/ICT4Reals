@@ -83,6 +83,7 @@
             // 
             this.tbpassword.Location = new System.Drawing.Point(80, 47);
             this.tbpassword.Name = "tbpassword";
+            this.tbpassword.PasswordChar = '*';
             this.tbpassword.Size = new System.Drawing.Size(114, 20);
             this.tbpassword.TabIndex = 1;
             // 
