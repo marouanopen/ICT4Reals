@@ -20,7 +20,7 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         public Rail Rail { get; set; }
         public User Driver { get; set; }
         /// <summary>
-        /// 
+        /// Creation of a new tram
         /// </summary>
         /// <param name="id">id of the tram</param>
         /// <param name="type">tram type</param>
@@ -37,7 +37,7 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         }
 
         /// <summary>
-        /// 
+        /// Move the tram to a new location
         /// </summary>
         /// <param name="tramId">ID of the tram</param>
         /// <param name="railId">ID of the rail it's moved to</param>
@@ -58,7 +58,7 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         }
 
         /// <summary>
-        /// 
+        /// Add a tram with given data
         /// </summary>
         /// <param name="tramId">ID of the new tram</param>
         /// <param name="spoorId">ID of the rail the tram is on</param>
@@ -81,7 +81,7 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
 
 
         /// <summary>
-        /// 
+        /// Deletes a tram
         /// </summary>
         /// <param name="tramId">Give the ID of the tram you want to delete</param>
         /// <returns>true if tram is deleted and false if something went wrong</returns>
