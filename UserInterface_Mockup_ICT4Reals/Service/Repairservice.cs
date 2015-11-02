@@ -12,41 +12,58 @@ namespace UserInterface_Mockup_ICT4Reals.Service
     public class Repairservice : Service
     {
         REdatabase database = new REdatabase();
-        public Repairservice(int id, string name, DateTime date, User user, Tram tram) : base(id, name, date, _User, tram)
-        {
-        
-        }
+
+        public Repairservice(int id, string soort, DateTime startdate, DateTime enddate, int tramid, int superbeurtID) : base(id, soort, tramid, startdate ,enddate ,superbeurtID)
+        { }
 
         public bool update(int tramID, int StatusID)
         {
-            if(database.updateRepair(tramID, StatusID))
+            if (database.controleMax())
             {
-                return true;
+                if (database.updateRepair(tramID, StatusID))
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
             }
-            else
-            {
-                return false;
-            }
+            return false;
             
         }
         public List<string> getAllStatus()
         {
-            List<string> AllStatus = new List<string>();
+            List<string> Allbroken = new List<string>();
             List<Dictionary<string, object>> results = database.GetAllStatus();
             foreach(Dictionary<string, object> tramLink in results)
             {
 
-                string text = Convert.ToString(tramLink["TramTramID"]) + Convert.ToString(tramLink["StatusStatusID"]);
-                AllStatus.Add(text);
+                string text = Convert.ToString(tramLink["TramTramID"]) + " - need repairs";
             }
 
             return null;
         }
+        public List<Service> getAllLog()
+        {
+            List<Service> allService = new List<Service>();
 
-        public bool addlog(int tramID)
+            List<Dictionary<string, object>> results = database.GetAlllogs();
+           
+            foreach (Dictionary<string, object> log in results)
+            {
+                Service newservice = new Service(Convert.ToInt32(Convert.ToInt32(log["beurtID"])), Convert.ToString(log["soort"]), Convert.ToInt32(log["tramID"]),Convert.ToDateTime(log["beginDatum"]),Convert.ToDateTime(log["eindDatum"]),Convert.ToInt32(log["superbeurtID"]));
+
+                allService.Add(newservice);
+            }
+            return allService;
+        }
+
+
+        public bool addlog(int tramID, int superbeurt)
         {
             DateTime date = DateTime.Now;
-            if (database.updateLog(tramID, date))
+            if (database.updateLog(tramID, date, superbeurt))
             {
                 return true;
             }
@@ -56,6 +73,7 @@ namespace UserInterface_Mockup_ICT4Reals.Service
             }
 
         }
+
 
         
     }

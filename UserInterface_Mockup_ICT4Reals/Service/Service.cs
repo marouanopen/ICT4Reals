@@ -11,16 +11,19 @@ namespace UserInterface_Mockup_ICT4Reals.Service
     public class Service
     {
         public int Id { get; set; }
-        public string Name { get; set; }
-        public DateTime Date { get; set; }
-        public static User _User { get; set; }
-        public Tram Tram { get; set; }
-        public Service(int id, string name, DateTime date, User _User, Tram tram)
+        public string soort { get; set; }
+        public DateTime startDate { get; set; }
+        public DateTime endDate { get; set; }
+        public int tramID { get; set; }
+        public int superbeurtID { get; set; }
+        public Service(int id, string soort, int tramid, DateTime startdate, DateTime enddate, int superbeurtID)
         {
             this.Id = id;
-            this.Name = name;
-            this.Date = date;
-            this.Tram = tram;
+            this.soort = soort;
+            this.startDate = enddate;
+            this.startDate = startDate;
+            this.tramID = tramID;
+            this.superbeurtID = superbeurtID;
         }
 
      
