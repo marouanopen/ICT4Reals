@@ -111,7 +111,7 @@ namespace UserInterface_Mockup_ICT4Reals
                     //beurt toeboegen met begindatum
                     //foreach label l  in mainform, if l.name == t.spoorid
                     //l.text = t.tramid
-                    //refresh();
+                    remiseRefresh();
                 }
                 else
                 {
