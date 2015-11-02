@@ -143,13 +143,13 @@ namespace UserInterface_Mockup_ICT4Reals
             {
                 rail = t.Rail;
 
-                string id = rail.Id + "";
+                /* string id = rail.Id + "";
                 id.Replace("0", "V");
 
                 Control c = Controls.Find("", true).FirstOrDefault();
                 c.Text = Convert.ToString(t.Id);
                 c.BackColor = Color.DimGray;
-
+                */
                 switch (rail.Id)
                 {
 
