@@ -10,7 +10,11 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
     {
         public List<Dictionary<string, object>> GetTramInfo(int TramId)
         {
+<<<<<<< HEAD
             List<Dictionary<string, object>> TramInfo= getQuery("SELECT TramID, SpoorID, TypeID, AanwezigOpSpoor FROM Tram WHERE TramID = " + TramId);
+=======
+            List<Dictionary<string, object>> TramInfo= getQuery("SELECT TramID, SpoorID, TypeID FROM Tram WHERE TramID = " + TramId);
+>>>>>>> origin/master
             return TramInfo;
         }
         public List<Dictionary<string, object>> GetRailInfo(int RailId)

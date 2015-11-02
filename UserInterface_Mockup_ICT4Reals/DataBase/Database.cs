@@ -48,6 +48,8 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             catch (Exception e) { Console.WriteLine(e.ToString()); return -1; }
             finally { Disconnect(); }
         }
+
+        #region GetQuery
         /// <summary>
         /// GetQuery
         /// </summary>
@@ -96,6 +98,7 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             }
             finally { Disconnect(); }
         }
+#endregion
 
         /// <summary>
         /// Connect
