@@ -100,5 +100,26 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
             }
             return tramDeleted;
         }
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="tramId">id of the tram you want to update</param>
+        /// <param name="statusId">1= OK 2= Dirty 3= Defect 4= DirtyAndDefect</param>
+        /// <returns>True if status if updated else return false</returns>
+        public bool UpdateTramStatus(int tramId, int statusId)
+        {
+            bool tramStatusUpdated = false;
+            if (tramDatabase.UpdateTramStatus(tramId, statusId))
+            {
+                MessageBox.Show("Succeed!");
+                tramStatusUpdated = true;
+            }
+            else
+            {
+                MessageBox.Show("Error!");
+            }
+            return tramStatusUpdated;
+        }
     }
 }
