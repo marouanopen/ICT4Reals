@@ -30,13 +30,13 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             }
         }
 
-        public bool AddTram(int tramId, int lengte, int spoorId, int typeId)
+        public bool AddTram(int tramId, int spoorId, int typeId)
         {
             try
             {
                 string query; // the query will end up in here
-                query = "INSERT INTO Tram(tramID, lengte, spoorID, typeID)";  //replace with INSERT if needed
-                query += " VALUES('" + tramId + ", " + lengte + ", " + spoorId + ", " + typeId + "')"; //replace 'user.X' with the data u need.
+                query = "INSERT INTO Tram(tramID, spoorID, typeID)";  //replace with INSERT if needed
+                query += " VALUES('" + tramId + ", " + spoorId + ", " + typeId + "')"; //replace 'user.X' with the data u need.
                 doQuery(query); //query will be activated
                 return true;
             }
