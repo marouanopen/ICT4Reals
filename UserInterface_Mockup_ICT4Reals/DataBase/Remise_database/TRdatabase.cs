@@ -79,6 +79,12 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             }
         }
 
+        /// <summary>
+        /// Update the tram status
+        /// </summary>
+        /// <param name="tramId">the id of the tram you want to update</param>
+        /// <param name="statusId">1= OK 2= Dirty 3= Defect 4= DirtyAndDefect</param>
+        /// <returns>true if status is updates else false</returns>
         public bool UpdateTramStatus(int tramId, int statusId)
         {
             try

@@ -47,14 +47,17 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         public bool MoveTram(int tramId, int railId)
         {
             bool tramMoved = false;
-            if (tramDatabase.MoveTram(tramId, railId))
+            if (!OnRail)
             {
-                MessageBox.Show("Succeed!");
-                tramMoved = true;
-            }
-            else
-            {
-                MessageBox.Show("Error!");
+                if (tramDatabase.MoveTram(tramId, railId))
+                {
+                    MessageBox.Show("Succeed!");
+                    tramMoved = true;
+                }
+                else
+                {
+                    MessageBox.Show("Error!");
+                }
             }
             return tramMoved;
         }
