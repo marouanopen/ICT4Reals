@@ -110,6 +110,7 @@ namespace UserInterface_Mockup_ICT4Reals
                     tram._Status = status;
                     //foreach label l  in mainform, if l.name == t.spoorid
                     //l.text = t.tramid
+                    //refresh();
                 }
                 else
                 {
