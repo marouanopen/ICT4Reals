@@ -29,7 +29,7 @@ namespace UserInterface_Mockup_ICT4Reals
             }
             if (Administration.LoggedInUser.RoleId == 2)
             {
-                tpBeheer.Enabled = false;
+                TCLayout.TabPages.Remove(tpBeheer);
                 TCLayout.TabPages.Remove(tpReparatie);
                 TCLayout.TabPages.Remove(tpSchoonmaak);
             }
@@ -68,7 +68,6 @@ namespace UserInterface_Mockup_ICT4Reals
         private void btnIncomingTram_Click(object sender, EventArgs e)
         {
             Rail rail = null;
-            Tram tram = null;
             int status = 0;
             if(CbxClean.Checked && Cbxrepair.Checked == false)
             {
@@ -100,18 +99,11 @@ namespace UserInterface_Mockup_ICT4Reals
                     if(t.Id == tramnr)
                     {
                         exist = true;
-                        tram = t;
                     }
                 }
                 if (exist == true)
                 {
                     rail = parkingsystem.InsertTramNr(Convert.ToInt32(tbTramIn.Text), status);
-                    tram.OnRail = true;
-                    tram._Status = status;
-                    //beurt toeboegen met begindatum
-                    //foreach label l  in mainform, if l.name == t.spoorid
-                    //l.text = t.tramid
-                    //refresh();
                 }
                 else
                 {
@@ -122,7 +114,6 @@ namespace UserInterface_Mockup_ICT4Reals
                 if(rail != null)
                 {
                     lblNr.Text = Convert.ToString(rail.Id);
-                    
                 }
                 else
                 {
@@ -143,18 +134,15 @@ namespace UserInterface_Mockup_ICT4Reals
             {
                 rail = t.Rail;
 
-                string id = rail.Id + "";
+                /* string id = rail.Id + "";
                 id.Replace("0", "V");
 
                 Control c = Controls.Find("", true).FirstOrDefault();
                 c.Text = Convert.ToString(t.Id);
                 c.BackColor = Color.DimGray;
-
+                */
                 switch (rail.Id)
                 {
-
-                        
-
                     case 1201:
                         spoor12v1.Text = Convert.ToString(t.Id);
                         spoor12v1.BackColor = Color.DimGray;
