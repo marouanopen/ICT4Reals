@@ -61,7 +61,7 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
         /// <summary>
         /// Deletes a tram from the database matching the given id
         /// </summary>
-        /// <param name="tramId"></param>
+        /// <param name="tramId">id of the tram you want to delete</param>
         /// <returns></returns>
         public bool DeleteTram(int tramId)
         {
@@ -79,13 +79,13 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             }
         }
 
-        public bool UpdateTramStatus(int tramId, int statusId) // replace user with the data u want to add/ change to the table
+        public bool UpdateTramStatus(int tramId, int statusId)
         {
             try
             {
                 string query; // the query will end up in here
-                query = "UPDATE Tram_Status SET";  //replace with INSERT if needed
-                query += " StatusStatusID = '" + statusId + "' WHERE TramTramID = " + tramId; //replace 'user.X' with the data u need.
+                query = "UPDATE Tram_Status SET";  //UPDATE tram status
+                query += " StatusStatusID = '" + statusId + "' WHERE TramTramID = " + tramId; //updates tram_status with given status
                 doQuery(query); //query will be activated
                 return true;
             }
