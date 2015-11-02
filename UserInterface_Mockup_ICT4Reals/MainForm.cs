@@ -162,82 +162,9 @@ namespace UserInterface_Mockup_ICT4Reals
                 rail = t.Rail;
 
                 string id = Convert.ToString(rail.Id);
-                Control c = groupBox1.Controls.Find(id, true).FirstOrDefault();
+                Control c = groupBox1.Controls.Find("spoor" + id, true).FirstOrDefault();
                 c.Text = Convert.ToString(t.Id);
                 c.BackColor = Color.DimGray;
-                /*
-                switch (rail.Id)
-                {
-                    case 1201:
-                        spoor1201.Text = Convert.ToString(t.Id);
-                        spoor1201.BackColor = Color.DimGray;
-                        break;
-                    case 1301:
-                        spoor1301.Text = Convert.ToString(t.Id);
-                        spoor1301.BackColor = Color.DimGray;
-                        break;
-                    case 1401:
-                        spoor1401.Text = Convert.ToString(t.Id);
-                        spoor1401.BackColor = Color.DimGray;
-                        break;
-                    case 1501:
-                        spoor1501.Text = Convert.ToString(t.Id);
-                        spoor1501.BackColor = Color.DimGray;
-                        break;
-                    case 1601:
-                        spoor1601.Text = Convert.ToString(t.Id);
-                        spoor1601.BackColor = Color.DimGray;
-                        break;
-                    case 1701:
-                        spoor1701.Text = Convert.ToString(t.Id);
-                        spoor1701.BackColor = Color.DimGray;
-                        break;
-                    case 1801:
-                        spoor1801.Text = Convert.ToString(t.Id);
-                        spoor1801.BackColor = Color.DimGray;
-                        break;
-                    case 1901:
-                        spoor1901.Text = Convert.ToString(t.Id);
-                        spoor1901.BackColor = Color.DimGray;
-                        break;
-                    case 2001:
-                        spoor2001.Text = Convert.ToString(t.Id);
-                        spoor2001.BackColor = Color.DimGray;
-                        break;
-                    case 2101:
-                        spoor2101.Text = Convert.ToString(t.Id);
-                        spoor2101.BackColor = Color.DimGray;
-                        break;
-                    case 3001:
-                        spoor3001.Text = Convert.ToString(t.Id);
-                        spoor3001.BackColor = Color.DimGray;
-                        break;
-                    case 3002:
-                        spoor3002.Text = Convert.ToString(t.Id);
-                        spoor3002.BackColor = Color.DimGray;
-                        break;
-                    case 3003:
-                        spoor3003.Text = Convert.ToString(t.Id);
-                        spoor3003.BackColor = Color.DimGray;
-                        break;
-                    case 3101:
-                        spoor3101.Text = Convert.ToString(t.Id);
-                        spoor3101.BackColor = Color.DimGray;
-                        break;
-                    case 3102:
-                        spoor3102.Text = Convert.ToString(t.Id);
-                        spoor3102.BackColor = Color.DimGray;
-                        break;
-                    case 3103:
-                        spoor3103.Text = Convert.ToString(t.Id);
-                        spoor3103.BackColor = Color.DimGray;
-                        break;
-                    case 3201:
-                        spoor1201.Text = Convert.ToString(t.Id);
-                        spoor1201.BackColor = Color.DimGray;
-                        break;
-                    
-                }*/
             }
             
         }
