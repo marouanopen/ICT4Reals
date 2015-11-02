@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using UserInterface_Mockup_ICT4Reals.AdminSystem;
 using UserInterface_Mockup_ICT4Reals.Remise;
+using UserInterface_Mockup_ICT4Reals.DataBase;
 
 namespace UserInterface_Mockup_ICT4Reals
 {
@@ -16,12 +17,14 @@ namespace UserInterface_Mockup_ICT4Reals
     {
         private Administration administration;
         private Parkingsystem parkingsystem;
+        private PAdatabase padatabase;
         public MainForm(Administration administration)
         {
             //ophalen van alle info uit de database
 
             this.administration = administration;
             this.parkingsystem = new Parkingsystem();
+            this.padatabase = new PAdatabase();
             InitializeComponent();
             if(Administration.LoggedInUser.RoleId == 1)
             {
@@ -70,6 +73,7 @@ namespace UserInterface_Mockup_ICT4Reals
             Rail rail = null;
             Tram tram = null;
             int status = 0;
+            string soort = "";
             if(CbxClean.Checked && Cbxrepair.Checked == false)
             {
                 status = 2;
@@ -82,7 +86,7 @@ namespace UserInterface_Mockup_ICT4Reals
             {
                 status = 4;
             }
-            else
+            if(!CbxClean.Checked && !Cbxrepair.Checked)
             {
                 status = 1;
             }
@@ -109,8 +113,22 @@ namespace UserInterface_Mockup_ICT4Reals
                     tram.OnRail = true;
                     tram._Status = status;
                     //beurt toeboegen met begindatum
-                    //foreach label l  in mainform, if l.name == t.spoorid
-                    //l.text = t.tramid
+                    if(status == 2)
+                    {
+                        soort = "Schoonmaak";
+                    }
+                    else if(status == 3)
+                    {
+                        soort = "Reparatie";
+                    }
+                    else if(status == 4)
+                    {
+                        soort = "Beide";
+                    }
+                    if(soort != "")
+                    {
+                        padatabase.MakeService(tramnr, soort);
+                    }
                     remiseRefresh();
                 }
                 else
