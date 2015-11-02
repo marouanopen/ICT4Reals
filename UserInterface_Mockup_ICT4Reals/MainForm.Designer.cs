@@ -59,96 +59,96 @@
             this.cbDetailsLocatie = new System.Windows.Forms.ComboBox();
             this.tbDetailsNaam = new System.Windows.Forms.TextBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.label110 = new System.Windows.Forms.Label();
-            this.label130 = new System.Windows.Forms.Label();
-            this.label131 = new System.Windows.Forms.Label();
-            this.label148 = new System.Windows.Forms.Label();
-            this.label149 = new System.Windows.Forms.Label();
+            this.spoor77v5 = new System.Windows.Forms.Label();
+            this.spoor77v4 = new System.Windows.Forms.Label();
+            this.spoor77v3 = new System.Windows.Forms.Label();
+            this.spoor77v2 = new System.Windows.Forms.Label();
+            this.spoor77v1 = new System.Windows.Forms.Label();
             this.label158 = new System.Windows.Forms.Label();
-            this.label257 = new System.Windows.Forms.Label();
-            this.label187 = new System.Windows.Forms.Label();
-            this.label177 = new System.Windows.Forms.Label();
-            this.label167 = new System.Windows.Forms.Label();
-            this.label157 = new System.Windows.Forms.Label();
-            this.label147 = new System.Windows.Forms.Label();
-            this.label132 = new System.Windows.Forms.Label();
-            this.label176 = new System.Windows.Forms.Label();
-            this.label166 = new System.Windows.Forms.Label();
-            this.label156 = new System.Windows.Forms.Label();
-            this.label146 = new System.Windows.Forms.Label();
-            this.label133 = new System.Windows.Forms.Label();
-            this.label175 = new System.Windows.Forms.Label();
-            this.label165 = new System.Windows.Forms.Label();
-            this.label155 = new System.Windows.Forms.Label();
-            this.label145 = new System.Windows.Forms.Label();
-            this.label254 = new System.Windows.Forms.Label();
-            this.label244 = new System.Windows.Forms.Label();
-            this.label204 = new System.Windows.Forms.Label();
-            this.label194 = new System.Windows.Forms.Label();
-            this.label184 = new System.Windows.Forms.Label();
-            this.label174 = new System.Windows.Forms.Label();
-            this.label164 = new System.Windows.Forms.Label();
-            this.label154 = new System.Windows.Forms.Label();
-            this.label144 = new System.Windows.Forms.Label();
-            this.label135 = new System.Windows.Forms.Label();
-            this.label253 = new System.Windows.Forms.Label();
-            this.label243 = new System.Windows.Forms.Label();
-            this.label233 = new System.Windows.Forms.Label();
-            this.label203 = new System.Windows.Forms.Label();
-            this.label193 = new System.Windows.Forms.Label();
-            this.label183 = new System.Windows.Forms.Label();
-            this.label173 = new System.Windows.Forms.Label();
-            this.label163 = new System.Windows.Forms.Label();
-            this.label153 = new System.Windows.Forms.Label();
-            this.label143 = new System.Windows.Forms.Label();
-            this.label136 = new System.Windows.Forms.Label();
-            this.label252 = new System.Windows.Forms.Label();
-            this.label251 = new System.Windows.Forms.Label();
-            this.label242 = new System.Windows.Forms.Label();
-            this.label241 = new System.Windows.Forms.Label();
-            this.label232 = new System.Windows.Forms.Label();
-            this.label231 = new System.Windows.Forms.Label();
-            this.label222 = new System.Windows.Forms.Label();
-            this.label221 = new System.Windows.Forms.Label();
-            this.label212 = new System.Windows.Forms.Label();
-            this.label211 = new System.Windows.Forms.Label();
-            this.label202 = new System.Windows.Forms.Label();
-            this.label201 = new System.Windows.Forms.Label();
-            this.label192 = new System.Windows.Forms.Label();
-            this.label191 = new System.Windows.Forms.Label();
+            this.spoor76v5 = new System.Windows.Forms.Label();
+            this.spoor58v5 = new System.Windows.Forms.Label();
+            this.spoor57v5 = new System.Windows.Forms.Label();
+            this.spoor56v5 = new System.Windows.Forms.Label();
+            this.spoor55v5 = new System.Windows.Forms.Label();
+            this.spoor54v5 = new System.Windows.Forms.Label();
+            this.spoor53v5 = new System.Windows.Forms.Label();
+            this.spoor57v6 = new System.Windows.Forms.Label();
+            this.spoor56v6 = new System.Windows.Forms.Label();
+            this.spoor55v6 = new System.Windows.Forms.Label();
+            this.spoor54v6 = new System.Windows.Forms.Label();
+            this.spoor53v6 = new System.Windows.Forms.Label();
+            this.spoor57v7 = new System.Windows.Forms.Label();
+            this.spoor56v7 = new System.Windows.Forms.Label();
+            this.spoor55v7 = new System.Windows.Forms.Label();
+            this.spoor54v7 = new System.Windows.Forms.Label();
+            this.spoor76v4 = new System.Windows.Forms.Label();
+            this.spoor75v4 = new System.Windows.Forms.Label();
+            this.spoor63v4 = new System.Windows.Forms.Label();
+            this.spoor64v4 = new System.Windows.Forms.Label();
+            this.spoor58v4 = new System.Windows.Forms.Label();
+            this.spoor57v4 = new System.Windows.Forms.Label();
+            this.spoor56v4 = new System.Windows.Forms.Label();
+            this.spoor55v4 = new System.Windows.Forms.Label();
+            this.spoor54v4 = new System.Windows.Forms.Label();
+            this.spoor53v4 = new System.Windows.Forms.Label();
+            this.spoor76v3 = new System.Windows.Forms.Label();
+            this.spoor75v3 = new System.Windows.Forms.Label();
+            this.spoor74v3 = new System.Windows.Forms.Label();
+            this.spoor63v3 = new System.Windows.Forms.Label();
+            this.spoor64v3 = new System.Windows.Forms.Label();
+            this.spoor58v3 = new System.Windows.Forms.Label();
+            this.spoor57v3 = new System.Windows.Forms.Label();
+            this.spoor56v3 = new System.Windows.Forms.Label();
+            this.spoor55v3 = new System.Windows.Forms.Label();
+            this.spoor54v3 = new System.Windows.Forms.Label();
+            this.spoor53v3 = new System.Windows.Forms.Label();
+            this.spoor76v2 = new System.Windows.Forms.Label();
+            this.spoor76v1 = new System.Windows.Forms.Label();
+            this.spoor75v2 = new System.Windows.Forms.Label();
+            this.spoor75v1 = new System.Windows.Forms.Label();
+            this.spoor74v2 = new System.Windows.Forms.Label();
+            this.spoor74v1 = new System.Windows.Forms.Label();
+            this.spoor61v2 = new System.Windows.Forms.Label();
+            this.spoor61v1 = new System.Windows.Forms.Label();
+            this.spoor62v2 = new System.Windows.Forms.Label();
+            this.spoor62v1 = new System.Windows.Forms.Label();
+            this.spoor63v2 = new System.Windows.Forms.Label();
+            this.spoor63v1 = new System.Windows.Forms.Label();
+            this.spoor64v2 = new System.Windows.Forms.Label();
+            this.spoor64v1 = new System.Windows.Forms.Label();
             this.label250 = new System.Windows.Forms.Label();
-            this.label182 = new System.Windows.Forms.Label();
+            this.spoor58v2 = new System.Windows.Forms.Label();
             this.label240 = new System.Windows.Forms.Label();
-            this.label181 = new System.Windows.Forms.Label();
+            this.spoor58v1 = new System.Windows.Forms.Label();
             this.label230 = new System.Windows.Forms.Label();
-            this.label172 = new System.Windows.Forms.Label();
+            this.spoor57v2 = new System.Windows.Forms.Label();
             this.label220 = new System.Windows.Forms.Label();
-            this.label171 = new System.Windows.Forms.Label();
+            this.spoor57v1 = new System.Windows.Forms.Label();
             this.label210 = new System.Windows.Forms.Label();
-            this.label162 = new System.Windows.Forms.Label();
+            this.spoor56v2 = new System.Windows.Forms.Label();
             this.label200 = new System.Windows.Forms.Label();
-            this.label161 = new System.Windows.Forms.Label();
+            this.spoor56v1 = new System.Windows.Forms.Label();
             this.label190 = new System.Windows.Forms.Label();
-            this.label152 = new System.Windows.Forms.Label();
+            this.spoor55v2 = new System.Windows.Forms.Label();
             this.label180 = new System.Windows.Forms.Label();
-            this.label151 = new System.Windows.Forms.Label();
+            this.spoor55v1 = new System.Windows.Forms.Label();
             this.label170 = new System.Windows.Forms.Label();
-            this.label142 = new System.Windows.Forms.Label();
+            this.spoor54v2 = new System.Windows.Forms.Label();
             this.label160 = new System.Windows.Forms.Label();
-            this.label141 = new System.Windows.Forms.Label();
+            this.spoor54v1 = new System.Windows.Forms.Label();
             this.label150 = new System.Windows.Forms.Label();
-            this.label137 = new System.Windows.Forms.Label();
+            this.spoor53v2 = new System.Windows.Forms.Label();
             this.label140 = new System.Windows.Forms.Label();
-            this.label138 = new System.Windows.Forms.Label();
+            this.spoor53v1 = new System.Windows.Forms.Label();
             this.label139 = new System.Windows.Forms.Label();
-            this.label122 = new System.Windows.Forms.Label();
-            this.label123 = new System.Windows.Forms.Label();
-            this.label125 = new System.Windows.Forms.Label();
-            this.label126 = new System.Windows.Forms.Label();
-            this.label127 = new System.Windows.Forms.Label();
-            this.label128 = new System.Windows.Forms.Label();
+            this.spoor52v5 = new System.Windows.Forms.Label();
+            this.spoor52v6 = new System.Windows.Forms.Label();
+            this.spoor52v4 = new System.Windows.Forms.Label();
+            this.spoor52v3 = new System.Windows.Forms.Label();
+            this.spoor52v2 = new System.Windows.Forms.Label();
+            this.spoor52v1 = new System.Windows.Forms.Label();
             this.label129 = new System.Windows.Forms.Label();
-            this.label111 = new System.Windows.Forms.Label();
+            this.spoor57v8 = new System.Windows.Forms.Label();
             this.spoor51v5 = new System.Windows.Forms.Label();
             this.spoor51v4 = new System.Windows.Forms.Label();
             this.spoor51v3 = new System.Windows.Forms.Label();
@@ -602,96 +602,96 @@
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.label110);
-            this.groupBox1.Controls.Add(this.label130);
-            this.groupBox1.Controls.Add(this.label131);
-            this.groupBox1.Controls.Add(this.label148);
-            this.groupBox1.Controls.Add(this.label149);
+            this.groupBox1.Controls.Add(this.spoor77v5);
+            this.groupBox1.Controls.Add(this.spoor77v4);
+            this.groupBox1.Controls.Add(this.spoor77v3);
+            this.groupBox1.Controls.Add(this.spoor77v2);
+            this.groupBox1.Controls.Add(this.spoor77v1);
             this.groupBox1.Controls.Add(this.label158);
-            this.groupBox1.Controls.Add(this.label257);
-            this.groupBox1.Controls.Add(this.label187);
-            this.groupBox1.Controls.Add(this.label177);
-            this.groupBox1.Controls.Add(this.label167);
-            this.groupBox1.Controls.Add(this.label157);
-            this.groupBox1.Controls.Add(this.label147);
-            this.groupBox1.Controls.Add(this.label132);
-            this.groupBox1.Controls.Add(this.label176);
-            this.groupBox1.Controls.Add(this.label166);
-            this.groupBox1.Controls.Add(this.label156);
-            this.groupBox1.Controls.Add(this.label146);
-            this.groupBox1.Controls.Add(this.label133);
-            this.groupBox1.Controls.Add(this.label175);
-            this.groupBox1.Controls.Add(this.label165);
-            this.groupBox1.Controls.Add(this.label155);
-            this.groupBox1.Controls.Add(this.label145);
-            this.groupBox1.Controls.Add(this.label254);
-            this.groupBox1.Controls.Add(this.label244);
-            this.groupBox1.Controls.Add(this.label204);
-            this.groupBox1.Controls.Add(this.label194);
-            this.groupBox1.Controls.Add(this.label184);
-            this.groupBox1.Controls.Add(this.label174);
-            this.groupBox1.Controls.Add(this.label164);
-            this.groupBox1.Controls.Add(this.label154);
-            this.groupBox1.Controls.Add(this.label144);
-            this.groupBox1.Controls.Add(this.label135);
-            this.groupBox1.Controls.Add(this.label253);
-            this.groupBox1.Controls.Add(this.label243);
-            this.groupBox1.Controls.Add(this.label233);
-            this.groupBox1.Controls.Add(this.label203);
-            this.groupBox1.Controls.Add(this.label193);
-            this.groupBox1.Controls.Add(this.label183);
-            this.groupBox1.Controls.Add(this.label173);
-            this.groupBox1.Controls.Add(this.label163);
-            this.groupBox1.Controls.Add(this.label153);
-            this.groupBox1.Controls.Add(this.label143);
-            this.groupBox1.Controls.Add(this.label136);
-            this.groupBox1.Controls.Add(this.label252);
-            this.groupBox1.Controls.Add(this.label251);
-            this.groupBox1.Controls.Add(this.label242);
-            this.groupBox1.Controls.Add(this.label241);
-            this.groupBox1.Controls.Add(this.label232);
-            this.groupBox1.Controls.Add(this.label231);
-            this.groupBox1.Controls.Add(this.label222);
-            this.groupBox1.Controls.Add(this.label221);
-            this.groupBox1.Controls.Add(this.label212);
-            this.groupBox1.Controls.Add(this.label211);
-            this.groupBox1.Controls.Add(this.label202);
-            this.groupBox1.Controls.Add(this.label201);
-            this.groupBox1.Controls.Add(this.label192);
-            this.groupBox1.Controls.Add(this.label191);
+            this.groupBox1.Controls.Add(this.spoor76v5);
+            this.groupBox1.Controls.Add(this.spoor58v5);
+            this.groupBox1.Controls.Add(this.spoor57v5);
+            this.groupBox1.Controls.Add(this.spoor56v5);
+            this.groupBox1.Controls.Add(this.spoor55v5);
+            this.groupBox1.Controls.Add(this.spoor54v5);
+            this.groupBox1.Controls.Add(this.spoor53v5);
+            this.groupBox1.Controls.Add(this.spoor57v6);
+            this.groupBox1.Controls.Add(this.spoor56v6);
+            this.groupBox1.Controls.Add(this.spoor55v6);
+            this.groupBox1.Controls.Add(this.spoor54v6);
+            this.groupBox1.Controls.Add(this.spoor53v6);
+            this.groupBox1.Controls.Add(this.spoor57v7);
+            this.groupBox1.Controls.Add(this.spoor56v7);
+            this.groupBox1.Controls.Add(this.spoor55v7);
+            this.groupBox1.Controls.Add(this.spoor54v7);
+            this.groupBox1.Controls.Add(this.spoor76v4);
+            this.groupBox1.Controls.Add(this.spoor75v4);
+            this.groupBox1.Controls.Add(this.spoor63v4);
+            this.groupBox1.Controls.Add(this.spoor64v4);
+            this.groupBox1.Controls.Add(this.spoor58v4);
+            this.groupBox1.Controls.Add(this.spoor57v4);
+            this.groupBox1.Controls.Add(this.spoor56v4);
+            this.groupBox1.Controls.Add(this.spoor55v4);
+            this.groupBox1.Controls.Add(this.spoor54v4);
+            this.groupBox1.Controls.Add(this.spoor53v4);
+            this.groupBox1.Controls.Add(this.spoor76v3);
+            this.groupBox1.Controls.Add(this.spoor75v3);
+            this.groupBox1.Controls.Add(this.spoor74v3);
+            this.groupBox1.Controls.Add(this.spoor63v3);
+            this.groupBox1.Controls.Add(this.spoor64v3);
+            this.groupBox1.Controls.Add(this.spoor58v3);
+            this.groupBox1.Controls.Add(this.spoor57v3);
+            this.groupBox1.Controls.Add(this.spoor56v3);
+            this.groupBox1.Controls.Add(this.spoor55v3);
+            this.groupBox1.Controls.Add(this.spoor54v3);
+            this.groupBox1.Controls.Add(this.spoor53v3);
+            this.groupBox1.Controls.Add(this.spoor76v2);
+            this.groupBox1.Controls.Add(this.spoor76v1);
+            this.groupBox1.Controls.Add(this.spoor75v2);
+            this.groupBox1.Controls.Add(this.spoor75v1);
+            this.groupBox1.Controls.Add(this.spoor74v2);
+            this.groupBox1.Controls.Add(this.spoor74v1);
+            this.groupBox1.Controls.Add(this.spoor61v2);
+            this.groupBox1.Controls.Add(this.spoor61v1);
+            this.groupBox1.Controls.Add(this.spoor62v2);
+            this.groupBox1.Controls.Add(this.spoor62v1);
+            this.groupBox1.Controls.Add(this.spoor63v2);
+            this.groupBox1.Controls.Add(this.spoor63v1);
+            this.groupBox1.Controls.Add(this.spoor64v2);
+            this.groupBox1.Controls.Add(this.spoor64v1);
             this.groupBox1.Controls.Add(this.label250);
-            this.groupBox1.Controls.Add(this.label182);
+            this.groupBox1.Controls.Add(this.spoor58v2);
             this.groupBox1.Controls.Add(this.label240);
-            this.groupBox1.Controls.Add(this.label181);
+            this.groupBox1.Controls.Add(this.spoor58v1);
             this.groupBox1.Controls.Add(this.label230);
-            this.groupBox1.Controls.Add(this.label172);
+            this.groupBox1.Controls.Add(this.spoor57v2);
             this.groupBox1.Controls.Add(this.label220);
-            this.groupBox1.Controls.Add(this.label171);
+            this.groupBox1.Controls.Add(this.spoor57v1);
             this.groupBox1.Controls.Add(this.label210);
-            this.groupBox1.Controls.Add(this.label162);
+            this.groupBox1.Controls.Add(this.spoor56v2);
             this.groupBox1.Controls.Add(this.label200);
-            this.groupBox1.Controls.Add(this.label161);
+            this.groupBox1.Controls.Add(this.spoor56v1);
             this.groupBox1.Controls.Add(this.label190);
-            this.groupBox1.Controls.Add(this.label152);
+            this.groupBox1.Controls.Add(this.spoor55v2);
             this.groupBox1.Controls.Add(this.label180);
-            this.groupBox1.Controls.Add(this.label151);
+            this.groupBox1.Controls.Add(this.spoor55v1);
             this.groupBox1.Controls.Add(this.label170);
-            this.groupBox1.Controls.Add(this.label142);
+            this.groupBox1.Controls.Add(this.spoor54v2);
             this.groupBox1.Controls.Add(this.label160);
-            this.groupBox1.Controls.Add(this.label141);
+            this.groupBox1.Controls.Add(this.spoor54v1);
             this.groupBox1.Controls.Add(this.label150);
-            this.groupBox1.Controls.Add(this.label137);
+            this.groupBox1.Controls.Add(this.spoor53v2);
             this.groupBox1.Controls.Add(this.label140);
-            this.groupBox1.Controls.Add(this.label138);
+            this.groupBox1.Controls.Add(this.spoor53v1);
             this.groupBox1.Controls.Add(this.label139);
-            this.groupBox1.Controls.Add(this.label122);
-            this.groupBox1.Controls.Add(this.label123);
-            this.groupBox1.Controls.Add(this.label125);
-            this.groupBox1.Controls.Add(this.label126);
-            this.groupBox1.Controls.Add(this.label127);
-            this.groupBox1.Controls.Add(this.label128);
+            this.groupBox1.Controls.Add(this.spoor52v5);
+            this.groupBox1.Controls.Add(this.spoor52v6);
+            this.groupBox1.Controls.Add(this.spoor52v4);
+            this.groupBox1.Controls.Add(this.spoor52v3);
+            this.groupBox1.Controls.Add(this.spoor52v2);
+            this.groupBox1.Controls.Add(this.spoor52v1);
             this.groupBox1.Controls.Add(this.label129);
-            this.groupBox1.Controls.Add(this.label111);
+            this.groupBox1.Controls.Add(this.spoor57v8);
             this.groupBox1.Controls.Add(this.spoor51v5);
             this.groupBox1.Controls.Add(this.spoor51v4);
             this.groupBox1.Controls.Add(this.spoor51v3);
@@ -806,60 +806,60 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Remise Overzicht";
             // 
-            // label110
+            // spoor77v5
             // 
-            this.label110.BackColor = System.Drawing.Color.White;
-            this.label110.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label110.Location = new System.Drawing.Point(744, 621);
-            this.label110.Margin = new System.Windows.Forms.Padding(2);
-            this.label110.Name = "label110";
-            this.label110.Size = new System.Drawing.Size(45, 30);
-            this.label110.TabIndex = 176;
-            this.label110.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor77v5.BackColor = System.Drawing.Color.White;
+            this.spoor77v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor77v5.Location = new System.Drawing.Point(744, 621);
+            this.spoor77v5.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor77v5.Name = "spoor77v5";
+            this.spoor77v5.Size = new System.Drawing.Size(45, 30);
+            this.spoor77v5.TabIndex = 176;
+            this.spoor77v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label130
+            // spoor77v4
             // 
-            this.label130.BackColor = System.Drawing.Color.White;
-            this.label130.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label130.Location = new System.Drawing.Point(744, 587);
-            this.label130.Margin = new System.Windows.Forms.Padding(2);
-            this.label130.Name = "label130";
-            this.label130.Size = new System.Drawing.Size(45, 30);
-            this.label130.TabIndex = 173;
-            this.label130.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor77v4.BackColor = System.Drawing.Color.White;
+            this.spoor77v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor77v4.Location = new System.Drawing.Point(744, 587);
+            this.spoor77v4.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor77v4.Name = "spoor77v4";
+            this.spoor77v4.Size = new System.Drawing.Size(45, 30);
+            this.spoor77v4.TabIndex = 173;
+            this.spoor77v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label131
+            // spoor77v3
             // 
-            this.label131.BackColor = System.Drawing.Color.White;
-            this.label131.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label131.Location = new System.Drawing.Point(744, 553);
-            this.label131.Margin = new System.Windows.Forms.Padding(2);
-            this.label131.Name = "label131";
-            this.label131.Size = new System.Drawing.Size(45, 30);
-            this.label131.TabIndex = 172;
-            this.label131.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor77v3.BackColor = System.Drawing.Color.White;
+            this.spoor77v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor77v3.Location = new System.Drawing.Point(744, 553);
+            this.spoor77v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor77v3.Name = "spoor77v3";
+            this.spoor77v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor77v3.TabIndex = 172;
+            this.spoor77v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label148
+            // spoor77v2
             // 
-            this.label148.BackColor = System.Drawing.Color.White;
-            this.label148.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label148.Location = new System.Drawing.Point(744, 519);
-            this.label148.Margin = new System.Windows.Forms.Padding(2);
-            this.label148.Name = "label148";
-            this.label148.Size = new System.Drawing.Size(45, 30);
-            this.label148.TabIndex = 171;
-            this.label148.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor77v2.BackColor = System.Drawing.Color.White;
+            this.spoor77v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor77v2.Location = new System.Drawing.Point(744, 519);
+            this.spoor77v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor77v2.Name = "spoor77v2";
+            this.spoor77v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor77v2.TabIndex = 171;
+            this.spoor77v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label149
+            // spoor77v1
             // 
-            this.label149.BackColor = System.Drawing.Color.White;
-            this.label149.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label149.Location = new System.Drawing.Point(744, 483);
-            this.label149.Margin = new System.Windows.Forms.Padding(2);
-            this.label149.Name = "label149";
-            this.label149.Size = new System.Drawing.Size(45, 30);
-            this.label149.TabIndex = 170;
-            this.label149.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor77v1.BackColor = System.Drawing.Color.White;
+            this.spoor77v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor77v1.Location = new System.Drawing.Point(744, 483);
+            this.spoor77v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor77v1.Name = "spoor77v1";
+            this.spoor77v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor77v1.TabIndex = 170;
+            this.spoor77v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label158
             // 
@@ -873,566 +873,566 @@
             this.label158.Text = "77";
             this.label158.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label257
-            // 
-            this.label257.BackColor = System.Drawing.Color.White;
-            this.label257.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label257.Location = new System.Drawing.Point(695, 621);
-            this.label257.Margin = new System.Windows.Forms.Padding(2);
-            this.label257.Name = "label257";
-            this.label257.Size = new System.Drawing.Size(45, 30);
-            this.label257.TabIndex = 168;
-            this.label257.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label187
-            // 
-            this.label187.BackColor = System.Drawing.Color.White;
-            this.label187.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label187.Location = new System.Drawing.Point(351, 621);
-            this.label187.Margin = new System.Windows.Forms.Padding(2);
-            this.label187.Name = "label187";
-            this.label187.Size = new System.Drawing.Size(45, 30);
-            this.label187.TabIndex = 168;
-            this.label187.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label177
-            // 
-            this.label177.BackColor = System.Drawing.Color.White;
-            this.label177.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label177.Location = new System.Drawing.Point(302, 621);
-            this.label177.Margin = new System.Windows.Forms.Padding(2);
-            this.label177.Name = "label177";
-            this.label177.Size = new System.Drawing.Size(45, 30);
-            this.label177.TabIndex = 168;
-            this.label177.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label167
-            // 
-            this.label167.BackColor = System.Drawing.Color.White;
-            this.label167.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label167.Location = new System.Drawing.Point(253, 621);
-            this.label167.Margin = new System.Windows.Forms.Padding(2);
-            this.label167.Name = "label167";
-            this.label167.Size = new System.Drawing.Size(45, 30);
-            this.label167.TabIndex = 168;
-            this.label167.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label157
-            // 
-            this.label157.BackColor = System.Drawing.Color.White;
-            this.label157.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label157.Location = new System.Drawing.Point(204, 621);
-            this.label157.Margin = new System.Windows.Forms.Padding(2);
-            this.label157.Name = "label157";
-            this.label157.Size = new System.Drawing.Size(45, 30);
-            this.label157.TabIndex = 168;
-            this.label157.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label147
-            // 
-            this.label147.BackColor = System.Drawing.Color.White;
-            this.label147.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label147.Location = new System.Drawing.Point(155, 621);
-            this.label147.Margin = new System.Windows.Forms.Padding(2);
-            this.label147.Name = "label147";
-            this.label147.Size = new System.Drawing.Size(45, 30);
-            this.label147.TabIndex = 168;
-            this.label147.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label132
-            // 
-            this.label132.BackColor = System.Drawing.Color.White;
-            this.label132.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label132.Location = new System.Drawing.Point(106, 621);
-            this.label132.Margin = new System.Windows.Forms.Padding(2);
-            this.label132.Name = "label132";
-            this.label132.Size = new System.Drawing.Size(45, 30);
-            this.label132.TabIndex = 168;
-            this.label132.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label176
-            // 
-            this.label176.BackColor = System.Drawing.Color.White;
-            this.label176.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label176.Location = new System.Drawing.Point(302, 655);
-            this.label176.Margin = new System.Windows.Forms.Padding(2);
-            this.label176.Name = "label176";
-            this.label176.Size = new System.Drawing.Size(45, 30);
-            this.label176.TabIndex = 167;
-            this.label176.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label166
-            // 
-            this.label166.BackColor = System.Drawing.Color.White;
-            this.label166.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label166.Location = new System.Drawing.Point(253, 655);
-            this.label166.Margin = new System.Windows.Forms.Padding(2);
-            this.label166.Name = "label166";
-            this.label166.Size = new System.Drawing.Size(45, 30);
-            this.label166.TabIndex = 167;
-            this.label166.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label156
-            // 
-            this.label156.BackColor = System.Drawing.Color.White;
-            this.label156.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label156.Location = new System.Drawing.Point(204, 655);
-            this.label156.Margin = new System.Windows.Forms.Padding(2);
-            this.label156.Name = "label156";
-            this.label156.Size = new System.Drawing.Size(45, 30);
-            this.label156.TabIndex = 167;
-            this.label156.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label146
-            // 
-            this.label146.BackColor = System.Drawing.Color.White;
-            this.label146.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label146.Location = new System.Drawing.Point(155, 655);
-            this.label146.Margin = new System.Windows.Forms.Padding(2);
-            this.label146.Name = "label146";
-            this.label146.Size = new System.Drawing.Size(45, 30);
-            this.label146.TabIndex = 167;
-            this.label146.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label133
-            // 
-            this.label133.BackColor = System.Drawing.Color.White;
-            this.label133.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label133.Location = new System.Drawing.Point(106, 655);
-            this.label133.Margin = new System.Windows.Forms.Padding(2);
-            this.label133.Name = "label133";
-            this.label133.Size = new System.Drawing.Size(45, 30);
-            this.label133.TabIndex = 167;
-            this.label133.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label175
-            // 
-            this.label175.BackColor = System.Drawing.Color.White;
-            this.label175.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label175.Location = new System.Drawing.Point(302, 689);
-            this.label175.Margin = new System.Windows.Forms.Padding(2);
-            this.label175.Name = "label175";
-            this.label175.Size = new System.Drawing.Size(45, 30);
-            this.label175.TabIndex = 166;
-            this.label175.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label165
-            // 
-            this.label165.BackColor = System.Drawing.Color.White;
-            this.label165.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label165.Location = new System.Drawing.Point(253, 689);
-            this.label165.Margin = new System.Windows.Forms.Padding(2);
-            this.label165.Name = "label165";
-            this.label165.Size = new System.Drawing.Size(45, 30);
-            this.label165.TabIndex = 166;
-            this.label165.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label155
-            // 
-            this.label155.BackColor = System.Drawing.Color.White;
-            this.label155.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label155.Location = new System.Drawing.Point(204, 689);
-            this.label155.Margin = new System.Windows.Forms.Padding(2);
-            this.label155.Name = "label155";
-            this.label155.Size = new System.Drawing.Size(45, 30);
-            this.label155.TabIndex = 166;
-            this.label155.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label145
-            // 
-            this.label145.BackColor = System.Drawing.Color.White;
-            this.label145.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label145.Location = new System.Drawing.Point(155, 689);
-            this.label145.Margin = new System.Windows.Forms.Padding(2);
-            this.label145.Name = "label145";
-            this.label145.Size = new System.Drawing.Size(45, 30);
-            this.label145.TabIndex = 166;
-            this.label145.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label254
-            // 
-            this.label254.BackColor = System.Drawing.Color.White;
-            this.label254.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label254.Location = new System.Drawing.Point(695, 587);
-            this.label254.Margin = new System.Windows.Forms.Padding(2);
-            this.label254.Name = "label254";
-            this.label254.Size = new System.Drawing.Size(45, 30);
-            this.label254.TabIndex = 165;
-            this.label254.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label244
-            // 
-            this.label244.BackColor = System.Drawing.Color.White;
-            this.label244.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label244.Location = new System.Drawing.Point(646, 587);
-            this.label244.Margin = new System.Windows.Forms.Padding(2);
-            this.label244.Name = "label244";
-            this.label244.Size = new System.Drawing.Size(45, 30);
-            this.label244.TabIndex = 165;
-            this.label244.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label204
-            // 
-            this.label204.BackColor = System.Drawing.Color.White;
-            this.label204.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label204.Location = new System.Drawing.Point(449, 587);
-            this.label204.Margin = new System.Windows.Forms.Padding(2);
-            this.label204.Name = "label204";
-            this.label204.Size = new System.Drawing.Size(45, 30);
-            this.label204.TabIndex = 165;
-            this.label204.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label194
-            // 
-            this.label194.BackColor = System.Drawing.Color.White;
-            this.label194.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label194.Location = new System.Drawing.Point(400, 587);
-            this.label194.Margin = new System.Windows.Forms.Padding(2);
-            this.label194.Name = "label194";
-            this.label194.Size = new System.Drawing.Size(45, 30);
-            this.label194.TabIndex = 165;
-            this.label194.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label184
-            // 
-            this.label184.BackColor = System.Drawing.Color.White;
-            this.label184.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label184.Location = new System.Drawing.Point(351, 587);
-            this.label184.Margin = new System.Windows.Forms.Padding(2);
-            this.label184.Name = "label184";
-            this.label184.Size = new System.Drawing.Size(45, 30);
-            this.label184.TabIndex = 165;
-            this.label184.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label174
-            // 
-            this.label174.BackColor = System.Drawing.Color.White;
-            this.label174.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label174.Location = new System.Drawing.Point(302, 587);
-            this.label174.Margin = new System.Windows.Forms.Padding(2);
-            this.label174.Name = "label174";
-            this.label174.Size = new System.Drawing.Size(45, 30);
-            this.label174.TabIndex = 165;
-            this.label174.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label164
-            // 
-            this.label164.BackColor = System.Drawing.Color.White;
-            this.label164.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label164.Location = new System.Drawing.Point(253, 587);
-            this.label164.Margin = new System.Windows.Forms.Padding(2);
-            this.label164.Name = "label164";
-            this.label164.Size = new System.Drawing.Size(45, 30);
-            this.label164.TabIndex = 165;
-            this.label164.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label154
-            // 
-            this.label154.BackColor = System.Drawing.Color.White;
-            this.label154.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label154.Location = new System.Drawing.Point(204, 587);
-            this.label154.Margin = new System.Windows.Forms.Padding(2);
-            this.label154.Name = "label154";
-            this.label154.Size = new System.Drawing.Size(45, 30);
-            this.label154.TabIndex = 165;
-            this.label154.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label144
-            // 
-            this.label144.BackColor = System.Drawing.Color.White;
-            this.label144.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label144.Location = new System.Drawing.Point(155, 587);
-            this.label144.Margin = new System.Windows.Forms.Padding(2);
-            this.label144.Name = "label144";
-            this.label144.Size = new System.Drawing.Size(45, 30);
-            this.label144.TabIndex = 165;
-            this.label144.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label135
-            // 
-            this.label135.BackColor = System.Drawing.Color.White;
-            this.label135.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label135.Location = new System.Drawing.Point(106, 587);
-            this.label135.Margin = new System.Windows.Forms.Padding(2);
-            this.label135.Name = "label135";
-            this.label135.Size = new System.Drawing.Size(45, 30);
-            this.label135.TabIndex = 165;
-            this.label135.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label253
-            // 
-            this.label253.BackColor = System.Drawing.Color.White;
-            this.label253.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label253.Location = new System.Drawing.Point(695, 553);
-            this.label253.Margin = new System.Windows.Forms.Padding(2);
-            this.label253.Name = "label253";
-            this.label253.Size = new System.Drawing.Size(45, 30);
-            this.label253.TabIndex = 164;
-            this.label253.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label243
-            // 
-            this.label243.BackColor = System.Drawing.Color.White;
-            this.label243.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label243.Location = new System.Drawing.Point(646, 553);
-            this.label243.Margin = new System.Windows.Forms.Padding(2);
-            this.label243.Name = "label243";
-            this.label243.Size = new System.Drawing.Size(45, 30);
-            this.label243.TabIndex = 164;
-            this.label243.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label233
-            // 
-            this.label233.BackColor = System.Drawing.Color.White;
-            this.label233.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label233.Location = new System.Drawing.Point(597, 553);
-            this.label233.Margin = new System.Windows.Forms.Padding(2);
-            this.label233.Name = "label233";
-            this.label233.Size = new System.Drawing.Size(45, 30);
-            this.label233.TabIndex = 164;
-            this.label233.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label203
-            // 
-            this.label203.BackColor = System.Drawing.Color.White;
-            this.label203.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label203.Location = new System.Drawing.Point(449, 553);
-            this.label203.Margin = new System.Windows.Forms.Padding(2);
-            this.label203.Name = "label203";
-            this.label203.Size = new System.Drawing.Size(45, 30);
-            this.label203.TabIndex = 164;
-            this.label203.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label193
-            // 
-            this.label193.BackColor = System.Drawing.Color.White;
-            this.label193.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label193.Location = new System.Drawing.Point(400, 553);
-            this.label193.Margin = new System.Windows.Forms.Padding(2);
-            this.label193.Name = "label193";
-            this.label193.Size = new System.Drawing.Size(45, 30);
-            this.label193.TabIndex = 164;
-            this.label193.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label183
-            // 
-            this.label183.BackColor = System.Drawing.Color.White;
-            this.label183.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label183.Location = new System.Drawing.Point(351, 553);
-            this.label183.Margin = new System.Windows.Forms.Padding(2);
-            this.label183.Name = "label183";
-            this.label183.Size = new System.Drawing.Size(45, 30);
-            this.label183.TabIndex = 164;
-            this.label183.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label173
-            // 
-            this.label173.BackColor = System.Drawing.Color.White;
-            this.label173.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label173.Location = new System.Drawing.Point(302, 553);
-            this.label173.Margin = new System.Windows.Forms.Padding(2);
-            this.label173.Name = "label173";
-            this.label173.Size = new System.Drawing.Size(45, 30);
-            this.label173.TabIndex = 164;
-            this.label173.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label163
-            // 
-            this.label163.BackColor = System.Drawing.Color.White;
-            this.label163.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label163.Location = new System.Drawing.Point(253, 553);
-            this.label163.Margin = new System.Windows.Forms.Padding(2);
-            this.label163.Name = "label163";
-            this.label163.Size = new System.Drawing.Size(45, 30);
-            this.label163.TabIndex = 164;
-            this.label163.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label153
-            // 
-            this.label153.BackColor = System.Drawing.Color.White;
-            this.label153.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label153.Location = new System.Drawing.Point(204, 553);
-            this.label153.Margin = new System.Windows.Forms.Padding(2);
-            this.label153.Name = "label153";
-            this.label153.Size = new System.Drawing.Size(45, 30);
-            this.label153.TabIndex = 164;
-            this.label153.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label143
-            // 
-            this.label143.BackColor = System.Drawing.Color.White;
-            this.label143.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label143.Location = new System.Drawing.Point(155, 553);
-            this.label143.Margin = new System.Windows.Forms.Padding(2);
-            this.label143.Name = "label143";
-            this.label143.Size = new System.Drawing.Size(45, 30);
-            this.label143.TabIndex = 164;
-            this.label143.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label136
-            // 
-            this.label136.BackColor = System.Drawing.Color.White;
-            this.label136.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label136.Location = new System.Drawing.Point(106, 553);
-            this.label136.Margin = new System.Windows.Forms.Padding(2);
-            this.label136.Name = "label136";
-            this.label136.Size = new System.Drawing.Size(45, 30);
-            this.label136.TabIndex = 164;
-            this.label136.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label252
-            // 
-            this.label252.BackColor = System.Drawing.Color.White;
-            this.label252.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label252.Location = new System.Drawing.Point(695, 519);
-            this.label252.Margin = new System.Windows.Forms.Padding(2);
-            this.label252.Name = "label252";
-            this.label252.Size = new System.Drawing.Size(45, 30);
-            this.label252.TabIndex = 163;
-            this.label252.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label251
-            // 
-            this.label251.BackColor = System.Drawing.Color.White;
-            this.label251.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label251.Location = new System.Drawing.Point(695, 483);
-            this.label251.Margin = new System.Windows.Forms.Padding(2);
-            this.label251.Name = "label251";
-            this.label251.Size = new System.Drawing.Size(45, 30);
-            this.label251.TabIndex = 162;
-            this.label251.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label242
-            // 
-            this.label242.BackColor = System.Drawing.Color.White;
-            this.label242.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label242.Location = new System.Drawing.Point(646, 519);
-            this.label242.Margin = new System.Windows.Forms.Padding(2);
-            this.label242.Name = "label242";
-            this.label242.Size = new System.Drawing.Size(45, 30);
-            this.label242.TabIndex = 163;
-            this.label242.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label241
-            // 
-            this.label241.BackColor = System.Drawing.Color.White;
-            this.label241.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label241.Location = new System.Drawing.Point(646, 483);
-            this.label241.Margin = new System.Windows.Forms.Padding(2);
-            this.label241.Name = "label241";
-            this.label241.Size = new System.Drawing.Size(45, 30);
-            this.label241.TabIndex = 162;
-            this.label241.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label232
-            // 
-            this.label232.BackColor = System.Drawing.Color.White;
-            this.label232.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label232.Location = new System.Drawing.Point(597, 519);
-            this.label232.Margin = new System.Windows.Forms.Padding(2);
-            this.label232.Name = "label232";
-            this.label232.Size = new System.Drawing.Size(45, 30);
-            this.label232.TabIndex = 163;
-            this.label232.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label231
-            // 
-            this.label231.BackColor = System.Drawing.Color.White;
-            this.label231.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label231.Location = new System.Drawing.Point(597, 483);
-            this.label231.Margin = new System.Windows.Forms.Padding(2);
-            this.label231.Name = "label231";
-            this.label231.Size = new System.Drawing.Size(45, 30);
-            this.label231.TabIndex = 162;
-            this.label231.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label222
-            // 
-            this.label222.BackColor = System.Drawing.Color.White;
-            this.label222.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label222.Location = new System.Drawing.Point(548, 519);
-            this.label222.Margin = new System.Windows.Forms.Padding(2);
-            this.label222.Name = "label222";
-            this.label222.Size = new System.Drawing.Size(45, 30);
-            this.label222.TabIndex = 163;
-            this.label222.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label221
-            // 
-            this.label221.BackColor = System.Drawing.Color.White;
-            this.label221.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label221.Location = new System.Drawing.Point(548, 483);
-            this.label221.Margin = new System.Windows.Forms.Padding(2);
-            this.label221.Name = "label221";
-            this.label221.Size = new System.Drawing.Size(45, 30);
-            this.label221.TabIndex = 162;
-            this.label221.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label212
-            // 
-            this.label212.BackColor = System.Drawing.Color.White;
-            this.label212.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label212.Location = new System.Drawing.Point(499, 519);
-            this.label212.Margin = new System.Windows.Forms.Padding(2);
-            this.label212.Name = "label212";
-            this.label212.Size = new System.Drawing.Size(45, 30);
-            this.label212.TabIndex = 163;
-            this.label212.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label211
-            // 
-            this.label211.BackColor = System.Drawing.Color.White;
-            this.label211.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label211.Location = new System.Drawing.Point(499, 483);
-            this.label211.Margin = new System.Windows.Forms.Padding(2);
-            this.label211.Name = "label211";
-            this.label211.Size = new System.Drawing.Size(45, 30);
-            this.label211.TabIndex = 162;
-            this.label211.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label202
-            // 
-            this.label202.BackColor = System.Drawing.Color.White;
-            this.label202.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label202.Location = new System.Drawing.Point(449, 519);
-            this.label202.Margin = new System.Windows.Forms.Padding(2);
-            this.label202.Name = "label202";
-            this.label202.Size = new System.Drawing.Size(45, 30);
-            this.label202.TabIndex = 163;
-            this.label202.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label201
-            // 
-            this.label201.BackColor = System.Drawing.Color.White;
-            this.label201.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label201.Location = new System.Drawing.Point(449, 483);
-            this.label201.Margin = new System.Windows.Forms.Padding(2);
-            this.label201.Name = "label201";
-            this.label201.Size = new System.Drawing.Size(45, 30);
-            this.label201.TabIndex = 162;
-            this.label201.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label192
-            // 
-            this.label192.BackColor = System.Drawing.Color.White;
-            this.label192.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label192.Location = new System.Drawing.Point(400, 519);
-            this.label192.Margin = new System.Windows.Forms.Padding(2);
-            this.label192.Name = "label192";
-            this.label192.Size = new System.Drawing.Size(45, 30);
-            this.label192.TabIndex = 163;
-            this.label192.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label191
-            // 
-            this.label191.BackColor = System.Drawing.Color.White;
-            this.label191.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label191.Location = new System.Drawing.Point(400, 483);
-            this.label191.Margin = new System.Windows.Forms.Padding(2);
-            this.label191.Name = "label191";
-            this.label191.Size = new System.Drawing.Size(45, 30);
-            this.label191.TabIndex = 162;
-            this.label191.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // spoor76v5
+            // 
+            this.spoor76v5.BackColor = System.Drawing.Color.White;
+            this.spoor76v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor76v5.Location = new System.Drawing.Point(695, 621);
+            this.spoor76v5.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor76v5.Name = "spoor76v5";
+            this.spoor76v5.Size = new System.Drawing.Size(45, 30);
+            this.spoor76v5.TabIndex = 168;
+            this.spoor76v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor58v5
+            // 
+            this.spoor58v5.BackColor = System.Drawing.Color.White;
+            this.spoor58v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor58v5.Location = new System.Drawing.Point(351, 621);
+            this.spoor58v5.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor58v5.Name = "spoor58v5";
+            this.spoor58v5.Size = new System.Drawing.Size(45, 30);
+            this.spoor58v5.TabIndex = 168;
+            this.spoor58v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor57v5
+            // 
+            this.spoor57v5.BackColor = System.Drawing.Color.White;
+            this.spoor57v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor57v5.Location = new System.Drawing.Point(302, 621);
+            this.spoor57v5.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor57v5.Name = "spoor57v5";
+            this.spoor57v5.Size = new System.Drawing.Size(45, 30);
+            this.spoor57v5.TabIndex = 168;
+            this.spoor57v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor56v5
+            // 
+            this.spoor56v5.BackColor = System.Drawing.Color.White;
+            this.spoor56v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor56v5.Location = new System.Drawing.Point(253, 621);
+            this.spoor56v5.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor56v5.Name = "spoor56v5";
+            this.spoor56v5.Size = new System.Drawing.Size(45, 30);
+            this.spoor56v5.TabIndex = 168;
+            this.spoor56v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor55v5
+            // 
+            this.spoor55v5.BackColor = System.Drawing.Color.White;
+            this.spoor55v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor55v5.Location = new System.Drawing.Point(204, 621);
+            this.spoor55v5.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor55v5.Name = "spoor55v5";
+            this.spoor55v5.Size = new System.Drawing.Size(45, 30);
+            this.spoor55v5.TabIndex = 168;
+            this.spoor55v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor54v5
+            // 
+            this.spoor54v5.BackColor = System.Drawing.Color.White;
+            this.spoor54v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor54v5.Location = new System.Drawing.Point(155, 621);
+            this.spoor54v5.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor54v5.Name = "spoor54v5";
+            this.spoor54v5.Size = new System.Drawing.Size(45, 30);
+            this.spoor54v5.TabIndex = 168;
+            this.spoor54v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor53v5
+            // 
+            this.spoor53v5.BackColor = System.Drawing.Color.White;
+            this.spoor53v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor53v5.Location = new System.Drawing.Point(106, 621);
+            this.spoor53v5.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor53v5.Name = "spoor53v5";
+            this.spoor53v5.Size = new System.Drawing.Size(45, 30);
+            this.spoor53v5.TabIndex = 168;
+            this.spoor53v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor57v6
+            // 
+            this.spoor57v6.BackColor = System.Drawing.Color.White;
+            this.spoor57v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor57v6.Location = new System.Drawing.Point(302, 655);
+            this.spoor57v6.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor57v6.Name = "spoor57v6";
+            this.spoor57v6.Size = new System.Drawing.Size(45, 30);
+            this.spoor57v6.TabIndex = 167;
+            this.spoor57v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor56v6
+            // 
+            this.spoor56v6.BackColor = System.Drawing.Color.White;
+            this.spoor56v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor56v6.Location = new System.Drawing.Point(253, 655);
+            this.spoor56v6.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor56v6.Name = "spoor56v6";
+            this.spoor56v6.Size = new System.Drawing.Size(45, 30);
+            this.spoor56v6.TabIndex = 167;
+            this.spoor56v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor55v6
+            // 
+            this.spoor55v6.BackColor = System.Drawing.Color.White;
+            this.spoor55v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor55v6.Location = new System.Drawing.Point(204, 655);
+            this.spoor55v6.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor55v6.Name = "spoor55v6";
+            this.spoor55v6.Size = new System.Drawing.Size(45, 30);
+            this.spoor55v6.TabIndex = 167;
+            this.spoor55v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor54v6
+            // 
+            this.spoor54v6.BackColor = System.Drawing.Color.White;
+            this.spoor54v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor54v6.Location = new System.Drawing.Point(155, 655);
+            this.spoor54v6.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor54v6.Name = "spoor54v6";
+            this.spoor54v6.Size = new System.Drawing.Size(45, 30);
+            this.spoor54v6.TabIndex = 167;
+            this.spoor54v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor53v6
+            // 
+            this.spoor53v6.BackColor = System.Drawing.Color.White;
+            this.spoor53v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor53v6.Location = new System.Drawing.Point(106, 655);
+            this.spoor53v6.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor53v6.Name = "spoor53v6";
+            this.spoor53v6.Size = new System.Drawing.Size(45, 30);
+            this.spoor53v6.TabIndex = 167;
+            this.spoor53v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor57v7
+            // 
+            this.spoor57v7.BackColor = System.Drawing.Color.White;
+            this.spoor57v7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor57v7.Location = new System.Drawing.Point(302, 689);
+            this.spoor57v7.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor57v7.Name = "spoor57v7";
+            this.spoor57v7.Size = new System.Drawing.Size(45, 30);
+            this.spoor57v7.TabIndex = 166;
+            this.spoor57v7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor56v7
+            // 
+            this.spoor56v7.BackColor = System.Drawing.Color.White;
+            this.spoor56v7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor56v7.Location = new System.Drawing.Point(253, 689);
+            this.spoor56v7.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor56v7.Name = "spoor56v7";
+            this.spoor56v7.Size = new System.Drawing.Size(45, 30);
+            this.spoor56v7.TabIndex = 166;
+            this.spoor56v7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor55v7
+            // 
+            this.spoor55v7.BackColor = System.Drawing.Color.White;
+            this.spoor55v7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor55v7.Location = new System.Drawing.Point(204, 689);
+            this.spoor55v7.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor55v7.Name = "spoor55v7";
+            this.spoor55v7.Size = new System.Drawing.Size(45, 30);
+            this.spoor55v7.TabIndex = 166;
+            this.spoor55v7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor54v7
+            // 
+            this.spoor54v7.BackColor = System.Drawing.Color.White;
+            this.spoor54v7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor54v7.Location = new System.Drawing.Point(155, 689);
+            this.spoor54v7.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor54v7.Name = "spoor54v7";
+            this.spoor54v7.Size = new System.Drawing.Size(45, 30);
+            this.spoor54v7.TabIndex = 166;
+            this.spoor54v7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor76v4
+            // 
+            this.spoor76v4.BackColor = System.Drawing.Color.White;
+            this.spoor76v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor76v4.Location = new System.Drawing.Point(695, 587);
+            this.spoor76v4.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor76v4.Name = "spoor76v4";
+            this.spoor76v4.Size = new System.Drawing.Size(45, 30);
+            this.spoor76v4.TabIndex = 165;
+            this.spoor76v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor75v4
+            // 
+            this.spoor75v4.BackColor = System.Drawing.Color.White;
+            this.spoor75v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor75v4.Location = new System.Drawing.Point(646, 587);
+            this.spoor75v4.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor75v4.Name = "spoor75v4";
+            this.spoor75v4.Size = new System.Drawing.Size(45, 30);
+            this.spoor75v4.TabIndex = 165;
+            this.spoor75v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor63v4
+            // 
+            this.spoor63v4.BackColor = System.Drawing.Color.White;
+            this.spoor63v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor63v4.Location = new System.Drawing.Point(449, 587);
+            this.spoor63v4.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor63v4.Name = "spoor63v4";
+            this.spoor63v4.Size = new System.Drawing.Size(45, 30);
+            this.spoor63v4.TabIndex = 165;
+            this.spoor63v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor64v4
+            // 
+            this.spoor64v4.BackColor = System.Drawing.Color.White;
+            this.spoor64v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor64v4.Location = new System.Drawing.Point(400, 587);
+            this.spoor64v4.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor64v4.Name = "spoor64v4";
+            this.spoor64v4.Size = new System.Drawing.Size(45, 30);
+            this.spoor64v4.TabIndex = 165;
+            this.spoor64v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor58v4
+            // 
+            this.spoor58v4.BackColor = System.Drawing.Color.White;
+            this.spoor58v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor58v4.Location = new System.Drawing.Point(351, 587);
+            this.spoor58v4.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor58v4.Name = "spoor58v4";
+            this.spoor58v4.Size = new System.Drawing.Size(45, 30);
+            this.spoor58v4.TabIndex = 165;
+            this.spoor58v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor57v4
+            // 
+            this.spoor57v4.BackColor = System.Drawing.Color.White;
+            this.spoor57v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor57v4.Location = new System.Drawing.Point(302, 587);
+            this.spoor57v4.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor57v4.Name = "spoor57v4";
+            this.spoor57v4.Size = new System.Drawing.Size(45, 30);
+            this.spoor57v4.TabIndex = 165;
+            this.spoor57v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor56v4
+            // 
+            this.spoor56v4.BackColor = System.Drawing.Color.White;
+            this.spoor56v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor56v4.Location = new System.Drawing.Point(253, 587);
+            this.spoor56v4.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor56v4.Name = "spoor56v4";
+            this.spoor56v4.Size = new System.Drawing.Size(45, 30);
+            this.spoor56v4.TabIndex = 165;
+            this.spoor56v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor55v4
+            // 
+            this.spoor55v4.BackColor = System.Drawing.Color.White;
+            this.spoor55v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor55v4.Location = new System.Drawing.Point(204, 587);
+            this.spoor55v4.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor55v4.Name = "spoor55v4";
+            this.spoor55v4.Size = new System.Drawing.Size(45, 30);
+            this.spoor55v4.TabIndex = 165;
+            this.spoor55v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor54v4
+            // 
+            this.spoor54v4.BackColor = System.Drawing.Color.White;
+            this.spoor54v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor54v4.Location = new System.Drawing.Point(155, 587);
+            this.spoor54v4.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor54v4.Name = "spoor54v4";
+            this.spoor54v4.Size = new System.Drawing.Size(45, 30);
+            this.spoor54v4.TabIndex = 165;
+            this.spoor54v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor53v4
+            // 
+            this.spoor53v4.BackColor = System.Drawing.Color.White;
+            this.spoor53v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor53v4.Location = new System.Drawing.Point(106, 587);
+            this.spoor53v4.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor53v4.Name = "spoor53v4";
+            this.spoor53v4.Size = new System.Drawing.Size(45, 30);
+            this.spoor53v4.TabIndex = 165;
+            this.spoor53v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor76v3
+            // 
+            this.spoor76v3.BackColor = System.Drawing.Color.White;
+            this.spoor76v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor76v3.Location = new System.Drawing.Point(695, 553);
+            this.spoor76v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor76v3.Name = "spoor76v3";
+            this.spoor76v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor76v3.TabIndex = 164;
+            this.spoor76v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor75v3
+            // 
+            this.spoor75v3.BackColor = System.Drawing.Color.White;
+            this.spoor75v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor75v3.Location = new System.Drawing.Point(646, 553);
+            this.spoor75v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor75v3.Name = "spoor75v3";
+            this.spoor75v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor75v3.TabIndex = 164;
+            this.spoor75v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor74v3
+            // 
+            this.spoor74v3.BackColor = System.Drawing.Color.White;
+            this.spoor74v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor74v3.Location = new System.Drawing.Point(597, 553);
+            this.spoor74v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor74v3.Name = "spoor74v3";
+            this.spoor74v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor74v3.TabIndex = 164;
+            this.spoor74v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor63v3
+            // 
+            this.spoor63v3.BackColor = System.Drawing.Color.White;
+            this.spoor63v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor63v3.Location = new System.Drawing.Point(449, 553);
+            this.spoor63v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor63v3.Name = "spoor63v3";
+            this.spoor63v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor63v3.TabIndex = 164;
+            this.spoor63v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor64v3
+            // 
+            this.spoor64v3.BackColor = System.Drawing.Color.White;
+            this.spoor64v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor64v3.Location = new System.Drawing.Point(400, 553);
+            this.spoor64v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor64v3.Name = "spoor64v3";
+            this.spoor64v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor64v3.TabIndex = 164;
+            this.spoor64v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor58v3
+            // 
+            this.spoor58v3.BackColor = System.Drawing.Color.White;
+            this.spoor58v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor58v3.Location = new System.Drawing.Point(351, 553);
+            this.spoor58v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor58v3.Name = "spoor58v3";
+            this.spoor58v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor58v3.TabIndex = 164;
+            this.spoor58v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor57v3
+            // 
+            this.spoor57v3.BackColor = System.Drawing.Color.White;
+            this.spoor57v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor57v3.Location = new System.Drawing.Point(302, 553);
+            this.spoor57v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor57v3.Name = "spoor57v3";
+            this.spoor57v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor57v3.TabIndex = 164;
+            this.spoor57v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor56v3
+            // 
+            this.spoor56v3.BackColor = System.Drawing.Color.White;
+            this.spoor56v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor56v3.Location = new System.Drawing.Point(253, 553);
+            this.spoor56v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor56v3.Name = "spoor56v3";
+            this.spoor56v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor56v3.TabIndex = 164;
+            this.spoor56v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor55v3
+            // 
+            this.spoor55v3.BackColor = System.Drawing.Color.White;
+            this.spoor55v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor55v3.Location = new System.Drawing.Point(204, 553);
+            this.spoor55v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor55v3.Name = "spoor55v3";
+            this.spoor55v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor55v3.TabIndex = 164;
+            this.spoor55v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor54v3
+            // 
+            this.spoor54v3.BackColor = System.Drawing.Color.White;
+            this.spoor54v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor54v3.Location = new System.Drawing.Point(155, 553);
+            this.spoor54v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor54v3.Name = "spoor54v3";
+            this.spoor54v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor54v3.TabIndex = 164;
+            this.spoor54v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor53v3
+            // 
+            this.spoor53v3.BackColor = System.Drawing.Color.White;
+            this.spoor53v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor53v3.Location = new System.Drawing.Point(106, 553);
+            this.spoor53v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor53v3.Name = "spoor53v3";
+            this.spoor53v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor53v3.TabIndex = 164;
+            this.spoor53v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor76v2
+            // 
+            this.spoor76v2.BackColor = System.Drawing.Color.White;
+            this.spoor76v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor76v2.Location = new System.Drawing.Point(695, 519);
+            this.spoor76v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor76v2.Name = "spoor76v2";
+            this.spoor76v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor76v2.TabIndex = 163;
+            this.spoor76v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor76v1
+            // 
+            this.spoor76v1.BackColor = System.Drawing.Color.White;
+            this.spoor76v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor76v1.Location = new System.Drawing.Point(695, 483);
+            this.spoor76v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor76v1.Name = "spoor76v1";
+            this.spoor76v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor76v1.TabIndex = 162;
+            this.spoor76v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor75v2
+            // 
+            this.spoor75v2.BackColor = System.Drawing.Color.White;
+            this.spoor75v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor75v2.Location = new System.Drawing.Point(646, 519);
+            this.spoor75v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor75v2.Name = "spoor75v2";
+            this.spoor75v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor75v2.TabIndex = 163;
+            this.spoor75v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor75v1
+            // 
+            this.spoor75v1.BackColor = System.Drawing.Color.White;
+            this.spoor75v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor75v1.Location = new System.Drawing.Point(646, 483);
+            this.spoor75v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor75v1.Name = "spoor75v1";
+            this.spoor75v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor75v1.TabIndex = 162;
+            this.spoor75v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor74v2
+            // 
+            this.spoor74v2.BackColor = System.Drawing.Color.White;
+            this.spoor74v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor74v2.Location = new System.Drawing.Point(597, 519);
+            this.spoor74v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor74v2.Name = "spoor74v2";
+            this.spoor74v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor74v2.TabIndex = 163;
+            this.spoor74v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor74v1
+            // 
+            this.spoor74v1.BackColor = System.Drawing.Color.White;
+            this.spoor74v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor74v1.Location = new System.Drawing.Point(597, 483);
+            this.spoor74v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor74v1.Name = "spoor74v1";
+            this.spoor74v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor74v1.TabIndex = 162;
+            this.spoor74v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor61v2
+            // 
+            this.spoor61v2.BackColor = System.Drawing.Color.White;
+            this.spoor61v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor61v2.Location = new System.Drawing.Point(548, 519);
+            this.spoor61v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor61v2.Name = "spoor61v2";
+            this.spoor61v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor61v2.TabIndex = 163;
+            this.spoor61v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor61v1
+            // 
+            this.spoor61v1.BackColor = System.Drawing.Color.White;
+            this.spoor61v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor61v1.Location = new System.Drawing.Point(548, 483);
+            this.spoor61v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor61v1.Name = "spoor61v1";
+            this.spoor61v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor61v1.TabIndex = 162;
+            this.spoor61v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor62v2
+            // 
+            this.spoor62v2.BackColor = System.Drawing.Color.White;
+            this.spoor62v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor62v2.Location = new System.Drawing.Point(499, 519);
+            this.spoor62v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor62v2.Name = "spoor62v2";
+            this.spoor62v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor62v2.TabIndex = 163;
+            this.spoor62v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor62v1
+            // 
+            this.spoor62v1.BackColor = System.Drawing.Color.White;
+            this.spoor62v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor62v1.Location = new System.Drawing.Point(499, 483);
+            this.spoor62v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor62v1.Name = "spoor62v1";
+            this.spoor62v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor62v1.TabIndex = 162;
+            this.spoor62v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor63v2
+            // 
+            this.spoor63v2.BackColor = System.Drawing.Color.White;
+            this.spoor63v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor63v2.Location = new System.Drawing.Point(449, 519);
+            this.spoor63v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor63v2.Name = "spoor63v2";
+            this.spoor63v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor63v2.TabIndex = 163;
+            this.spoor63v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor63v1
+            // 
+            this.spoor63v1.BackColor = System.Drawing.Color.White;
+            this.spoor63v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor63v1.Location = new System.Drawing.Point(449, 483);
+            this.spoor63v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor63v1.Name = "spoor63v1";
+            this.spoor63v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor63v1.TabIndex = 162;
+            this.spoor63v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor64v2
+            // 
+            this.spoor64v2.BackColor = System.Drawing.Color.White;
+            this.spoor64v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor64v2.Location = new System.Drawing.Point(400, 519);
+            this.spoor64v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor64v2.Name = "spoor64v2";
+            this.spoor64v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor64v2.TabIndex = 163;
+            this.spoor64v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // spoor64v1
+            // 
+            this.spoor64v1.BackColor = System.Drawing.Color.White;
+            this.spoor64v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor64v1.Location = new System.Drawing.Point(400, 483);
+            this.spoor64v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor64v1.Name = "spoor64v1";
+            this.spoor64v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor64v1.TabIndex = 162;
+            this.spoor64v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label250
             // 
@@ -1446,16 +1446,16 @@
             this.label250.Text = "76";
             this.label250.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label182
+            // spoor58v2
             // 
-            this.label182.BackColor = System.Drawing.Color.White;
-            this.label182.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label182.Location = new System.Drawing.Point(351, 519);
-            this.label182.Margin = new System.Windows.Forms.Padding(2);
-            this.label182.Name = "label182";
-            this.label182.Size = new System.Drawing.Size(45, 30);
-            this.label182.TabIndex = 163;
-            this.label182.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor58v2.BackColor = System.Drawing.Color.White;
+            this.spoor58v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor58v2.Location = new System.Drawing.Point(351, 519);
+            this.spoor58v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor58v2.Name = "spoor58v2";
+            this.spoor58v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor58v2.TabIndex = 163;
+            this.spoor58v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label240
             // 
@@ -1469,16 +1469,16 @@
             this.label240.Text = "75";
             this.label240.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label181
+            // spoor58v1
             // 
-            this.label181.BackColor = System.Drawing.Color.White;
-            this.label181.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label181.Location = new System.Drawing.Point(351, 483);
-            this.label181.Margin = new System.Windows.Forms.Padding(2);
-            this.label181.Name = "label181";
-            this.label181.Size = new System.Drawing.Size(45, 30);
-            this.label181.TabIndex = 162;
-            this.label181.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor58v1.BackColor = System.Drawing.Color.White;
+            this.spoor58v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor58v1.Location = new System.Drawing.Point(351, 483);
+            this.spoor58v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor58v1.Name = "spoor58v1";
+            this.spoor58v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor58v1.TabIndex = 162;
+            this.spoor58v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label230
             // 
@@ -1492,16 +1492,16 @@
             this.label230.Text = "74";
             this.label230.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label172
+            // spoor57v2
             // 
-            this.label172.BackColor = System.Drawing.Color.White;
-            this.label172.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label172.Location = new System.Drawing.Point(302, 519);
-            this.label172.Margin = new System.Windows.Forms.Padding(2);
-            this.label172.Name = "label172";
-            this.label172.Size = new System.Drawing.Size(45, 30);
-            this.label172.TabIndex = 163;
-            this.label172.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor57v2.BackColor = System.Drawing.Color.White;
+            this.spoor57v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor57v2.Location = new System.Drawing.Point(302, 519);
+            this.spoor57v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor57v2.Name = "spoor57v2";
+            this.spoor57v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor57v2.TabIndex = 163;
+            this.spoor57v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label220
             // 
@@ -1515,16 +1515,16 @@
             this.label220.Text = "61";
             this.label220.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label171
+            // spoor57v1
             // 
-            this.label171.BackColor = System.Drawing.Color.White;
-            this.label171.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label171.Location = new System.Drawing.Point(302, 483);
-            this.label171.Margin = new System.Windows.Forms.Padding(2);
-            this.label171.Name = "label171";
-            this.label171.Size = new System.Drawing.Size(45, 30);
-            this.label171.TabIndex = 162;
-            this.label171.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor57v1.BackColor = System.Drawing.Color.White;
+            this.spoor57v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor57v1.Location = new System.Drawing.Point(302, 483);
+            this.spoor57v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor57v1.Name = "spoor57v1";
+            this.spoor57v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor57v1.TabIndex = 162;
+            this.spoor57v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label210
             // 
@@ -1538,16 +1538,16 @@
             this.label210.Text = "62";
             this.label210.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label162
+            // spoor56v2
             // 
-            this.label162.BackColor = System.Drawing.Color.White;
-            this.label162.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label162.Location = new System.Drawing.Point(253, 519);
-            this.label162.Margin = new System.Windows.Forms.Padding(2);
-            this.label162.Name = "label162";
-            this.label162.Size = new System.Drawing.Size(45, 30);
-            this.label162.TabIndex = 163;
-            this.label162.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor56v2.BackColor = System.Drawing.Color.White;
+            this.spoor56v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor56v2.Location = new System.Drawing.Point(253, 519);
+            this.spoor56v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor56v2.Name = "spoor56v2";
+            this.spoor56v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor56v2.TabIndex = 163;
+            this.spoor56v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label200
             // 
@@ -1561,16 +1561,16 @@
             this.label200.Text = "63";
             this.label200.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label161
+            // spoor56v1
             // 
-            this.label161.BackColor = System.Drawing.Color.White;
-            this.label161.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label161.Location = new System.Drawing.Point(253, 483);
-            this.label161.Margin = new System.Windows.Forms.Padding(2);
-            this.label161.Name = "label161";
-            this.label161.Size = new System.Drawing.Size(45, 30);
-            this.label161.TabIndex = 162;
-            this.label161.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor56v1.BackColor = System.Drawing.Color.White;
+            this.spoor56v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor56v1.Location = new System.Drawing.Point(253, 483);
+            this.spoor56v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor56v1.Name = "spoor56v1";
+            this.spoor56v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor56v1.TabIndex = 162;
+            this.spoor56v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label190
             // 
@@ -1584,16 +1584,16 @@
             this.label190.Text = "64";
             this.label190.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label152
+            // spoor55v2
             // 
-            this.label152.BackColor = System.Drawing.Color.White;
-            this.label152.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label152.Location = new System.Drawing.Point(204, 519);
-            this.label152.Margin = new System.Windows.Forms.Padding(2);
-            this.label152.Name = "label152";
-            this.label152.Size = new System.Drawing.Size(45, 30);
-            this.label152.TabIndex = 163;
-            this.label152.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor55v2.BackColor = System.Drawing.Color.White;
+            this.spoor55v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor55v2.Location = new System.Drawing.Point(204, 519);
+            this.spoor55v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor55v2.Name = "spoor55v2";
+            this.spoor55v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor55v2.TabIndex = 163;
+            this.spoor55v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label180
             // 
@@ -1607,16 +1607,16 @@
             this.label180.Text = "58";
             this.label180.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label151
+            // spoor55v1
             // 
-            this.label151.BackColor = System.Drawing.Color.White;
-            this.label151.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label151.Location = new System.Drawing.Point(204, 483);
-            this.label151.Margin = new System.Windows.Forms.Padding(2);
-            this.label151.Name = "label151";
-            this.label151.Size = new System.Drawing.Size(45, 30);
-            this.label151.TabIndex = 162;
-            this.label151.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor55v1.BackColor = System.Drawing.Color.White;
+            this.spoor55v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor55v1.Location = new System.Drawing.Point(204, 483);
+            this.spoor55v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor55v1.Name = "spoor55v1";
+            this.spoor55v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor55v1.TabIndex = 162;
+            this.spoor55v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label170
             // 
@@ -1630,16 +1630,16 @@
             this.label170.Text = "57";
             this.label170.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label142
+            // spoor54v2
             // 
-            this.label142.BackColor = System.Drawing.Color.White;
-            this.label142.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label142.Location = new System.Drawing.Point(155, 519);
-            this.label142.Margin = new System.Windows.Forms.Padding(2);
-            this.label142.Name = "label142";
-            this.label142.Size = new System.Drawing.Size(45, 30);
-            this.label142.TabIndex = 163;
-            this.label142.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor54v2.BackColor = System.Drawing.Color.White;
+            this.spoor54v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor54v2.Location = new System.Drawing.Point(155, 519);
+            this.spoor54v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor54v2.Name = "spoor54v2";
+            this.spoor54v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor54v2.TabIndex = 163;
+            this.spoor54v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label160
             // 
@@ -1653,16 +1653,16 @@
             this.label160.Text = "56";
             this.label160.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label141
+            // spoor54v1
             // 
-            this.label141.BackColor = System.Drawing.Color.White;
-            this.label141.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label141.Location = new System.Drawing.Point(155, 483);
-            this.label141.Margin = new System.Windows.Forms.Padding(2);
-            this.label141.Name = "label141";
-            this.label141.Size = new System.Drawing.Size(45, 30);
-            this.label141.TabIndex = 162;
-            this.label141.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor54v1.BackColor = System.Drawing.Color.White;
+            this.spoor54v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor54v1.Location = new System.Drawing.Point(155, 483);
+            this.spoor54v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor54v1.Name = "spoor54v1";
+            this.spoor54v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor54v1.TabIndex = 162;
+            this.spoor54v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label150
             // 
@@ -1676,16 +1676,16 @@
             this.label150.Text = "55";
             this.label150.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label137
+            // spoor53v2
             // 
-            this.label137.BackColor = System.Drawing.Color.White;
-            this.label137.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label137.Location = new System.Drawing.Point(106, 519);
-            this.label137.Margin = new System.Windows.Forms.Padding(2);
-            this.label137.Name = "label137";
-            this.label137.Size = new System.Drawing.Size(45, 30);
-            this.label137.TabIndex = 163;
-            this.label137.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor53v2.BackColor = System.Drawing.Color.White;
+            this.spoor53v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor53v2.Location = new System.Drawing.Point(106, 519);
+            this.spoor53v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor53v2.Name = "spoor53v2";
+            this.spoor53v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor53v2.TabIndex = 163;
+            this.spoor53v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label140
             // 
@@ -1699,16 +1699,16 @@
             this.label140.Text = "54";
             this.label140.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label138
+            // spoor53v1
             // 
-            this.label138.BackColor = System.Drawing.Color.White;
-            this.label138.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label138.Location = new System.Drawing.Point(106, 483);
-            this.label138.Margin = new System.Windows.Forms.Padding(2);
-            this.label138.Name = "label138";
-            this.label138.Size = new System.Drawing.Size(45, 30);
-            this.label138.TabIndex = 162;
-            this.label138.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor53v1.BackColor = System.Drawing.Color.White;
+            this.spoor53v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor53v1.Location = new System.Drawing.Point(106, 483);
+            this.spoor53v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor53v1.Name = "spoor53v1";
+            this.spoor53v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor53v1.TabIndex = 162;
+            this.spoor53v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label139
             // 
@@ -1722,71 +1722,71 @@
             this.label139.Text = "53";
             this.label139.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label122
+            // spoor52v5
             // 
-            this.label122.BackColor = System.Drawing.Color.White;
-            this.label122.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label122.Location = new System.Drawing.Point(56, 621);
-            this.label122.Margin = new System.Windows.Forms.Padding(2);
-            this.label122.Name = "label122";
-            this.label122.Size = new System.Drawing.Size(45, 30);
-            this.label122.TabIndex = 158;
-            this.label122.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor52v5.BackColor = System.Drawing.Color.White;
+            this.spoor52v5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor52v5.Location = new System.Drawing.Point(56, 621);
+            this.spoor52v5.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor52v5.Name = "spoor52v5";
+            this.spoor52v5.Size = new System.Drawing.Size(45, 30);
+            this.spoor52v5.TabIndex = 158;
+            this.spoor52v5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label123
+            // spoor52v6
             // 
-            this.label123.BackColor = System.Drawing.Color.White;
-            this.label123.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label123.Location = new System.Drawing.Point(56, 655);
-            this.label123.Margin = new System.Windows.Forms.Padding(2);
-            this.label123.Name = "label123";
-            this.label123.Size = new System.Drawing.Size(45, 30);
-            this.label123.TabIndex = 157;
-            this.label123.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor52v6.BackColor = System.Drawing.Color.White;
+            this.spoor52v6.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor52v6.Location = new System.Drawing.Point(56, 655);
+            this.spoor52v6.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor52v6.Name = "spoor52v6";
+            this.spoor52v6.Size = new System.Drawing.Size(45, 30);
+            this.spoor52v6.TabIndex = 157;
+            this.spoor52v6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label125
+            // spoor52v4
             // 
-            this.label125.BackColor = System.Drawing.Color.White;
-            this.label125.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label125.Location = new System.Drawing.Point(56, 587);
-            this.label125.Margin = new System.Windows.Forms.Padding(2);
-            this.label125.Name = "label125";
-            this.label125.Size = new System.Drawing.Size(45, 30);
-            this.label125.TabIndex = 155;
-            this.label125.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor52v4.BackColor = System.Drawing.Color.White;
+            this.spoor52v4.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor52v4.Location = new System.Drawing.Point(56, 587);
+            this.spoor52v4.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor52v4.Name = "spoor52v4";
+            this.spoor52v4.Size = new System.Drawing.Size(45, 30);
+            this.spoor52v4.TabIndex = 155;
+            this.spoor52v4.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label126
+            // spoor52v3
             // 
-            this.label126.BackColor = System.Drawing.Color.White;
-            this.label126.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label126.Location = new System.Drawing.Point(56, 553);
-            this.label126.Margin = new System.Windows.Forms.Padding(2);
-            this.label126.Name = "label126";
-            this.label126.Size = new System.Drawing.Size(45, 30);
-            this.label126.TabIndex = 154;
-            this.label126.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor52v3.BackColor = System.Drawing.Color.White;
+            this.spoor52v3.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor52v3.Location = new System.Drawing.Point(56, 553);
+            this.spoor52v3.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor52v3.Name = "spoor52v3";
+            this.spoor52v3.Size = new System.Drawing.Size(45, 30);
+            this.spoor52v3.TabIndex = 154;
+            this.spoor52v3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label127
+            // spoor52v2
             // 
-            this.label127.BackColor = System.Drawing.Color.White;
-            this.label127.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label127.Location = new System.Drawing.Point(56, 519);
-            this.label127.Margin = new System.Windows.Forms.Padding(2);
-            this.label127.Name = "label127";
-            this.label127.Size = new System.Drawing.Size(45, 30);
-            this.label127.TabIndex = 153;
-            this.label127.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor52v2.BackColor = System.Drawing.Color.White;
+            this.spoor52v2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor52v2.Location = new System.Drawing.Point(56, 519);
+            this.spoor52v2.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor52v2.Name = "spoor52v2";
+            this.spoor52v2.Size = new System.Drawing.Size(45, 30);
+            this.spoor52v2.TabIndex = 153;
+            this.spoor52v2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label128
+            // spoor52v1
             // 
-            this.label128.BackColor = System.Drawing.Color.White;
-            this.label128.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label128.Location = new System.Drawing.Point(56, 483);
-            this.label128.Margin = new System.Windows.Forms.Padding(2);
-            this.label128.Name = "label128";
-            this.label128.Size = new System.Drawing.Size(45, 30);
-            this.label128.TabIndex = 152;
-            this.label128.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor52v1.BackColor = System.Drawing.Color.White;
+            this.spoor52v1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor52v1.Location = new System.Drawing.Point(56, 483);
+            this.spoor52v1.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor52v1.Name = "spoor52v1";
+            this.spoor52v1.Size = new System.Drawing.Size(45, 30);
+            this.spoor52v1.TabIndex = 152;
+            this.spoor52v1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label129
             // 
@@ -1800,16 +1800,16 @@
             this.label129.Text = "52";
             this.label129.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // label111
+            // spoor57v8
             // 
-            this.label111.BackColor = System.Drawing.Color.White;
-            this.label111.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label111.Location = new System.Drawing.Point(302, 723);
-            this.label111.Margin = new System.Windows.Forms.Padding(2);
-            this.label111.Name = "label111";
-            this.label111.Size = new System.Drawing.Size(45, 30);
-            this.label111.TabIndex = 149;
-            this.label111.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.spoor57v8.BackColor = System.Drawing.Color.White;
+            this.spoor57v8.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.spoor57v8.Location = new System.Drawing.Point(302, 723);
+            this.spoor57v8.Margin = new System.Windows.Forms.Padding(2);
+            this.spoor57v8.Name = "spoor57v8";
+            this.spoor57v8.Size = new System.Drawing.Size(45, 30);
+            this.spoor57v8.TabIndex = 149;
+            this.spoor57v8.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // spoor51v5
             // 
@@ -3418,96 +3418,96 @@
         private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.ListBox listBox1;
         private System.Windows.Forms.TabPage tpReparatie;
-        private System.Windows.Forms.Label label110;
-        private System.Windows.Forms.Label label130;
-        private System.Windows.Forms.Label label131;
-        private System.Windows.Forms.Label label148;
-        private System.Windows.Forms.Label label149;
+        private System.Windows.Forms.Label spoor77v5;
+        private System.Windows.Forms.Label spoor77v4;
+        private System.Windows.Forms.Label spoor77v3;
+        private System.Windows.Forms.Label spoor77v2;
+        private System.Windows.Forms.Label spoor77v1;
         private System.Windows.Forms.Label label158;
-        private System.Windows.Forms.Label label257;
-        private System.Windows.Forms.Label label187;
-        private System.Windows.Forms.Label label177;
-        private System.Windows.Forms.Label label167;
-        private System.Windows.Forms.Label label157;
-        private System.Windows.Forms.Label label147;
-        private System.Windows.Forms.Label label132;
-        private System.Windows.Forms.Label label176;
-        private System.Windows.Forms.Label label166;
-        private System.Windows.Forms.Label label156;
-        private System.Windows.Forms.Label label146;
-        private System.Windows.Forms.Label label133;
-        private System.Windows.Forms.Label label175;
-        private System.Windows.Forms.Label label165;
-        private System.Windows.Forms.Label label155;
-        private System.Windows.Forms.Label label145;
-        private System.Windows.Forms.Label label254;
-        private System.Windows.Forms.Label label244;
-        private System.Windows.Forms.Label label204;
-        private System.Windows.Forms.Label label194;
-        private System.Windows.Forms.Label label184;
-        private System.Windows.Forms.Label label174;
-        private System.Windows.Forms.Label label164;
-        private System.Windows.Forms.Label label154;
-        private System.Windows.Forms.Label label144;
-        private System.Windows.Forms.Label label135;
-        private System.Windows.Forms.Label label253;
-        private System.Windows.Forms.Label label243;
-        private System.Windows.Forms.Label label233;
-        private System.Windows.Forms.Label label203;
-        private System.Windows.Forms.Label label193;
-        private System.Windows.Forms.Label label183;
-        private System.Windows.Forms.Label label173;
-        private System.Windows.Forms.Label label163;
-        private System.Windows.Forms.Label label153;
-        private System.Windows.Forms.Label label143;
-        private System.Windows.Forms.Label label136;
-        private System.Windows.Forms.Label label252;
-        private System.Windows.Forms.Label label251;
-        private System.Windows.Forms.Label label242;
-        private System.Windows.Forms.Label label241;
-        private System.Windows.Forms.Label label232;
-        private System.Windows.Forms.Label label231;
-        private System.Windows.Forms.Label label222;
-        private System.Windows.Forms.Label label221;
-        private System.Windows.Forms.Label label212;
-        private System.Windows.Forms.Label label211;
-        private System.Windows.Forms.Label label202;
-        private System.Windows.Forms.Label label201;
-        private System.Windows.Forms.Label label192;
-        private System.Windows.Forms.Label label191;
+        private System.Windows.Forms.Label spoor76v5;
+        private System.Windows.Forms.Label spoor58v5;
+        private System.Windows.Forms.Label spoor57v5;
+        private System.Windows.Forms.Label spoor56v5;
+        private System.Windows.Forms.Label spoor55v5;
+        private System.Windows.Forms.Label spoor54v5;
+        private System.Windows.Forms.Label spoor53v5;
+        private System.Windows.Forms.Label spoor57v6;
+        private System.Windows.Forms.Label spoor56v6;
+        private System.Windows.Forms.Label spoor55v6;
+        private System.Windows.Forms.Label spoor54v6;
+        private System.Windows.Forms.Label spoor53v6;
+        private System.Windows.Forms.Label spoor57v7;
+        private System.Windows.Forms.Label spoor56v7;
+        private System.Windows.Forms.Label spoor55v7;
+        private System.Windows.Forms.Label spoor54v7;
+        private System.Windows.Forms.Label spoor76v4;
+        private System.Windows.Forms.Label spoor75v4;
+        private System.Windows.Forms.Label spoor63v4;
+        private System.Windows.Forms.Label spoor64v4;
+        private System.Windows.Forms.Label spoor58v4;
+        private System.Windows.Forms.Label spoor57v4;
+        private System.Windows.Forms.Label spoor56v4;
+        private System.Windows.Forms.Label spoor55v4;
+        private System.Windows.Forms.Label spoor54v4;
+        private System.Windows.Forms.Label spoor53v4;
+        private System.Windows.Forms.Label spoor76v3;
+        private System.Windows.Forms.Label spoor75v3;
+        private System.Windows.Forms.Label spoor74v3;
+        private System.Windows.Forms.Label spoor63v3;
+        private System.Windows.Forms.Label spoor64v3;
+        private System.Windows.Forms.Label spoor58v3;
+        private System.Windows.Forms.Label spoor57v3;
+        private System.Windows.Forms.Label spoor56v3;
+        private System.Windows.Forms.Label spoor55v3;
+        private System.Windows.Forms.Label spoor54v3;
+        private System.Windows.Forms.Label spoor53v3;
+        private System.Windows.Forms.Label spoor76v2;
+        private System.Windows.Forms.Label spoor76v1;
+        private System.Windows.Forms.Label spoor75v2;
+        private System.Windows.Forms.Label spoor75v1;
+        private System.Windows.Forms.Label spoor74v2;
+        private System.Windows.Forms.Label spoor74v1;
+        private System.Windows.Forms.Label spoor61v2;
+        private System.Windows.Forms.Label spoor61v1;
+        private System.Windows.Forms.Label spoor62v2;
+        private System.Windows.Forms.Label spoor62v1;
+        private System.Windows.Forms.Label spoor63v2;
+        private System.Windows.Forms.Label spoor63v1;
+        private System.Windows.Forms.Label spoor64v2;
+        private System.Windows.Forms.Label spoor64v1;
         private System.Windows.Forms.Label label250;
-        private System.Windows.Forms.Label label182;
+        private System.Windows.Forms.Label spoor58v2;
         private System.Windows.Forms.Label label240;
-        private System.Windows.Forms.Label label181;
+        private System.Windows.Forms.Label spoor58v1;
         private System.Windows.Forms.Label label230;
-        private System.Windows.Forms.Label label172;
+        private System.Windows.Forms.Label spoor57v2;
         private System.Windows.Forms.Label label220;
-        private System.Windows.Forms.Label label171;
+        private System.Windows.Forms.Label spoor57v1;
         private System.Windows.Forms.Label label210;
-        private System.Windows.Forms.Label label162;
+        private System.Windows.Forms.Label spoor56v2;
         private System.Windows.Forms.Label label200;
-        private System.Windows.Forms.Label label161;
+        private System.Windows.Forms.Label spoor56v1;
         private System.Windows.Forms.Label label190;
-        private System.Windows.Forms.Label label152;
+        private System.Windows.Forms.Label spoor55v2;
         private System.Windows.Forms.Label label180;
-        private System.Windows.Forms.Label label151;
+        private System.Windows.Forms.Label spoor55v1;
         private System.Windows.Forms.Label label170;
-        private System.Windows.Forms.Label label142;
+        private System.Windows.Forms.Label spoor54v2;
         private System.Windows.Forms.Label label160;
-        private System.Windows.Forms.Label label141;
+        private System.Windows.Forms.Label spoor54v1;
         private System.Windows.Forms.Label label150;
-        private System.Windows.Forms.Label label137;
+        private System.Windows.Forms.Label spoor53v2;
         private System.Windows.Forms.Label label140;
-        private System.Windows.Forms.Label label138;
+        private System.Windows.Forms.Label spoor53v1;
         private System.Windows.Forms.Label label139;
-        private System.Windows.Forms.Label label122;
-        private System.Windows.Forms.Label label123;
-        private System.Windows.Forms.Label label125;
-        private System.Windows.Forms.Label label126;
-        private System.Windows.Forms.Label label127;
-        private System.Windows.Forms.Label label128;
+        private System.Windows.Forms.Label spoor52v5;
+        private System.Windows.Forms.Label spoor52v6;
+        private System.Windows.Forms.Label spoor52v4;
+        private System.Windows.Forms.Label spoor52v3;
+        private System.Windows.Forms.Label spoor52v2;
+        private System.Windows.Forms.Label spoor52v1;
         private System.Windows.Forms.Label label129;
-        private System.Windows.Forms.Label label111;
+        private System.Windows.Forms.Label spoor57v8;
         private System.Windows.Forms.Label spoor51v5;
         private System.Windows.Forms.Label spoor51v4;
         private System.Windows.Forms.Label spoor51v3;
