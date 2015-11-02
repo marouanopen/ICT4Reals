@@ -228,5 +228,20 @@ namespace UserInterface_Mockup_ICT4Reals
             }
         }
         #endregion
+
+        private void btnSpoorStatusAanpassen_Click(object sender, EventArgs e)
+        {
+            int status = 0;
+            if (cbSpoorStatusStatus.SelectedValue == "Blokkeer")
+            {
+                status = 1;
+            }
+            if (cbSpoorStatusStatus.SelectedValue == "Deblokkeer")
+            {
+                status = 0;
+            }
+            Rail rail = new Rail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), false, false, 1);
+            rail.BlockRail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), status);
+        }
     }
 }

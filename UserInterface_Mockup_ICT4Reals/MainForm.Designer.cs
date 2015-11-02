@@ -561,6 +561,7 @@
             this.btnSpoorStatusAanpassen.TabIndex = 13;
             this.btnSpoorStatusAanpassen.Text = "Aanpassen";
             this.btnSpoorStatusAanpassen.UseVisualStyleBackColor = true;
+            this.btnSpoorStatusAanpassen.Click += new System.EventHandler(this.btnSpoorStatusAanpassen_Click);
             // 
             // label36
             // 
@@ -748,8 +749,8 @@
             // 
             this.cbSpoorStatusStatus.FormattingEnabled = true;
             this.cbSpoorStatusStatus.Items.AddRange(new object[] {
-            "Block",
-            "Unblock"});
+            "Blokkeer",
+            "Deblokkeer"});
             this.cbSpoorStatusStatus.Location = new System.Drawing.Point(85, 41);
             this.cbSpoorStatusStatus.Name = "cbSpoorStatusStatus";
             this.cbSpoorStatusStatus.Size = new System.Drawing.Size(109, 21);
@@ -794,9 +795,9 @@
             this.cbToevoegenStatus.FormattingEnabled = true;
             this.cbToevoegenStatus.Items.AddRange(new object[] {
             "Ok",
-            "Dirty",
+            "Vies",
             "Defect",
-            "Dirty and defect"});
+            "Vies en defect"});
             this.cbToevoegenStatus.Location = new System.Drawing.Point(85, 72);
             this.cbToevoegenStatus.Name = "cbToevoegenStatus";
             this.cbToevoegenStatus.Size = new System.Drawing.Size(109, 21);
