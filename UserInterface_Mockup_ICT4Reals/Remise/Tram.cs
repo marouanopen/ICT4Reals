@@ -19,21 +19,23 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         public string Type { get; set; }
         public Rail Rail { get; set; }
         public User Driver { get; set; }
+        public bool OnRail { get; set; }
         /// <summary>
-        /// 
+        /// Creation of a new tram
         /// </summary>
         /// <param name="id">id of the tram</param>
         /// <param name="type">tram type</param>
         /// <param name="rail">rail where the tram is on</param>
         /// <param name="driver">the driver of the tram</param>
         /// <param name="status">1= OK 2= Dirty 3= Defect 4= DirtyAndDefect</param>
-        public Tram(int id, string type, Rail rail, User driver, int status)
+        public Tram(int id, string type, Rail rail, User driver, int status, bool onRail)
         {
             this.Id = id;
             this.Type = type;
             this.Rail = rail;
             this.Driver = driver;
             Status = (Status)status;
+            OnRail = onRail;
         }
 
         /// <summary>
@@ -45,14 +47,17 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         public bool MoveTram(int tramId, int railId)
         {
             bool tramMoved = false;
-            if (tramDatabase.MoveTram(tramId, railId))
+            if (!OnRail)
             {
-                MessageBox.Show("Succeed!");
-                tramMoved = true;
-            }
-            else
-            {
-                MessageBox.Show("Error!");
+                if (tramDatabase.MoveTram(tramId, railId))
+                {
+                    MessageBox.Show("Succeed!");
+                    tramMoved = true;
+                }
+                else
+                {
+                    MessageBox.Show("Error!");
+                }
             }
             return tramMoved;
         }
@@ -68,7 +73,7 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         public bool AddTram(int tramId, int lengte, int spoorId, int typeId)
         {
             bool tramAdded = false;
-            if (tramDatabase.AddTram(tramId, lengte, spoorId, typeId))
+            if (tramDatabase.AddTram(tramId, spoorId, typeId))
             {
                 MessageBox.Show("Succeed!");
                 tramAdded = true;
@@ -102,3 +107,4 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         }
     }
 }
+

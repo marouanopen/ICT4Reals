@@ -19,7 +19,7 @@ namespace UserInterface_Mockup_ICT4Reals
         public MainForm(Administration administration)
         {
             //ophalen van alle info uit de database
-            
+
             this.administration = administration;
             this.parkingsystem = new Parkingsystem();
             InitializeComponent();
@@ -29,7 +29,7 @@ namespace UserInterface_Mockup_ICT4Reals
             }
             if (Administration.LoggedInUser.RoleId == 2)
             {
-                TCLayout.TabPages.Remove(tpBeheer);
+                tpBeheer.Enabled = false;
                 TCLayout.TabPages.Remove(tpReparatie);
                 TCLayout.TabPages.Remove(tpSchoonmaak);
             }
@@ -68,6 +68,7 @@ namespace UserInterface_Mockup_ICT4Reals
         private void btnIncomingTram_Click(object sender, EventArgs e)
         {
             Rail rail = null;
+            Tram tram = null;
             int status = 0;
             if(CbxClean.Checked && Cbxrepair.Checked == false)
             {
@@ -99,11 +100,18 @@ namespace UserInterface_Mockup_ICT4Reals
                     if(t.Id == tramnr)
                     {
                         exist = true;
+                        tram = t;
                     }
                 }
                 if (exist == true)
                 {
                     rail = parkingsystem.InsertTramNr(Convert.ToInt32(tbTramIn.Text), status);
+                    tram.OnRail = true;
+                    tram._Status = status;
+                    //beurt toeboegen met begindatum
+                    //foreach label l  in mainform, if l.name == t.spoorid
+                    //l.text = t.tramid
+                    remiseRefresh();
                 }
                 else
                 {
@@ -114,6 +122,7 @@ namespace UserInterface_Mockup_ICT4Reals
                 if(rail != null)
                 {
                     lblNr.Text = Convert.ToString(rail.Id);
+                    
                 }
                 else
                 {
@@ -123,6 +132,101 @@ namespace UserInterface_Mockup_ICT4Reals
 
             
         }
+        #region refresh
 
+        private void remiseRefresh()
+        {
+            List<Tram> trams = Administration.GetTramList;
+            Rail rail;
+
+            foreach (Tram t in trams)
+            {
+                rail = t.Rail;
+
+                /* string id = rail.Id + "";
+                id.Replace("0", "V");
+
+                Control c = Controls.Find("", true).FirstOrDefault();
+                c.Text = Convert.ToString(t.Id);
+                c.BackColor = Color.DimGray;
+                */
+                switch (rail.Id)
+                {
+
+                        
+
+                    case 1201:
+                        spoor12v1.Text = Convert.ToString(t.Id);
+                        spoor12v1.BackColor = Color.DimGray;
+                        break;
+                    case 1301:
+                        spoor13v1.Text = Convert.ToString(t.Id);
+                        spoor13v1.BackColor = Color.DimGray;
+                        break;
+                    case 1401:
+                        spoor14v1.Text = Convert.ToString(t.Id);
+                        spoor14v1.BackColor = Color.DimGray;
+                        break;
+                    case 1501:
+                        spoor15v1.Text = Convert.ToString(t.Id);
+                        spoor15v1.BackColor = Color.DimGray;
+                        break;
+                    case 1601:
+                        spoor16v1.Text = Convert.ToString(t.Id);
+                        spoor16v1.BackColor = Color.DimGray;
+                        break;
+                    case 1701:
+                        spoor17v1.Text = Convert.ToString(t.Id);
+                        spoor17v1.BackColor = Color.DimGray;
+                        break;
+                    case 1801:
+                        spoor18v1.Text = Convert.ToString(t.Id);
+                        spoor18v1.BackColor = Color.DimGray;
+                        break;
+                    case 1901:
+                        spoor19v1.Text = Convert.ToString(t.Id);
+                        spoor19v1.BackColor = Color.DimGray;
+                        break;
+                    case 2001:
+                        spoor20v1.Text = Convert.ToString(t.Id);
+                        spoor20v1.BackColor = Color.DimGray;
+                        break;
+                    case 2101:
+                        spoor21v1.Text = Convert.ToString(t.Id);
+                        spoor21v1.BackColor = Color.DimGray;
+                        break;
+                    case 3001:
+                        spoor30v1.Text = Convert.ToString(t.Id);
+                        spoor30v1.BackColor = Color.DimGray;
+                        break;
+                    case 3002:
+                        spoor30v2.Text = Convert.ToString(t.Id);
+                        spoor30v2.BackColor = Color.DimGray;
+                        break;
+                    case 3003:
+                        spoor30v3.Text = Convert.ToString(t.Id);
+                        spoor30v3.BackColor = Color.DimGray;
+                        break;
+                    case 3101:
+                        spoor31v1.Text = Convert.ToString(t.Id);
+                        spoor31v1.BackColor = Color.DimGray;
+                        break;
+                    case 3102:
+                        spoor31v2.Text = Convert.ToString(t.Id);
+                        spoor31v2.BackColor = Color.DimGray;
+                        break;
+                    case 3103:
+                        spoor31v3.Text = Convert.ToString(t.Id);
+                        spoor31v3.BackColor = Color.DimGray;
+                        break;
+                    case 3201:
+                        spoor12v1.Text = Convert.ToString(t.Id);
+                        spoor12v1.BackColor = Color.DimGray;
+                        break;
+                    
+                }
+            }
+        }
+        #endregion
     }
 }

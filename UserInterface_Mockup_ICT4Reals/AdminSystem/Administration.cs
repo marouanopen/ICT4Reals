@@ -34,6 +34,7 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
                 {
                     status = true;
                 }
+                
                 Rail r = new Rail(Convert.ToInt32(R["spoorid"]), status , false, Convert.ToInt32(R["remiseid"]));
                 GetRailList.Add(r);
             }
@@ -41,6 +42,7 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
             {
                 Rail rail = null;
                 int status = 0;
+                bool onRail = false;
                 
                 if ((string)T["status"] == "Ok")
                 {
@@ -58,6 +60,14 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
                 {
                     status = 4;
                 }
+                if (Convert.ToInt32(T["aanwezigopspoor"]) == 0)
+                {
+                    onRail = false;
+                }
+                else
+                {
+                    onRail = true;
+                }
                 foreach(Rail R in Administration.GetRailList)
                 {
                     if(R.Id == Convert.ToInt32(T["spoorid"]))
@@ -65,7 +75,7 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
                         rail = R;
                     }
                 }
-                Tram t = new Tram(Convert.ToInt32(T["tramid"]), (string)T["type"], rail, LoggedInUser, status);
+                Tram t = new Tram(Convert.ToInt32(T["tramid"]), (string)T["type"], rail, LoggedInUser, status, onRail);
                 GetTramList.Add(t);
             }
         }
