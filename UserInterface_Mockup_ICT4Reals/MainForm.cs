@@ -148,7 +148,10 @@ namespace UserInterface_Mockup_ICT4Reals
                 }
             }
 
-            
+            if(!padatabase.RefreshTramdatabase(tramnr))
+            {
+                MessageBox.Show("We Failed to update the database...");
+            }
         }
         #region refresh
 
