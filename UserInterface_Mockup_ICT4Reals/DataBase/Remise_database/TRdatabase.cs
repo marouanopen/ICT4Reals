@@ -30,7 +30,11 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
                 return false;   // if query fails, return a false.
             }
         }
-
+        /// <summary>
+        /// not used
+        /// </summary>
+        /// <param name="tramId"></param>
+        /// <returns></returns>
         public int TramOnRail(int tramId) // replace user with the data u want to add/ change to the table
         {
             int ret = 0; //result of query will end up in here
@@ -42,7 +46,13 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
 
             return ret;     //this will return the list as result from the query
         }
-
+        /// <summary>
+        /// adds a tram to the database, uses the given variables
+        /// </summary>
+        /// <param name="tramId">the id of the tram</param>
+        /// <param name="spoorId">the id of the rail the tram is on</param>
+        /// <param name="typeId">the id of the type of the tram (represented vby an enum)</param>
+        /// <returns></returns>
         public bool AddTram(int tramId, int spoorId, int typeId)
         {
             try

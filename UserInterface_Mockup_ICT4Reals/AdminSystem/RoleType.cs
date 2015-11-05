@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace UserInterface_Mockup_ICT4Reals.AdminSystem
 {
+    /// <summary>
+    /// enumaration represents the role of a user with an int
+    /// </summary>
     public enum RoleType
     {
         

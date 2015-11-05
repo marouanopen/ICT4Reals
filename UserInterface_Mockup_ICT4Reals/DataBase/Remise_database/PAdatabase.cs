@@ -11,7 +11,11 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
 {
     class PAdatabase : Database
     {
+        /// <summary>
+        /// fields
+        /// </summary>
         Database database = new Database();
+
         public List<Dictionary<string, object>> GetTramInfo(int TramId)
         {
             List<Dictionary<string, object>> TramInfo= getQuery("SELECT TramID, SpoorID, TypeID, AanwezigOpSpoor FROM Tram WHERE TramID = " + TramId);
@@ -23,7 +27,12 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             List<Dictionary<string, object>> RailInfo = getQuery("SELECT SpoorID, Blokkeer, RemiseID FROM Tram WHERE SpoorID = " + RailId);
             return RailInfo;
         }
-
+        /// <summary>
+        /// creates a new service in the database (not a instance of service)
+        /// </summary>
+        /// <param name="tramid">id of the tram that has the service registered to it</param>
+        /// <param name="kind">the kind of service ()</param>
+        /// <returns>return bool</returns>
         public bool MakeService(int tramid, string kind)
         {
             int id = 1;
@@ -44,11 +53,20 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
                 return false;   // if query fails, return a false.
             }
         }
+        /// <summary>
+        /// gets all services from the database
+        /// </summary>
+        /// <returns>all the services that are known in the database</returns>
         public List<Dictionary<string, object>> GetAllServices() //name of ur query
         {
             List<Dictionary<string, object>> services = getQuery("SELECT * FROM beurt"); //replace your query with te example query, replace 'QueryX' with a clear name.
             return services;     //this will return the list as result from the query.
         } 
+        /// <summary>
+        /// updates the trampart of the database (tram, tram_status, and rail)
+        /// </summary>
+        /// <param name="tramnr">the id of the tram that should be updated</param>
+        /// <returns>bool that indicates if the action has succeeded</returns>
         public bool RefreshTramdatabase(int tramnr)
         {
             string query; // the query will end up in here

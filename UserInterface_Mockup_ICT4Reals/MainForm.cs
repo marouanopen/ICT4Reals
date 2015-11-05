@@ -15,9 +15,16 @@ namespace UserInterface_Mockup_ICT4Reals
 {
     public partial class MainForm : Form
     {
+        /// <summary>
+        /// fields
+        /// </summary>
         private Administration administration;
         private Parkingsystem parkingsystem;
         private PAdatabase padatabase;
+        /// <summary>
+        /// constructor of the mainform
+        /// </summary>
+        /// <param name="administration">the administration that was made when the login form was made</param>
         public MainForm(Administration administration)
         {
             //ophalen van alle info uit de database
@@ -55,7 +62,11 @@ namespace UserInterface_Mockup_ICT4Reals
                 TCLayout.TabPages.Remove(tpReparatie);
             }
         }
-
+        /// <summary>
+        /// checks what tab is selected on the tablayout
+        /// </summary>
+        /// <param name="sender">the control that was clicked</param>
+        /// <param name="e"></param>
         private void TCLayout_Selected(object sender, TabControlEventArgs e)
         {
             if (TCLayout.SelectedTab == TCLayout.TabPages["tpUitloggen"])
@@ -67,7 +78,11 @@ namespace UserInterface_Mockup_ICT4Reals
                 this.Close();
             }
         }
-
+        /// <summary>
+        /// occurs when the button "btnIncomingTram" is pressed
+        /// </summary>
+        /// <param name="sender">the control that was clicked</param>
+        /// <param name="e"></param>
         private void btnIncomingTram_Click(object sender, EventArgs e)
         {
             Rail rail = null;
@@ -154,7 +169,9 @@ namespace UserInterface_Mockup_ICT4Reals
             }
         }
         #region refresh
-
+        /// <summary>
+        /// refreshes the UI of the remise and allocates all the tram to their respective labels AKA rails
+        /// </summary>
         private void remiseRefresh()
         {
             List<Tram> trams = Administration.GetTramList;
@@ -172,7 +189,11 @@ namespace UserInterface_Mockup_ICT4Reals
             
         }
         #endregion
-
+        /// <summary>
+        /// accurs when button "btnSpoorStatusAanpassen" is clicked
+        /// </summary>
+        /// <param name="sender">the control that was pressed</param>
+        /// <param name="e"></param>
         private void btnSpoorStatusAanpassen_Click(object sender, EventArgs e)
         {
             int status = 0;
