@@ -780,6 +780,7 @@
             this.btnToevoegenToevoegen.TabIndex = 8;
             this.btnToevoegenToevoegen.Text = "Toevoegen";
             this.btnToevoegenToevoegen.UseVisualStyleBackColor = true;
+            this.btnToevoegenToevoegen.Click += new System.EventHandler(this.btnToevoegenToevoegen_Click);
             // 
             // label1
             // 
@@ -1017,6 +1018,7 @@
             this.btnDetailsVerwijderen.TabIndex = 9;
             this.btnDetailsVerwijderen.Text = "Verwijderen";
             this.btnDetailsVerwijderen.UseVisualStyleBackColor = false;
+            this.btnDetailsVerwijderen.Click += new System.EventHandler(this.btnDetailsVerwijderen_Click);
             // 
             // btnDetailsAanpassen
             // 
@@ -1026,6 +1028,7 @@
             this.btnDetailsAanpassen.TabIndex = 8;
             this.btnDetailsAanpassen.Text = "Aanpassen";
             this.btnDetailsAanpassen.UseVisualStyleBackColor = true;
+            this.btnDetailsAanpassen.Click += new System.EventHandler(this.btnDetailsAanpassen_Click);
             // 
             // label33
             // 

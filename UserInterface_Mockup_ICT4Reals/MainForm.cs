@@ -175,17 +175,94 @@ namespace UserInterface_Mockup_ICT4Reals
 
         private void btnSpoorStatusAanpassen_Click(object sender, EventArgs e)
         {
+            Rail rail = new Rail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), false, false, 1);
             int status = 0;
-            if (cbSpoorStatusStatus.SelectedValue == "Blokkeer")
+            if (cbSpoorStatusStatus.Text == "Blokkeer")
+            {
+                status = 1;
+                Control c = groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbSpoorStatusSpoor.Text), true).FirstOrDefault();
+                if (c.BackColor != Color.DarkRed)
+                {
+                    if (rail.BlockRail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), status) == true)
+                    {
+                        c.BackColor = Color.DarkRed;
+                    }
+                }
+                else if (c.BackColor == Color.DarkRed)
+                {
+                    MessageBox.Show("Rails is al geblokkeerd!");
+                }
+            }
+            if (cbSpoorStatusStatus.Text == "Deblokkeer")
+            {
+                status = 0;
+                Control c = groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbSpoorStatusSpoor.Text), true).FirstOrDefault();
+                if (c.BackColor != Color.White)
+                {
+                    if (rail.BlockRail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), status) == true)
+                    {
+                        c.BackColor = Color.White;
+                    }
+                }
+                else if (c.BackColor == Color.White)
+                {
+                    MessageBox.Show("Rails is al gedeblokkeerd!");
+                }
+            }
+            
+        }
+
+        private void btnToevoegenToevoegen_Click(object sender, EventArgs e)
+        {
+            int status = 0;
+            if (cbToevoegenStatus.Text == "Ok")
             {
                 status = 1;
             }
-            if (cbSpoorStatusStatus.SelectedValue == "Deblokkeer")
+            if (cbToevoegenStatus.Text == "Vies")
             {
-                status = 0;
+                status = 2;
             }
-            Rail rail = new Rail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), false, false, 1);
-            rail.BlockRail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), status);
+            if (cbToevoegenStatus.Text == "Defect")
+            {
+                status = 3;
+            }
+            if (cbToevoegenStatus.Text == "Vies en defect")
+            {
+                status = 4;
+            }
+            Tram tram = new Tram(1, "test", new Rail(1, true, false, 1), new User(2323, "test", "test", 1), 1, true);
+            Control c =
+                groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbToevoegenLocatie.Text), true).FirstOrDefault();
+            if (c.BackColor == Color.White)
+            {
+                if (tram.AddTram(Convert.ToInt32(tbToevoegenNaam.Text), Convert.ToInt32(cbToevoegenLocatie.Text),
+                    status) == true)
+                {
+                    c.Text = tbToevoegenNaam.Text;
+                    c.BackColor = Color.DimGray;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Kan hier geen tram plaatsen!");
+            }
+        }
+
+        private void btnDetailsAanpassen_Click(object sender, EventArgs e)
+        {
+            Tram tram = new Tram(1, "test", new Rail(1, true, false, 1), new User(2323, "test", "test", 1), 1, true);
+        }
+
+        private void btnDetailsVerwijderen_Click(object sender, EventArgs e)
+        {
+            Tram tram = new Tram(1, "test", new Rail(1, true, false, 1), new User(2323, "test", "test", 1), 1, true);
+            if (tram.DeleteTram(Convert.ToInt32(tbDetailsNaam.Text)) == true)
+            {
+                Control c = groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbDetailsLocatie.Text), true).FirstOrDefault();
+                c.Text = "";
+                c.BackColor = Color.White;
+            }
         }
     }
 }
