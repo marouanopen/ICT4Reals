@@ -168,27 +168,29 @@ namespace UserInterface_Mockup_ICT4Reals
                 MessageBox.Show("We Failed to update the database...");
             }
         }
-        #region refresh
+        
         /// <summary>
         /// refreshes the UI of the remise and allocates all the tram to their respective labels AKA rails
         /// </summary>
         private void remiseRefresh()
         {
             List<Tram> trams = Administration.GetTramList;
-            Rail rail;
 
             foreach (Tram t in trams)
             {
-                rail = t.Rail;
+                if (t.OnRail)
+                {
+                    Rail rail = t.Rail;
 
-                string id = Convert.ToString(rail.Id);
-                Control c = groupBox1.Controls.Find("spoor" + id, true).FirstOrDefault();
-                c.Text = Convert.ToString(t.Id);
-                c.BackColor = Color.DimGray;
+                    string id = Convert.ToString(rail.Id);
+                    Control c = groupBox1.Controls.Find("spoor" + id, true).FirstOrDefault();
+                    c.Text = Convert.ToString(t.Id);
+                    c.BackColor = Color.DimGray;
+                }
             }
             
         }
-        #endregion
+        
         /// <summary>
         /// accurs when button "btnSpoorStatusAanpassen" is clicked
         /// </summary>
