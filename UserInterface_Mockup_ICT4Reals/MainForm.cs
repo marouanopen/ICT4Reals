@@ -273,6 +273,37 @@ namespace UserInterface_Mockup_ICT4Reals
         private void btnDetailsAanpassen_Click(object sender, EventArgs e)
         {
             Tram tram = new Tram(1, "test", new Rail(1, true, false, 1), new User(2323, "test", "test", 1), 1, true);
+            int status = 0;
+            if (cbDetailsStatus.Text == "Ok")
+            {
+                status = 1;
+            }
+            if (cbDetailsStatus.Text == "Vies")
+            {
+                status = 2;
+            }
+            if (cbDetailsStatus.Text == "Defect")
+            {
+                status = 3;
+            }
+            if (cbDetailsStatus.Text == "Vies en defect")
+            {
+                status = 4;
+            }
+            if (tram.MoveTram(Convert.ToInt32(tbDetailsNaam.Text), Convert.ToInt32(cbDetailsLocatie.Text), status) == true)
+            {
+                foreach (Control control in groupBox1.Controls)
+                {
+                    if (control.Text == tbDetailsNaam.Text)
+                    {
+                        control.Text = "";
+                        control.BackColor = Color.White;
+                    }
+                }
+                Control c = groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbDetailsLocatie.Text), true).FirstOrDefault();
+                c.Text = tbDetailsNaam.Text;
+                c.BackColor = Color.DimGray;
+            }
         }
 
         private void btnDetailsVerwijderen_Click(object sender, EventArgs e)

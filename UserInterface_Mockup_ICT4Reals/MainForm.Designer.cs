@@ -1044,9 +1044,9 @@
             this.cbDetailsStatus.FormattingEnabled = true;
             this.cbDetailsStatus.Items.AddRange(new object[] {
             "Ok",
-            "Dirty",
+            "Vies",
             "Defect",
-            "Dirty and defect"});
+            "Vies en defect"});
             this.cbDetailsStatus.Location = new System.Drawing.Point(85, 72);
             this.cbDetailsStatus.Name = "cbDetailsStatus";
             this.cbDetailsStatus.Size = new System.Drawing.Size(109, 21);

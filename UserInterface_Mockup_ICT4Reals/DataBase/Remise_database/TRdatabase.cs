@@ -15,14 +15,21 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
         /// <param name="tramId">ID of the tram</param>
         /// <param name="railId">ID of the rail it's moved to</param>
         /// <returns></returns>
-        public bool MoveTram(int tramId, int railId) // move the tram to a diffrent location
+        public bool MoveTram(int tramId, int railId, int statusId) // move the tram to a diffrent location
         {
             try
             {
-                string query; // the query will end up in here
-                query = "UPDATE Tram SET";  //update the location of the tram
-                query += " SpoorID = '" + railId + "' WHERE TramID = " + tramId; //change the location of to a new location from the tram with the matching id
-                if (doQuery(query) == -1)  //query will be activated
+                string queryRail; // the query will end up in here
+                string queryStatus;
+                queryRail = "UPDATE Tram SET";  //update the location of the tram
+                queryRail += " SpoorID = " + railId + " WHERE TramID = " + tramId; //change the location of to a new location from the tram with the matching id
+                queryStatus = "UPDATE Tram_Status SET"; //UPDATE tram status
+                queryStatus+= " StatusStatusID = " + statusId + " WHERE TramTramID = " + tramId;
+                if (doQuery(queryRail) == -1)  //query will be activated
+                {
+                    return false;
+                }
+                if (doQuery(queryStatus) == -1)
                 {
                     return false;
                 }
@@ -30,6 +37,7 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
                 {
                     return true;
                 }
+
             }
             catch
             {
