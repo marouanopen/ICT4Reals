@@ -11,11 +11,24 @@ namespace UserInterface_Mockup_ICT4Reals.Service
 {
     public class Cleaningservice : Service
     {
-
+        /// <summary>
+        /// constructor
+        /// </summary>
+        /// <param name="id"></param>
+        /// <param name="soort"></param>
+        /// <param name="startdate"></param>
+        /// <param name="enddate"></param>
+        /// <param name="tramid"></param>
+        /// <param name="superbeurtID"></param>
          public Cleaningservice(int id, string soort, DateTime startdate, DateTime enddate, int tramid, int superbeurtID) : base(id, soort, tramid, startdate ,enddate ,superbeurtID)
         { }
         CLdatabase database = new CLdatabase();
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="tramID"></param>
+        /// <param name="StatusID"></param>
+        /// <returns></returns>
         public bool update(int tramID, int StatusID)
         {
             if (database.controleMax())
@@ -32,6 +45,10 @@ namespace UserInterface_Mockup_ICT4Reals.Service
             return false;
 
         }
+        /// <summary>
+        /// gets all statusses from the database
+        /// </summary>
+        /// <returns>returns a list with all the statusses</returns>
         public List<string> getAllStatus()
         {
             List<string> Allbroken = new List<string>();
@@ -44,6 +61,10 @@ namespace UserInterface_Mockup_ICT4Reals.Service
 
             return null;
         }
+        /// <summary>
+        /// gets all the logs from the database
+        /// </summary>
+        /// <returns>a list of services compiled from data known in the database</returns>
         public List<Service> getAllLog()
         {
             List<Service> allService = new List<Service>();
@@ -58,8 +79,12 @@ namespace UserInterface_Mockup_ICT4Reals.Service
             }
             return allService;
         }
-
-
+        /// <summary>
+        /// add a log 
+        /// </summary>
+        /// <param name="tramID">id of the tram</param>
+        /// <param name="superbeurt">id of the superservice</param>
+        /// <returns>bool respresenting succes</returns>
         public bool addlog(int tramID, int superbeurt)
         {
             DateTime date = DateTime.Now;

@@ -25,7 +25,7 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         /// </summary>
         /// <param name="id">id of the tram</param>
         /// <param name="type">tram type</param>
-        /// <param name="rail">rail where the tram is on</param>
+        /// <param name="rail">rail on which the tram should be placed on</param>
         /// <param name="driver">the driver of the tram</param>
         /// <param name="status">1= OK 2= Dirty 3= Defect 4= DirtyAndDefect</param>
         public Tram(int id, string type, Rail rail, User driver, int status, bool onRail)
@@ -63,7 +63,7 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         }
 
         /// <summary>
-        /// 
+        /// adds a tram to the database with the provided variables
         /// </summary>
         /// <param name="tramId">ID of the new tram</param>
         /// <param name="lengte">Length of the new tram</param>

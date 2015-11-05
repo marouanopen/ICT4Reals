@@ -6,6 +6,9 @@ using System.Threading.Tasks;
 
 namespace UserInterface_Mockup_ICT4Reals.Remise
 {
+    /// <summary>
+    /// enum
+    /// </summary>
     public enum Status
     {
         Ok = 1,
