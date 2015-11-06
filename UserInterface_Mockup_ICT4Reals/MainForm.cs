@@ -176,6 +176,12 @@ namespace UserInterface_Mockup_ICT4Reals
         {
             List<Tram> trams = Administration.GetTramList;
 
+            foreach (Control c in groupBox1.Controls)
+            {
+                c.Text = "";
+                c.BackColor = Color.White;
+            }
+
             foreach (Tram t in trams)
             {
                 if (t.OnRail)
