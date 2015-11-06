@@ -48,7 +48,17 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
                     {
                         if(T.Rail.Id == r.Id)
                         {
-                            R = r;
+                            //check of taken of status aangeeft of een spoor geblokkerd is
+                            if(T.Rail.Status)
+                            {
+                                //implement own exception?
+                                return null;
+                            }
+                            else
+                            {
+                                R = r;
+                            }
+
                         }
                     }
                 }

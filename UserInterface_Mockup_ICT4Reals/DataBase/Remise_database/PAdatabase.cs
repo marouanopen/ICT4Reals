@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using UserInterface_Mockup_ICT4Reals.Remise;
 using UserInterface_Mockup_ICT4Reals.AdminSystem;
 using UserInterface_Mockup_ICT4Reals.DataBase;
+using System.Windows.Forms;
 
 namespace UserInterface_Mockup_ICT4Reals.DataBase
 {
@@ -75,38 +76,47 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
 
             foreach(Tram t in Administration.GetTramList)
             {
+                
                 if(t.Id == tramnr)
                 {
-                    if (t.Type == "Combino")
+                    if(t.OnRail)
                     {
-                        type = 1;
+                        MessageBox.Show("This tram is already registered. It should be on its rail.");
                     }
-                    if (t.Type == "11G")
+                    else
                     {
-                        type = 2;
+                        if (t.Type == "Combino")
+                        {
+                            type = 1;
+                        }
+                        if (t.Type == "11G")
+                        {
+                            type = 2;
+                        }
+                        if (t.Type == "Dubbel kop combino")
+                        {
+                            type = 3;
+                        }
+                        if (t.Type == "12G")
+                        {
+                            type = 4;
+                        }
+                        if (t.Type == "Opleidingstrams")
+                        {
+                            type = 5;
+                        }
+                        if (!t.OnRail)
+                        {
+                            onrail = 0;
+                        }
+                        query = "Update tram set TramID = " + t.Id + ", SpoorID = " + t.Rail.Id + ", TypeID = " + type + ", AanwezigOpSpoor = " + onrail + " where tramid = " + t.Id;  //replace with INSERT if need
+                        doQuery(query); //query will be activated
+                        //doquery update status 
+                        query = "update tram_status set tramtramid = " + t.Id + ", statusstatusid = " + (int)t._Status + "where tramtramid = " + t.Id;
+                        doQuery(query);
+                        return true;
                     }
-                    if (t.Type == "Dubbel kop combino")
-                    {
-                        type = 3;
-                    }
-                    if (t.Type == "12G")
-                    {
-                        type = 4;
-                    }
-                    if (t.Type == "Opleidingstram")
-                    {
-                        type = 5;
-                    }
-                    if (!t.OnRail)
-                    {
-                        onrail = 0;
-                    }
-                    query = "Update tram set TramID = " + t.Id + ", SpoorID = " + t.Rail.Id + ", TypeID = " + type + ", AanwezigOpSpoor = " + onrail + " where tramid = " + t.Id;  //replace with INSERT if need
-                    doQuery(query); //query will be activated
-                    //doquery update status 
-                    query = "update tram_status set tramtramid = " +t.Id + ", statusstatusid = " + (int)t._Status +"where tramtramid = " + t.Id;
-                    doQuery(query);
-                    return true;
+                    
                 }
             }
             return false;

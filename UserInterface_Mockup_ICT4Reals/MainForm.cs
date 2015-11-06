@@ -61,6 +61,7 @@ namespace UserInterface_Mockup_ICT4Reals
                 TCLayout.TabPages.Remove(tpBeheer);
                 TCLayout.TabPages.Remove(tpReparatie);
             }
+            remiseRefresh();
         }
         /// <summary>
         /// checks what tab is selected on the tablayout
@@ -127,7 +128,6 @@ namespace UserInterface_Mockup_ICT4Reals
                     rail = parkingsystem.InsertTramNr(Convert.ToInt32(tbTramIn.Text), status);
                     tram.OnRail = true;
                     tram._Status = status;
-                    //beurt toeboegen met begindatum
                     if(status == 2)
                     {
                         soort = "Schoonmaak";
@@ -159,13 +159,13 @@ namespace UserInterface_Mockup_ICT4Reals
                 }
                 else
                 {
-                    MessageBox.Show("This tram has no rail assigned..."); 
+                    MessageBox.Show("The Assigned rail does not exist or is blocked"); 
                 }
             }
 
             if(!padatabase.RefreshTramdatabase(tramnr))
             {
-                MessageBox.Show("We Failed to update the database...");
+                MessageBox.Show("The database wasn't updated.");
             }
         }
         
