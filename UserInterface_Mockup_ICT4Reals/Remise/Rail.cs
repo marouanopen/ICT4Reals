@@ -10,6 +10,9 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
 {
     public class Rail
     {
+        /// <summary>
+        /// fields
+        /// </summary>
         RAdatabase railDatabase = new RAdatabase();
         public int Id { get; set; }
         public bool Status { get; set; }
@@ -52,7 +55,7 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
             bool blockRail = false;
             if (railDatabase.BlockRail(railNumber, block))
             {
-                MessageBox.Show("Succeed!");
+                MessageBox.Show("Gelukt!");
                 blockRail = true;
             }
             else

@@ -9,6 +9,12 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
 {
     class REdatabase : Database
     {
+        /// <summary>
+        /// updates the rapair part of the database
+        /// </summary>
+        /// <param name="tramID">tram id</param>
+        /// <param name="StatusID">id of the status</param>
+        /// <returns>returns bool representing succes</returns>
         public bool updateRepair(int tramID, int StatusID)
         {
             try
@@ -25,6 +31,10 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
                 return false;   // if query fails, return a false.
             }
         }
+        /// <summary>
+        /// checks if the service can be assigned, compared to the maxservices that can be done in one day
+        /// </summary>
+        /// <returns>returns bool representing succes</returns>
         public bool controleMax()
         {
             int bigcount = 0;

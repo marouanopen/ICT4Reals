@@ -15,10 +15,15 @@ namespace UserInterface_Mockup_ICT4Reals
 {
     public partial class Login : Form
     {
+        /// <summary>
+        /// fileds
+        /// </summary>
         private string username;
         private string password;
         private Administration administration;
-        
+        /// <summary>
+        /// constructor
+        /// </summary>
         public Login()
         {
             InitializeComponent();
@@ -26,7 +31,11 @@ namespace UserInterface_Mockup_ICT4Reals
             this.CenterToScreen();
             
         }
-
+        /// <summary>
+        /// occurs when "btnlogin"is clicked
+        /// </summary>
+        /// <param name="sender">the control that was clicked</param>
+        /// <param name="e"></param>
         private void btlogin_Click(object sender, EventArgs e)
         {
             username = (string)tbusername.Text;

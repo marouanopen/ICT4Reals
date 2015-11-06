@@ -15,22 +15,40 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
         /// <param name="tramId">ID of the tram</param>
         /// <param name="railId">ID of the rail it's moved to</param>
         /// <returns></returns>
-        public bool MoveTram(int tramId, int railId) // move the tram to a diffrent location
+        public bool MoveTram(int tramId, int railId, int statusId) // move the tram to a diffrent location
         {
             try
             {
-                string query; // the query will end up in here
-                query = "UPDATE Tram SET";  //update the location of the tram
-                query += " SpoorID = '" + railId + "' WHERE TramID = " + tramId; //change the location of to a new location from the tram with the matching id
-                doQuery(query); //query will be activated
-                return true;
+                string queryRail; // the query will end up in here
+                string queryStatus;
+                queryRail = "UPDATE Tram SET";  //update the location of the tram
+                queryRail += " SpoorID = " + railId + " WHERE TramID = " + tramId; //change the location of to a new location from the tram with the matching id
+                queryStatus = "UPDATE Tram_Status SET"; //UPDATE tram status
+                queryStatus+= " StatusStatusID = " + statusId + " WHERE TramTramID = " + tramId;
+                if (doQuery(queryRail) == -1)  //query will be activated
+                {
+                    return false;
+                }
+                if (doQuery(queryStatus) == -1)
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+
             }
             catch
             {
                 return false;   // if query fails, return a false.
             }
         }
-
+        /// <summary>
+        /// not used
+        /// </summary>
+        /// <param name="tramId"></param>
+        /// <returns></returns>
         public int TramOnRail(int tramId) // replace user with the data u want to add/ change to the table
         {
             int ret = 0; //result of query will end up in here
@@ -42,16 +60,29 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
 
             return ret;     //this will return the list as result from the query
         }
-
+        /// <summary>
+        /// adds a tram to the database, uses the given variables
+        /// </summary>
+        /// <param name="tramId">the id of the tram</param>
+        /// <param name="spoorId">the id of the rail the tram is on</param>
+        /// <param name="typeId">the id of the type of the tram (represented vby an enum)</param>
+        /// <returns></returns>
         public bool AddTram(int tramId, int spoorId, int typeId)
         {
             try
             {
                 string query; // the query will end up in here
-                query = "INSERT INTO Tram(tramID, spoorID, typeID)";  //adding a tram
-                query += " VALUES('" + tramId + ", " + spoorId + ", " + typeId + "')"; //insert data given to db
-                doQuery(query); //query will be activated
-                return true;
+                query = "INSERT INTO Tram(tramID, spoorID, typeID, AanwezigOpSpoor)";  //adding a tram
+                query += " VALUES(" + tramId + ", " + spoorId + ", " + typeId + ", 1)"; //insert data given to db
+                if (doQuery(query) == -1)//query will be activated
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
+                
             }
             catch
             {
@@ -69,9 +100,15 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             {
                 string query; // the query will end up in here
                 query = "DELETE FROM Tram";  //delete a tram
-                query += "WHERE TramID = " + tramId; //deletes tram with given tram id
-                doQuery(query); //query will be activated
-                return true;
+                query += " WHERE TramID = " + tramId; //deletes tram with given tram id
+                if (doQuery(query) == -1) //query will be activated
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
             }
             catch
             {
@@ -90,14 +127,21 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             try
             {
                 string query; // the query will end up in here
-                query = "UPDATE Tram_Status SET";  //UPDATE tram status
-                query += " StatusStatusID = '" + statusId + "' WHERE TramTramID = " + tramId; //updates tram_status with given status
-                doQuery(query); //query will be activated
-                return true;
+                query = "UPDATE Tram_Status SET"; //UPDATE tram status
+                query += " StatusStatusID = '" + statusId + "' WHERE TramTramID = " + tramId;
+                    //updates tram_status with given status
+                if (doQuery(query) == -1) //query will be activated
+                {
+                    return false;
+                }
+                else
+                {
+                    return true;
+                }
             }
             catch
             {
-                return false;   // if query fails, return a false.
+                return false; // if query fails, return a false.
             }
         }
     }

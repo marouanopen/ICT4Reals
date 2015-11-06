@@ -11,11 +11,19 @@ namespace UserInterface_Mockup_ICT4Reals.Service
 {
     public class Repairservice : Service
     {
+        /// <summary>
+        /// fields
+        /// </summary>
         REdatabase database = new REdatabase();
 
         public Repairservice(int id, string soort, DateTime startdate, DateTime enddate, int tramid, int superbeurtID) : base(id, soort, tramid, startdate ,enddate ,superbeurtID)
         { }
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="tramID"></param>
+        /// <param name="StatusID"></param>
+        /// <returns></returns>
         public bool update(int tramID, int StatusID)
         {
             if (database.controleMax())
@@ -32,6 +40,10 @@ namespace UserInterface_Mockup_ICT4Reals.Service
             return false;
             
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public List<string> getAllStatus()
         {
             List<string> Allbroken = new List<string>();
@@ -44,6 +56,10 @@ namespace UserInterface_Mockup_ICT4Reals.Service
 
             return null;
         }
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
         public List<Service> getAllLog()
         {
             List<Service> allService = new List<Service>();
@@ -58,8 +74,12 @@ namespace UserInterface_Mockup_ICT4Reals.Service
             }
             return allService;
         }
-
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="tramID"></param>
+        /// <param name="superbeurt"></param>
+        /// <returns></returns>
         public bool addlog(int tramID, int superbeurt)
         {
             DateTime date = DateTime.Now;

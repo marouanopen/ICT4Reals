@@ -9,19 +9,29 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using UserInterface_Mockup_ICT4Reals.AdminSystem;
 using UserInterface_Mockup_ICT4Reals.Remise;
+using UserInterface_Mockup_ICT4Reals.DataBase;
 
 namespace UserInterface_Mockup_ICT4Reals
 {
     public partial class MainForm : Form
     {
+        /// <summary>
+        /// fields
+        /// </summary>
         private Administration administration;
         private Parkingsystem parkingsystem;
+        private PAdatabase padatabase;
+        /// <summary>
+        /// constructor of the mainform
+        /// </summary>
+        /// <param name="administration">the administration that was made when the login form was made</param>
         public MainForm(Administration administration)
         {
             //ophalen van alle info uit de database
 
             this.administration = administration;
             this.parkingsystem = new Parkingsystem();
+            this.padatabase = new PAdatabase();
             InitializeComponent();
             if(Administration.LoggedInUser.RoleId == 1)
             {
@@ -51,8 +61,13 @@ namespace UserInterface_Mockup_ICT4Reals
                 TCLayout.TabPages.Remove(tpBeheer);
                 TCLayout.TabPages.Remove(tpReparatie);
             }
+            remiseRefresh();
         }
-
+        /// <summary>
+        /// checks what tab is selected on the tablayout
+        /// </summary>
+        /// <param name="sender">the control that was clicked</param>
+        /// <param name="e"></param>
         private void TCLayout_Selected(object sender, TabControlEventArgs e)
         {
             if (TCLayout.SelectedTab == TCLayout.TabPages["tpUitloggen"])
@@ -64,12 +79,17 @@ namespace UserInterface_Mockup_ICT4Reals
                 this.Close();
             }
         }
-
+        /// <summary>
+        /// occurs when the button "btnIncomingTram" is pressed
+        /// </summary>
+        /// <param name="sender">the control that was clicked</param>
+        /// <param name="e"></param>
         private void btnIncomingTram_Click(object sender, EventArgs e)
         {
             Rail rail = null;
             Tram tram = null;
             int status = 0;
+            string soort = "";
             if(CbxClean.Checked && Cbxrepair.Checked == false)
             {
                 status = 2;
@@ -82,7 +102,7 @@ namespace UserInterface_Mockup_ICT4Reals
             {
                 status = 4;
             }
-            else
+            if(!CbxClean.Checked && !Cbxrepair.Checked)
             {
                 status = 1;
             }
@@ -105,13 +125,43 @@ namespace UserInterface_Mockup_ICT4Reals
                 }
                 if (exist == true)
                 {
-                    rail = parkingsystem.InsertTramNr(Convert.ToInt32(tbTramIn.Text), status);
-                    tram.OnRail = true;
-                    tram._Status = status;
-                    //beurt toeboegen met begindatum
-                    //foreach label l  in mainform, if l.name == t.spoorid
-                    //l.text = t.tramid
-                    remiseRefresh();
+                    if (tram.OnRail)
+                    {
+                        MessageBox.Show("The tram is already parked and should be on its rail.");
+                    }
+                    else
+                    {
+                        if (tram.Rail.IsRailBlocked(tram.Rail.Id))
+                        {
+                            MessageBox.Show("This rail is blocked");
+                        }
+                        else
+                        {
+                            rail = parkingsystem.InsertTramNr(Convert.ToInt32(tbTramIn.Text), status);
+                            tram._Status = status;
+                            if (status == 2)
+                            {
+                                soort = "Schoonmaak";
+                            }
+                            else if (status == 3)
+                            {
+                                soort = "Reparatie";
+                            }
+                            else if (status == 4)
+                            {
+                                soort = "Beide";
+                            }
+                            if (soort != "")
+                            {
+                                padatabase.MakeService(tramnr, soort);
+                            }
+                            tram.OnRail = true;
+                            if (!padatabase.RefreshTramdatabase(tramnr))
+                            {
+                                MessageBox.Show("The database wasn't updated.");
+                            }
+                        }
+                    }
                 }
                 else
                 {
@@ -126,107 +176,220 @@ namespace UserInterface_Mockup_ICT4Reals
                 }
                 else
                 {
-                    MessageBox.Show("This tram has no rail assigned..."); 
+                    MessageBox.Show("The Assigned rail does not exist or is blocked"); 
                 }
             }
 
-            
-        }
-        #region refresh
 
+
+            remiseRefresh();
+        }
+        
+        /// <summary>
+        /// refreshes the UI of the remise and allocates all the tram to their respective labels AKA rails
+        /// </summary>
         private void remiseRefresh()
         {
             List<Tram> trams = Administration.GetTramList;
-            Rail rail;
+
+            foreach (Control c in groupBox1.Controls)
+            {
+                if (c.Name.StartsWith("spoor"))
+                {
+                    c.Text = "";
+                    c.BackColor = Color.White;
+                }
+
+            }
 
             foreach (Tram t in trams)
             {
-                rail = t.Rail;
-
-                /* string id = rail.Id + "";
-                id.Replace("0", "V");
-
-                Control c = Controls.Find("", true).FirstOrDefault();
-                c.Text = Convert.ToString(t.Id);
-                c.BackColor = Color.DimGray;
-                */
-                switch (rail.Id)
+                if (t.OnRail)
                 {
+                    Rail rail = t.Rail;
 
-                        
+                    string id = Convert.ToString(rail.Id);
+                    Control c = groupBox1.Controls.Find("spoor" + id, true).FirstOrDefault();
+                    c.Text = Convert.ToString(t.Id);
+                    c.BackColor = Color.DimGray;
+                }
+            }
+            
+        }
+        
+        /// <summary>
+        /// accurs when button "btnSpoorStatusAanpassen" is clicked
+        /// </summary>
+        /// <param name="sender">the control that was pressed</param>
+        /// <param name="e"></param>
+        private void btnSpoorStatusAanpassen_Click(object sender, EventArgs e)
+        {
+            Rail rail = new Rail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), false, false, 1);
+            int status = 0;
+            if (cbSpoorStatusStatus.Text == "Blokkeer")
+            {
+                status = 1;
+                Control c = groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbSpoorStatusSpoor.Text), true).FirstOrDefault();
+                if (c.BackColor != Color.DarkRed)
+                {
+                    if (rail.BlockRail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), status) == true)
+                    {
+                        c.BackColor = Color.DarkRed;
+                    }
+                }
+                else if (c.BackColor == Color.DarkRed)
+                {
+                    MessageBox.Show("Rails is al geblokkeerd!");
+                }
+            }
+            if (cbSpoorStatusStatus.Text == "Deblokkeer")
+            {
+                status = 0;
+                Control c = groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbSpoorStatusSpoor.Text), true).FirstOrDefault();
+                if (c.BackColor != Color.White)
+                {
+                    if (rail.BlockRail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), status) == true)
+                    {
+                        c.BackColor = Color.White;
+                    }
+                }
+                else if (c.BackColor == Color.White)
+                {
+                    MessageBox.Show("Rails is al gedeblokkeerd!");
+                }
+            }
+            
+        }
 
-                    case 1201:
-                        spoor12v1.Text = Convert.ToString(t.Id);
-                        spoor12v1.BackColor = Color.DimGray;
-                        break;
-                    case 1301:
-                        spoor13v1.Text = Convert.ToString(t.Id);
-                        spoor13v1.BackColor = Color.DimGray;
-                        break;
-                    case 1401:
-                        spoor14v1.Text = Convert.ToString(t.Id);
-                        spoor14v1.BackColor = Color.DimGray;
-                        break;
-                    case 1501:
-                        spoor15v1.Text = Convert.ToString(t.Id);
-                        spoor15v1.BackColor = Color.DimGray;
-                        break;
-                    case 1601:
-                        spoor16v1.Text = Convert.ToString(t.Id);
-                        spoor16v1.BackColor = Color.DimGray;
-                        break;
-                    case 1701:
-                        spoor17v1.Text = Convert.ToString(t.Id);
-                        spoor17v1.BackColor = Color.DimGray;
-                        break;
-                    case 1801:
-                        spoor18v1.Text = Convert.ToString(t.Id);
-                        spoor18v1.BackColor = Color.DimGray;
-                        break;
-                    case 1901:
-                        spoor19v1.Text = Convert.ToString(t.Id);
-                        spoor19v1.BackColor = Color.DimGray;
-                        break;
-                    case 2001:
-                        spoor20v1.Text = Convert.ToString(t.Id);
-                        spoor20v1.BackColor = Color.DimGray;
-                        break;
-                    case 2101:
-                        spoor21v1.Text = Convert.ToString(t.Id);
-                        spoor21v1.BackColor = Color.DimGray;
-                        break;
-                    case 3001:
-                        spoor30v1.Text = Convert.ToString(t.Id);
-                        spoor30v1.BackColor = Color.DimGray;
-                        break;
-                    case 3002:
-                        spoor30v2.Text = Convert.ToString(t.Id);
-                        spoor30v2.BackColor = Color.DimGray;
-                        break;
-                    case 3003:
-                        spoor30v3.Text = Convert.ToString(t.Id);
-                        spoor30v3.BackColor = Color.DimGray;
-                        break;
-                    case 3101:
-                        spoor31v1.Text = Convert.ToString(t.Id);
-                        spoor31v1.BackColor = Color.DimGray;
-                        break;
-                    case 3102:
-                        spoor31v2.Text = Convert.ToString(t.Id);
-                        spoor31v2.BackColor = Color.DimGray;
-                        break;
-                    case 3103:
-                        spoor31v3.Text = Convert.ToString(t.Id);
-                        spoor31v3.BackColor = Color.DimGray;
-                        break;
-                    case 3201:
-                        spoor12v1.Text = Convert.ToString(t.Id);
-                        spoor12v1.BackColor = Color.DimGray;
-                        break;
-                    
+        private void btnToevoegenToevoegen_Click(object sender, EventArgs e)
+        {
+            int status = 0;
+            if (cbToevoegenStatus.Text == "Ok")
+            {
+                status = 1;
+            }
+            if (cbToevoegenStatus.Text == "Vies")
+            {
+                status = 2;
+            }
+            if (cbToevoegenStatus.Text == "Defect")
+            {
+                status = 3;
+            }
+            if (cbToevoegenStatus.Text == "Vies en defect")
+            {
+                status = 4;
+            }
+            Tram tram = new Tram(1, "test", new Rail(1, true, false, 1), new User(2323, "test", "test", 1), 1, true);
+            Control c =
+                groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbToevoegenLocatie.Text), true).FirstOrDefault();
+            if (c.BackColor == Color.White)
+            {
+                if (tram.AddTram(Convert.ToInt32(tbToevoegenNaam.Text), Convert.ToInt32(cbToevoegenLocatie.Text),
+                    status) == true)
+                {
+                    c.Text = tbToevoegenNaam.Text;
+                    c.BackColor = Color.DimGray;
+                }
+            }
+            else
+            {
+                MessageBox.Show("Kan hier geen tram plaatsen!");
+            }
+        }
+
+        private void btnDetailsAanpassen_Click(object sender, EventArgs e)
+        {
+            Tram tram = new Tram(1, "test", new Rail(1, true, false, 1), new User(2323, "test", "test", 1), 1, true);
+            int status = 0;
+            if (cbDetailsStatus.Text == "Ok")
+            {
+                status = 1;
+            }
+            if (cbDetailsStatus.Text == "Vies")
+            {
+                status = 2;
+            }
+            if (cbDetailsStatus.Text == "Defect")
+            {
+                status = 3;
+            }
+            if (cbDetailsStatus.Text == "Vies en defect")
+            {
+                status = 4;
+            }
+            if (tram.MoveTram(Convert.ToInt32(tbDetailsNaam.Text), Convert.ToInt32(cbDetailsLocatie.Text), status) == true)
+            {
+                foreach (Control control in groupBox1.Controls)
+                {
+                    if (control.Text == tbDetailsNaam.Text)
+                    {
+                        control.Text = "";
+                        control.BackColor = Color.White;
+                    }
+                }
+                Control c = groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbDetailsLocatie.Text), true).FirstOrDefault();
+                c.Text = tbDetailsNaam.Text;
+                c.BackColor = Color.DimGray;
+            }
+        }
+
+        private void btnDetailsVerwijderen_Click(object sender, EventArgs e)
+        {
+            Tram tram = new Tram(1, "test", new Rail(1, true, false, 1), new User(2323, "test", "test", 1), 1, true);
+            if (tram.DeleteTram(Convert.ToInt32(tbDetailsNaam.Text)) == true)
+            {
+                Control c = groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbDetailsLocatie.Text), true).FirstOrDefault();
+                c.Text = "";
+                c.BackColor = Color.White;
+            }
+        }
+        /// <summary>
+        /// occurs when "btnUitrijden"is clicked
+        /// </summary>
+        /// <param name="sender">the control that is clicked</param>
+        /// <param name="e"></param>
+        private void btnUitrijden_Click(object sender, EventArgs e)
+        {
+            bool exist = false;
+            int tramnr;
+            Tram tram = null;
+            bool res = int.TryParse(tbtramout.Text, out tramnr);
+            if (res == false)
+            {
+                MessageBox.Show("The input should consist of numbers only!");
+            }
+            else
+            {
+                foreach(Tram t in Administration.GetTramList)
+                {
+                    if(t.Id == tramnr)
+                    {
+                        exist = true;
+                        tram = t;
+                    }
+                }
+                if (exist == true && tram.OnRail == true)
+                {
+                    if (tram._Status == 1)
+                    {
+                        tram.OnRail = false;
+                        MessageBox.Show("The tram is no longer parked");
+                        padatabase.RefreshTramdatabase(tramnr);
+                        administration.UpdateTramList();
+                        remiseRefresh();
+                    }
+                    else
+                    {
+                        MessageBox.Show("The tram still needs cleaning or rapairs.");
+                    }
+                    remiseRefresh();
+                }
+                else
+                {
+                    MessageBox.Show("A Tram with that number isn't parked yet! Input a tramnumber of a parked tram!");
                 }
             }
         }
-        #endregion
     }
 }
