@@ -41,7 +41,7 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
                 {
                     smallcount++;
                 }
-                if( smallcount > 3 || bigcount > 2)
+                if( smallcount > 4 || bigcount > 1)
                 {
                     return false;
                 }
@@ -69,7 +69,7 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             {
                 string query;
                 query = "UPDATE Beurt SET";
-                query += "einddatum =" + date + " superbeurt =" + superbeurt + "WHERE TramID = " + tramID;
+                query +=  "einddatum = to_date('" + date.ToString("MM-dd-yyyy") + "','MM-DD-YYYY') , superbeurt =" + superbeurt + "WHERE TramID = " + tramID;
                 doQuery(query); //query will be activated
                 return true;
             }
