@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using UserInterface_Mockup_ICT4Reals.AdminSystem;
 using UserInterface_Mockup_ICT4Reals.Remise;
 using UserInterface_Mockup_ICT4Reals.DataBase;
+using UserInterface_Mockup_ICT4Reals.Service;
 
 namespace UserInterface_Mockup_ICT4Reals
 {
@@ -21,6 +22,9 @@ namespace UserInterface_Mockup_ICT4Reals
         private Administration administration;
         private Parkingsystem parkingsystem;
         private PAdatabase padatabase;
+        private Cleaningservice clService;
+        private Repairservice rpService;
+
         /// <summary>
         /// constructor of the mainform
         /// </summary>
@@ -33,7 +37,7 @@ namespace UserInterface_Mockup_ICT4Reals
             this.parkingsystem = new Parkingsystem();
             this.padatabase = new PAdatabase();
             InitializeComponent();
-            if(Administration.LoggedInUser.RoleId == 1)
+            if (Administration.LoggedInUser.RoleId == 1)
             {
 
             }
@@ -90,19 +94,19 @@ namespace UserInterface_Mockup_ICT4Reals
             Tram tram = null;
             int status = 0;
             string soort = "";
-            if(CbxClean.Checked && Cbxrepair.Checked == false)
+            if (CbxClean.Checked && Cbxrepair.Checked == false)
             {
                 status = 2;
             }
-            if(Cbxrepair.Checked && CbxClean.Checked == false)
+            if (Cbxrepair.Checked && CbxClean.Checked == false)
             {
                 status = 3;
             }
-            if(Cbxrepair.Checked && CbxClean.Checked)
+            if (Cbxrepair.Checked && CbxClean.Checked)
             {
                 status = 4;
             }
-            if(!CbxClean.Checked && !Cbxrepair.Checked)
+            if (!CbxClean.Checked && !Cbxrepair.Checked)
             {
                 status = 1;
             }
@@ -115,9 +119,9 @@ namespace UserInterface_Mockup_ICT4Reals
             }
             else
             {
-                foreach(Tram t in Administration.GetTramList)
+                foreach (Tram t in Administration.GetTramList)
                 {
-                    if(t.Id == tramnr)
+                    if (t.Id == tramnr)
                     {
                         exist = true;
                         tram = t;
@@ -166,17 +170,17 @@ namespace UserInterface_Mockup_ICT4Reals
                 else
                 {
                     MessageBox.Show("A Tram with that number doesn't exist! Input a valid tramnumber!");
-                    
+
                 }
 
-                if(rail != null)
+                if (rail != null)
                 {
                     lblNr.Text = Convert.ToString(rail.Id);
-                    
+
                 }
                 else
                 {
-                    MessageBox.Show("The Assigned rail does not exist or is blocked"); 
+                    MessageBox.Show("The Assigned rail does not exist or is blocked");
                 }
             }
 
@@ -184,7 +188,7 @@ namespace UserInterface_Mockup_ICT4Reals
 
             remiseRefresh();
         }
-        
+
         /// <summary>
         /// refreshes the UI of the remise and allocates all the tram to their respective labels AKA rails
         /// </summary>
@@ -214,9 +218,9 @@ namespace UserInterface_Mockup_ICT4Reals
                     c.BackColor = Color.DimGray;
                 }
             }
-            
+
         }
-        
+
         /// <summary>
         /// accurs when button "btnSpoorStatusAanpassen" is clicked
         /// </summary>
@@ -258,7 +262,7 @@ namespace UserInterface_Mockup_ICT4Reals
                     MessageBox.Show("Rails is al gedeblokkeerd!");
                 }
             }
-            
+
         }
 
         private void btnToevoegenToevoegen_Click(object sender, EventArgs e)
@@ -361,9 +365,9 @@ namespace UserInterface_Mockup_ICT4Reals
             }
             else
             {
-                foreach(Tram t in Administration.GetTramList)
+                foreach (Tram t in Administration.GetTramList)
                 {
-                    if(t.Id == tramnr)
+                    if (t.Id == tramnr)
                     {
                         exist = true;
                         tram = t;
@@ -390,6 +394,105 @@ namespace UserInterface_Mockup_ICT4Reals
                     MessageBox.Show("A Tram with that number isn't parked yet! Input a tramnumber of a parked tram!");
                 }
             }
+        }
+
+
+        // cleaning 
+        private void button5_Click(object sender, EventArgs e)
+        //update cleaning
+        {
+
+            Tram seltram = (Tram)listBox1.SelectedItem;
+            int status;
+            if (statusClbox.Text == "Ok")
+            {
+                status = 1;
+                clService.update(seltram.Id, status);
+            }
+            if (statusClbox.Text == "Defect")
+            {
+                status = 3;
+                clService.update(seltram.Id, status);
+            }
+            else
+            {
+                MessageBox.Show("error");
+            }
+            updatecleaning();
+
+
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            Tram seltram = (Tram)listBox2.SelectedItem;
+            int status;
+            if (comboBoxrepair.Text == "Ok")
+            {
+                status = 1;
+                rpService.update(seltram.Id, status);
+            }
+            if (comboBoxrepair.Text == "vies")
+            {
+                status = 3;
+                rpService.update(seltram.Id, status);
+            }
+            else
+            {
+                MessageBox.Show("error");
+            }
+            updaterepair();
+        }
+
+        public void updatecleaning()
+        {
+            listBox1.Items.Clear();
+            lblogcleaning.Items.Clear();
+            List<string> statlist = new List<string>();
+
+            foreach (string stat in clService.getAllStatus())
+            {
+                statlist.Add(stat);
+                listBox1.Items.Add(stat);
+            }
+
+            List<Cleaningservice> loglist = new List<Cleaningservice>();
+
+            foreach (Cleaningservice stat in clService.getAllLog())
+            {
+                loglist.Add(stat);
+                lblogcleaning.Items.Add(stat.ToString());
+            }
+        }
+        public void updaterepair()
+        {
+            listBox2.Items.Clear();
+            listBox3.Items.Clear();
+            List<string> statlist = new List<string>();
+
+            foreach (string stat in rpService.getAllStatus())
+            {
+                statlist.Add(stat);
+                listBox2.Items.Add(stat);
+            }
+
+            List<Cleaningservice> loglist = new List<Cleaningservice>();
+
+            foreach (Cleaningservice stat in rpService.getAllLog())
+            {
+                loglist.Add(stat);
+                listBox3.Items.Add(stat.ToString());
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            updatecleaning();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            updaterepair();
         }
     }
 }

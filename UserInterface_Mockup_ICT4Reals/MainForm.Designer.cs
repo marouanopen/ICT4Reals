@@ -257,6 +257,10 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.tpInUitrij = new System.Windows.Forms.TabPage();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.btnUitrijden = new System.Windows.Forms.Button();
+            this.tbtramout = new System.Windows.Forms.TextBox();
+            this.label27 = new System.Windows.Forms.Label();
             this.lblNr = new System.Windows.Forms.Label();
             this.groupBox10 = new System.Windows.Forms.GroupBox();
             this.Cbxrepair = new System.Windows.Forms.CheckBox();
@@ -267,33 +271,34 @@
             this.btnIncomingTram = new System.Windows.Forms.Button();
             this.label185 = new System.Windows.Forms.Label();
             this.tpSchoonmaak = new System.Windows.Forms.TabPage();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.lblogcleaning = new System.Windows.Forms.ListBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
             this.button5 = new System.Windows.Forms.Button();
             this.label124 = new System.Windows.Forms.Label();
             this.label113 = new System.Windows.Forms.Label();
-            this.comboBox7 = new System.Windows.Forms.ComboBox();
+            this.statusClbox = new System.Windows.Forms.ComboBox();
             this.label121 = new System.Windows.Forms.Label();
             this.label120 = new System.Windows.Forms.Label();
             this.label114 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.tpReparatie = new System.Windows.Forms.TabPage();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.button6 = new System.Windows.Forms.Button();
-            this.textBox3 = new System.Windows.Forms.TextBox();
             this.label134 = new System.Windows.Forms.Label();
             this.label159 = new System.Windows.Forms.Label();
-            this.comboBox8 = new System.Windows.Forms.ComboBox();
+            this.comboBoxrepair = new System.Windows.Forms.ComboBox();
             this.label168 = new System.Windows.Forms.Label();
             this.label169 = new System.Windows.Forms.Label();
             this.label178 = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.tpUitloggen = new System.Windows.Forms.TabPage();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label27 = new System.Windows.Forms.Label();
-            this.tbtramout = new System.Windows.Forms.TextBox();
-            this.btnUitrijden = new System.Windows.Forms.Button();
+            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.TCLayout.SuspendLayout();
             this.tpBeheer.SuspendLayout();
             this.gbTramInrijdende.SuspendLayout();
@@ -302,14 +307,16 @@
             this.gbTramDetails.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.tpInUitrij.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.groupBox10.SuspendLayout();
             this.tpSchoonmaak.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.tpReparatie.SuspendLayout();
+            this.groupBox4.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
-            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // TCLayout
@@ -3672,6 +3679,44 @@
             this.tpInUitrij.Text = "In/Uitrij";
             this.tpInUitrij.UseVisualStyleBackColor = true;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnUitrijden);
+            this.groupBox2.Controls.Add(this.tbtramout);
+            this.groupBox2.Controls.Add(this.label27);
+            this.groupBox2.Location = new System.Drawing.Point(3, 135);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(200, 100);
+            this.groupBox2.TabIndex = 9;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Uitrijdende Trams";
+            // 
+            // btnUitrijden
+            // 
+            this.btnUitrijden.Location = new System.Drawing.Point(73, 71);
+            this.btnUitrijden.Name = "btnUitrijden";
+            this.btnUitrijden.Size = new System.Drawing.Size(121, 23);
+            this.btnUitrijden.TabIndex = 7;
+            this.btnUitrijden.Text = "Uitrijden";
+            this.btnUitrijden.UseVisualStyleBackColor = true;
+            this.btnUitrijden.Click += new System.EventHandler(this.btnUitrijden_Click);
+            // 
+            // tbtramout
+            // 
+            this.tbtramout.Location = new System.Drawing.Point(73, 13);
+            this.tbtramout.Name = "tbtramout";
+            this.tbtramout.Size = new System.Drawing.Size(121, 20);
+            this.tbtramout.TabIndex = 6;
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(6, 16);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(45, 13);
+            this.label27.TabIndex = 3;
+            this.label27.Text = "Tram Nr";
+            // 
             // lblNr
             // 
             this.lblNr.AutoSize = true;
@@ -3762,6 +3807,7 @@
             // 
             // tpSchoonmaak
             // 
+            this.tpSchoonmaak.Controls.Add(this.groupBox3);
             this.tpSchoonmaak.Controls.Add(this.groupBox6);
             this.tpSchoonmaak.Controls.Add(this.groupBox5);
             this.tpSchoonmaak.Location = new System.Drawing.Point(4, 22);
@@ -3771,18 +3817,37 @@
             this.tpSchoonmaak.Text = "Schoonmaak";
             this.tpSchoonmaak.UseVisualStyleBackColor = true;
             // 
+            // groupBox3
+            // 
+            this.groupBox3.Controls.Add(this.lblogcleaning);
+            this.groupBox3.Location = new System.Drawing.Point(419, 5);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(444, 548);
+            this.groupBox3.TabIndex = 3;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "logboek";
+            // 
+            // lblogcleaning
+            // 
+            this.lblogcleaning.FormattingEnabled = true;
+            this.lblogcleaning.Location = new System.Drawing.Point(6, 18);
+            this.lblogcleaning.Name = "lblogcleaning";
+            this.lblogcleaning.Size = new System.Drawing.Size(422, 524);
+            this.lblogcleaning.TabIndex = 1;
+            // 
             // groupBox6
             // 
+            this.groupBox6.Controls.Add(this.button2);
             this.groupBox6.Controls.Add(this.button5);
             this.groupBox6.Controls.Add(this.label124);
             this.groupBox6.Controls.Add(this.label113);
-            this.groupBox6.Controls.Add(this.comboBox7);
+            this.groupBox6.Controls.Add(this.statusClbox);
             this.groupBox6.Controls.Add(this.label121);
             this.groupBox6.Controls.Add(this.label120);
             this.groupBox6.Controls.Add(this.label114);
             this.groupBox6.Location = new System.Drawing.Point(213, 5);
             this.groupBox6.Name = "groupBox6";
-            this.groupBox6.Size = new System.Drawing.Size(200, 117);
+            this.groupBox6.Size = new System.Drawing.Size(200, 147);
             this.groupBox6.TabIndex = 2;
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Status";
@@ -3795,6 +3860,7 @@
             this.button5.TabIndex = 6;
             this.button5.Text = "Updaten";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // label124
             // 
@@ -3815,13 +3881,17 @@
             this.label113.Text = "<Naam>";
             this.label113.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // comboBox7
+            // statusClbox
             // 
-            this.comboBox7.FormattingEnabled = true;
-            this.comboBox7.Location = new System.Drawing.Point(73, 63);
-            this.comboBox7.Name = "comboBox7";
-            this.comboBox7.Size = new System.Drawing.Size(121, 21);
-            this.comboBox7.TabIndex = 3;
+            this.statusClbox.FormattingEnabled = true;
+            this.statusClbox.Items.AddRange(new object[] {
+            "ok",
+            "defect"});
+            this.statusClbox.Location = new System.Drawing.Point(73, 63);
+            this.statusClbox.Name = "statusClbox";
+            this.statusClbox.Size = new System.Drawing.Size(121, 21);
+            this.statusClbox.TabIndex = 3;
+            this.statusClbox.Text = "Status";
             // 
             // label121
             // 
@@ -3870,6 +3940,7 @@
             // 
             // tpReparatie
             // 
+            this.tpReparatie.Controls.Add(this.groupBox4);
             this.tpReparatie.Controls.Add(this.groupBox7);
             this.tpReparatie.Controls.Add(this.groupBox8);
             this.tpReparatie.Location = new System.Drawing.Point(4, 22);
@@ -3879,39 +3950,42 @@
             this.tpReparatie.Text = "Reparatie";
             this.tpReparatie.UseVisualStyleBackColor = true;
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.listBox3);
+            this.groupBox4.Location = new System.Drawing.Point(417, 6);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(459, 611);
+            this.groupBox4.TabIndex = 5;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "logboek";
+            // 
             // groupBox7
             // 
+            this.groupBox7.Controls.Add(this.button1);
             this.groupBox7.Controls.Add(this.button6);
-            this.groupBox7.Controls.Add(this.textBox3);
             this.groupBox7.Controls.Add(this.label134);
             this.groupBox7.Controls.Add(this.label159);
-            this.groupBox7.Controls.Add(this.comboBox8);
+            this.groupBox7.Controls.Add(this.comboBoxrepair);
             this.groupBox7.Controls.Add(this.label168);
             this.groupBox7.Controls.Add(this.label169);
             this.groupBox7.Controls.Add(this.label178);
             this.groupBox7.Location = new System.Drawing.Point(211, 6);
             this.groupBox7.Name = "groupBox7";
-            this.groupBox7.Size = new System.Drawing.Size(200, 221);
+            this.groupBox7.Size = new System.Drawing.Size(200, 148);
             this.groupBox7.TabIndex = 4;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Status";
             // 
             // button6
             // 
-            this.button6.Location = new System.Drawing.Point(73, 193);
+            this.button6.Location = new System.Drawing.Point(76, 90);
             this.button6.Name = "button6";
             this.button6.Size = new System.Drawing.Size(121, 23);
             this.button6.TabIndex = 7;
             this.button6.Text = "Updaten";
             this.button6.UseVisualStyleBackColor = true;
-            // 
-            // textBox3
-            // 
-            this.textBox3.Location = new System.Drawing.Point(9, 90);
-            this.textBox3.Multiline = true;
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(185, 97);
-            this.textBox3.TabIndex = 6;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // label134
             // 
@@ -3932,13 +4006,17 @@
             this.label159.Text = "<Naam>";
             this.label159.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
-            // comboBox8
+            // comboBoxrepair
             // 
-            this.comboBox8.FormattingEnabled = true;
-            this.comboBox8.Location = new System.Drawing.Point(73, 63);
-            this.comboBox8.Name = "comboBox8";
-            this.comboBox8.Size = new System.Drawing.Size(121, 21);
-            this.comboBox8.TabIndex = 3;
+            this.comboBoxrepair.FormattingEnabled = true;
+            this.comboBoxrepair.Items.AddRange(new object[] {
+            "ok",
+            "vies"});
+            this.comboBoxrepair.Location = new System.Drawing.Point(73, 63);
+            this.comboBoxrepair.Name = "comboBoxrepair";
+            this.comboBoxrepair.Size = new System.Drawing.Size(121, 21);
+            this.comboBoxrepair.TabIndex = 3;
+            this.comboBoxrepair.Text = "status";
             // 
             // label168
             // 
@@ -3994,50 +4072,40 @@
             this.tpUitloggen.Text = "Uitloggen";
             this.tpUitloggen.UseVisualStyleBackColor = true;
             // 
-            // groupBox2
+            // listBox3
             // 
-            this.groupBox2.Controls.Add(this.btnUitrijden);
-            this.groupBox2.Controls.Add(this.tbtramout);
-            this.groupBox2.Controls.Add(this.label27);
-            this.groupBox2.Location = new System.Drawing.Point(3, 135);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 100);
-            this.groupBox2.TabIndex = 9;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Uitrijdende Trams";
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.Location = new System.Drawing.Point(6, 19);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(447, 589);
+            this.listBox3.TabIndex = 6;
             // 
-            // label27
+            // button1
             // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(6, 16);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(45, 13);
-            this.label27.TabIndex = 3;
-            this.label27.Text = "Tram Nr";
+            this.button1.Location = new System.Drawing.Point(76, 119);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Refresh";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // tbtramout
+            // button2
             // 
-            this.tbtramout.Location = new System.Drawing.Point(73, 13);
-            this.tbtramout.Name = "tbtramout";
-            this.tbtramout.Size = new System.Drawing.Size(121, 20);
-            this.tbtramout.TabIndex = 6;
-            // 
-            // btnUitrijden
-            // 
-            this.btnUitrijden.Location = new System.Drawing.Point(73, 71);
-            this.btnUitrijden.Name = "btnUitrijden";
-            this.btnUitrijden.Size = new System.Drawing.Size(121, 23);
-            this.btnUitrijden.TabIndex = 7;
-            this.btnUitrijden.Text = "Uitrijden";
-            this.btnUitrijden.UseVisualStyleBackColor = true;
-            this.btnUitrijden.Click += new System.EventHandler(this.btnUitrijden_Click);
+            this.button2.Location = new System.Drawing.Point(73, 119);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(121, 23);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Refresh";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1020, 733);
+            this.ClientSize = new System.Drawing.Size(1037, 750);
             this.Controls.Add(this.TCLayout);
             this.Name = "MainForm";
             this.Text = "Form1";
@@ -4054,18 +4122,20 @@
             this.groupBox1.ResumeLayout(false);
             this.tpInUitrij.ResumeLayout(false);
             this.tpInUitrij.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.groupBox10.ResumeLayout(false);
             this.groupBox10.PerformLayout();
             this.tpSchoonmaak.ResumeLayout(false);
+            this.groupBox3.ResumeLayout(false);
             this.groupBox6.ResumeLayout(false);
             this.groupBox6.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.tpReparatie.ResumeLayout(false);
+            this.groupBox4.ResumeLayout(false);
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.groupBox8.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -4303,15 +4373,14 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label124;
         private System.Windows.Forms.Label label113;
-        private System.Windows.Forms.ComboBox comboBox7;
+        private System.Windows.Forms.ComboBox statusClbox;
         private System.Windows.Forms.Label label121;
         private System.Windows.Forms.Label label120;
         private System.Windows.Forms.Label label114;
         private System.Windows.Forms.GroupBox groupBox7;
-        private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label134;
         private System.Windows.Forms.Label label159;
-        private System.Windows.Forms.ComboBox comboBox8;
+        private System.Windows.Forms.ComboBox comboBoxrepair;
         private System.Windows.Forms.Label label168;
         private System.Windows.Forms.Label label169;
         private System.Windows.Forms.Label label178;
@@ -4338,6 +4407,12 @@
         private System.Windows.Forms.Button btnUitrijden;
         private System.Windows.Forms.TextBox tbtramout;
         private System.Windows.Forms.Label label27;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.ListBox lblogcleaning;
+        private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.ListBox listBox3;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button1;
     }
 }
 

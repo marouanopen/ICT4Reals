@@ -84,9 +84,9 @@
     <Compile Include="Remise\Simulation.cs" />
     <Compile Include="Remise\Status.cs" />
     <Compile Include="Remise\Tram.cs" />
-    <Compile Include="Service\Cleaningservice.cs" />
-    <Compile Include="Service\Repairservice.cs" />
-    <Compile Include="Service\Service.cs" />
+    <Compile Include="Service_system\Cleaningservice.cs" />
+    <Compile Include="Service_system\Repairservice.cs" />
+    <Compile Include="Service_system\Service.cs" />
     <EmbeddedResource Include="Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>

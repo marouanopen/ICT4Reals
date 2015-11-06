@@ -59,7 +59,7 @@ namespace UserInterface_Mockup_ICT4Reals.Service
                 string text = Convert.ToString(tramLink["TramTramID"]) + " - need repairs";
             }
 
-            return null;
+            return Allbroken;
         }
         /// <summary>
         /// gets all the logs from the database
