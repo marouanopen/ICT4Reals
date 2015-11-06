@@ -125,34 +125,41 @@ namespace UserInterface_Mockup_ICT4Reals
                 }
                 if (exist == true)
                 {
-                    if(tram.OnRail)
+                    if (tram.OnRail)
                     {
-                        MessageBox.Show("The tram is already parked and sould be on its rail.");
+                        MessageBox.Show("The tram is already parked and should be on its rail.");
                     }
                     else
                     {
-                        rail = parkingsystem.InsertTramNr(Convert.ToInt32(tbTramIn.Text), status);
-                        tram._Status = status;
-                        if (status == 2)
+                        if (tram.Rail.IsRailBlocked(tram.Rail.Id))
                         {
-                            soort = "Schoonmaak";
+                            MessageBox.Show("This rail is blocked");
                         }
-                        else if (status == 3)
+                        else
                         {
-                            soort = "Reparatie";
-                        }
-                        else if (status == 4)
-                        {
-                            soort = "Beide";
-                        }
-                        if (soort != "")
-                        {
-                            padatabase.MakeService(tramnr, soort);
-                        }
-                        tram.OnRail = true;
-                        if (!padatabase.RefreshTramdatabase(tramnr))
-                        {
-                            MessageBox.Show("The database wasn't updated.");
+                            rail = parkingsystem.InsertTramNr(Convert.ToInt32(tbTramIn.Text), status);
+                            tram._Status = status;
+                            if (status == 2)
+                            {
+                                soort = "Schoonmaak";
+                            }
+                            else if (status == 3)
+                            {
+                                soort = "Reparatie";
+                            }
+                            else if (status == 4)
+                            {
+                                soort = "Beide";
+                            }
+                            if (soort != "")
+                            {
+                                padatabase.MakeService(tramnr, soort);
+                            }
+                            tram.OnRail = true;
+                            if (!padatabase.RefreshTramdatabase(tramnr))
+                            {
+                                MessageBox.Show("The database wasn't updated.");
+                            }
                         }
                     }
                 }
