@@ -290,6 +290,10 @@
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.tpUitloggen = new System.Windows.Forms.TabPage();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.label27 = new System.Windows.Forms.Label();
+            this.tbtramout = new System.Windows.Forms.TextBox();
+            this.btnUitrijden = new System.Windows.Forms.Button();
             this.TCLayout.SuspendLayout();
             this.tpBeheer.SuspendLayout();
             this.gbTramInrijdende.SuspendLayout();
@@ -305,6 +309,7 @@
             this.tpReparatie.SuspendLayout();
             this.groupBox7.SuspendLayout();
             this.groupBox8.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // TCLayout
@@ -3657,6 +3662,7 @@
             // 
             // tpInUitrij
             // 
+            this.tpInUitrij.Controls.Add(this.groupBox2);
             this.tpInUitrij.Controls.Add(this.lblNr);
             this.tpInUitrij.Controls.Add(this.groupBox10);
             this.tpInUitrij.Location = new System.Drawing.Point(4, 22);
@@ -3988,12 +3994,50 @@
             this.tpUitloggen.Text = "Uitloggen";
             this.tpUitloggen.UseVisualStyleBackColor = true;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.btnUitrijden);
+            this.groupBox2.Controls.Add(this.tbtramout);
+            this.groupBox2.Controls.Add(this.label27);
+            this.groupBox2.Location = new System.Drawing.Point(3, 135);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(200, 100);
+            this.groupBox2.TabIndex = 9;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Uitrijdende Trams";
+            // 
+            // label27
+            // 
+            this.label27.AutoSize = true;
+            this.label27.Location = new System.Drawing.Point(6, 16);
+            this.label27.Name = "label27";
+            this.label27.Size = new System.Drawing.Size(45, 13);
+            this.label27.TabIndex = 3;
+            this.label27.Text = "Tram Nr";
+            // 
+            // tbtramout
+            // 
+            this.tbtramout.Location = new System.Drawing.Point(73, 13);
+            this.tbtramout.Name = "tbtramout";
+            this.tbtramout.Size = new System.Drawing.Size(121, 20);
+            this.tbtramout.TabIndex = 6;
+            // 
+            // btnUitrijden
+            // 
+            this.btnUitrijden.Location = new System.Drawing.Point(73, 71);
+            this.btnUitrijden.Name = "btnUitrijden";
+            this.btnUitrijden.Size = new System.Drawing.Size(121, 23);
+            this.btnUitrijden.TabIndex = 7;
+            this.btnUitrijden.Text = "Uitrijden";
+            this.btnUitrijden.UseVisualStyleBackColor = true;
+            this.btnUitrijden.Click += new System.EventHandler(this.btnUitrijden_Click);
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1053, 733);
+            this.ClientSize = new System.Drawing.Size(1020, 733);
             this.Controls.Add(this.TCLayout);
             this.Name = "MainForm";
             this.Text = "Form1";
@@ -4020,6 +4064,8 @@
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
             this.groupBox8.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -4288,6 +4334,10 @@
         private System.Windows.Forms.TabPage tpUitloggen;
         private System.Windows.Forms.CheckBox Cbxrepair;
         private System.Windows.Forms.Label label188;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button btnUitrijden;
+        private System.Windows.Forms.TextBox tbtramout;
+        private System.Windows.Forms.Label label27;
     }
 }
 

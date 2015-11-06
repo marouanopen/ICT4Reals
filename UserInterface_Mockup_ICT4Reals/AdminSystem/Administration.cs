@@ -156,5 +156,48 @@ namespace UserInterface_Mockup_ICT4Reals.AdminSystem
         {
             foreach (Control ctl in page.Controls) ctl.Enabled = boolean;
         }
+        public void UpdateTramList()
+        {
+            foreach (Dictionary<string, object> T in addatabase.GetAllTrams())
+            {
+                Rail rail = null;
+                int status = 0;
+                bool onRail = false;
+
+                if ((string)T["status"] == "Ok")
+                {
+                    status = 1;
+                }
+                if ((string)T["status"] == "Vies")
+                {
+                    status = 2;
+                }
+                if ((string)T["status"] == "Defect")
+                {
+                    status = 3;
+                }
+                if ((string)T["status"] == "ViesEnDefect")
+                {
+                    status = 4;
+                }
+                if (Convert.ToInt32(T["aanwezigopspoor"]) == 0)
+                {
+                    onRail = false;
+                }
+                else
+                {
+                    onRail = true;
+                }
+                foreach (Rail R in Administration.GetRailList)
+                {
+                    if (R.Id == Convert.ToInt32(T["spoorid"]))
+                    {
+                        rail = R;
+                    }
+                }
+                Tram t = new Tram(Convert.ToInt32(T["tramid"]), (string)T["type"], rail, LoggedInUser, status, onRail);
+                GetTramList.Add(t);
+            }
+        }
     }
 }

@@ -72,19 +72,13 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
         {
             string query; // the query will end up in here
             int type = 0;
-            int onrail = 1;
+            int onrail;
 
             foreach(Tram t in Administration.GetTramList)
             {
                 
                 if(t.Id == tramnr)
                 {
-                    if(t.OnRail)
-                    {
-                        MessageBox.Show("This tram is already registered. It should be on its rail.");
-                    }
-                    else
-                    {
                         if (t.Type == "Combino")
                         {
                             type = 1;
@@ -109,14 +103,17 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
                         {
                             onrail = 0;
                         }
+                        else
+                        {
+                            t.OnRail = true;
+                            onrail = 1;
+                        }
                         query = "Update tram set TramID = " + t.Id + ", SpoorID = " + t.Rail.Id + ", TypeID = " + type + ", AanwezigOpSpoor = " + onrail + " where tramid = " + t.Id;  //replace with INSERT if need
                         doQuery(query); //query will be activated
                         //doquery update status 
                         query = "update tram_status set tramtramid = " + t.Id + ", statusstatusid = " + (int)t._Status + "where tramtramid = " + t.Id;
                         doQuery(query);
                         return true;
-                    }
-                    
                 }
             }
             return false;

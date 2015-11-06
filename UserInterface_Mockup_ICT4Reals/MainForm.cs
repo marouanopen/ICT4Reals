@@ -125,26 +125,36 @@ namespace UserInterface_Mockup_ICT4Reals
                 }
                 if (exist == true)
                 {
-                    rail = parkingsystem.InsertTramNr(Convert.ToInt32(tbTramIn.Text), status);
-                    tram.OnRail = true;
-                    tram._Status = status;
-                    if(status == 2)
+                    if(tram.OnRail)
                     {
-                        soort = "Schoonmaak";
+                        MessageBox.Show("The tram is already parked and sould be on its rail.");
                     }
-                    else if(status == 3)
+                    else
                     {
-                        soort = "Reparatie";
+                        rail = parkingsystem.InsertTramNr(Convert.ToInt32(tbTramIn.Text), status);
+                        tram._Status = status;
+                        if (status == 2)
+                        {
+                            soort = "Schoonmaak";
+                        }
+                        else if (status == 3)
+                        {
+                            soort = "Reparatie";
+                        }
+                        else if (status == 4)
+                        {
+                            soort = "Beide";
+                        }
+                        if (soort != "")
+                        {
+                            padatabase.MakeService(tramnr, soort);
+                        }
+                        tram.OnRail = true;
+                        if (!padatabase.RefreshTramdatabase(tramnr))
+                        {
+                            MessageBox.Show("The database wasn't updated.");
+                        }
                     }
-                    else if(status == 4)
-                    {
-                        soort = "Beide";
-                    }
-                    if(soort != "")
-                    {
-                        padatabase.MakeService(tramnr, soort);
-                    }
-                    remiseRefresh();
                 }
                 else
                 {
@@ -163,10 +173,9 @@ namespace UserInterface_Mockup_ICT4Reals
                 }
             }
 
-            if(!padatabase.RefreshTramdatabase(tramnr))
-            {
-                MessageBox.Show("The database wasn't updated.");
-            }
+
+
+            remiseRefresh();
         }
         
         /// <summary>
@@ -316,6 +325,49 @@ namespace UserInterface_Mockup_ICT4Reals
                 Control c = groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbDetailsLocatie.Text), true).FirstOrDefault();
                 c.Text = "";
                 c.BackColor = Color.White;
+            }
+        }
+
+        private void btnUitrijden_Click(object sender, EventArgs e)
+        {
+            bool exist = false;
+            int tramnr;
+            Tram tram = null;
+            bool res = int.TryParse(tbtramout.Text, out tramnr);
+            if (res == false)
+            {
+                MessageBox.Show("The input should consist of numbers only!");
+            }
+            else
+            {
+                foreach(Tram t in Administration.GetTramList)
+                {
+                    if(t.Id == tramnr)
+                    {
+                        exist = true;
+                        tram = t;
+                    }
+                }
+                if (exist == true && tram.OnRail == true)
+                {
+                    if (tram._Status == 1)
+                    {
+                        tram.OnRail = false;
+                        MessageBox.Show("The tram is no longer parked");
+                        padatabase.RefreshTramdatabase(tramnr);
+                        administration.UpdateTramList();
+                        remiseRefresh();
+                    }
+                    else
+                    {
+                        MessageBox.Show("The tram still needs cleaning or rapairs.");
+                    }
+                    remiseRefresh();
+                }
+                else
+                {
+                    MessageBox.Show("A Tram with that number isn't parked yet! Input a tramnumber of a parked tram!");
+                }
             }
         }
     }
