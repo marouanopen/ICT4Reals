@@ -344,7 +344,11 @@ namespace UserInterface_Mockup_ICT4Reals
                 c.BackColor = Color.White;
             }
         }
-
+        /// <summary>
+        /// occurs when "btnUitrijden"is clicked
+        /// </summary>
+        /// <param name="sender">the control that is clicked</param>
+        /// <param name="e"></param>
         private void btnUitrijden_Click(object sender, EventArgs e)
         {
             bool exist = false;
