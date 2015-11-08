@@ -107,6 +107,7 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
         {
             con = new OracleConnection();
             con.ConnectionString = "Data Source=fhictora01.fhict.local/fhictora;Persist Security Info=True;User ID=dbi310866;Password=O4g03ym3r8";
+            //con.ConnectionString = "Data Source=172.21.136.11:1521/xe;Persist Security Info=True;User ID=system;Password=vbNEA73jMt";
             con.Open();
         }
 
