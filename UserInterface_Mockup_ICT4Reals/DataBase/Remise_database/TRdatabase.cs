@@ -78,6 +78,11 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
                 {
                     return false;
                 }
+                query = "insert into Tram_Status(tramtramid, statusstatusid) values("+ tramId + ", " + "1)";
+                if (doQuery(query) == -1)
+                {
+                    return false;
+                }
                 else
                 {
                     return true;
