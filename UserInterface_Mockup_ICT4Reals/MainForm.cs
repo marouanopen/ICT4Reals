@@ -184,8 +184,6 @@ namespace UserInterface_Mockup_ICT4Reals
                 }
             }
 
-
-
             remiseRefresh();
         }
 
@@ -236,7 +234,7 @@ namespace UserInterface_Mockup_ICT4Reals
                 Control c = groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbSpoorStatusSpoor.Text), true).FirstOrDefault();
                 if (c.BackColor != Color.DarkRed)
                 {
-                    if (rail.BlockRail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), status) == true)
+                    if (rail.BlockRail(Convert.ToInt32(cbSpoorStatusSpoor.Text), status) == true)
                     {
                         c.BackColor = Color.DarkRed;
                     }
@@ -252,7 +250,7 @@ namespace UserInterface_Mockup_ICT4Reals
                 Control c = groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbSpoorStatusSpoor.Text), true).FirstOrDefault();
                 if (c.BackColor != Color.White)
                 {
-                    if (rail.BlockRail(Convert.ToInt32(cbSpoorStatusSpoor.SelectedValue), status) == true)
+                    if (rail.BlockRail(Convert.ToInt32(cbSpoorStatusSpoor.Text), status) == true)
                     {
                         c.BackColor = Color.White;
                     }
