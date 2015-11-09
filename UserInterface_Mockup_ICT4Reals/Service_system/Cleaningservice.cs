@@ -11,6 +11,7 @@ namespace UserInterface_Mockup_ICT4Reals.Service
 {
     public class Cleaningservice : Service
     {
+        CLdatabase database = new CLdatabase();
         /// <summary>
         /// constructor
         /// </summary>
@@ -20,9 +21,16 @@ namespace UserInterface_Mockup_ICT4Reals.Service
         /// <param name="enddate"></param>
         /// <param name="tramid"></param>
         /// <param name="superbeurtID"></param>
-         public Cleaningservice(int id, string soort, DateTime startdate, DateTime enddate, int tramid, int superbeurtID) : base(id, soort, tramid, startdate ,enddate ,superbeurtID)
-        { }
-        CLdatabase database = new CLdatabase();
+        public Cleaningservice(int id, string soort, DateTime startdate, DateTime enddate, int tramid, int superbeurtID)
+            : base(id, soort, tramid, startdate, enddate, superbeurtID)
+        {
+            this.Id = id;
+            this.soort = soort;
+            this.startDate = startdate;
+            this.endDate = enddate;
+            this.tramID = tramid;
+            this.superbeurtID = superbeurtID;
+        }
         /// <summary>
         /// 
         /// </summary>
@@ -55,8 +63,8 @@ namespace UserInterface_Mockup_ICT4Reals.Service
             List<Dictionary<string, object>> results = database.GetAllStatus();
             foreach (Dictionary<string, object> tramLink in results)
             {
-
-                string text = Convert.ToString(tramLink["TramTramID"]) + " - need repairs";
+                string text = Convert.ToString(tramLink["tramtramid"]) + " - need cleaning";
+                Allbroken.Add(text);
             }
 
             return Allbroken;

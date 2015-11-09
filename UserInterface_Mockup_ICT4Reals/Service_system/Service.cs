@@ -38,6 +38,9 @@ namespace UserInterface_Mockup_ICT4Reals.Service
             this.superbeurtID = superbeurtID;
         }
 
-     
+        public override string ToString()
+        {
+            return "ID: " + Id + ", TramID: " + tramID + ", Start datum: " + startDate;
+        }
     }
 }

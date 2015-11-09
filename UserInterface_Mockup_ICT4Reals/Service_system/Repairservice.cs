@@ -16,8 +16,16 @@ namespace UserInterface_Mockup_ICT4Reals.Service
         /// </summary>
         REdatabase database = new REdatabase();
 
-        public Repairservice(int id, string soort, DateTime startdate, DateTime enddate, int tramid, int superbeurtID) : base(id, soort, tramid, startdate ,enddate ,superbeurtID)
-        { }
+        public Repairservice(int id, string soort, DateTime startdate, DateTime enddate, int tramid, int superbeurtID)
+            : base(id, soort, tramid, startdate, enddate, superbeurtID)
+        {
+            this.Id = id;
+            this.soort = soort;
+            this.startDate = startdate;
+            this.endDate = enddate;
+            this.tramID = tramid;
+            this.superbeurtID = superbeurtID;
+        }
         /// <summary>
         /// 
         /// </summary>
@@ -44,16 +52,15 @@ namespace UserInterface_Mockup_ICT4Reals.Service
         /// 
         /// </summary>
         /// <returns></returns>
-        public List<string> getAllStatus()
+        public List<String> getAllStatus()
         {
-            List<string> Allbroken = new List<string>();
+            List<String> Allbroken = new List<String>();
             List<Dictionary<string, object>> results = database.GetAllStatus();
             foreach(Dictionary<string, object> tramLink in results)
             {
-
-                string text = Convert.ToString(tramLink["TramTramID"]) + " - need repairs";
+                string text = Convert.ToString(tramLink["tramtramid"]) + " - need repairs";
+                Allbroken.Add(text);
             }
-
             return Allbroken;
         }
         /// <summary>
@@ -68,7 +75,7 @@ namespace UserInterface_Mockup_ICT4Reals.Service
            
             foreach (Dictionary<string, object> log in results)
             {
-                Service newservice = new Service(Convert.ToInt32(Convert.ToInt32(log["beurtID"])), Convert.ToString(log["soort"]), Convert.ToInt32(log["tramID"]),Convert.ToDateTime(log["beginDatum"]),Convert.ToDateTime(log["eindDatum"]),Convert.ToInt32(log["superbeurtID"]));
+                Service newservice = new Service(Convert.ToInt32(Convert.ToInt32(log["beurtid"])), Convert.ToString(log["soort"]), Convert.ToInt32(log["tramid"]),Convert.ToDateTime(log["begindatum"]),DateTime.Today, 0);
 
                 allService.Add(newservice);
             }

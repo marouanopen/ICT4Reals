@@ -43,20 +43,14 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
             List<Dictionary<string, object>> ret = GetAlllogs();
             foreach (Dictionary<string, object> logs in ret)
             {
-                if (Convert.ToString(logs["type"]) == "groot" && Convert.ToString(logs["soort"]) == "schoonmaak")
+                if (Convert.ToString(logs["soort"]) == "Reparatie")
                 {
                     bigcount++;
                 }
-                if (Convert.ToString(logs["type"]) == "klein" && Convert.ToString(logs["soort"]) == "schoonmaak")
-                {
-                    smallcount++;
-                }
-                if( smallcount > 4 || bigcount > 1)
+                if( smallcount > 4 || bigcount > 100)
                 {
                     return false;
                 }
-                    
-                
             }
             return true;
         }
@@ -90,7 +84,7 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
         }
         public List<Dictionary<string, object>> GetAlllogs() //name of ur query
         {
-            List<Dictionary<string, object>> ret = getQuery("SELECT * FROM beurt WHERE soort = reparatie");
+            List<Dictionary<string, object>> ret = getQuery("SELECT BeurtID, Soort, BeginDatum, TramID, NVL(SuperBeurtID, '1'), NVL(type, 'Groot') FROM beurt WHERE soort = 'Reparatie'");
             return ret;     //this will return the list as result from the query.
         }
 

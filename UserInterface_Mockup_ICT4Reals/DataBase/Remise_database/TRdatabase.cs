@@ -67,13 +67,13 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
         /// <param name="spoorId">the id of the rail the tram is on</param>
         /// <param name="typeId">the id of the type of the tram (represented vby an enum)</param>
         /// <returns></returns>
-        public bool AddTram(int tramId, int spoorId, int typeId)
+        public bool AddTram(int tramId, int spoorId, int typeId, int aanwezigOpSpoor)
         {
             try
             {
                 string query; // the query will end up in here
                 query = "INSERT INTO Tram(tramID, spoorID, typeID, AanwezigOpSpoor)";  //adding a tram
-                query += " VALUES(" + tramId + ", " + spoorId + ", " + typeId + ", 1)"; //insert data given to db
+                query += " VALUES(" + tramId + ", " + spoorId + ", " + typeId + ", " + aanwezigOpSpoor +")"; //insert data given to db
                 if (doQuery(query) == -1)//query will be activated
                 {
                     return false;

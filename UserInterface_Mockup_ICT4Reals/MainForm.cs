@@ -22,8 +22,8 @@ namespace UserInterface_Mockup_ICT4Reals
         private Administration administration;
         private Parkingsystem parkingsystem;
         private PAdatabase padatabase;
-        private Cleaningservice clService;
-        private Repairservice rpService;
+        private Cleaningservice clService = new Cleaningservice(1, "cleaning", DateTime.Today, DateTime.Today, 1, 1);
+        private Repairservice rpService = new Repairservice(1, "repair", DateTime.Today, DateTime.Today, 1, 1);
 
         /// <summary>
         /// constructor of the mainform
@@ -267,6 +267,7 @@ namespace UserInterface_Mockup_ICT4Reals
 
         private void btnToevoegenToevoegen_Click(object sender, EventArgs e)
         {
+            int tramOnRail = 0;
             int status = 0;
             if (cbToevoegenStatus.Text == "Ok")
             {
@@ -284,16 +285,25 @@ namespace UserInterface_Mockup_ICT4Reals
             {
                 status = 4;
             }
+            if (cbTramOnRail.Checked)
+            {
+                tramOnRail = 1;
+            }
             Tram tram = new Tram(1, "test", new Rail(1, true, false, 1), new User(2323, "test", "test", 1), 1, true);
-            Control c =
-                groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbToevoegenLocatie.Text), true).FirstOrDefault();
+            Control c = groupBox1.Controls.Find("spoor" + Convert.ToInt32(cbToevoegenLocatie.Text), true).FirstOrDefault();
             if (c.BackColor == Color.White)
             {
                 if (tram.AddTram(Convert.ToInt32(tbToevoegenNaam.Text), Convert.ToInt32(cbToevoegenLocatie.Text),
-                    status) == true)
+                    status, tramOnRail) == true)
                 {
-                    c.Text = tbToevoegenNaam.Text;
-                    c.BackColor = Color.DimGray;
+                    if (tramOnRail == 1)
+                    {
+                        c.Text = tbToevoegenNaam.Text;
+                        c.BackColor = Color.DimGray;
+                        tram.OnRail = true;
+                    }
+                    administration.UpdateTramList();
+                    //remiseRefresh();
                 }
             }
             else
@@ -401,7 +411,6 @@ namespace UserInterface_Mockup_ICT4Reals
         private void button5_Click(object sender, EventArgs e)
         //update cleaning
         {
-
             Tram seltram = (Tram)listBox1.SelectedItem;
             int status;
             if (statusClbox.Text == "Ok")
@@ -425,17 +434,39 @@ namespace UserInterface_Mockup_ICT4Reals
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Tram seltram = (Tram)listBox2.SelectedItem;
-            int status;
-            if (comboBoxrepair.Text == "Ok")
+            Tram trammetje = null;
+            string sub = listBox2.SelectedItem.ToString().Substring(0, listBox2.SelectedItem.ToString().IndexOf(" "));
+            administration.UpdateTramList();
+            foreach(Tram t in Administration.GetTramList)
             {
-                status = 1;
-                rpService.update(seltram.Id, status);
+                if (t.Id == Convert.ToInt32(sub))
+                {
+                    trammetje = t;
+                }
             }
-            if (comboBoxrepair.Text == "vies")
+            if (trammetje._Status == 4 && trammetje != null)
             {
-                status = 3;
-                rpService.update(seltram.Id, status);
+                trammetje._Status = 2;
+            }
+            else if (trammetje._Status == 3 && trammetje != null)
+            {
+                trammetje._Status = 1;
+            }
+            else
+            {
+                MessageBox.Show("Error");
+            }
+            //Tram seltram = (Tram)listBox2.SelectedItem;
+            int status;
+            if (comboBoxrepair.Text == "ok")
+            {
+                trammetje._Status = 1;
+                rpService.update(trammetje.Id, trammetje._Status);
+            }
+            else if (comboBoxrepair.Text == "vies")
+            {
+                trammetje._Status = 2;
+                rpService.update(trammetje.Id, trammetje._Status);
             }
             else
             {
@@ -478,9 +509,9 @@ namespace UserInterface_Mockup_ICT4Reals
 
             List<Cleaningservice> loglist = new List<Cleaningservice>();
 
-            foreach (Cleaningservice stat in rpService.getAllLog())
+            foreach (Service.Service stat in rpService.getAllLog())
             {
-                loglist.Add(stat);
+                loglist.Add(stat as Cleaningservice);
                 listBox3.Items.Add(stat.ToString());
             }
         }

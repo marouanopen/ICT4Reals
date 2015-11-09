@@ -274,6 +274,7 @@
             this.groupBox3 = new System.Windows.Forms.GroupBox();
             this.lblogcleaning = new System.Windows.Forms.ListBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
             this.label124 = new System.Windows.Forms.Label();
             this.label113 = new System.Windows.Forms.Label();
@@ -285,7 +286,9 @@
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.tpReparatie = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.listBox3 = new System.Windows.Forms.ListBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
+            this.button1 = new System.Windows.Forms.Button();
             this.button6 = new System.Windows.Forms.Button();
             this.label134 = new System.Windows.Forms.Label();
             this.label159 = new System.Windows.Forms.Label();
@@ -296,9 +299,7 @@
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.tpUitloggen = new System.Windows.Forms.TabPage();
-            this.listBox3 = new System.Windows.Forms.ListBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.cbTramOnRail = new System.Windows.Forms.CheckBox();
             this.TCLayout.SuspendLayout();
             this.tpBeheer.SuspendLayout();
             this.gbTramInrijdende.SuspendLayout();
@@ -770,6 +771,7 @@
             // 
             // gbTramToevoegen
             // 
+            this.gbTramToevoegen.Controls.Add(this.cbTramOnRail);
             this.gbTramToevoegen.Controls.Add(this.btnToevoegenToevoegen);
             this.gbTramToevoegen.Controls.Add(this.label1);
             this.gbTramToevoegen.Controls.Add(this.cbToevoegenStatus);
@@ -3852,6 +3854,16 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Status";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(73, 119);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(121, 23);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Refresh";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(73, 90);
@@ -3960,6 +3972,14 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "logboek";
             // 
+            // listBox3
+            // 
+            this.listBox3.FormattingEnabled = true;
+            this.listBox3.Location = new System.Drawing.Point(6, 19);
+            this.listBox3.Name = "listBox3";
+            this.listBox3.Size = new System.Drawing.Size(447, 589);
+            this.listBox3.TabIndex = 6;
+            // 
             // groupBox7
             // 
             this.groupBox7.Controls.Add(this.button1);
@@ -3976,6 +3996,16 @@
             this.groupBox7.TabIndex = 4;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Status";
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(76, 119);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(121, 23);
+            this.button1.TabIndex = 8;
+            this.button1.Text = "Refresh";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button6
             // 
@@ -4072,40 +4102,22 @@
             this.tpUitloggen.Text = "Uitloggen";
             this.tpUitloggen.UseVisualStyleBackColor = true;
             // 
-            // listBox3
+            // cbTramOnRail
             // 
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.Location = new System.Drawing.Point(6, 19);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(447, 589);
-            this.listBox3.TabIndex = 6;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(76, 119);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 23);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Refresh";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(73, 119);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 23);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Refresh";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.cbTramOnRail.AutoSize = true;
+            this.cbTramOnRail.Location = new System.Drawing.Point(6, 103);
+            this.cbTramOnRail.Name = "cbTramOnRail";
+            this.cbTramOnRail.Size = new System.Drawing.Size(81, 17);
+            this.cbTramOnRail.TabIndex = 9;
+            this.cbTramOnRail.Text = "Tram op rail";
+            this.cbTramOnRail.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoScroll = true;
-            this.ClientSize = new System.Drawing.Size(1037, 750);
+            this.ClientSize = new System.Drawing.Size(1037, 741);
             this.Controls.Add(this.TCLayout);
             this.Name = "MainForm";
             this.Text = "Form1";
@@ -4413,6 +4425,7 @@
         private System.Windows.Forms.ListBox listBox3;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.CheckBox cbTramOnRail;
     }
 }
 
