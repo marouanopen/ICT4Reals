@@ -66,7 +66,7 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
                 cmd.Connection = con;
                 cmd.CommandText = query;
                 cmd.CommandType = System.Data.CommandType.Text;
-                bool read = false;
+                bool read = true;
 
                 OracleDataReader data = cmd.ExecuteReader();
 

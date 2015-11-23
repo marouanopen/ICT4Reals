@@ -23,6 +23,11 @@ namespace UserInterface_Mockup_ICT4Reals.DataBase
 
             return TramInfo;
         }
+        /// <summary>
+        /// returns the info of a single rail
+        /// </summary>
+        /// <param name="RailId">give the id of the rail</param>
+        /// <returns></returns>
         public List<Dictionary<string, object>> GetRailInfo(int RailId)
         {
             List<Dictionary<string, object>> RailInfo = getQuery("SELECT SpoorID, Blokkeer, RemiseID FROM Tram WHERE SpoorID = " + RailId);

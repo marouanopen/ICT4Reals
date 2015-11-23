@@ -262,7 +262,11 @@ namespace UserInterface_Mockup_ICT4Reals
             }
 
         }
-
+        /// <summary>
+        /// occurs when the button toevoegen is clicked
+        /// </summary>
+        /// <param name="sender">the control that was pressed</param>
+        /// <param name="e"></param>
         private void btnToevoegenToevoegen_Click(object sender, EventArgs e)
         {
             int tramOnRail = 0;
@@ -309,7 +313,11 @@ namespace UserInterface_Mockup_ICT4Reals
                 MessageBox.Show("Kan hier geen tram plaatsen!");
             }
         }
-
+        /// <summary>
+        /// occurs when the button btnDetailsAanpassen is clicked
+        /// </summary>
+        /// <param name="sender">the control that was pressed</param>
+        /// <param name="e"></param>
         private void btnDetailsAanpassen_Click(object sender, EventArgs e)
         {
             Tram tram = new Tram(1, "test", new Rail(1, true, false, 1), new User(2323, "test", "test", 1), 1, true);
@@ -345,7 +353,11 @@ namespace UserInterface_Mockup_ICT4Reals
                 c.BackColor = Color.DimGray;
             }
         }
-
+        /// <summary>
+        /// occurs when the button btnDetailsVerwijderen is clicked
+        /// </summary>
+        /// <param name="sender">the control that was pressed</param>
+        /// <param name="e"></param>
         private void btnDetailsVerwijderen_Click(object sender, EventArgs e)
         {
             Tram tram = new Tram(1, "test", new Rail(1, true, false, 1), new User(2323, "test", "test", 1), 1, true);
@@ -357,7 +369,7 @@ namespace UserInterface_Mockup_ICT4Reals
             }
         }
         /// <summary>
-        /// occurs when "btnUitrijden"is clicked
+        /// occurs when button btnUitrijden is clicked
         /// </summary>
         /// <param name="sender">the control that is clicked</param>
         /// <param name="e"></param>
@@ -406,9 +418,16 @@ namespace UserInterface_Mockup_ICT4Reals
 
 
         // cleaning 
+
+        /// <summary>
+        /// occurs when button 5 is clicked
+        /// </summary>
+        /// <param name="sender">the control that was pressed</param>
+        /// <param name="e"></param>
         private void button5_Click(object sender, EventArgs e)
         //update cleaning
         {
+            /*
             Tram seltram = (Tram)listBox1.SelectedItem;
             int status;
             if (statusClbox.Text == "Ok")
@@ -426,53 +445,113 @@ namespace UserInterface_Mockup_ICT4Reals
                 MessageBox.Show("error");
             }
             updatecleaning();
-
-
-        }
-
-        private void button6_Click(object sender, EventArgs e)
-        {
-            Tram trammetje = null;
-            string sub = listBox2.SelectedItem.ToString().Substring(0, listBox2.SelectedItem.ToString().IndexOf(" "));
-            administration.UpdateTramList();
-            foreach(Tram t in Administration.GetTramList)
+             * */
+            try
             {
-                if (t.Id == Convert.ToInt32(sub))
+                Tram trammetje = null;
+                string sub = listBox1.SelectedItem.ToString().Substring(0, listBox1.SelectedItem.ToString().IndexOf(" "));
+                administration.UpdateTramList();
+                foreach (Tram t in Administration.GetTramList)
                 {
-                    trammetje = t;
+                    if (t.Id == Convert.ToInt32(sub))
+                    {
+                        trammetje = t;
+                    }
+                    //cl
                 }
+                if (trammetje._Status == 4 && trammetje != null)
+                {
+                    trammetje._Status = 3;
+                }
+                else if (trammetje._Status == 2 && trammetje != null)
+                {
+                    trammetje._Status = 1;
+                }
+                else
+                {
+                    MessageBox.Show("Error");
+                }
+                //Tram seltram = (Tram)listBox2.SelectedItem;
+                int status;
+                if (statusClbox.Text == "ok")
+                {
+                    trammetje._Status = 1;
+                    clService.update(trammetje.Id, trammetje._Status);
+                }
+                else if (statusClbox.Text == "defect")
+                {
+                    trammetje._Status = 3;
+                    clService.update(trammetje.Id, trammetje._Status);
+                }
+                else
+                {
+                    MessageBox.Show("error");
+                }
+                updatecleaning();
             }
-            if (trammetje._Status == 4 && trammetje != null)
-            {
-                trammetje._Status = 2;
-            }
-            else if (trammetje._Status == 3 && trammetje != null)
-            {
-                trammetje._Status = 1;
-            }
-            else
-            {
-                MessageBox.Show("Error");
-            }
-            //Tram seltram = (Tram)listBox2.SelectedItem;
-            int status;
-            if (comboBoxrepair.Text == "ok")
-            {
-                trammetje._Status = 1;
-                rpService.update(trammetje.Id, trammetje._Status);
-            }
-            else if (comboBoxrepair.Text == "vies")
-            {
-                trammetje._Status = 2;
-                rpService.update(trammetje.Id, trammetje._Status);
-            }
-            else
+            catch
             {
                 MessageBox.Show("error");
             }
-            updaterepair();
-        }
 
+        }
+        /// <summary>
+        /// occurs when button 6 is pressed
+        /// </summary>
+        /// <param name="sender">the control that was pressed</param>
+        /// <param name="e"></param>
+        private void button6_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                Tram trammetje = null;
+                string sub = listBox2.SelectedItem.ToString().Substring(0, listBox2.SelectedItem.ToString().IndexOf(" "));
+                administration.UpdateTramList();
+                foreach (Tram t in Administration.GetTramList)
+                {
+                    if (t.Id == Convert.ToInt32(sub))
+                    {
+                        trammetje = t;
+                    }
+                }
+                if (trammetje._Status == 4 && trammetje != null)
+                {
+                    trammetje._Status = 2;
+                }
+                else if (trammetje._Status == 3 && trammetje != null)
+                {
+                    trammetje._Status = 1;
+                }
+                else
+                {
+                    MessageBox.Show("Error");
+                }
+                //Tram seltram = (Tram)listBox2.SelectedItem;
+                int status;
+                if (comboBoxrepair.Text == "ok")
+                {
+                    trammetje._Status = 1;
+                    rpService.update(trammetje.Id, trammetje._Status);
+                }
+                else if (comboBoxrepair.Text == "vies")
+                {
+                    trammetje._Status = 2;
+                    rpService.update(trammetje.Id, trammetje._Status);
+                }
+                else
+                {
+                    MessageBox.Show("error");
+                }
+                updaterepair();
+            }
+            catch
+            {
+                MessageBox.Show("error");
+            }
+        }
+        /// <summary>
+        /// updates the cleaning logs
+        /// </summary>
         public void updatecleaning()
         {
             listBox1.Items.Clear();
@@ -487,9 +566,9 @@ namespace UserInterface_Mockup_ICT4Reals
 
             List<Cleaningservice> loglist = new List<Cleaningservice>();
 
-            foreach (Cleaningservice stat in clService.getAllLog())
+            foreach (Service.Service stat in clService.getAllLog())
             {
-                loglist.Add(stat);
+                loglist.Add(stat as Cleaningservice);
                 lblogcleaning.Items.Add(stat.ToString());
             }
         }
@@ -505,20 +584,28 @@ namespace UserInterface_Mockup_ICT4Reals
                 listBox2.Items.Add(stat);
             }
 
-            List<Cleaningservice> loglist = new List<Cleaningservice>();
+            List<Repairservice> loglist = new List<Repairservice>();
 
             foreach (Service.Service stat in rpService.getAllLog())
             {
-                loglist.Add(stat as Cleaningservice);
+                loglist.Add(stat as Repairservice);
                 listBox3.Items.Add(stat.ToString());
             }
         }
-
+        /// <summary>
+        /// occurs when button 2 is pressed
+        /// </summary>
+        /// <param name="sender">the control that was pressed</param>
+        /// <param name="e"></param>
         private void button2_Click(object sender, EventArgs e)
         {
             updatecleaning();
         }
-
+        /// <summary>
+        /// occurs when button 1 is pressed
+        /// </summary>
+        /// <param name="sender">the control that was pressed</param>
+        /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
             updaterepair();

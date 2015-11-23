@@ -18,6 +18,10 @@ namespace UserInterface_Mockup_ICT4Reals.Remise
         public bool Status { get; set; }
         public bool Taken { get; set; }
         public int RemiseID { get; set; }
+
+        /// <summary>
+        /// constructor
+        /// </summary>
         public Rail(int id, bool status, bool taken, int remiseid)
         {
             this.Id = id;

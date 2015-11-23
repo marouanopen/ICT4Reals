@@ -34,8 +34,8 @@ namespace UserInterface_Mockup_ICT4Reals.Service
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="tramID"></param>
-        /// <param name="StatusID"></param>
+        /// <param name="tramID">tram id</param>
+        /// <param name="StatusID"> status id</param>
         /// <returns></returns>
         public bool update(int tramID, int StatusID)
         {

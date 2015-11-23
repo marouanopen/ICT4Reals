@@ -29,8 +29,8 @@ namespace UserInterface_Mockup_ICT4Reals.Service
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="tramID"></param>
-        /// <param name="StatusID"></param>
+        /// <param name="tramID">tram id</param>
+        /// <param name="StatusID">status id</param>
         /// <returns></returns>
         public bool update(int tramID, int StatusID)
         {
@@ -49,7 +49,7 @@ namespace UserInterface_Mockup_ICT4Reals.Service
             
         }
         /// <summary>
-        /// 
+        /// returns al status from active trains
         /// </summary>
         /// <returns></returns>
         public List<String> getAllStatus()
@@ -64,7 +64,7 @@ namespace UserInterface_Mockup_ICT4Reals.Service
             return Allbroken;
         }
         /// <summary>
-        /// 
+        /// returns all log of past repairservices
         /// </summary>
         /// <returns></returns>
         public List<Service> getAllLog()
@@ -84,8 +84,8 @@ namespace UserInterface_Mockup_ICT4Reals.Service
         /// <summary>
         /// 
         /// </summary>
-        /// <param name="tramID"></param>
-        /// <param name="superbeurt"></param>
+        /// <param name="tramID">tram id</param>
+        /// <param name="superbeurt">super beurt id</param>
         /// <returns></returns>
         public bool addlog(int tramID, int superbeurt)
         {

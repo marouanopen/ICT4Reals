@@ -42,6 +42,7 @@
             this.cbSpoorStatusSpoor = new System.Windows.Forms.ComboBox();
             this.cbSpoorStatusStatus = new System.Windows.Forms.ComboBox();
             this.gbTramToevoegen = new System.Windows.Forms.GroupBox();
+            this.cbTramOnRail = new System.Windows.Forms.CheckBox();
             this.btnToevoegenToevoegen = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.cbToevoegenStatus = new System.Windows.Forms.ComboBox();
@@ -299,7 +300,6 @@
             this.groupBox8 = new System.Windows.Forms.GroupBox();
             this.listBox2 = new System.Windows.Forms.ListBox();
             this.tpUitloggen = new System.Windows.Forms.TabPage();
-            this.cbTramOnRail = new System.Windows.Forms.CheckBox();
             this.TCLayout.SuspendLayout();
             this.tpBeheer.SuspendLayout();
             this.gbTramInrijdende.SuspendLayout();
@@ -785,6 +785,16 @@
             this.gbTramToevoegen.TabIndex = 10;
             this.gbTramToevoegen.TabStop = false;
             this.gbTramToevoegen.Text = "Tram Toevoegen";
+            // 
+            // cbTramOnRail
+            // 
+            this.cbTramOnRail.AutoSize = true;
+            this.cbTramOnRail.Location = new System.Drawing.Point(6, 103);
+            this.cbTramOnRail.Name = "cbTramOnRail";
+            this.cbTramOnRail.Size = new System.Drawing.Size(81, 17);
+            this.cbTramOnRail.TabIndex = 9;
+            this.cbTramOnRail.Text = "Tram op rail";
+            this.cbTramOnRail.UseVisualStyleBackColor = true;
             // 
             // btnToevoegenToevoegen
             // 
@@ -4101,16 +4111,6 @@
             this.tpUitloggen.TabIndex = 4;
             this.tpUitloggen.Text = "Uitloggen";
             this.tpUitloggen.UseVisualStyleBackColor = true;
-            // 
-            // cbTramOnRail
-            // 
-            this.cbTramOnRail.AutoSize = true;
-            this.cbTramOnRail.Location = new System.Drawing.Point(6, 103);
-            this.cbTramOnRail.Name = "cbTramOnRail";
-            this.cbTramOnRail.Size = new System.Drawing.Size(81, 17);
-            this.cbTramOnRail.TabIndex = 9;
-            this.cbTramOnRail.Text = "Tram op rail";
-            this.cbTramOnRail.UseVisualStyleBackColor = true;
             // 
             // MainForm
             // 
