@@ -273,10 +273,10 @@
             this.label185 = new System.Windows.Forms.Label();
             this.tpSchoonmaak = new System.Windows.Forms.TabPage();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.lblogcleaning = new System.Windows.Forms.ListBox();
+            this.lbCLlog = new System.Windows.Forms.ListBox();
             this.groupBox6 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.btnCLRefresh = new System.Windows.Forms.Button();
+            this.btnCLUpdate = new System.Windows.Forms.Button();
             this.label124 = new System.Windows.Forms.Label();
             this.label113 = new System.Windows.Forms.Label();
             this.statusClbox = new System.Windows.Forms.ComboBox();
@@ -284,13 +284,13 @@
             this.label120 = new System.Windows.Forms.Label();
             this.label114 = new System.Windows.Forms.Label();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
-            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.lbschoonmaak = new System.Windows.Forms.ListBox();
             this.tpReparatie = new System.Windows.Forms.TabPage();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.listBox3 = new System.Windows.Forms.ListBox();
+            this.lbRELogboek = new System.Windows.Forms.ListBox();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
+            this.btnRERefresh = new System.Windows.Forms.Button();
+            this.btnReUpdate = new System.Windows.Forms.Button();
             this.label134 = new System.Windows.Forms.Label();
             this.label159 = new System.Windows.Forms.Label();
             this.comboBoxrepair = new System.Windows.Forms.ComboBox();
@@ -298,7 +298,7 @@
             this.label169 = new System.Windows.Forms.Label();
             this.label178 = new System.Windows.Forms.Label();
             this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.listBox2 = new System.Windows.Forms.ListBox();
+            this.lbReparatie = new System.Windows.Forms.ListBox();
             this.tpUitloggen = new System.Windows.Forms.TabPage();
             this.TCLayout.SuspendLayout();
             this.tpBeheer.SuspendLayout();
@@ -3831,7 +3831,7 @@
             // 
             // groupBox3
             // 
-            this.groupBox3.Controls.Add(this.lblogcleaning);
+            this.groupBox3.Controls.Add(this.lbCLlog);
             this.groupBox3.Location = new System.Drawing.Point(419, 5);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Size = new System.Drawing.Size(444, 548);
@@ -3839,18 +3839,18 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "logboek";
             // 
-            // lblogcleaning
+            // lbCLlog
             // 
-            this.lblogcleaning.FormattingEnabled = true;
-            this.lblogcleaning.Location = new System.Drawing.Point(6, 18);
-            this.lblogcleaning.Name = "lblogcleaning";
-            this.lblogcleaning.Size = new System.Drawing.Size(422, 524);
-            this.lblogcleaning.TabIndex = 1;
+            this.lbCLlog.FormattingEnabled = true;
+            this.lbCLlog.Location = new System.Drawing.Point(6, 18);
+            this.lbCLlog.Name = "lbCLlog";
+            this.lbCLlog.Size = new System.Drawing.Size(422, 524);
+            this.lbCLlog.TabIndex = 1;
             // 
             // groupBox6
             // 
-            this.groupBox6.Controls.Add(this.button2);
-            this.groupBox6.Controls.Add(this.button5);
+            this.groupBox6.Controls.Add(this.btnCLRefresh);
+            this.groupBox6.Controls.Add(this.btnCLUpdate);
             this.groupBox6.Controls.Add(this.label124);
             this.groupBox6.Controls.Add(this.label113);
             this.groupBox6.Controls.Add(this.statusClbox);
@@ -3864,25 +3864,25 @@
             this.groupBox6.TabStop = false;
             this.groupBox6.Text = "Status";
             // 
-            // button2
+            // btnCLRefresh
             // 
-            this.button2.Location = new System.Drawing.Point(73, 119);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(121, 23);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Refresh";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnCLRefresh.Location = new System.Drawing.Point(73, 119);
+            this.btnCLRefresh.Name = "btnCLRefresh";
+            this.btnCLRefresh.Size = new System.Drawing.Size(121, 23);
+            this.btnCLRefresh.TabIndex = 9;
+            this.btnCLRefresh.Text = "Refresh";
+            this.btnCLRefresh.UseVisualStyleBackColor = true;
+            this.btnCLRefresh.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button5
+            // btnCLUpdate
             // 
-            this.button5.Location = new System.Drawing.Point(73, 90);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(121, 23);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Updaten";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.btnCLUpdate.Location = new System.Drawing.Point(73, 90);
+            this.btnCLUpdate.Name = "btnCLUpdate";
+            this.btnCLUpdate.Size = new System.Drawing.Size(121, 23);
+            this.btnCLUpdate.TabIndex = 6;
+            this.btnCLUpdate.Text = "Updaten";
+            this.btnCLUpdate.UseVisualStyleBackColor = true;
+            this.btnCLUpdate.Click += new System.EventHandler(this.button5_Click);
             // 
             // label124
             // 
@@ -3944,7 +3944,7 @@
             // 
             // groupBox5
             // 
-            this.groupBox5.Controls.Add(this.listBox1);
+            this.groupBox5.Controls.Add(this.lbschoonmaak);
             this.groupBox5.Location = new System.Drawing.Point(7, 5);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Size = new System.Drawing.Size(200, 759);
@@ -3952,13 +3952,13 @@
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Schoonmaak Lijst";
             // 
-            // listBox1
+            // lbschoonmaak
             // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(6, 19);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(188, 732);
-            this.listBox1.TabIndex = 0;
+            this.lbschoonmaak.FormattingEnabled = true;
+            this.lbschoonmaak.Location = new System.Drawing.Point(6, 19);
+            this.lbschoonmaak.Name = "lbschoonmaak";
+            this.lbschoonmaak.Size = new System.Drawing.Size(188, 732);
+            this.lbschoonmaak.TabIndex = 0;
             // 
             // tpReparatie
             // 
@@ -3974,7 +3974,7 @@
             // 
             // groupBox4
             // 
-            this.groupBox4.Controls.Add(this.listBox3);
+            this.groupBox4.Controls.Add(this.lbRELogboek);
             this.groupBox4.Location = new System.Drawing.Point(417, 6);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Size = new System.Drawing.Size(459, 611);
@@ -3982,18 +3982,18 @@
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "logboek";
             // 
-            // listBox3
+            // lbRELogboek
             // 
-            this.listBox3.FormattingEnabled = true;
-            this.listBox3.Location = new System.Drawing.Point(6, 19);
-            this.listBox3.Name = "listBox3";
-            this.listBox3.Size = new System.Drawing.Size(447, 589);
-            this.listBox3.TabIndex = 6;
+            this.lbRELogboek.FormattingEnabled = true;
+            this.lbRELogboek.Location = new System.Drawing.Point(6, 19);
+            this.lbRELogboek.Name = "lbRELogboek";
+            this.lbRELogboek.Size = new System.Drawing.Size(447, 589);
+            this.lbRELogboek.TabIndex = 6;
             // 
             // groupBox7
             // 
-            this.groupBox7.Controls.Add(this.button1);
-            this.groupBox7.Controls.Add(this.button6);
+            this.groupBox7.Controls.Add(this.btnRERefresh);
+            this.groupBox7.Controls.Add(this.btnReUpdate);
             this.groupBox7.Controls.Add(this.label134);
             this.groupBox7.Controls.Add(this.label159);
             this.groupBox7.Controls.Add(this.comboBoxrepair);
@@ -4007,25 +4007,25 @@
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Status";
             // 
-            // button1
+            // btnRERefresh
             // 
-            this.button1.Location = new System.Drawing.Point(76, 119);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(121, 23);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "Refresh";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnRERefresh.Location = new System.Drawing.Point(76, 119);
+            this.btnRERefresh.Name = "btnRERefresh";
+            this.btnRERefresh.Size = new System.Drawing.Size(121, 23);
+            this.btnRERefresh.TabIndex = 8;
+            this.btnRERefresh.Text = "Refresh";
+            this.btnRERefresh.UseVisualStyleBackColor = true;
+            this.btnRERefresh.Click += new System.EventHandler(this.button1_Click);
             // 
-            // button6
+            // btnReUpdate
             // 
-            this.button6.Location = new System.Drawing.Point(76, 90);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(121, 23);
-            this.button6.TabIndex = 7;
-            this.button6.Text = "Updaten";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
+            this.btnReUpdate.Location = new System.Drawing.Point(76, 90);
+            this.btnReUpdate.Name = "btnReUpdate";
+            this.btnReUpdate.Size = new System.Drawing.Size(121, 23);
+            this.btnReUpdate.TabIndex = 7;
+            this.btnReUpdate.Text = "Updaten";
+            this.btnReUpdate.UseVisualStyleBackColor = true;
+            this.btnReUpdate.Click += new System.EventHandler(this.button6_Click);
             // 
             // label134
             // 
@@ -4087,7 +4087,7 @@
             // 
             // groupBox8
             // 
-            this.groupBox8.Controls.Add(this.listBox2);
+            this.groupBox8.Controls.Add(this.lbReparatie);
             this.groupBox8.Location = new System.Drawing.Point(5, 6);
             this.groupBox8.Name = "groupBox8";
             this.groupBox8.Size = new System.Drawing.Size(200, 759);
@@ -4095,13 +4095,13 @@
             this.groupBox8.TabStop = false;
             this.groupBox8.Text = "Reparatie Lijst";
             // 
-            // listBox2
+            // lbReparatie
             // 
-            this.listBox2.FormattingEnabled = true;
-            this.listBox2.Location = new System.Drawing.Point(6, 19);
-            this.listBox2.Name = "listBox2";
-            this.listBox2.Size = new System.Drawing.Size(188, 732);
-            this.listBox2.TabIndex = 0;
+            this.lbReparatie.FormattingEnabled = true;
+            this.lbReparatie.Location = new System.Drawing.Point(6, 19);
+            this.lbReparatie.Name = "lbReparatie";
+            this.lbReparatie.Size = new System.Drawing.Size(188, 732);
+            this.lbReparatie.TabIndex = 0;
             // 
             // tpUitloggen
             // 
@@ -4185,7 +4185,7 @@
         private System.Windows.Forms.TabPage tpSchoonmaak;
         private System.Windows.Forms.GroupBox groupBox6;
         private System.Windows.Forms.GroupBox groupBox5;
-        private System.Windows.Forms.ListBox listBox1;
+        private System.Windows.Forms.ListBox lbschoonmaak;
         private System.Windows.Forms.TabPage tpReparatie;
         private System.Windows.Forms.Label spoor7705;
         private System.Windows.Forms.Label spoor7704;
@@ -4397,7 +4397,7 @@
         private System.Windows.Forms.Label label169;
         private System.Windows.Forms.Label label178;
         private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.ListBox listBox2;
+        private System.Windows.Forms.ListBox lbReparatie;
         private System.Windows.Forms.GroupBox gbTramInrijdende;
         private System.Windows.Forms.Button btnTramInrijdende;
         private System.Windows.Forms.Label label179;
@@ -4410,8 +4410,8 @@
         private System.Windows.Forms.CheckBox CbxClean;
         private System.Windows.Forms.Button btnIncomingTram;
         private System.Windows.Forms.Label label185;
-        private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button btnCLUpdate;
+        private System.Windows.Forms.Button btnReUpdate;
         private System.Windows.Forms.TabPage tpUitloggen;
         private System.Windows.Forms.CheckBox Cbxrepair;
         private System.Windows.Forms.Label label188;
@@ -4420,11 +4420,11 @@
         private System.Windows.Forms.TextBox tbtramout;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.ListBox lblogcleaning;
+        private System.Windows.Forms.ListBox lbCLlog;
         private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.ListBox listBox3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.ListBox lbRELogboek;
+        private System.Windows.Forms.Button btnCLRefresh;
+        private System.Windows.Forms.Button btnRERefresh;
         private System.Windows.Forms.CheckBox cbTramOnRail;
     }
 }

@@ -449,7 +449,7 @@ namespace UserInterface_Mockup_ICT4Reals
             try
             {
                 Tram trammetje = null;
-                string sub = listBox1.SelectedItem.ToString().Substring(0, listBox1.SelectedItem.ToString().IndexOf(" "));
+                string sub = lbschoonmaak.SelectedItem.ToString().Substring(0, lbschoonmaak.SelectedItem.ToString().IndexOf(" "));
                 administration.UpdateTramList();
                 foreach (Tram t in Administration.GetTramList)
                 {
@@ -505,7 +505,7 @@ namespace UserInterface_Mockup_ICT4Reals
             try
             {
                 Tram trammetje = null;
-                string sub = listBox2.SelectedItem.ToString().Substring(0, listBox2.SelectedItem.ToString().IndexOf(" "));
+                string sub = lbReparatie.SelectedItem.ToString().Substring(0, lbReparatie.SelectedItem.ToString().IndexOf(" "));
                 administration.UpdateTramList();
                 foreach (Tram t in Administration.GetTramList)
                 {
@@ -554,14 +554,14 @@ namespace UserInterface_Mockup_ICT4Reals
         /// </summary>
         public void updatecleaning()
         {
-            listBox1.Items.Clear();
-            lblogcleaning.Items.Clear();
+            lbschoonmaak.Items.Clear();
+            lbCLlog.Items.Clear();
             List<string> statlist = new List<string>();
 
             foreach (string stat in clService.getAllStatus())
             {
                 statlist.Add(stat);
-                listBox1.Items.Add(stat);
+                lbschoonmaak.Items.Add(stat);
             }
 
             List<Cleaningservice> loglist = new List<Cleaningservice>();
@@ -569,19 +569,19 @@ namespace UserInterface_Mockup_ICT4Reals
             foreach (Service.Service stat in clService.getAllLog())
             {
                 loglist.Add(stat as Cleaningservice);
-                lblogcleaning.Items.Add(stat.ToString());
+                lbCLlog.Items.Add(stat.ToString());
             }
         }
         public void updaterepair()
         {
-            listBox2.Items.Clear();
-            listBox3.Items.Clear();
+            lbReparatie.Items.Clear();
+            lbRELogboek.Items.Clear();
             List<string> statlist = new List<string>();
 
             foreach (string stat in rpService.getAllStatus())
             {
                 statlist.Add(stat);
-                listBox2.Items.Add(stat);
+                lbReparatie.Items.Add(stat);
             }
 
             List<Repairservice> loglist = new List<Repairservice>();
@@ -589,7 +589,7 @@ namespace UserInterface_Mockup_ICT4Reals
             foreach (Service.Service stat in rpService.getAllLog())
             {
                 loglist.Add(stat as Repairservice);
-                listBox3.Items.Add(stat.ToString());
+                lbRELogboek.Items.Add(stat.ToString());
             }
         }
         /// <summary>
