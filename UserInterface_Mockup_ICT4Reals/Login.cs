@@ -38,7 +38,7 @@ namespace UserInterface_Mockup_ICT4Reals
         /// <param name="e"></param>
         private void btlogin_Click(object sender, EventArgs e)
         {
-            username = (string)tbusername.Text;
+            username = tbusername.Text;
             password = (string)tbpassword.Text;
 
             //pseudo doquery met check of hij lines teruggeeft wanneer je naar password vraagt die bij ingevulde gebruikersnaam hoort
